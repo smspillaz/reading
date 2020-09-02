@@ -1,4 +1,4 @@
-= Reformer: The Efficient Transfomer =
+# Reformer: The Efficient Transfomer
 
 Transformers are great and performance seems to scale with the number of parameters.
 Huge models seem to do ever-better on a number of benchmarks (see, eg, GPT-2 and GPT-3).
@@ -113,4 +113,10 @@ o_i = \sum_{j \in P_i} e^{q_i \cdot k_j - z(i, P_i)} v_j
 $$
 
 Where $P_i = {j : h(q_i) = h(k_j)}$ - eg, you only compute the softmax for things that are in your bucket.
+
+ - Problem: Buckets can be uneven in size and number of queries and keys in a bucket can be uneven.
+ - Solution: Set $k_j = \frac{q_j}{||q_j||}$. In practice this means $W_k = W_q$
+ 
+Sort by bucket number and sort within buckets by sequence position. Defines $i \to s_i$, meaning that we
+can then batch $m$ consecutive queries. Meaning that $\tilde P_i = {j : \floor{\frac{s_i}{m}} - 1 \le \floor{s_j}{m}
 
