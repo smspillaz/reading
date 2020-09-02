@@ -106,7 +106,7 @@ high probability.
  - Works because of triangle inequality property: Two vectors correlated with each other
    are highly likely to be most correlated to the same third vector drawn from a random distribution.
 
-LSH Attention:
+### LSH Attention:
 
 $$
 o_i = \sum_{j \in P_i} e^{q_i \cdot k_j - z(i, P_i)} v_j
@@ -114,9 +114,37 @@ $$
 
 Where $P_i = {j : h(q_i) = h(k_j)}$ - eg, you only compute the softmax for things that are in your bucket.
 
- - Problem: Buckets can be uneven in size and number of queries and keys in a bucket can be uneven.
- - Solution: Set $k_j = \frac{q_j}{||q_j||}$. In practice this means $W_k = W_q$
- 
-Sort by bucket number and sort within buckets by sequence position. Defines $i \to s_i$, meaning that we
-can then batch $m$ consecutive queries. Meaning that $\tilde P_i = {j : \floor{\frac{s_i}{m}} - 1 \le \floor{s_j}{m}
+How this is used:
+ - Assign queries $q_i$ and keys $k_i$ to buckets according to h(x)
+ - Sort according to assigned buckets
+ - Divide the sorted array into $m$ chunks (which might cross bucket boundaries)
+   - Define mapping $i \to s_i$ (argsort)
+ - Compute attention within each bucket and the previous bucket (so we might over-compute attention, but never under-compute it). Allows batching.
+   - In practice this means that $\tilde P_i = \{j : \floor{\frac{s_i}{m}} - 1 \le \floor{\frac{s_j}{m}} \}$ (this is NOT the complement, but rather an approximation of set $P_i$
+   - We want $m < |\tilde P_i|$. Set $m$ to $\frac{1l}{n_{\text{buckets}}}$ - $m$ should on average be the length of a bucket, probability of $m$ growing to 2x that is low (unanalyzed).
 
+How to improve the hashing? Use multi-round hashing. Standard practice in LSH - hash many times with different projections
+so we have $P_i = \Cup_r {j : h_r(q_i) = h_r(k_j)}$.
+
+Problem: A bucket can contain many queries but no keys and vice versa. They don't align and are ignored. To alleviate this,
+set $k_j = \frac{q_j}{||q_j||}$. In practice this means $W_k = W_q$. In practice this doesn't actually matter so much.
+
+Keep track of original position index to do causal masking as usual.
+
+Complexity:
+
+ - From $bn_hl^2$ to $ln_r(\frac{4l}{nc})^2$ (l  = seq len, b = batch size n_h = num heads, n_r rounds n_c chunks), so we go from being quadratic in length to quadratic in $\frac{4l}{n_c}$. If $n_c$ is large, this is a substantial reduction.
+
+You can do this during both training and eval. The gradients for the important attention elements are kept and the rest are set to zero.
+
+### Experiment on a simple task
+
+Replicate the symbols that you are given. With 4 rounds of LSH you can get good performance (99.9% accuracy).
+
+## Reversible Transformer
+
+Motivation: Still have a constant scalar factor $b n_h l d_k d_{\text{model}} n_l$ in front of the complexity. Can we reduce it?
+
+Main issue: Need to store all the activations at each layer in order to compute the backward pass. For many layers this gets expensive.
+
+Observation about ResNets from Gomez et al: ResNet is f(x) = x + h(x). We can recover the intermediate value by subtracting the residual from the output. No need to keep $x$ around redundantly. Similar thing for attention: Add the attention to the input and pass it to the next layer, don't need to store the input twice.
