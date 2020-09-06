@@ -43,3 +43,9 @@ Results:
    - Harder tasks like GoTo required 341-408k samples to reach 99% success rate.
    - Curriculum Learning Helps, but only to an extent. Trying to pretrain using harder tasks doesn't help.
      In fact it makes things much worse than if you had pre-training.
+
+## Related Papers
+
+ - Language Models as Knowledge Bases: https://arxiv.org/abs/1909.01066
+ - Language as an Abstraction for Hierarchical Deep RL: http://papers.nips.cc/paper/9139-language-as-an-abstraction-for-hierarchical-deep-reinforcement-learning
+ - Working Memory Graphs: https://arxiv.org/abs/1911.07141
