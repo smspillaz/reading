@@ -35,3 +35,21 @@ Meta-Learning is a kind of multi-task learning. Main differences:
  (2) Multi-task learning favors tasks with larger amounts of dat 
  (3) Meta-learning treats tasks as training examples, but multi-task learning may run into problems if
      you have too many tasks.
+
+## Milestones in Meta-Learning
+
+Learning to embed: Metric-based
+ - Learn a distance function between data points, so that you can classify test instances by comparing them
+   to $K$ labelled examples (so kind of like K-nearest-neighbours, but with a custom distance function)
+ - Two components: embedding function as an encoder, similarity metric such as cos similarity or euclidean distance.
+
+### Siamease Network
+
+Take two instancesas input and output and return a scalar indicating whether or not they belong to the same class
+or not. It is not a meta-learning algorithm though.
+
+### Matching Network
+
+Parametric nearest-neighbour algorithm: $P(\hat y|\hat x, S) = \sum^k a(\hat x, x_i) y_i$
+
+
