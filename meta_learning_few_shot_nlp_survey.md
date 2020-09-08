@@ -54,6 +54,50 @@ Parametric nearest-neighbour algorithm: $P(\hat y|\hat x, S) = \sum^k a(\hat x, 
 
 ### Prototypical Network
 
+Similar to matching networks, but use euclidean distance.
+
+### Relation Network
+
 Similar to prototypical networks, except that the distance function is learned as well as the embedding.
 
+## Learning to fine-tune
 
+How do you fine-tune on train so that we can perform well on validation. Use validation error
+as the optimization loss?
+
+### MAML
+
+Create a copy of the model $\theta \to \hat \theta$ and update it using $D^{\text{train}}$ with only a few steps. Apply
+$\hat \theta$ to $D^{\text{valid}}$. Then use the validation set loss from $\hat \theta $ to update $\theta$. The
+"tasks" (eg, $D^{\text{train}}$ and $D^{\text{valid}}$ change each time. The point is that you should learn an
+initialization that allows for quick fine-tuning.
+
+### FOMAML
+
+FOMAML just uses the gradients from $\hat \theta$ as opposed to backpropagating from $\hat \theta$ to $\theta$.
+
+### Reptile
+
+Sample different datasets from the training tasks as usual, but instead of separating them into training
+and validation sets, and update moving in the direction of the mean difference between the updated model ($\theta^m$
+and the original model $\theta$).
+
+## Progress on few-shot NLP
+
+Two categories of interest:
+ (1) Cross-domain, same problem (eg, sentiment classification, intent classification)
+ (2) Cross-problem learning, solve a new problem with it
+
+Where the relevant class is a task:
+
+ATAML: Group parameters into task-agnostic and task-specific parameters. Only task-specific
+paramters get gradients, but at the meta-level the task-agnostic and task-specific parameters are updated.
+
+LEOPARD: Task-agnostic and task-specific paramers with transformer encoder.
+
+
+### Datasets
+
+FewRel: 100 relation types, 700 sentences each.
+
+SNIPS: Intent classification with only seven intent types.
