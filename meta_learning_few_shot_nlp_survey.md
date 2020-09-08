@@ -52,4 +52,8 @@ or not. It is not a meta-learning algorithm though.
 
 Parametric nearest-neighbour algorithm: $P(\hat y|\hat x, S) = \sum^k a(\hat x, x_i) y_i$
 
+### Prototypical Network
+
+Similar to prototypical networks, except that the distance function is learned as well as the embedding.
+
 
