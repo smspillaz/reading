@@ -96,7 +96,14 @@ Acting within the language:
  -> Technically the size of the action space scales with the number of tokens in the
     language, but the fact that the grammar is consistent means that this isn't
     a problem in reality.
+    
+How to generate the language?
+ -> Generate some isotropic noise and latent code
+ -> Use a generator component to map from a latent code $\hat z$ to a vector
+ -> Use a discriminator to determine if the generated sequence is from the distribution.
 
+They don't actually condition on the language, but rather condition on these
+disentanged embeddings (see Appendix A).
 
 ## The Environment
 
@@ -163,12 +170,17 @@ an image captioning model.
 Another problem: Instruction set is specific to the problem domain - can we make the
 agent follow a much more diverse instruction set that is not specific to any domain.
 
+Using an LM instead of InfoGAN to generate the instructions: LM seems to drop nodes.
+
+
+
 ## Interesting Parts
  - Generate language as an intermediate representation
  - Goal-oriented re-labeling (so that we don't waste training examples)
  - Even if you've never seen words in a particular position, can still do
    better than random choice.
-
+ - Generate disentangled representation of the language, as opposed to using
+   language model.
 
 
 ## Questions
