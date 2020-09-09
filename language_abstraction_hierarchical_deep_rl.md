@@ -54,4 +54,134 @@ Depends entirely on the final task reward, scales poorly, sample inefficient.
    => (comment: So this is sort of like regularization then. Making the loss about $\epsilon$-closeness
        probably makes you overfit to that problem)
        
-Language Guided RL:
+## Some preliminaries
+
+RL: $\max \pi(a_t, s_t) = \sum_t E_{s_t, a_t}[\gamma^t R(s_t, a_t)]$
+
+Goal Conditioned RL: Augmented MDP, but with an additional element for a goal G
+and reward function $S \times A \times G \to [r_{\text{min}}, r_{\text{max}}]$ -
+reward under a given goal. Basically the goal is a parameter.
+
+Q-Learning: Off-policy RL: Learn the Q function which represents the expected total
+discounted reward if you take an action in a given state, then optimize by picking the
+best action later.
+
+Hindsight Experience Replay: Data-augmentation technique. Relabel each tuple's $s_g$ with
+$s_{t + 1}$ or other future states and adjust $r_t$ to be the appropriate value. Basically
+take the experience that you had and relabel it the rewards that you would have gotten
+from some other goal(?)
+
+## Language Conditioned RL
+
+Basically we have a conditional density which maps an observation to
+a distribution of language statements that describes $s$. We have a goal function
+which is 1 if the goal specified by the language is satisfied, 0 if not.
+
+Basic idea: Low level policy solves an MDP given a goal. The high level policy
+gives you a goal. Both are trained separately. Can do joint fine-tuning.
+
+For language instructions: Need to train to ensure that the action is actually
+inducing the reward -> check if the indicator variable was 0 before and if it changed
+to 1 as a result of taking this action.
+
+Problem: how to determine a meaningful distance metric in the space of language statements
+so we can know that we're closer to the goal. Proposal: trajectory re-labelling.
+ -> Re-label states in the trajectory with elements of the support set of $s_t$ as the goal
+    instruction using a relabeling strategy.
+ -> Basic idea: your action didn't achieve *this* goal, but it achieved some *other* goal, so add that experience to the training set. Appendix doesn't seem to be in the paper...
+
+
+Acting within the language:
+ -> "We show how we might incorporate a language model in Appendix A which shows preliminary results but also challenges"
+ -> Technically the size of the action space scales with the number of tokens in the
+    language, but the fact that the grammar is consistent means that this isn't
+    a problem in reality.
+
+
+## The Environment
+
+Basic difference between this and BabyAI: A *physical* simulation is developed, not
+just grid-world.
+
+High Level Tasks:
+ - Object Arrangement
+ - Object Ordering
+ - Color Ordering
+ - Shape Ordering
+ - Color and Shape Ordering
+
+In all cases, binary reward only.
+
+## Policy Parameterization
+
+Encode instruction with a GRU and feed the result + state into a neural network which
+predicts the Q value of each action.
+
+# Experimental Questions
+
+## As a representation, how does language compare
+
+## How does the framework scale with diversity of instruction and dimensionality of state
+
+Can paraphrase 600 instructions to achieve about 10,000 total instructions. Compare
+with:
+ (1) One-hot representation of instructions
+ (2) Non-compositional latent variable (autoencoder)
+ (3) Bag of Words
+
+One-hot degrades once you have many instructions, no sharing.
+
+Latent variable representation does not work - agent does not make meaningful progress.
+
+Bag of Words: Language agent does better in the long run.
+
+## Can the policy generalize in systematic ways
+
+Design training and test sets that are distinct. In principle, if you learn the language
+you should be able to get good performance on the test set instructions.
+
+Example: Remove all sentences with the word "red" in the first part from the training set,
+test on sentences that have this property. Still do better than random, so you learn
+the sentence, not just "red" being in that position.
+
+## How does it compare with SOTA hierarchical RL
+
+Compare vs baselines:
+ - HIRO
+ - Option Critic
+ - DDQN
+
+Only the proposed algorithm solves things correctly. High level policy has difficultly
+learning from pixels alone.
+
+## Limitations
+
+Current method relies on instructions provided by a language supervisor which has access
+to the instructions that describe a scene. In principle you could replace this with
+an image captioning model.
+
+Another problem: Instruction set is specific to the problem domain - can we make the
+agent follow a much more diverse instruction set that is not specific to any domain.
+
+## Interesting Parts
+ - Generate language as an intermediate representation
+ - Goal-oriented re-labeling (so that we don't waste training examples)
+ - Even if you've never seen words in a particular position, can still do
+   better than random choice.
+
+
+
+## Questions
+
+ - The environment defines things like "this is a blue ball" or whatever. So really
+   you just need to learn what the environment tells you. Can you use a language model
+   to augment the policy?
+   => For instance if you learn how to complete the task "put the dax on the bed",
+   can you bind this to other objects with this method based on a statistical language
+   model? In this way, could you learn generating the instruction for one object and then
+   generalize to other objects (assuming that you knew what they were?)
+   => ties into image captioning, describe the image in language
+ - Instead of using language, can we generate a graph? The graph can be a kind of
+   high level representation.
+ - How do you deal with an unreliable teacher? Can we figure out information that's wrong,
+   for example?
