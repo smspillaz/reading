@@ -23,3 +23,6 @@ a nonlinear function of the core's output vector and the model parameters.
 
 ## Related Work
 
+## Application to BabyAI
+
+WMG-factored gets good results in terms of sample efficiency for GoToRedBall, GoToLocal, PickupLocal , need about 16,000 steps.
