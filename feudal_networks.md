@@ -72,7 +72,7 @@ Update rule for the manager:
  - $\triangledown g_t = A_t^M \triangledown_{\theta} d_{\text{cos}} (s_{t + c} - s_t, g_t (\theta))$
  - $A_t^M = R_t - V_t^M(x_t, \theta)$ - the Manager's advantage functon (actor-critic)
 
- Then you have this $d_{\text{cos}(s_{t + c} - s_t, g_t(\theta))$
+ Then you have this $d_{\text{cos}}(s_{t + c} - s_t, g_t(\theta))$
 
  - $s_t = f^{\text{Mspace}}(z_t)$ - $c$ is a "horizon", defines the temporal resolution of the Manager
  - So we're taking the cosine distance between the state-representation delta over $c$
@@ -148,4 +148,15 @@ Set $r$ to something relatively large, like $r = 10$ to downsample by 10.
        which when you subsitute that into the policy gradient gives you the desired update rule for the manager.
      - This doesn't seem to explicitly choose a sub-policy? Rather it is just saying that we choose one by
        setting this goal somehow.
-     - Confusing...
+     - But then there are apparently different subpolicies! How do you learn the different sub-policies?
+       It seems like there is only one training mechanism for the sub-policy in general, so why are they different?
+       How do they extract the weights? Still questions about this...
+
+
+# Results
+
+ - Kinda mixed
+ - On some environments, you do very well (amidar, gravitar, enduro, frostbite)
+ - On others you do about as well as the current SOTA
+ - Seems kinda limited to tasks where you set goals that navigate the state space,
+   not clear that the sub-policies are actually anything useful.
