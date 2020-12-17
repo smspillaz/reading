@@ -110,3 +110,106 @@
    - GPs allow you to capture similarity. Uncertainty is correlated to distance
      from the rest of the training examples.
 
+# Self-paced Deep RL
+
+Curriculum learning can work quite well, but the problem is generating the
+curriculum. This paper presents a method for interpolating between
+easy-to-learn and the target task by defining a parameterized distribution
+over the task space. Parameterize the distribution by the expected reward
+that the agent will get when performing a task.
+
+Then maximize the expected task reward - KL divergence of the task distribution
+vs the "target" task distribution. Initially the agent will only be able to solve
+easy tasks, so we take a high KL penalty in order to maximize reward. But as we
+can solve more tasks, the task distribution drifts closer to the true task
+distribution.
+
+tl;dr: Provides a way to automatically generate curricula via differentiable
+optimization objective
+
+# Imitation learning without policy optimization
+
+Improved method for "matching the visitation distribution".
+
+Standard method: GAIL - similar to a GAN. Generator to generate trajectories
+(the agent), some expert agent, discriminator to tell the two apart. Generator
+gets reward if it fools the discriminator. A problem with this is that
+the discriminator is initially hard to fool.
+
+This work relies on a trick in the definition of the optimal discriminator.
+We can express the discrimiantor as a quotient of two distributions, so
+we only need to parameterize a part of this quotient.
+Optimal generator for optimal discriminator must completely confuse the
+discriminator (eg, expected probability is exactly 1/2).
+
+Algorithm is given some expert trajectories, you collect trajectories with
+the generator distribution. The generator distribution is updated with reference
+to the "structured discriminator"'s BCE loss, meaning that we get a training
+signal on every step.
+
+## Reward Propagation through GCNs
+
+Reward shaping functions should take the form $\gamma \phi(s') - \phi(s)$.
+
+In this work, rewards are propagated from rewarding states to non-rewarding
+states via a GCN
+
+## Latent world models for Intrinsically Motivated Exploration
+
+This paper uses contrastive learning to try and improve latent state
+representations, then uses latent reconstruction loss as an intrinsic
+motivation signal for exploration.
+
+The basic idea is that if you can't predict a state you haven't seen it
+yet. Once you can predict states though, these are no longer interesting
+if they're non-rewarding.
+
+## Graph Cross Networks with Vertex Infomax Pooling
+
+Proposes a method to capture graph information at multiple scales
+through vertex pooling. To pool vertices, pick the most "informative"
+vertex in a neighbourhood by looking at the mutual information between
+it and its neighbourhood.
+
+## Erdos goes Neural - Combinatorial Optimization on Graphs
+
+Context: Certain graph problems have solutions only when certain constraints
+are met. For instance, maximum clique requires that all solution nodes are
+within a clique. Typcially this is NP hard.
+
+This paper proposes constructing a GNN to estimate the probability that
+a node belongs to a solution, and derives special problem-specific loss
+functions which optimize the probability that a feasible solution exists,
+then shows a way to recover the feasible solution from the probabilities.
+
+The approach scales nicely and seems to do well at approximating the solutions
+to known hard graph problems while not violating the constraints as specified
+in the problem (always succeeds, but the solution might not be "optimal").
+
+## Graph Random Neural Networks for SSL
+
+Proposes some data augmentation (DropNode) then perform consistency
+cost between augmented graph and real graph. This helps to prevent overfitting
+to the labelled nodes in a semi-supervised learning setting.
+
+## Pointer Graph Networks
+
+Make graph networks behave like algorithms. In this framework, each node
+can only propose a single pointer, which can be used to construct data structures
+like trees. Transformers used to compute the "pointers" along with a
+"masking" inductive bias to figure out which vertex pointers should be updated
+on each step.
+
+## Fourier features let networks learn high-frequency functions in low-dimensional domains
+
+Idea: Train an MLP to predict an entire image from just the $(x, y)$ co-ordinates.
+
+In practice this does not work. MLP learns only the low-frequency components,
+so the output image is quite blurry.
+
+In this work, the high frequency domain projection of the co-ordinates are
+provided as separate channels, similar to the way that you have position
+embeddings in transformers. Once the MLP has this information, it can
+model the higher frequency components when reconstructing the image. This
+work follows from the recent connection between sufficiently wide neural
+networks and kernel regression.
