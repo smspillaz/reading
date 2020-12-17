@@ -1,5 +1,7 @@
 # Mining and Learning Graphs at Scale
 
+[[graphs_at_scale]]
+
 ## Label Propagation
 
  - Can be cast as a semi-supervised learning problem
@@ -20,6 +22,8 @@
    it is in, learn embeddings for each node in the context of each community.
 
 # Equivariant Networks
+
+[[equivariant_networks]]
 
 ## Symmetries
 
@@ -52,6 +56,8 @@
 
 
 # Uncertainty Estimation
+
+[[uncertainty_estimation]]
 
 ## Uncertianty estimation models
 
@@ -112,6 +118,8 @@
 
 # Self-paced Deep RL
 
+[[rl_31#Self-paced Deep Reinforcement Learning]]
+
 Curriculum learning can work quite well, but the problem is generating the
 curriculum. This paper presents a method for interpolating between
 easy-to-learn and the target task by defining a parameterized distribution
@@ -128,6 +136,8 @@ tl;dr: Provides a way to automatically generate curricula via differentiable
 optimization objective
 
 # Imitation learning without policy optimization
+
+[[rl_31#Imitation Learning without Policy Optimization]]
 
 Improved method for "matching the visitation distribution".
 
@@ -149,12 +159,16 @@ signal on every step.
 
 ## Reward Propagation through GCNs
 
+[[rl_31#Reward Propagation using Graph Convolutional Networks]]
+
 Reward shaping functions should take the form $\gamma \phi(s') - \phi(s)$.
 
 In this work, rewards are propagated from rewarding states to non-rewarding
 states via a GCN
 
 ## Latent world models for Intrinsically Motivated Exploration
+
+[[rl_31#Latent world models for Intrinsically Motivated Explroation]]
 
 This paper uses contrastive learning to try and improve latent state
 representations, then uses latent reconstruction loss as an intrinsic
@@ -166,12 +180,16 @@ if they're non-rewarding.
 
 ## Graph Cross Networks with Vertex Infomax Pooling
 
+[[graph_relational_theory_26#Graph Cross networks and Vertex Infomax Pooling]]
+
 Proposes a method to capture graph information at multiple scales
 through vertex pooling. To pool vertices, pick the most "informative"
 vertex in a neighbourhood by looking at the mutual information between
 it and its neighbourhood.
 
 ## Erdos goes Neural - Combinatorial Optimization on Graphs
+
+[[graph_relational_theory_26#Erdos goes Neural Unsupervised learning framework for combinatorial optimization on graph]]
 
 Context: Certain graph problems have solutions only when certain constraints
 are met. For instance, maximum clique requires that all solution nodes are
@@ -188,11 +206,15 @@ in the problem (always succeeds, but the solution might not be "optimal").
 
 ## Graph Random Neural Networks for SSL
 
+[[graph_relational_theory_26#Graph Random Neural Networks for SSL on Graphs]]
+
 Proposes some data augmentation (DropNode) then perform consistency
 cost between augmented graph and real graph. This helps to prevent overfitting
 to the labelled nodes in a semi-supervised learning setting.
 
 ## Pointer Graph Networks
+
+[[graph_relational_theory_26#Pointer Graph Networks]]
 
 Make graph networks behave like algorithms. In this framework, each node
 can only propose a single pointer, which can be used to construct data structures
@@ -201,6 +223,8 @@ like trees. Transformers used to compute the "pointers" along with a
 on each step.
 
 ## Fourier features let networks learn high-frequency functions in low-dimensional domains
+
+[[graph_relational_theory_26#Fourier features let networks learn high-frequency functions in low-dimensional domains]]
 
 Idea: Train an MLP to predict an entire image from just the $(x, y)$ co-ordinates.
 
