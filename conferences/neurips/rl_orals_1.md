@@ -1,5 +1,3 @@
-# RL Orals
-
 # Improved Sample Complexity for Incremental Autonomous Exploration in MDPs
 
  - Unsupervised RL and skill discovery.
