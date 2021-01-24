@@ -175,7 +175,7 @@ Machine Learning and Program Synthesis:
 
 Both forms of abstraction are drive by analogy.
 
-# What is it that Machines Learing?
+# What is it that Machines are Learning?
 
  - Task to distinguish photos with animals in them from
    photos that have no animals in them
