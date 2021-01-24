@@ -12,7 +12,7 @@ In many environments, you can't interact a million times. We typically have
 log data though. Whenever we have that, this is all that's needed to learn
 an agent function.
 
-Micking vs selected imitation:
+## Micking vs selected imitation:
 
  - Behavioural cloning: supefvised learning to map states to actions, requires good
    agents.
@@ -32,7 +32,7 @@ Micking vs selected imitation:
     - Label actions as good or bad.
     - Learn to do the good actions, bad actions are negative examples.
 
-Critic Regularized Regression:
+## Critic Regularized Regression:
 
  - Suppose we follow a trajectory, we have some policy $\pi$
  - We have the BC loss, but then also some "filtering"
@@ -47,7 +47,7 @@ Critic Regularized Regression:
 Networks in offline RL have to be as big as the ones that we have
 in supervised learning - they have to learn purely from data.
 
-Online vs Offline RL:
+## Online vs Offline RL:
 
  - Online RL has to explore the data as much as possible to gain knowledge
    quickly
@@ -57,7 +57,7 @@ Online vs Offline RL:
    - If you go outside the data you're relying on extrapolation which may be wrong.
 
 
-Extrapolation of offline data - dealing with extrapolation errors:
+## Extrapolation of offline data - dealing with extrapolation errors:
 
  - We're taking the max over the Q function - choosing the max from the extrapolation,
    this is likely to pick points that make us overconfident.
@@ -70,7 +70,7 @@ Extrapolation of offline data - dealing with extrapolation errors:
      be zero by default?
  - If you do offline RL with SARSA you can already do pretty wel.
 
-Bellman equations are confounded regression problems:
+## Bellman equations are confounded regression problems:
 
  - You can think of it as a regression problem
  - We're trying to fit an r-function to Q - (r + gamma max future Q
@@ -83,21 +83,21 @@ Bellman equations are confounded regression problems:
    - but now you need to maintain a target network with fixed parameters.
 
 
-Hyperparameter selection:
+## Hyperparameter selection:
  - Lets say you learn many policies given hyperparameters
  - How do you pick the one that works best?
 
    - Need to do off-policy evaluation and validation set
    - Fitted Q-iterations
 
-Data-driven robotics:
+## Data-driven robotics:
 
  - What if you store all the data that all robots ever gathered
  - Collect data via demonstrations - annotate some of it with rewards
    - which ones were successful
    - learn the reward function
 
-Learning reward functions with little supervision:
+## Learning reward functions with little supervision:
 
  - If we have humans in the loop, its important to learn from as few data as possible
  - Contrastive learning
@@ -107,7 +107,7 @@ Learning reward functions with little supervision:
    - if you have reward-labels at the group, how do you infer individual labels
  - Semi-supervised learning
 
-Challenges:
+## Challenges:
  - More real applications (language, safety, efficiency)
  - Promote philosophy of saving and sharing data
    - Need to store the data somewhere!
