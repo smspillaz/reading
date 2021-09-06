@@ -14,8 +14,8 @@ ensure this, use gradient descent to reconstruct the input from the latent.
 
 First encode the input.
 
-Then fit \hat Y by gradient descent - eg, take the encoder and optimize \hat Y
-so that it encodes to the same z.
+Then fit $\hat Y$ by gradient descent - eg, take the encoder and optimize $\hat Y$
+so that it encodes to the same $z$.
 
 Target set should have low representation loss with itself.
 
