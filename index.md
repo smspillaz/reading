@@ -319,6 +319,7 @@
 ## graph_based
  - [[pdfs/rl/graph_based/graph_based_generation_of_abstractions.pdf|graph_based_generation_of_abstractions]]: . [[papers/rl/graph_based/graph_based_generation_of_abstractions.md|Notes]]
 ## grounded_language
+ - [[pdfs/rl/grounded_language/learn_using_natural_language_for_reward_shaping_in_rl.pdf|LEARN - using natural language for reward shaping in Reinforcement Learning]]: Map from free-form natural language instructions to intermediate rewards based on actions takne by agent. 60% completion rate on Montezuma's Revenge. Descriptions obtained from human annotators. Train a discriminator to determine if a particular sentence is related to or unrelated to the action sequence. Then at test time the agent is given the language description of how to solve the task and picks actions so as to maximize the probability of agreement between the action sequence and the language instructions. The main claim is that you get faster learning performance, since you can use the discriminator output as a kind of intermediate reward to guide learning.
  - [[pdfs/rl/grounded_language/agile_learning_to_understanding_goal_specifications_by_modelling_reward.pdf|agile_learning_to_understanding_goal_specifications_by_modelling_reward]]: 
  - [[pdfs/rl/grounded_language/cho_vision_and_language_navigation.pdf|cho_vision_and_language_navigation]]: 
  - [[pdfs/rl/grounded_language/early_word_learning.pdf|early_word_learning]]: . [[papers/rl/grounded_language/early_word_learning.md|Notes]]
@@ -330,7 +331,6 @@
  - [[pdfs/rl/grounded_language/interactive_grounded_language_acquisition_and_generalization_in_a_2d_world.pdf|interactive_grounded_language_acquisition_and_generalization_in_a_2d_world]]: 
  - [[pdfs/rl/grounded_language/inverse_rl_with_natural_language_goals.pdf|inverse_rl_with_natural_language_goals]]: 
  - [[pdfs/rl/grounded_language/lc_rl_from_language_to_goals.pdf|lc_rl_from_language_to_goals]]: 
- - [[pdfs/rl/grounded_language/learn_using_natural_language_for_reward_shaping_in_rl.pdf|learn_using_natural_language_for_reward_shaping_in_rl]]: 
  - [[pdfs/rl/grounded_language/rtfm_generalizing_by_reading.pdf|rtfm_generalizing_by_reading]]: 
  - [[pdfs/rl/grounded_language/speaker_follower_models.pdf|speaker_follower_models]]: 
  - [[pdfs/rl/grounded_language/survey_rl_informed_by_natural_language.pdf|survey_rl_informed_by_natural_language]]: 
