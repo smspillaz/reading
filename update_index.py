@@ -67,7 +67,7 @@ def parse_bullet(bullet_content):
     metadata["fullpath"] = first_link.group("link")
     metadata["filename"] = os.path.basename(metadata["fullpath"])
     metadata["filename_link_text"] = first_link.group("desc")
-    metadata["content"] = bullet_content[first_link.end():].lstrip(": ")
+    metadata["content"] = bullet_content[first_link.end() :].lstrip(": ")
 
     return metadata
 
