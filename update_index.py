@@ -121,7 +121,10 @@ def prune_empty(dictionary):
     for k in dictionary.get("children", {}):
         prune_empty(dictionary["children"][k])
         if (
-            not dictionary["children"][k]["objects"]
+            # Checks both that objects is empty or None. We don't want
+            # to do an access here as that will trigger the defaultdict
+            # to create a dict entry for "objects"
+            not dictionary["children"][k].get("objects", None)
             and not dictionary["children"][k]["children"]
         ):
             empty_child_keys.append(k)
@@ -133,7 +136,7 @@ def prune_empty(dictionary):
 
 
 def walk_structure(structure):
-    yield from structure["objects"]
+    yield from structure.get("objects", [])
 
     for key in structure.get("children", {}):
         yield from walk_structure(structure["children"][key])
@@ -276,7 +279,7 @@ def reconcile_structures(structure_src, structure_to_update):
 
 
 def make_markdown(structure, level=1, file=None):
-    for object in structure["objects"]:
+    for object in structure.get("objects", []):
         print(
             f" - [[{object['fullpath']}|{object['filename_link_text']}]]: {object['content']}",
             file=file or sys.stdout,
