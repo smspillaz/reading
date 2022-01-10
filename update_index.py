@@ -72,7 +72,7 @@ def parse_bullet(bullet_content):
     metadata["links"] = [
         {
             "fullpath": l.group("link"),
-            "filename_link_text": l.group("desc") or l.group("link")
+            "filename_link_text": l.group("desc") or l.group("link"),
         }
         for l in other_links
     ]
