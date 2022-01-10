@@ -48,7 +48,7 @@ def walk_fs_to_tree(root, exclude):
                 "filename": filename,
                 "fullpath": os.path.relpath(os.path.join(dirpath, filename), abs_root),
                 "filename_link_text": os.path.splitext(filename)[0],
-                "content": ""
+                "content": "",
             }
             for filename in filenames
             if os.path.splitext(filename)[1] == ".pdf"
