@@ -449,6 +449,17 @@ def make_markdown(structure, level=1, file=None):
         make_markdown(structure["children"][child], level=level + 1, file=file)
 
 
+def postprocess_structure(structure):
+    structure["objects"] = sorted(structure.get("objects", []), key=lambda obj: obj["filename_link_text"])
+    structure["children"] = {
+        k: structure["children"][k]
+        for k in sorted(list(structure["children"].keys()))
+    }
+
+    for substructure in structure["children"].values():
+        postprocess_structure(substructure)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -497,6 +508,9 @@ def main():
     # its left broken for now.
     sync_notes_locations(md_structure, args.notes_directory, args.dry_run)
     reconcile_notes(md_structure, args.notes_directory)
+
+    # Postprocessing (sorting, etc)
+    postprocess_structure(md_structure)
 
     if args.json_dump:
         print(json.dumps(md_structure, indent=2))
