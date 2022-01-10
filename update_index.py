@@ -294,6 +294,11 @@ def main():
     parser.add_argument(
         "--exclude", nargs="*", default=["journal", ".git"], help="What to exclude"
     )
+    parser.add_argument(
+        "--json-dump",
+        action="store_true",
+        help="Show the resulting markdown structure in json",
+    )
     parser.add_argument("index", help="Index filename to update")
     args = parser.parse_args()
 
@@ -303,11 +308,12 @@ def main():
     with open(args.index, "r") as f:
         md_structure = prune_empty(parse_markdown_to_tree_start(f.readlines()))
 
-    print(json.dumps(md_structure, indent=2))
-
     # After this, md_structure is the most up to date
     reconcile_structures(fs_structure, md_structure)
     prune_empty(md_structure)
+
+    if args.json_dump:
+        print(json.dumps(md_structure, indent=2))
 
     contents = io.StringIO()
     make_markdown(md_structure, level=1, file=contents)
