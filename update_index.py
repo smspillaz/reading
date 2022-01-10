@@ -8,7 +8,7 @@ import re
 from collections import defaultdict
 
 _RE_HEADING = re.compile(r"^(?P<hashes>#+)\s+(?P<content>.+)$")
-_RE_LINK = re.compile(r"\[\[(?P<link>[^\|]+)\|?(?P<desc>.+)\]\]")
+_RE_LINK = re.compile(r"\[\[(?P<link>[^\|]+)\|?(?P<desc>[^\]]+)\]\]")
 _RE_BULLET = re.compile(r"\s-\s(?P<content>.+)$")
 
 
