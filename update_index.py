@@ -1,4 +1,5 @@
 import argparse
+import fnmatch
 import io
 import itertools
 import json
@@ -286,6 +287,104 @@ def reconcile_structures(structure_src, structure_to_update):
     reconcile_adds(structure_src, structure_to_update)
 
 
+def report_unmatched_notes(unmatched_notes):
+    print("\n".join([f"Unmatched note: {note}" for note in unmatched_notes]))
+
+
+def format_link(link):
+    return f"[[{link['fullpath']}|{link['filename_link_text']}]]"
+
+
+def update_link(content, existing_link, new_link):
+    link_matches = list(_RE_LINK.finditer(content))
+
+    for link in link_matches:
+        if link.group("link") == existing_link["fullpath"]:
+            content = (
+                content[: link.start()] + format_link(new_link) + content[link.end() :]
+            )
+            return content
+
+
+def add_link_if_not_exists(structure, obj, link_to_add, *args, **kwargs):
+    substructure = list(filter(lambda x: x["filename"] == obj, structure))[0]
+
+    if not "links" in substructure:
+        substructure["links"] = []
+
+    substructure["links_to_add"] = []
+    substructure["links_to_update"] = []
+
+    if not "content" in substructure:
+        substructure["content"] = ""
+
+    link_to_add_basename = os.path.basename(link_to_add["fullpath"])
+
+    existing_links = list(
+        filter(
+            lambda link: os.path.basename(link["fullpath"]) == link_to_add_basename,
+            substructure["links"],
+        )
+    )
+
+    if not existing_links:
+        print(f"Add link {link_to_add['fullpath']} to {substructure['fullpath']}")
+        substructure["content"] = (
+            substructure["content"] + f". {format_link(link_to_add)}"
+        )
+    elif existing_links[0]["fullpath"] != link_to_add["fullpath"]:
+        print(
+            f"Update link {existing_links[0]['fullpath']} to {link_to_add['fullpath']}"
+        )
+        substructure["content"] = update_link(
+            substructure["content"], existing_links[0], link_to_add
+        )
+
+
+def notes_paths(notes_directory):
+    return {
+        k: v
+        for k, v in itertools.chain.from_iterable(
+            [
+                [
+                    (os.path.splitext(filename)[0], os.path.join(root, filename))
+                    for filename in fnmatch.filter(filenames, "*.md")
+                ]
+                for root, dirnames, filenames in os.walk(notes_directory)
+            ]
+        )
+    }
+
+
+def reconcile_notes(structure_to_update, notes_directory):
+    objects_to_fullpath = {
+        os.path.splitext(obj["filename"])[0]: obj["fullpath"]
+        for obj in walk_structure(structure_to_update)
+    }
+    notes = notes_paths(notes_directory)
+
+    matched_notes = [
+        (notes[key], objects_to_fullpath[key])
+        for key in notes
+        if key in objects_to_fullpath
+    ]
+    unmatched_notes = [notes[key] for key in notes if key not in objects_to_fullpath]
+    report_unmatched_notes(unmatched_notes)
+
+    note_keys = [
+        (note_path, path_to_key(object_path))
+        for note_path, object_path in matched_notes
+    ]
+
+    for link_path, dst_key in note_keys:
+        recursive_do(
+            structure_to_update,
+            dst_key,
+            add_link_if_not_exists,
+            {"fullpath": link_path, "filename_link_text": "Notes"},
+        )
+
+
 def make_markdown(structure, level=1, file=None):
     for object in structure.get("objects", []):
         print(
@@ -304,6 +403,11 @@ def main():
         "--papers-directory",
         default="pdfs",
         help="The directory containing all the papers",
+    )
+    parser.add_argument(
+        "--notes-directory",
+        default="papers",
+        help="Notes directory per-paper. If a note here has the same name as a paper the two will be linked",
     )
     parser.add_argument(
         "--exclude", nargs="*", default=["journal", ".git"], help="What to exclude"
@@ -330,6 +434,8 @@ def main():
     # After this, md_structure is the most up to date
     reconcile_structures(fs_structure, md_structure)
     prune_empty(md_structure)
+
+    reconcile_notes(md_structure, args.notes_directory)
 
     if args.json_dump:
         print(json.dumps(md_structure, indent=2))
