@@ -5,6 +5,7 @@ import itertools
 import json
 import os
 import sys
+import subprocess
 import re
 from collections import defaultdict
 
@@ -356,6 +357,54 @@ def notes_paths(notes_directory):
     }
 
 
+def report_moves(notes_to_move):
+    print(
+        "\n".join(
+            [f"Move {src_path} to {dst_path}" for src_path, dst_path in notes_to_move]
+        )
+    )
+
+
+def move_vcs_file(src_path, dst_path):
+    os.makedirs(os.path.dirname(dst_path), exist_ok=True)
+
+    try:
+        subprocess.check_call(["git", "mv", src_path, dst_path])
+    except subprocess.CalledProcessError:
+        os.rename(src_path, dst_path)
+
+
+def sync_notes_locations(structure, notes_directory, dry_run=True):
+    objects_to_fullpath = {
+        os.path.splitext(obj["filename"])[0]: obj["fullpath"]
+        for obj in walk_structure(structure)
+    }
+    notes = notes_paths(notes_directory)
+
+    matched_notes = [
+        (
+            os.path.relpath(notes[key], notes_directory),
+            os.path.splitext(objects_to_fullpath[key])[0] + ".md",
+        )
+        for key in notes
+        if key in objects_to_fullpath
+    ]
+    notes_to_move = [
+        (
+            os.path.join(notes_directory, src_path),
+            os.path.join(notes_directory, dst_path),
+        )
+        for src_path, dst_path in matched_notes
+        if src_path != dst_path
+    ]
+
+    report_moves(notes_to_move)
+
+    if not dry_run:
+        for src_path, dst_path in notes_to_move:
+            move_vcs_file(src_path, dst_path)
+
+
 def reconcile_notes(structure_to_update, notes_directory):
     objects_to_fullpath = {
         os.path.splitext(obj["filename"])[0]: obj["fullpath"]
@@ -435,6 +484,15 @@ def main():
     reconcile_structures(fs_structure, md_structure)
     prune_empty(md_structure)
 
+    # Its important that we sync the note locations before we call
+    # reconcile_notes, that way reconcile_notes will out links to the correct
+    # directories as it walks the tree again
+    #
+    # Note that what --dry-run says will happen in this case will be a bit
+    # wrong since sync_notes_locations won't move anything and therefore
+    # the displayed link names will be wrong. That's difficult to fix
+    # its left broken for now.
+    sync_notes_locations(md_structure, args.notes_directory, args.dry_run)
     reconcile_notes(md_structure, args.notes_directory)
 
     if args.json_dump:
