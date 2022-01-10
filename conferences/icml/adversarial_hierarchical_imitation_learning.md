@@ -11,7 +11,7 @@ We want to learn from expert under a noisy environment.
 
 Prior work:
  - Generative adversarial imitation learning method:
-	 - Occupancy measurement matching problem: $p_{\pi}(s, a) = E_{\pi} [\sum_{t = 0} \gamma^t \mathbb{1}_{s_t = s, a_t = a]$ where the distributions match if the policies are equal.
+	 - Occupancy measurement matching problem: $p_{\pi}(s, a) = E_{\pi} [\sum_{t = 0} \gamma^t \mathbb{1}_{s_t = s, a_t = a}]$ where the distributions match if the policies are equal.
 	 - GAIL: minimize the discrepancy of the occupancy measurement between the expert demo $\pi$ and the agent's self exploration $E$.
 		 - $\min_{\pi} D_{KL} (p_{\pi}(s, a)||p_{E}(s, a))$
  - As the task becomes long, the efficiency of learning the entire sequence goes down
