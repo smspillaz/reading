@@ -1,5 +1,6 @@
 import argparse
 import io
+import itertools
 import json
 import os
 import sys
@@ -59,7 +60,7 @@ def parse_bullet(bullet_content):
 
     assert len(link_matches) > 0
 
-    # First link is a link to the filepath
+    # First link is a link to the fullpath
     first_link, other_links = link_matches[0], link_matches[1:]
     metadata["fullpath"] = first_link.group("link")
     metadata["filename"] = os.path.basename(metadata["fullpath"])
@@ -128,6 +129,149 @@ def prune_empty(dictionary):
     return dictionary
 
 
+def walk_structure(structure):
+    yield from structure["objects"]
+
+    for key in structure.get("children", {}):
+        yield from walk_structure(structure["children"][key])
+
+
+def path_to_key(path):
+    # Don't want the last "children" and the second last "children"
+    # becomes "objects"
+    key = list(
+        itertools.chain.from_iterable(
+            zip(itertools.repeat("children"), path.split(os.path.sep))
+        )
+    )
+    obj = key.pop(-1)
+
+    assert key[-1] == "children"
+    key[-1] = "objects"
+
+    return (key, obj)
+
+
+def get_by_filename(structure, obj, *args, **kwargs):
+    return list(filter(lambda x: x["filename"] == obj, structure))[0]
+
+
+def append_by_filename(structure, obj, substructure, *args, **kwargs):
+    if obj not in structure:
+        structure[obj] = []
+
+    structure[obj].append(substructure)
+
+
+def del_by_filename(structure, obj, *args, **kwargs):
+    matching_indexes = [idx for idx, s in enumerate(structure) if s["filename"] == obj]
+
+    assert len(matching_indexes) == 1
+    structure.pop(matching_indexes[0])
+
+
+def recursive_do(structure, key, func, *args, **kwargs):
+    node = structure
+    path, obj = key
+    for part in path:
+        node = node[part]
+
+    return func(node, obj, *args, **kwargs)
+
+
+def report_paths_to_update(paths_to_update):
+    for src_path, dst_path in paths_to_update:
+        print(f"Moving {src_path} -> {dst_path}")
+
+
+def reconcile_moves(structure_src, structure_to_update):
+    src_filename_to_fullpath = {
+        obj["filename"]: obj["fullpath"] for obj in walk_structure(structure_src)
+    }
+    to_update_filename_to_fullpath = {
+        obj["filename"]: obj["fullpath"] for obj in walk_structure(structure_to_update)
+    }
+
+    # Detect moves as those where we have a key in both
+    # but in a different location - the src_filename_to_fullpath
+    # is the source of truth in this case
+    paths_to_update = [
+        (to_update_filename_to_fullpath[filename], src_filename_to_fullpath[filename])
+        for filename in to_update_filename_to_fullpath
+        if filename in src_filename_to_fullpath
+        and to_update_filename_to_fullpath[filename]
+        != src_filename_to_fullpath[filename]
+    ]
+
+    report_paths_to_update(paths_to_update)
+
+    keys_to_update = [
+        (path_to_key(src), path_to_key(dst)) for src, dst in paths_to_update
+    ]
+    reassigns = [
+        # We're reassigning to "objects", so pop last from the key
+        (
+            (dst_key[0][:-1], dst_key[0][-1]),
+            recursive_do(structure_to_update, src_key, get_by_filename),
+        )
+        for src_key, dst_key in keys_to_update
+    ]
+    # Update structures in reassigns to account for new path
+    reassigns = [
+        (key, {**obj, "fullpath": src_filename_to_fullpath[obj["filename"]]})
+        for key, obj in reassigns
+    ]
+    deletes = [src_key for src_key, dst_key in keys_to_update]
+
+    for dst_key, substructure in reassigns:
+        recursive_do(structure_to_update, dst_key, append_by_filename, substructure)
+
+    # Now we delete from the old structure
+    for src_key in deletes:
+        recursive_do(structure_to_update, src_key, del_by_filename)
+
+
+def report_adds(paths):
+    for path in paths:
+        print(f"Add {path}")
+
+
+def reconcile_adds(structure_src, structure_to_update):
+    src_filename_to_fullpath = {
+        obj["filename"]: obj["fullpath"] for obj in walk_structure(structure_src)
+    }
+    to_update_filenames = {
+        obj["filename"] for obj in walk_structure(structure_to_update)
+    }
+
+    # Anything in structure_src not in structure_to_update will
+    # need to be added
+    paths_to_add = [
+        src_filename_to_fullpath[filename]
+        for filename in src_filename_to_fullpath
+        if filename not in to_update_filenames
+    ]
+
+    report_adds(paths_to_add)
+
+    keys_to_add = [path_to_key(path) for path in paths_to_add]
+    assignments_to_make = [
+        (
+            (dst_key[0][:-1], dst_key[0][-1]),
+            recursive_do(structure_src, dst_key, get_by_filename),
+        )
+        for dst_key in keys_to_add
+    ]
+
+    for dst_key, substructure in assignments_to_make:
+        recursive_do(structure_to_update, dst_key, append_by_filename, substructure)
+
+
+def reconcile_structures(structure_src, structure_to_update):
+    reconcile_moves(structure_src, structure_to_update)
+    reconcile_adds(structure_src, structure_to_update)
+
+
 def make_markdown(structure, level=1, file=None):
     for object in structure["objects"]:
         print(
@@ -160,6 +304,10 @@ def main():
         md_structure = prune_empty(parse_markdown_to_tree_start(f.readlines()))
 
     print(json.dumps(md_structure, indent=2))
+
+    # After this, md_structure is the most up to date
+    reconcile_structures(fs_structure, md_structure)
+    prune_empty(md_structure)
 
     contents = io.StringIO()
     make_markdown(md_structure, level=1, file=contents)
