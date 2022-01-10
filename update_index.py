@@ -291,7 +291,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--papers-directory",
-        default=".",
+        default="pdfs",
         help="The directory containing all the papers",
     )
     parser.add_argument(
