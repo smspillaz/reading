@@ -295,6 +295,11 @@ def main():
         "--exclude", nargs="*", default=["journal", ".git"], help="What to exclude"
     )
     parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Don't write the index file, just show what would happen in json",
+    )
+    parser.add_argument(
         "--json-dump",
         action="store_true",
         help="Show the resulting markdown structure in json",
@@ -318,8 +323,9 @@ def main():
     contents = io.StringIO()
     make_markdown(md_structure, level=1, file=contents)
 
-    with open(args.index, "w") as f:
-        f.write(contents.getvalue())
+    if not args.dry_run:
+        with open(args.index, "w") as f:
+            f.write(contents.getvalue())
 
 
 if __name__ == "__main__":
