@@ -30,9 +30,11 @@ def walk_fs_to_tree(root, exclude):
     abs_root = os.path.abspath(root)
 
     for dirpath, dirnames, filenames in os.walk(abs_root):
+        # No hidden files
         if any([p.startswith(".") for p in dirpath.split(os.path.sep)]):
             continue
 
+        # No files in the exclude list
         if any([p in exclude for p in dirpath.split(os.path.sep)]):
             continue
 
