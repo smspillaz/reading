@@ -67,6 +67,7 @@ def parse_bullet(bullet_content):
     metadata["fullpath"] = first_link.group("link")
     metadata["filename"] = os.path.basename(metadata["fullpath"])
     metadata["filename_link_text"] = first_link.group("desc")
+    metadata["content"] = bullet_content[first_link.end():].lstrip(": ")
 
     return metadata
 
@@ -277,7 +278,7 @@ def reconcile_structures(structure_src, structure_to_update):
 def make_markdown(structure, level=1, file=None):
     for object in structure["objects"]:
         print(
-            f" - [[{object['fullpath']}|{object['filename_link_text']}]]:",
+            f" - [[{object['fullpath']}|{object['filename_link_text']}]]: {object['content']}",
             file=file or sys.stdout,
         )
 
