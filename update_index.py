@@ -49,6 +49,7 @@ def walk_fs_to_tree(root, exclude):
             {
                 "filename": filename,
                 "fullpath": os.path.relpath(os.path.join(dirpath, filename), abs_root),
+                "linkpath": os.path.relpath(os.path.join(dirpath, filename), os.path.dirname(abs_root)),
                 "filename_link_text": os.path.splitext(filename)[0],
                 "content": "",
             }
@@ -59,7 +60,7 @@ def walk_fs_to_tree(root, exclude):
     return tree
 
 
-def parse_bullet(bullet_content):
+def parse_bullet(bullet_content, path_stack):
     metadata = {}
     link_matches = list(_RE_LINK.finditer(bullet_content))
 
@@ -67,7 +68,8 @@ def parse_bullet(bullet_content):
 
     # First link is a link to the fullpath
     first_link, other_links = link_matches[0], link_matches[1:]
-    metadata["fullpath"] = first_link.group("link")
+    metadata["linkpath"] = first_link.group("link")
+    metadata["fullpath"] = os.path.sep.join(path_stack + [os.path.basename(metadata["linkpath"])])
     metadata["filename"] = os.path.basename(metadata["fullpath"])
     metadata["filename_link_text"] = first_link.group("desc")
     metadata["content"] = bullet_content[first_link.end() :].lstrip(": ")
@@ -82,7 +84,7 @@ def parse_bullet(bullet_content):
     return metadata
 
 
-def parse_markdown_to_tree(tree, markdown_lines, index, heading_level, depth):
+def parse_markdown_to_tree(tree, markdown_lines, index, heading_level, depth, path_stack):
     while index < len(markdown_lines):
         heading_match = _RE_HEADING.match(markdown_lines[index])
 
@@ -101,6 +103,7 @@ def parse_markdown_to_tree(tree, markdown_lines, index, heading_level, depth):
                 index + 1,
                 parsed_heading_level,
                 depth + 1,
+                path_stack + [heading_content]
             )
             continue
 
@@ -109,7 +112,7 @@ def parse_markdown_to_tree(tree, markdown_lines, index, heading_level, depth):
         if bullet_match is not None:
             if "objects" not in tree:
                 tree["objects"] = []
-            tree["objects"].append(parse_bullet(bullet_match.group("content")))
+            tree["objects"].append(parse_bullet(bullet_match.group("content"), path_stack))
 
         index += 1
 
@@ -118,7 +121,7 @@ def parse_markdown_to_tree(tree, markdown_lines, index, heading_level, depth):
 
 def parse_markdown_to_tree_start(markdown_lines):
     tree = defaultdict_of_defaultdict()
-    parse_markdown_to_tree(tree, markdown_lines, 0, 0, 0)
+    parse_markdown_to_tree(tree, markdown_lines, 0, 0, 0, [])
 
     return tree
 
@@ -437,7 +440,7 @@ def reconcile_notes(structure_to_update, notes_directory):
 def make_markdown(structure, level=1, file=None):
     for object in structure.get("objects", []):
         print(
-            f" - [[{object['fullpath']}|{object['filename_link_text']}]]: {object['content']}",
+            f" - [[{object['linkpath']}|{object['filename_link_text']}]]: {object['content']}",
             file=file or sys.stdout,
         )
 
