@@ -437,7 +437,7 @@ def sync_notes_locations(structure, notes_directory, dry_run=True):
             os.makedirs(os.path.dirname(path), exist_ok=True)
 
             assert not os.path.exists(path)
-            with open(path, 'w') as f:
+            with open(path, "w") as f:
                 f.write("")
 
 
