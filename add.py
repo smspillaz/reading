@@ -37,7 +37,9 @@ def main():
                 else:
                     print("Ignoring", link)
 
-    subprocess.run(["git", "commit", "-m", "'{}: Add {}".format(args.section, args.filename)])
+    subprocess.run(
+        ["git", "commit", "-m", "'{}: Add {}".format(args.section, args.filename)]
+    )
 
 
 if __name__ == "__main__":
