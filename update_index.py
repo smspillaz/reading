@@ -419,8 +419,11 @@ def sync_notes_locations(structure, notes_directory, dry_run=True):
         if src_path != dst_path
     ]
     notes_to_create = [
-        os.path.join(notes_directory, os.path.splitext(objects_to_fullpath[key])[0] + ".md")
-        for key in objects_to_fullpath if key not in notes
+        os.path.join(
+            notes_directory, os.path.splitext(objects_to_fullpath[key])[0] + ".md"
+        )
+        for key in objects_to_fullpath
+        if key not in notes
     ]
 
     report_moves(notes_to_move)
