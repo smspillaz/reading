@@ -71,7 +71,9 @@ def parse_bullet(bullet_content, path_stack):
     # First link is a link to the fullpath
     first_link, other_links = link_matches[0], link_matches[1:]
     metadata["linkpath"] = first_link.group("link")
-    metadata["fullpath"] = os.path.sep.join(path_stack + [os.path.basename(metadata["linkpath"])])
+    metadata["fullpath"] = os.path.sep.join(
+        path_stack + [os.path.basename(metadata["linkpath"])]
+    )
     metadata["filename"] = os.path.basename(metadata["fullpath"])
     metadata["filename_link_text"] = first_link.group("desc")
     metadata["content"] = bullet_content[first_link.end() :].lstrip(": ")
