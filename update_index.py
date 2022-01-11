@@ -88,7 +88,9 @@ def parse_bullet(bullet_content, path_stack):
     return metadata
 
 
-def parse_markdown_to_tree(tree, markdown_lines, index, heading_level, depth, path_stack):
+def parse_markdown_to_tree(
+    tree, markdown_lines, index, heading_level, depth, path_stack
+):
     while index < len(markdown_lines):
         heading_match = _RE_HEADING.match(markdown_lines[index])
 
@@ -107,7 +109,7 @@ def parse_markdown_to_tree(tree, markdown_lines, index, heading_level, depth, pa
                 index + 1,
                 parsed_heading_level,
                 depth + 1,
-                path_stack + [heading_content]
+                path_stack + [heading_content],
             )
             continue
 
@@ -116,7 +118,9 @@ def parse_markdown_to_tree(tree, markdown_lines, index, heading_level, depth, pa
         if bullet_match is not None:
             if "objects" not in tree:
                 tree["objects"] = []
-            tree["objects"].append(parse_bullet(bullet_match.group("content"), path_stack))
+            tree["objects"].append(
+                parse_bullet(bullet_match.group("content"), path_stack)
+            )
 
         index += 1
 
