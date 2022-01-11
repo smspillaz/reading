@@ -1,3 +1,16 @@
+---
+title: Gated-Attention Architectures for Task-Oriented Language Grounding.
+venue: AAAI
+pages: 2819-2826
+year: 2018
+type: Conference and Workshop Papers
+access: open
+key: conf/aaai/ChaplotSPRS18
+ee: https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17425
+url: https://dblp.org/rec/conf/aaai/ChaplotSPRS18
+authors: ["Devendra Singh Chaplot", "Kanthashree Mysore Sathyendra", "Rama Kumar Pasumarthi", "Dheeraj Rajagopal", "Ruslan Salakhutdinov"]
+sync_version: 0
+---
 # Gated Attention architectures for generalization in task-oriented language grounding
 
 Similar to FiLM - weight the channels by the components of the language encoding.
