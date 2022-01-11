@@ -340,7 +340,7 @@ def add_link_if_not_exists(structure, obj, link_to_add, *args, **kwargs):
     if not existing_links:
         print(f"Add link {link_to_add['fullpath']} to {substructure['fullpath']}")
         substructure["content"] = (
-            substructure["content"] + f". {format_link(link_to_add)}"
+            substructure["content"].rstrip(".") + f". {format_link(link_to_add)}"
         )
     elif existing_links[0]["fullpath"] != link_to_add["fullpath"]:
         print(
