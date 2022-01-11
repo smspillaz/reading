@@ -49,7 +49,9 @@ def walk_fs_to_tree(root, exclude):
             {
                 "filename": filename,
                 "fullpath": os.path.relpath(os.path.join(dirpath, filename), abs_root),
-                "linkpath": os.path.relpath(os.path.join(dirpath, filename), os.path.dirname(abs_root)),
+                "linkpath": os.path.relpath(
+                    os.path.join(dirpath, filename), os.path.dirname(abs_root)
+                ),
                 "filename_link_text": os.path.splitext(filename)[0],
                 "content": "",
             }
