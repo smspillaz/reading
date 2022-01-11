@@ -9,6 +9,12 @@ import subprocess
 import re
 from collections import defaultdict
 
+from update_note_frontmatters import (
+    parse_frontmatter,
+    format_frontmatter,
+    rewrite_frontmatter_section,
+)
+
 _RE_HEADING = re.compile(r"^(?P<hashes>#+)\s+(?P<content>.+)$")
 _RE_LINK = re.compile(r"\[\[(?P<link>[^\|]+)\|?(?P<desc>[^\]]+)\]\]")
 _RE_BULLET = re.compile(r"\s-\s(?P<content>.+)$")
@@ -441,7 +447,37 @@ def sync_notes_locations(structure, notes_directory, dry_run=True):
                 f.write("")
 
 
-def reconcile_notes(structure_to_update, notes_directory):
+def sync_note_title(structure, obj, note_path, *args, **kwargs):
+    dry_run = kwargs.get("dry_run", True)
+
+    substructure = list(filter(lambda x: x["filename"] == obj, structure))[0]
+    note_frontmatter = parse_frontmatter(note_path)
+
+    if "title" not in note_frontmatter:
+        if (
+            substructure["filename_link_text"]
+            != os.path.splitext(substructure["filename"])[0]
+        ):
+            # If there's no title, then pull it from the
+            # the index (as long as its not just the same
+            # as the filename basename, eg, it was edited by
+            # the user).
+            print(
+                f"Sync title {substructure['filename_link_text']} to note {note_path} frontmatter"
+            )
+            note_frontmatter["title"] = substructure["filename_link_text"]
+
+            if not dry_run:
+                rewrite_frontmatter_section(
+                    note_path, format_frontmatter(note_frontmatter)
+                )
+    else:
+        # Pull the title from the note frontmatter and use it in the
+        # index => the note frontmatter is the source of truth in this case.
+        substructure["filename_link_text"] = note_frontmatter["title"]
+
+
+def reconcile_notes(structure_to_update, notes_directory, dry_run=True):
     objects_to_fullpath = {
         os.path.splitext(obj["filename"])[0]: obj["fullpath"]
         for obj in walk_structure(structure_to_update)
@@ -467,6 +503,9 @@ def reconcile_notes(structure_to_update, notes_directory):
             dst_key,
             add_link_if_not_exists,
             {"fullpath": link_path, "filename_link_text": "Notes"},
+        )
+        recursive_do(
+            structure_to_update, dst_key, sync_note_title, link_path, dry_run=dry_run
         )
 
 
@@ -540,7 +579,7 @@ def main():
     # the displayed link names will be wrong. That's difficult to fix
     # its left broken for now.
     sync_notes_locations(md_structure, args.notes_directory, args.dry_run)
-    reconcile_notes(md_structure, args.notes_directory)
+    reconcile_notes(md_structure, args.notes_directory, args.dry_run)
 
     # Postprocessing (sorting, etc)
     postprocess_structure(md_structure)
