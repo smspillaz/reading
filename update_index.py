@@ -522,10 +522,11 @@ def make_markdown(structure, level=1, file=None):
 
 
 def postprocess_structure(structure):
-    structure["objects"] = sorted(structure.get("objects", []), key=lambda obj: obj["filename_link_text"])
+    structure["objects"] = sorted(
+        structure.get("objects", []), key=lambda obj: obj["filename_link_text"]
+    )
     structure["children"] = {
-        k: structure["children"][k]
-        for k in sorted(list(structure["children"].keys()))
+        k: structure["children"][k] for k in sorted(list(structure["children"].keys()))
     }
 
     for substructure in structure["children"].values():
