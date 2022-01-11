@@ -368,6 +368,14 @@ def report_moves(notes_to_move):
     )
 
 
+def report_creates(notes_to_create):
+    print(
+        "\n".join(
+            [f"Create {path}" for path in notes_to_create]
+        )
+    )
+
+
 def move_vcs_file(src_path, dst_path):
     os.makedirs(os.path.dirname(dst_path), exist_ok=True)
 
@@ -400,12 +408,24 @@ def sync_notes_locations(structure, notes_directory, dry_run=True):
         for src_path, dst_path in matched_notes
         if src_path != dst_path
     ]
+    notes_to_create = [
+        os.path.join(notes_directory, os.path.splitext(objects_to_fullpath[key])[0] + ".md")
+        for key in objects_to_fullpath if key not in notes
+    ]
 
     report_moves(notes_to_move)
+    report_creates(notes_to_create)
 
     if not dry_run:
         for src_path, dst_path in notes_to_move:
             move_vcs_file(src_path, dst_path)
+
+        for path in notes_to_create:
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+
+            assert not os.path.exists(path)
+            with open(path, 'w') as f:
+                f.write("")
 
 
 def reconcile_notes(structure_to_update, notes_directory):
