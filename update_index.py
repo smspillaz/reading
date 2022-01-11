@@ -383,11 +383,7 @@ def report_moves(notes_to_move):
 
 
 def report_creates(notes_to_create):
-    print(
-        "\n".join(
-            [f"Create {path}" for path in notes_to_create]
-        )
-    )
+    print("\n".join([f"Create {path}" for path in notes_to_create]))
 
 
 def move_vcs_file(src_path, dst_path):
