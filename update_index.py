@@ -207,6 +207,9 @@ def reconcile_moves(structure_src, structure_to_update):
     src_filename_to_fullpath = {
         obj["filename"]: obj["fullpath"] for obj in walk_structure(structure_src)
     }
+    src_filename_to_linkpath = {
+        obj["filename"]: obj["linkpath"] for obj in walk_structure(structure_src)
+    }
     to_update_filename_to_fullpath = {
         obj["filename"]: obj["fullpath"] for obj in walk_structure(structure_to_update)
     }
@@ -238,6 +241,9 @@ def reconcile_moves(structure_src, structure_to_update):
     # Update structures in reassigns to account for new path
     reassigns = [
         (key, {**obj, "fullpath": src_filename_to_fullpath[obj["filename"]]})
+        for key, obj in reassigns
+    ] + [
+        (key, {**obj, "linkpath": src_filename_to_linkpath[obj["filename"]]})
         for key, obj in reassigns
     ]
     deletes = [src_key for src_key, dst_key in keys_to_update]
