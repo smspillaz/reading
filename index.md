@@ -127,6 +127,7 @@
  - [[pdfs/dl/satnet/satnet_symbolic_grounding_assessment.pdf|satnet_symbolic_grounding_assessment]]: . [[papers/dl/satnet/satnet_symbolic_grounding_assessment.md|Notes]]
  - [[pdfs/dl/satnet/techniques_symbolic_grounding_satnet.pdf|techniques_symbolic_grounding_satnet]]: . [[papers/dl/satnet/techniques_symbolic_grounding_satnet.md|Notes]]
 ## sequence
+ - [[pdfs/dl/sequence/mc_lstm.pdf|MC-LSTM - Mass-Conserving LSTM.]]: Adjust the architecture of an LSTM such that "mass" cannot appear from nowhere, it must either explicitly enter the system via the input gate and mass leaving the system plus current mass must sum up to the total mass (input + current mass at previous timestep). [[papers/dl/sequence/mc_lstm.md|Notes]]
  - [[pdfs/dl/sequence/conv_lstm.pdf|conv_lstm]]: . [[papers/dl/sequence/conv_lstm.md|Notes]]
  - [[pdfs/dl/sequence/dilated_rnn.pdf|dilated_rnn]]: . [[papers/dl/sequence/dilated_rnn.md|Notes]]
  - [[pdfs/dl/sequence/urlstm_gating.pdf|urlstm_gating]]: . [[papers/dl/sequence/urlstm_gating.md|Notes]]
