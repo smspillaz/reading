@@ -254,10 +254,14 @@ def reconcile_moves(structure_src, structure_to_update):
     ]
     # Update structures in reassigns to account for new path
     reassigns = [
-        (key, {**obj, "fullpath": src_filename_to_fullpath[obj["filename"]]})
-        for key, obj in reassigns
-    ] + [
-        (key, {**obj, "linkpath": src_filename_to_linkpath[obj["filename"]]})
+        (
+            key,
+            {
+                **obj,
+                "fullpath": src_filename_to_fullpath[obj["filename"]],
+                "linkpath": src_filename_to_linkpath[obj["filename"]],
+            },
+        )
         for key, obj in reassigns
     ]
     deletes = [src_key for src_key, dst_key in keys_to_update]
