@@ -93,7 +93,7 @@
  - [[pdfs/dl/generative/nvae_hierarchical_vae.pdf|nvae_hierarchical_vae]]: . [[papers/dl/generative/nvae_hierarchical_vae.md|Notes]]
  - [[pdfs/dl/generative/pixelcnn.pdf|pixelcnn]]: . [[papers/dl/generative/pixelcnn.md|Notes]]
 ### diffusion
- - [[pdfs/dl/generative/diffusion/score_based_generative_modeling.pdf|score_based_generative_modeling]]: . [[papers/dl/generative/diffusion/score_based_generative_modeling.md|Notes]]
+ - [[pdfs/dl/generative/diffusion/score_based_generative_modeling.pdf|Score-Based Generative Modeling through Stochastic Differential Equations.]]: Generative modelling problem - we want to turn noise into something from the data distribution. The basic idea is that if you know the gradient of the noise, then you can make a reverse stochastic differential equation. Proposes a predictor-corrector which combines numerical SDE solvers with an MCMC approach and provides a way to do class-conditional generation, image inpainting, etc. [[papers/dl/generative/diffusion/score_based_generative_modeling.md|Notes]]
 ### energy
  - [[pdfs/dl/generative/energy/comet_unsupervised_learning_of_compositional_energy_concepts.pdf|comet_unsupervised_learning_of_compositional_energy_concepts]]: . [[papers/dl/generative/energy/comet_unsupervised_learning_of_compositional_energy_concepts.md|Notes]]
  - [[pdfs/dl/generative/energy/implicit_generation_with_energy_based_models.pdf|implicit_generation_with_energy_based_models]]: . [[papers/dl/generative/energy/implicit_generation_with_energy_based_models.md|Notes]]
