@@ -188,8 +188,8 @@
  - [[pdfs/dl/transformer/sparse/attention_with_sparsity_regularization.pdf|attention_with_sparsity_regularization]]: . [[papers/dl/transformer/sparse/attention_with_sparsity_regularization.md|Notes]]
  - [[pdfs/dl/transformer/sparse/top_kast_pascanu.pdf|top_kast_pascanu]]: . [[papers/dl/transformer/sparse/top_kast_pascanu.md|Notes]]
 ### vision
+ - [[pdfs/dl/transformer/vision/image_worth_16x16_words_transformers_for_image_recognition_at_scale.pdf|An Image is Worth 16x16 Words - Transformers for Image Recognition at Scale.]]: First study to show that we can make use of a pure transformer network without baseline convolutions. Studies the scaling properties, in particular transfer learning properties when used with different pre-training dataset sizes. Argues that inductive bias stops mattering at the point where you have tons of data. [[papers/dl/transformer/vision/image_worth_16x16_words_transformers_for_image_recognition_at_scale.md|Notes]]
  - [[pdfs/dl/transformer/vision/do_vision_transformers_see_like_cnns.pdf|do_vision_transformers_see_like_cnns]]: . [[papers/dl/transformer/vision/do_vision_transformers_see_like_cnns.md|Notes]]
- - [[pdfs/dl/transformer/vision/image_worth_16x16_words_transformers_for_image_recognition_at_scale.pdf|image_worth_16x16_words_transformers_for_image_recognition_at_scale]]: . [[papers/dl/transformer/vision/image_worth_16x16_words_transformers_for_image_recognition_at_scale.md|Notes]]
  - [[pdfs/dl/transformer/vision/robustness_vision_transformers.pdf|robustness_vision_transformers]]: . [[papers/dl/transformer/vision/robustness_vision_transformers.md|Notes]]
 ### vision_text
  - [[pdfs/dl/transformer/vision_text/causal_attention_catt.pdf|causal_attention_catt]]: . [[papers/dl/transformer/vision_text/causal_attention_catt.md|Notes]]
