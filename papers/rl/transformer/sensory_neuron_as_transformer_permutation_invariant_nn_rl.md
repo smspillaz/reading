@@ -1,5 +1,15 @@
 ---
-title: Sensory Neuron as a Transformer: Permutation Invariant Neural Networks for Reinforcement Learning
+title: The Sensory Neuron as a Transformer - Permutation-Invariant Neural Networks for Reinforcement Learning.
+venue: CoRR
+volume: abs/2109.02869
+year: 2021
+type: Informal Publications
+access: open
+key: journals/corr/abs-2109-02869
+ee: https://arxiv.org/abs/2109.02869
+url: https://dblp.org/rec/journals/corr/abs-2109-02869
+authors: ["Yujin Tang", "David Ha"]
+sync_version: 0
 ---
 
 # Sensory Neuron as a Transformer: Permutation Invariant Neural Networks for Reinforcement Learning

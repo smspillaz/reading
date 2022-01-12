@@ -506,7 +506,7 @@
  - [[pdfs/rl/transfer/disentangled_cumulants_successor_representations_transfer.pdf|disentangled_cumulants_successor_representations_transfer]]: . [[papers/rl/transfer/disentangled_cumulants_successor_representations_transfer.md|Notes]]
  - [[pdfs/rl/transfer/parrot_data_driven_behavioural_priors_rl.pdf|parrot_data_driven_behavioural_priors_rl]]: . [[papers/rl/transfer/parrot_data_driven_behavioural_priors_rl.md|Notes]]
 ## transformer
- - [[pdfs/rl/transformer/sensory_neuron_as_transformer_permutation_invariant_nn_rl.pdf|sensory_neuron_as_transformer_permutation_invariant_nn_rl]]: . [[papers/rl/transformer/sensory_neuron_as_transformer_permutation_invariant_nn_rl.md|Notes]]
+ - [[pdfs/rl/transformer/sensory_neuron_as_transformer_permutation_invariant_nn_rl.pdf|The Sensory Neuron as a Transformer - Permutation-Invariant Neural Networks for Reinforcement Learning.]]: Split image into patches and use a transformer without positional encodings. This is permutation invariant at test-time (to permutations of patches). [[papers/rl/transformer/sensory_neuron_as_transformer_permutation_invariant_nn_rl.md|Notes]]
  - [[pdfs/rl/transformer/trajectory-transformer-neurips-2021.pdf|trajectory-transformer-neurips-2021]]: . [[papers/rl/transformer/trajectory-transformer-neurips-2021.md|Notes]]
  - [[pdfs/rl/transformer/transformers_are_meta_reinforcement_learners.pdf|transformers_are_meta_reinforcement_learners]]: . [[papers/rl/transformer/transformers_are_meta_reinforcement_learners.md|Notes]]
 ## world_models
