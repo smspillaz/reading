@@ -38,7 +38,7 @@ def main():
                     print("Ignoring", link)
 
     subprocess.run(
-        ["git", "commit", "-m", "'{}: Add {}".format(args.section, args.filename)]
+        ["git", "commit", "-m", "{}: Add {}".format(args.section, args.filename)]
     )
 
 
