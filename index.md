@@ -117,8 +117,8 @@
 ## object_centric
  - [[pdfs/dl/object_centric/slot_attention.pdf|slot_attention]]: . [[papers/dl/object_centric/slot_attention.md|Notes]]
 ## representation_learning
+ - [[pdfs/dl/representation_learning/sketch_embed_net_learning_novel_concepts_by_imitating_drawings.pdf|SketchEmbedNet - Learning Novel Concepts by Imitating Drawings.]]: Learn parameters to an RNN which outputs a program used to produce a sketch matching a particular input. The results show that "learning to sketch" produces representations which classify well compared to contrastive learning and demonstrate "conceptual composition" (snowman - circle + square = square snowman) . [[papers/dl/representation_learning/sketch_embed_net_learning_novel_concepts_by_imitating_drawings.md|Notes]]
  - [[pdfs/dl/representation_learning/cvae_enhances_salient_features.pdf|cvae_enhances_salient_features]]: . [[papers/dl/representation_learning/cvae_enhances_salient_features.md|Notes]]
- - [[pdfs/dl/representation_learning/sketch_embed_net_learning_novel_concepts_by_imitating_drawings.pdf|sketch_embed_net_learning_novel_concepts_by_imitating_drawings]]: . [[papers/dl/representation_learning/sketch_embed_net_learning_novel_concepts_by_imitating_drawings.md|Notes]]
  - [[pdfs/dl/representation_learning/visual_representation_learning_does_not_generalize_strongly.pdf|visual_representation_learning_does_not_generalize_strongly]]: . [[papers/dl/representation_learning/visual_representation_learning_does_not_generalize_strongly.md|Notes]]
 ## satnet
  - [[pdfs/dl/satnet/abductive_knowledge_induction_satnet.pdf|abductive_knowledge_induction_satnet]]: . [[papers/dl/satnet/abductive_knowledge_induction_satnet.md|Notes]]
