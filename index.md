@@ -295,11 +295,11 @@
  - [[pdfs/rl/curriculum/curriculum_learning_survey.pdf|curriculum_learning_survey]]: . [[papers/rl/curriculum/curriculum_learning_survey.md|Notes]]
  - [[pdfs/rl/curriculum/probabilistic_self_based_learning_with_applications_to_rl.pdf|probabilistic_self_based_learning_with_applications_to_rl]]: . [[papers/rl/curriculum/probabilistic_self_based_learning_with_applications_to_rl.md|Notes]]
 ## exploration
+ - [[pdfs/rl/exploration/is_curiousity_all_you_need.pdf|Is Curiousity all you need? On the utility of emergent behaviours from curious exploration]]: Curiousity in exploration might overwrite useful behaviours used to reach areas of the state space which are now no longer "interesting", meaning that as an agent explores, it forgets how to reach areas of the state space that it did in the past. This paper proposes a mechanism to try and remember those behaviours, so the the entire state space can still be reached. [[papers/rl/exploration/is_curiousity_all_you_need.md|Notes]]
  - [[pdfs/rl/exploration/curl_contrastive_rl.pdf|curl_contrastive_rl]]: . [[papers/rl/exploration/curl_contrastive_rl.md|Notes]]
  - [[pdfs/rl/exploration/episodic_curiousity_through_reachability.pdf|episodic_curiousity_through_reachability]]: . [[papers/rl/exploration/episodic_curiousity_through_reachability.md|Notes]]
  - [[pdfs/rl/exploration/ex2_exploration_exemplar_models.pdf|ex2_exploration_exemplar_models]]: . [[papers/rl/exploration/ex2_exploration_exemplar_models.md|Notes]]
  - [[pdfs/rl/exploration/imagine_language_cognitive_exploration.pdf|imagine_language_cognitive_exploration]]: . [[papers/rl/exploration/imagine_language_cognitive_exploration.md|Notes]]
- - [[pdfs/rl/exploration/is_curiousity_all_you_need.pdf|is_curiousity_all_you_need]]: . [[papers/rl/exploration/is_curiousity_all_you_need.md|Notes]]
  - [[pdfs/rl/exploration/learned_intrinsic_rewards.pdf|learned_intrinsic_rewards]]: . [[papers/rl/exploration/learned_intrinsic_rewards.md|Notes]]
  - [[pdfs/rl/exploration/novelty_search_representational_space.pdf|novelty_search_representational_space]]: . [[papers/rl/exploration/novelty_search_representational_space.md|Notes]]
  - [[pdfs/rl/exploration/provably_efficient_unsupervised.pdf|provably_efficient_unsupervised]]: . [[papers/rl/exploration/provably_efficient_unsupervised.md|Notes]]
