@@ -272,11 +272,11 @@
 # programming
  - [[pdfs/programming/catala_programming_for_law.pdf|catala_programming_for_law]]: . [[papers/programming/catala_programming_for_law.md|Notes]]
 # rl
+ - [[pdfs/rl/deep_rl_statistical_precipice.pdf|Deep Reinforcement Learning at the Edge of the Statistical Precipice.]]: Presents a common and robust methodology for reporting scores/improvements using a "handful of runs". [[papers/rl/deep_rl_statistical_precipice.md|Notes]]
  - [[pdfs/rl/embodied_intelligence_via_learning_and_evolution.pdf|Embodied Intelligence via Learning and Evolution.]]: Combines evolutionary algorithms and reinforcement learning to study meta-reinforcement-learning via evolution. [[papers/rl/embodied_intelligence_via_learning_and_evolution.md|Notes]]
  - [[pdfs/rl/act2vec.pdf|act2vec]]: . [[papers/rl/act2vec.md|Notes]]
  - [[pdfs/rl/agent57_atari.pdf|agent57_atari]]: . [[papers/rl/agent57_atari.md|Notes]]
  - [[pdfs/rl/bisimulation_metrics_are_optimal_value_functions.pdf|bisimulation_metrics_are_optimal_value_functions]]: . [[papers/rl/bisimulation_metrics_are_optimal_value_functions.md|Notes]]
- - [[pdfs/rl/deep_rl_statistical_precipice.pdf|deep_rl_statistical_precipice]]: . [[papers/rl/deep_rl_statistical_precipice.md|Notes]]
  - [[pdfs/rl/dreamerv2.pdf|dreamerv2]]: . [[papers/rl/dreamerv2.md|Notes]]
  - [[pdfs/rl/efficientzero_mastering_atari_limited_data.pdf|efficientzero_mastering_atari_limited_data]]: . [[papers/rl/efficientzero_mastering_atari_limited_data.md|Notes]]
  - [[pdfs/rl/estimating_disentangled_belief_meta_rl.pdf|estimating_disentangled_belief_meta_rl]]: . [[papers/rl/estimating_disentangled_belief_meta_rl.md|Notes]]
