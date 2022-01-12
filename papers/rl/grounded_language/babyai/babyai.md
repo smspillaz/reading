@@ -1,3 +1,15 @@
+---
+title: BabyAI - A Platform to Study the Sample Efficiency of Grounded Language Learning.
+venue: ICLR
+year: 2019
+type: Conference and Workshop Papers
+access: open
+key: conf/iclr/Chevalier-Boisvert19
+ee: https://openreview.net/forum?id=rJeXCo0cYX
+url: https://dblp.org/rec/conf/iclr/Chevalier-Boisvert19
+authors: ["Maxime Chevalier-Boisvert", "Dzmitry Bahdanau", "Salem Lahlou", "Lucas Willems", "Chitwan Saharia", "Thien Huu Nguyen", "Yoshua Bengio"]
+sync_version: 0
+---
 # BabyAI: A Platform to study the sample efficiency of grounded language learning
 
 Abstract: Simulator with 19 levels of increasing difficulty, subset of English language.
@@ -28,8 +40,8 @@ BabyLevels:
 
 Bot Agent:
  - Bot knows how to solve all the problems. Baby doesn't know anything.
- 
- 
+
+
 Baselines:
  - GRU to encode the instructions, CNN to encode the room layout.
  - Proximal Policy Optimization (PPO)
