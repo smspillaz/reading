@@ -396,7 +396,7 @@ We learn these funcitons through a DNN.
 
 Off-policy policy evaluation:
 
- - $v(\pi) = E[\umR_t|H \sim \pi]$
+ - $v(\pi) = E[\mu R_t|H \sim \pi]$
  - Given a target policy and data generated from a behaviourpolicy, estimate $v(\pi)$
   - Metric: MSE between true value and estimated value
   - Importance sampling: re-weigt reward totals for each trajectory in the observed
