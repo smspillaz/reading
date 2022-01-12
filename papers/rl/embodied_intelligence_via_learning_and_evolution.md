@@ -1,5 +1,15 @@
 ---
-title: Embodied Intelligence via Learning and Evolution
+title: Embodied Intelligence via Learning and Evolution.
+venue: CoRR
+volume: abs/2102.02202
+year: 2021
+type: Informal Publications
+access: open
+key: journals/corr/abs-2102-02202
+ee: https://arxiv.org/abs/2102.02202
+url: https://dblp.org/rec/journals/corr/abs-2102-02202
+authors: ["Agrim Gupta", "Silvio Savarese", "Surya Ganguli", "Li Fei-Fei 0001"]
+sync_version: 0
 ---
 
 # Embodied Intelligence via Learning and Evolution
