@@ -507,8 +507,8 @@
  - [[pdfs/rl/transfer/parrot_data_driven_behavioural_priors_rl.pdf|parrot_data_driven_behavioural_priors_rl]]: . [[papers/rl/transfer/parrot_data_driven_behavioural_priors_rl.md|Notes]]
 ## transformer
  - [[pdfs/rl/transformer/sensory_neuron_as_transformer_permutation_invariant_nn_rl.pdf|The Sensory Neuron as a Transformer - Permutation-Invariant Neural Networks for Reinforcement Learning.]]: Split image into patches and use a transformer without positional encodings. This is permutation invariant at test-time (to permutations of patches). [[papers/rl/transformer/sensory_neuron_as_transformer_permutation_invariant_nn_rl.md|Notes]]
+ - [[pdfs/rl/transformer/transformers_are_meta_reinforcement_learners.pdf|Transformers are Meta-Reinforcement Learners]]: Treat the meta-reinforcement learning problem as a sequence learning problem where meta-training consists of feeding many training instances of a task into a transformer. [[papers/rl/transformer/transformers_are_meta_reinforcement_learners.md|Notes]]
  - [[pdfs/rl/transformer/trajectory-transformer-neurips-2021.pdf|trajectory-transformer-neurips-2021]]: . [[papers/rl/transformer/trajectory-transformer-neurips-2021.md|Notes]]
- - [[pdfs/rl/transformer/transformers_are_meta_reinforcement_learners.pdf|transformers_are_meta_reinforcement_learners]]: . [[papers/rl/transformer/transformers_are_meta_reinforcement_learners.md|Notes]]
 ## world_models
  - [[pdfs/rl/world_models/augwm_augmented_world_models_facilitate_zero_shot_dynamics_generalization.pdf|Augmented World Models Facilitate Zero-Shot Dynamics Generalization From a Single Offline Environment.]]: . [[papers/rl/world_models/augwm_augmented_world_models_facilitate_zero_shot_dynamics_generalization.md|Notes]]
  - [[pdfs/rl/world_models/contrastive_learning_structured_world_models.pdf|contrastive_learning_structured_world_models]]: . [[papers/rl/world_models/contrastive_learning_structured_world_models.md|Notes]]
