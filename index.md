@@ -5,10 +5,10 @@
  - [[pdfs/causal/towards_causal_representation_learning.pdf|towards_causal_representation_learning]]: . [[papers/causal/towards_causal_representation_learning.md|Notes]]
  - [[pdfs/causal/video_causal_discovery.pdf|video_causal_discovery]]: . [[papers/causal/video_causal_discovery.md|Notes]]
 # cv
+ - [[pdfs/cv/mlp_mixer.pdf|MLP-Mixer - An all-MLP Architecture for Vision.]]: Takes the "image-patch transformers" architectures and removes the transformers to test the hypothesis that the patches are what matters. Based exclusively on MLPs. Apply the MLPs to image patches (mixing the per-location features) and then apply the MLPS across patches (mixing spatial information). [[papers/cv/mlp_mixer.md|Notes]]
  - [[pdfs/cv/are_cnn_or_transformers_more_like_human_vision.pdf|are_cnn_or_transformers_more_like_human_vision]]: . [[papers/cv/are_cnn_or_transformers_more_like_human_vision.md|Notes]]
  - [[pdfs/cv/deep_automodulators.pdf|deep_automodulators]]: . [[papers/cv/deep_automodulators.md|Notes]]
  - [[pdfs/cv/film_feature_wise_linear_modulation.pdf|film_feature_wise_linear_modulation]]: . [[papers/cv/film_feature_wise_linear_modulation.md|Notes]]
- - [[pdfs/cv/mlp_mixer.pdf|mlp_mixer]]: . [[papers/cv/mlp_mixer.md|Notes]]
  - [[pdfs/cv/object_keypoints.pdf|object_keypoints]]: . [[papers/cv/object_keypoints.md|Notes]]
  - [[pdfs/cv/patches_are_all_you_need_.pdf|patches_are_all_you_need_]]: . [[papers/cv/patches_are_all_you_need_.md|Notes]]
  - [[pdfs/cv/pretraining_from_pixels.pdf|pretraining_from_pixels]]: . [[papers/cv/pretraining_from_pixels.md|Notes]]
