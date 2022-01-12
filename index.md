@@ -85,7 +85,6 @@
  - [[pdfs/dl/generative/adversarial_feature_learning.pdf|adversarial_feature_learning]]: . [[papers/dl/generative/adversarial_feature_learning.md|Notes]]
  - [[pdfs/dl/generative/big_bigan.pdf|big_bigan]]: . [[papers/dl/generative/big_bigan.md|Notes]]
  - [[pdfs/dl/generative/big_self_supervised_strong_semi_supervised.pdf|big_self_supervised_strong_semi_supervised]]: . [[papers/dl/generative/big_self_supervised_strong_semi_supervised.md|Notes]]
- - [[pdfs/dl/generative/diffusion_models_beat_gan_on_image_synthesis.pdf|diffusion_models_beat_gan_on_image_synthesis]]: . [[papers/dl/generative/diffusion_models_beat_gan_on_image_synthesis.md|Notes]]
  - [[pdfs/dl/generative/generative_imagination_object_world_models.pdf|generative_imagination_object_world_models]]: . [[papers/dl/generative/generative_imagination_object_world_models.md|Notes]]
  - [[pdfs/dl/generative/infogan.pdf|infogan]]: . [[papers/dl/generative/infogan.md|Notes]]
  - [[pdfs/dl/generative/mixup_resynthesis.pdf|mixup_resynthesis]]: . [[papers/dl/generative/mixup_resynthesis.md|Notes]]
@@ -93,6 +92,7 @@
  - [[pdfs/dl/generative/nvae_hierarchical_vae.pdf|nvae_hierarchical_vae]]: . [[papers/dl/generative/nvae_hierarchical_vae.md|Notes]]
  - [[pdfs/dl/generative/pixelcnn.pdf|pixelcnn]]: . [[papers/dl/generative/pixelcnn.md|Notes]]
 ### diffusion
+ - [[pdfs/dl/generative/diffusion/diffusion_models_beat_gan_on_image_synthesis.pdf|Diffusion Models Beat GANs on Image Synthesis.]]: Some small changes to diffusion models can beat GAN models on image synthesis tasks (eg, U-Net, adaptive group normalization, conditioning on the gradients of a classifier, conditional reverse noising). [[papers/dl/generative/diffusion/diffusion_models_beat_gan_on_image_synthesis.md|Notes]]
  - [[pdfs/dl/generative/diffusion/score_based_generative_modeling.pdf|Score-Based Generative Modeling through Stochastic Differential Equations.]]: Generative modelling problem - we want to turn noise into something from the data distribution. The basic idea is that if you know the gradient of the noise, then you can make a reverse stochastic differential equation. Proposes a predictor-corrector which combines numerical SDE solvers with an MCMC approach and provides a way to do class-conditional generation, image inpainting, etc. [[papers/dl/generative/diffusion/score_based_generative_modeling.md|Notes]]
 ### energy
  - [[pdfs/dl/generative/energy/comet_unsupervised_learning_of_compositional_energy_concepts.pdf|comet_unsupervised_learning_of_compositional_energy_concepts]]: . [[papers/dl/generative/energy/comet_unsupervised_learning_of_compositional_energy_concepts.md|Notes]]
