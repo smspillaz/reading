@@ -92,7 +92,7 @@ Also helps in Model-Based RL scenario:
 
 They also help with generalization: by pulling different properties into independent subspaces, you can ignore the subspaces that are irrelevant to the task through masking.
 
-DARLA: Improving Zero-Shot Transfer in Reinforcement Learning (Higgins, 2017).
+[[darla_zero_shot_transfer_reinforcement_learning_disentanglement|DARLA: Improving Zero-Shot Transfer in Reinforcement Learning (Higgins, 2017)]].
 
  - Zero-shot transfer with disentangled representation was much better.
  - Learning reacher policy over disentangled representations resulted in significantly better transfer.
