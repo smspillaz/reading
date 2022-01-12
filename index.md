@@ -101,7 +101,7 @@
 ### gan
  - [[pdfs/dl/generative/gan/stylegan3.pdf|stylegan3]]: . [[papers/dl/generative/gan/stylegan3.md|Notes]]
 ### vae
- - [[pdfs/dl/generative/vae/inductive_bias_vae.pdf|inductive_bias_vae]]: . [[papers/dl/generative/vae/inductive_bias_vae.md|Notes]]
+ - [[pdfs/dl/generative/vae/inductive_bias_vae.pdf|On incorporating inductive biases into VAEs]]: Incorporate a mapping function into the encoder of a VAE which maps from a unit sphere distribution to separate clusters. Then it is easier to decode from those clusters. The mapping function can depend on the problem, its a kind of structural prior on the data space. [[papers/dl/generative/vae/inductive_bias_vae.md|Notes]]
 ## graph
  - [[pdfs/dl/graph/find_your_friendly_neighbourhood_graph_attention.pdf|find_your_friendly_neighbourhood_graph_attention]]: . [[papers/dl/graph/find_your_friendly_neighbourhood_graph_attention.md|Notes]]
  - [[pdfs/dl/graph/graph_neural_networks_with_lea.pdf|graph_neural_networks_with_lea]]: . [[papers/dl/graph/graph_neural_networks_with_lea.md|Notes]]
