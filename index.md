@@ -473,9 +473,9 @@
  - [[pdfs/rl/planning/probabilistic/continuous_time_mbrl.pdf|continuous_time_mbrl]]: . [[papers/rl/planning/probabilistic/continuous_time_mbrl.md|Notes]]
  - [[pdfs/rl/planning/probabilistic/sample_efficient_rl_using_deep_gps.pdf|sample_efficient_rl_using_deep_gps]]: . [[papers/rl/planning/probabilistic/sample_efficient_rl_using_deep_gps.md|Notes]]
 ### value
+ - [[pdfs/rl/planning/value/lutter_value_iteration_continuous_actions_states_and_time.pdf|Value Iteration in Continuous Actions, States and Time.]]: Provides a method to perform value iteration when the state space is continuous. Proposes "Continuous Fitted Value Iteration". If you have a known dynamics model, then the optimal policy and value function can be derived for non-linear control affine dynamics. [[papers/rl/planning/value/lutter_value_iteration_continuous_actions_states_and_time.md|Notes]]
  - [[pdfs/rl/planning/value/chaplot_spatial_planning_transformers.pdf|chaplot_spatial_planning_transformers]]: . [[papers/rl/planning/value/chaplot_spatial_planning_transformers.md|Notes]]
  - [[pdfs/rl/planning/value/gvin_life_beyond_lattices.pdf|gvin_life_beyond_lattices]]: . [[papers/rl/planning/value/gvin_life_beyond_lattices.md|Notes]]
- - [[pdfs/rl/planning/value/lutter_value_iteration_continuous_actions_states_and_time.pdf|lutter_value_iteration_continuous_actions_states_and_time]]: . [[papers/rl/planning/value/lutter_value_iteration_continuous_actions_states_and_time.md|Notes]]
  - [[pdfs/rl/planning/value/motion_planning_transformers.pdf|motion_planning_transformers]]: . [[papers/rl/planning/value/motion_planning_transformers.md|Notes]]
  - [[pdfs/rl/planning/value/mvprop.pdf|mvprop]]: . [[papers/rl/planning/value/mvprop.md|Notes]]
  - [[pdfs/rl/planning/value/predictron.pdf|predictron]]: . [[papers/rl/planning/value/predictron.md|Notes]]

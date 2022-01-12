@@ -4,6 +4,8 @@ Recent developments in the field of model-based RL have proven successful in a r
 
 [[ozair_vector_quantized_models_for_planning.pdf]]
 
+[[ozair_vector_quantized_models_for_planning]]
+
 https://icml.cc/virtual/2021/poster/9543
 
 Model-based planning approach for partially observable environments.
