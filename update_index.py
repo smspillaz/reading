@@ -16,7 +16,8 @@ from update_note_frontmatters import (
 )
 
 _RE_HEADING = re.compile(r"^(?P<hashes>#+)\s+(?P<content>.+)$")
-_RE_LINK = re.compile(r"\[\[(?P<link>[^\|]+)\|?(?P<desc>[^\]]+)\]\]")
+_RE_LINK = re.compile(r"\[\[(?P<text>.+?)\]\]")
+_RE_LINK_INTERNAL = re.compile(r"(?P<link>[^\|]+)\|?(?P<desc>[^\]]*)")
 _RE_BULLET = re.compile(r"\s-\s(?P<content>.+)$")
 
 
@@ -68,21 +69,30 @@ def walk_fs_to_tree(root, exclude):
     return tree
 
 
+def process_link_matches(link_matches):
+    for match in link_matches:
+        yield _RE_LINK_INTERNAL.match(match.group("text"))
+
+
+
 def parse_bullet(bullet_content, path_stack):
     metadata = {}
     link_matches = list(_RE_LINK.finditer(bullet_content))
+    processed_link_matches = list(process_link_matches(link_matches))
 
     assert len(link_matches) > 0
 
     # First link is a link to the fullpath
-    first_link, other_links = link_matches[0], link_matches[1:]
+    first_link, other_links = processed_link_matches[0], processed_link_matches[1:]
     metadata["linkpath"] = first_link.group("link")
     metadata["fullpath"] = os.path.sep.join(
         path_stack + [os.path.basename(metadata["linkpath"])]
     )
     metadata["filename"] = os.path.basename(metadata["fullpath"])
     metadata["filename_link_text"] = first_link.group("desc")
-    metadata["content"] = bullet_content[first_link.end() :].lstrip(": ")
+    # Note, link_matches[0] is different from first_link, since it contains
+    # the position of the link in the original text
+    metadata["content"] = bullet_content[link_matches[0].end() :].lstrip(": ")
     metadata["links"] = [
         {
             "fullpath": l.group("link"),
@@ -324,7 +334,7 @@ def format_link(link):
 
 
 def update_link(content, existing_link, new_link):
-    link_matches = list(_RE_LINK.finditer(content))
+    link_matches = list(_RE_LINK_INTERNAL.finditer(content))
 
     for link in link_matches:
         if link.group("link") == existing_link["fullpath"]:
