@@ -516,6 +516,29 @@ def sync_note_metadata(structure, obj, note_path, *args, **kwargs):
             )
         substructure["filename_link_text"] = note_frontmatter["title"]
 
+    if "cite_key" not in note_frontmatter:
+        if substructure["keys"]:
+            # If there's no cite_key, then pull it from the
+            # the index.
+            print(
+                f"Sync title {substructure['keys'][0]['key']} to note {note_path} frontmatter"
+            )
+            note_frontmatter["cite_key"] = substructure["keys"][0]["key"]
+            changes_made = True
+
+    else:
+        # Pull the title from the note frontmatter and use it in the
+        # index => the note frontmatter is the source of truth in this case.
+        if (
+            not substructure["keys"]
+            or substructure["keys"][0]["key"] != note_frontmatter["cite_key"]
+        ):
+            print(
+                f"Pull key {note_frontmatter['cite_key']} from note {note_path} frontmatter to index"
+            )
+
+        substructure["keys"] = [{"key": note_frontmatter["cite_key"]}]
+
     if changes_made and not dry_run:
         rewrite_frontmatter_section(note_path, format_frontmatter(note_frontmatter))
 
