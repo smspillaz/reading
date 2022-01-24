@@ -63,7 +63,7 @@ def walk_fs_to_tree(root, exclude):
                 "content": "",
             }
             for filename in filenames
-            if os.path.splitext(filename)[1] == ".pdf"
+            if os.path.splitext(filename)[1] in [".ps", ".pdf"]
         ]
 
     return tree
