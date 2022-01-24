@@ -485,11 +485,12 @@ def sync_notes_locations(structure, notes_directory, dry_run=True):
                 f.write("")
 
 
-def sync_note_title(structure, obj, note_path, *args, **kwargs):
+def sync_note_metadata(structure, obj, note_path, *args, **kwargs):
     dry_run = kwargs.get("dry_run", True)
 
     substructure = list(filter(lambda x: x["filename"] == obj, structure))[0]
     note_frontmatter = parse_frontmatter(note_path)
+    changes_made = False
 
     if "title" not in note_frontmatter:
         if (
@@ -504,15 +505,15 @@ def sync_note_title(structure, obj, note_path, *args, **kwargs):
                 f"Sync title {substructure['filename_link_text']} to note {note_path} frontmatter"
             )
             note_frontmatter["title"] = substructure["filename_link_text"]
+            changes_made = True
 
-            if not dry_run:
-                rewrite_frontmatter_section(
-                    note_path, format_frontmatter(note_frontmatter)
-                )
     else:
         # Pull the title from the note frontmatter and use it in the
         # index => the note frontmatter is the source of truth in this case.
         substructure["filename_link_text"] = note_frontmatter["title"]
+
+    if changes_made and not dry_run:
+        rewrite_frontmatter_section(note_path, format_frontmatter(note_frontmatter))
 
 
 def reconcile_notes(structure_to_update, notes_directory, dry_run=True):
@@ -543,7 +544,7 @@ def reconcile_notes(structure_to_update, notes_directory, dry_run=True):
             {"fullpath": link_path, "filename_link_text": "Notes"},
         )
         recursive_do(
-            structure_to_update, dst_key, sync_note_title, link_path, dry_run=dry_run
+            structure_to_update, dst_key, sync_note_metadata, link_path, dry_run=dry_run
         )
 
 
