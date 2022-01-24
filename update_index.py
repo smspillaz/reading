@@ -74,6 +74,22 @@ def process_link_matches(link_matches):
         yield _RE_LINK_INTERNAL.match(match.group("text"))
 
 
+def pairwise(iterable):
+    a, b = itertools.tee(iterable)
+    next(b, None)
+    return zip(a, b)
+
+
+def delete_ranges(content, ranges_to_delete):
+    if not ranges_to_delete:
+        return content
+
+    return "".join(
+        [content[: ranges_to_delete[0][0]]]
+        + [content[e1:b2] for (b1, e1), (b2, e2) in pairwise(ranges_to_delete)]
+        + [content[ranges_to_delete[-1][-1] :]]
+    )
+
 
 def parse_bullet(bullet_content, path_stack):
     metadata = {}
@@ -81,6 +97,10 @@ def parse_bullet(bullet_content, path_stack):
     processed_link_matches = list(process_link_matches(link_matches))
 
     assert len(link_matches) > 0
+
+    ranges_to_delete = [link_matches[0].span()]
+
+    keep_content = delete_ranges(bullet_content, ranges_to_delete).lstrip(": ")
 
     # First link is a link to the fullpath
     first_link, other_links = processed_link_matches[0], processed_link_matches[1:]
@@ -92,7 +112,7 @@ def parse_bullet(bullet_content, path_stack):
     metadata["filename_link_text"] = first_link.group("desc")
     # Note, link_matches[0] is different from first_link, since it contains
     # the position of the link in the original text
-    metadata["content"] = bullet_content[link_matches[0].end() :].lstrip(": ")
+    metadata["content"] = keep_content
     metadata["links"] = [
         {
             "fullpath": l.group("link"),
