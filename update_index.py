@@ -577,8 +577,9 @@ def reconcile_notes(structure_to_update, notes_directory, dry_run=True):
 
 def make_markdown(structure, level=1, file=None):
     for object in structure.get("objects", []):
+        cite_key = "" if not object["keys"] else f"(cite: {object['keys'][0]['key']}) "
         print(
-            f" - [[{object['linkpath']}|{object['filename_link_text']}]]: {object['content']}",
+            f" - [[{object['linkpath']}|{object['filename_link_text']}]]: {cite_key}{object['content']}",
             file=file or sys.stdout,
         )
 
