@@ -86,12 +86,23 @@ def retrieve_metadata(title, no_download=True):
     return json_content
 
 
-def metadata_to_frontmatter_content(metadata):
+def find_best_hit(title, metadata):
     if not int(metadata["result"]["hits"]["@total"]):
         print(f"Error: no hits found for {metadata['result']['query']}")
         return None
 
-    first_hit = metadata["result"]["hits"]["hit"][0]
+    hits = metadata["result"]["hits"]["hit"]
+    distances = [levenshtein(title, h["info"]["title"]) for h in hits]
+    conference_factor = [0 if h["info"]["key"].startswith("conf") else 1 for h in hits]
+    scores = [-int(h["@score"]) for h in hits]
+    weights = list(zip(distances, conference_factor, scores))
+
+    best_index = min(range(len(hits)), key=lambda x: weights[x])
+
+    return hits[best_index]
+
+
+def metadata_to_frontmatter_content(first_hit):
     authors_metadata = first_hit["info"]["authors"]["author"]
     authors_metadata_list = (
         [authors_metadata] if isinstance(authors_metadata, dict) else authors_metadata
@@ -121,7 +132,12 @@ def get_updated_frontmatter(filename, no_download=True):
     if not metadata:
         return None
 
-    retrieved_content = metadata_to_frontmatter_content(metadata)
+    best_hit = find_best_hit(frontmatter["title"], metadata)
+
+    if not best_hit:
+        return None
+
+    retrieved_content = metadata_to_frontmatter_content(best_hit)
 
     if not retrieved_content:
         return None
