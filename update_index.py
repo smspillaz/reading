@@ -510,6 +510,10 @@ def sync_note_metadata(structure, obj, note_path, *args, **kwargs):
     else:
         # Pull the title from the note frontmatter and use it in the
         # index => the note frontmatter is the source of truth in this case.
+        if substructure["filename_link_text"] != note_frontmatter["title"]:
+            print(
+                f"Pull title {note_frontmatter['title']} from note {note_path} frontmatter to index"
+            )
         substructure["filename_link_text"] = note_frontmatter["title"]
 
     if changes_made and not dry_run:
