@@ -13,7 +13,7 @@ import urllib.parse
 from collections import defaultdict
 
 
-_SYNC_VERSION = 0
+_SYNC_VERSION = 2
 
 
 def levenshtein(s1, s2):
