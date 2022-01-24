@@ -115,6 +115,21 @@ def metadata_to_frontmatter_content(first_hit):
     return first_hit_info
 
 
+def make_cite_key(frontmatter_content):
+    cite_key = frontmatter_content["key"]
+
+    if "corr/" in cite_key:
+        cite_key = "/".join(
+            [
+                cite_key,
+                frontmatter_content["authors"][0].split()[-1],
+                frontmatter_content["year"],
+            ]
+        )
+
+    return cite_key
+
+
 def get_updated_frontmatter(filename, no_download=True):
     frontmatter = parse_frontmatter(filename)
 
@@ -142,7 +157,12 @@ def get_updated_frontmatter(filename, no_download=True):
     if not retrieved_content:
         return None
 
-    frontmatter = {**frontmatter, **retrieved_content, "sync_version": _SYNC_VERSION}
+    frontmatter = {
+        **frontmatter,
+        **retrieved_content,
+        "sync_version": _SYNC_VERSION,
+        "cite_key": make_cite_key(retrieved_content),
+    }
 
     return frontmatter
 
