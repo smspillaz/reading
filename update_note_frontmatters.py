@@ -63,7 +63,7 @@ def parse_frontmatter(filename):
 
 def retrieve_metadata(title, no_download=True):
     encoded_title = urllib.parse.quote(title)
-    url = f"https://dblp.org/search/publ/api?query={encoded_title}&format=json&h=1"
+    url = f"https://dblp.org/search/publ/api?query={encoded_title}&format=json&h=50"
 
     print(f"Get {url}")
 
