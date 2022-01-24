@@ -19,6 +19,7 @@ _RE_HEADING = re.compile(r"^(?P<hashes>#+)\s+(?P<content>.+)$")
 _RE_LINK = re.compile(r"\[\[(?P<text>.+?)\]\]")
 _RE_LINK_INTERNAL = re.compile(r"(?P<link>[^\|]+)\|?(?P<desc>[^\]]*)")
 _RE_BULLET = re.compile(r"\s-\s(?P<content>.+)$")
+_RE_KEY = re.compile(r"\(cite:\s(?P<key>[^\s]+)?\)")
 
 
 def lookup_to_node(tree, dirpath):
@@ -95,10 +96,12 @@ def parse_bullet(bullet_content, path_stack):
     metadata = {}
     link_matches = list(_RE_LINK.finditer(bullet_content))
     processed_link_matches = list(process_link_matches(link_matches))
+    key_matches = list(_RE_KEY.finditer(bullet_content))
 
     assert len(link_matches) > 0
+    assert len(key_matches) <= 1
 
-    ranges_to_delete = [link_matches[0].span()]
+    ranges_to_delete = [link_matches[0].span(), *[m.span() for m in key_matches]]
 
     keep_content = delete_ranges(bullet_content, ranges_to_delete).lstrip(": ")
 
@@ -120,6 +123,7 @@ def parse_bullet(bullet_content, path_stack):
         }
         for l in other_links
     ]
+    metadata["keys"] = [{"key": l.group("key")} for l in key_matches]
 
     return metadata
 
