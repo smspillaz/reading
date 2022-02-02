@@ -8,8 +8,9 @@ access: open
 key: journals/corr/abs-2105-01601
 ee: https://arxiv.org/abs/2105.01601
 url: https://dblp.org/rec/journals/corr/abs-2105-01601
-authors: ["Ilya O. Tolstikhin", "Neil Houlsby", "Alexander Kolesnikov 0003", "Lucas Beyer", "Xiaohua Zhai", "Thomas Unterthiner", "Jessica Yung", "Andreas Steiner", "Daniel Keysers", "Jakob Uszkoreit", "Mario Lucic", "Alexey Dosovitskiy"]
-sync_version: 0
+authors: ["Ilya O. Tolstikhin", "Neil Houlsby", "Alexander Kolesnikov", "Lucas Beyer", "Xiaohua Zhai", "Thomas Unterthiner", "Jessica Yung", "Andreas Steiner", "Daniel Keysers", "Jakob Uszkoreit", "Mario Lucic", "Alexey Dosovitskiy"]
+sync_version: 3
+cite_key: journals/corr/abs-2105-01601/Tolstikhin/2021
 ---
 
 # MLP Mixer: An all-MLP architecture for Vision
