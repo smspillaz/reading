@@ -14,7 +14,8 @@ import urllib.parse
 from collections import defaultdict
 
 
-_SYNC_VERSION = 2
+_SYNC_VERSION = 3
+_RE_NUMBER_ONLY = re.compile("[0-9]+")
 
 
 def levenshtein(s1, s2):
@@ -103,17 +104,23 @@ def find_best_hit(title, metadata):
     return hits[best_index]
 
 
-def metadata_to_frontmatter_content(first_hit):
-    authors_metadata = first_hit["info"]["authors"]["author"]
+def filter_author_text(text):
+    return " ".join([
+        t for t in re.split("\s+", text) if not _RE_NUMBER_ONLY.match(t)
+    ])
+
+
+def metadata_to_frontmatter_content(hit):
+    authors_metadata = hit["info"]["authors"]["author"]
     authors_metadata_list = (
         [authors_metadata] if isinstance(authors_metadata, dict) else authors_metadata
     )
-    authors = [a["text"] for a in authors_metadata_list]
+    authors = [filter_author_text(a["text"]) for a in authors_metadata_list]
 
-    first_hit_info = {k: v for k, v in first_hit["info"].items() if isinstance(v, str)}
-    first_hit_info["authors"] = authors
+    hit_info = {k: v for k, v in hit["info"].items() if isinstance(v, str)}
+    hit_info["authors"] = authors
 
-    return first_hit_info
+    return hit_info
 
 
 def make_cite_key(frontmatter_content):
