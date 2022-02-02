@@ -8,6 +8,7 @@ import os
 import sys
 import subprocess
 import re
+import unicodedata
 import urllib.request
 import urllib.parse
 from collections import defaultdict
@@ -122,7 +123,9 @@ def make_cite_key(frontmatter_content):
         cite_key = "/".join(
             [
                 cite_key,
-                frontmatter_content["authors"][0].split()[-1],
+                unicodedata.normalize(
+                    "NFD", frontmatter_content["authors"][0].split()[-1]
+                ).encode("ascii", "ignore").decode(),
                 frontmatter_content["year"],
             ]
         )
