@@ -517,7 +517,7 @@ def sync_note_metadata(structure, obj, note_path, *args, **kwargs):
         substructure["filename_link_text"] = note_frontmatter["title"]
 
     if "cite_key" not in note_frontmatter:
-        if substructure["keys"]:
+        if substructure.get("keys", []):
             # If there's no cite_key, then pull it from the
             # the index.
             print(
@@ -577,7 +577,7 @@ def reconcile_notes(structure_to_update, notes_directory, dry_run=True):
 
 def make_markdown(structure, level=1, file=None):
     for object in structure.get("objects", []):
-        cite_key = "" if not object["keys"] else f"(cite: {object['keys'][0]['key']}) "
+        cite_key = "" if not object.get("keys", []) else f"(cite: {object['keys'][0]['key']}) "
         print(
             f" - [[{object['linkpath']}|{object['filename_link_text']}]]: {cite_key}{object['content']}",
             file=file or sys.stdout,
