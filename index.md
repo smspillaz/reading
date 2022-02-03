@@ -300,6 +300,7 @@
 ## image_captioning
  - [[pdfs/nlp/image_captioning/film.pdf|film]]: . [[papers/nlp/image_captioning/film.md|Notes]]
  - [[pdfs/nlp/image_captioning/kim_vilt_vision_language_transformer_without_convolution.pdf|kim_vilt_vision_language_transformer_without_convolution]]: . [[papers/nlp/image_captioning/kim_vilt_vision_language_transformer_without_convolution.md|Notes]]
+ - [[pdfs/nlp/image_captioning/modern_modulating_early_visual_processing_by_language.pdf|modern_modulating_early_visual_processing_by_language]]: . [[papers/nlp/image_captioning/modern_modulating_early_visual_processing_by_language.md|Notes]]
  - [[pdfs/nlp/image_captioning/scan_hierarchical_compositional_visual_concepts.pdf|scan_hierarchical_compositional_visual_concepts]]: . [[papers/nlp/image_captioning/scan_hierarchical_compositional_visual_concepts.md|Notes]]
  - [[pdfs/nlp/image_captioning/show_attend_tell.pdf|show_attend_tell]]: . [[papers/nlp/image_captioning/show_attend_tell.md|Notes]]
  - [[pdfs/nlp/image_captioning/text_neural_operator_image_manip.pdf|text_neural_operator_image_manip]]: . [[papers/nlp/image_captioning/text_neural_operator_image_manip.md|Notes]]
