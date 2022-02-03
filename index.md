@@ -542,6 +542,7 @@
  - [[pdfs/rl/offline/cog_connecting_new_skills_to_past_experience_with_offline_reinforcement_learning.pdf|cog_connecting_new_skills_to_past_experience_with_offline_reinforcement_learning]]: . [[papers/rl/offline/cog_connecting_new_skills_to_past_experience_with_offline_reinforcement_learning.md|Notes]]
  - [[pdfs/rl/offline/deepaveragers_offline_rl_by_solving_derived_nonparametric_mdps.pdf|deepaveragers_offline_rl_by_solving_derived_nonparametric_mdps]]: . [[papers/rl/offline/deepaveragers_offline_rl_by_solving_derived_nonparametric_mdps.md|Notes]]
  - [[pdfs/rl/offline/lompo-offline-rl-images-latent-space.pdf|lompo-offline-rl-images-latent-space]]: . [[papers/rl/offline/lompo-offline-rl-images-latent-space.md|Notes]]
+ - [[pdfs/rl/offline/offline_reinfrocement_learning_with_implicit_q_learning.pdf|offline_reinfrocement_learning_with_implicit_q_learning]]: . [[papers/rl/offline/offline_reinfrocement_learning_with_implicit_q_learning.md|Notes]]
  - [[pdfs/rl/offline/workflow_offline_model_free_robotic_rl.pdf|workflow_offline_model_free_robotic_rl]]: . [[papers/rl/offline/workflow_offline_model_free_robotic_rl.md|Notes]]
 ### model_based
  - [[pdfs/rl/offline/model_based/combo_conservative_offline_model_based_policy_optimization.pdf|combo_conservative_offline_model_based_policy_optimization]]: . [[papers/rl/offline/model_based/combo_conservative_offline_model_based_policy_optimization.md|Notes]]
