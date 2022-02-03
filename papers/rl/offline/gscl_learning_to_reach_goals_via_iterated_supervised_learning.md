@@ -1,3 +1,16 @@
+---
+title: Learning to Reach Goals via Iterated Supervised Learning.
+venue: ICLR
+year: 2021
+type: Conference and Workshop Papers
+access: open
+key: conf/iclr/Ghosh0RFDEL21
+ee: https://openreview.net/forum?id=rALA0Xo6yNJ
+url: https://dblp.org/rec/conf/iclr/Ghosh0RFDEL21
+authors: ["Dibya Ghosh", "Abhishek Gupta", "Ashwin Reddy", "Justin Fu", "Coline Manon Devin", "Benjamin Eysenbach", "Sergey Levine"]
+sync_version: 3
+cite_key: conf/iclr/Ghosh0RFDEL21
+---
 # Learning to reach goals via iterated supervised learning
 
 - Goal-reaching is hard
@@ -32,4 +45,3 @@ GSCL only relabels the goal to be one of the achieved goal states later in the t
 GSCL uses it to directly learn a policy.
 
 When data collection and optimization is iterated, then GCSL optimizes a lower bound on the true RL objective. Under certain conditions on the environment, we have a performance guarantee.
-
