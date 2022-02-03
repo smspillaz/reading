@@ -215,6 +215,7 @@
  - [[pdfs/dl/transformer/vision_text/clip_transferable_visual_models_from_natural_language_supervision.pdf|clip_transferable_visual_models_from_natural_language_supervision]]: . [[papers/dl/transformer/vision_text/clip_transferable_visual_models_from_natural_language_supervision.md|Notes]]
  - [[pdfs/dl/transformer/vision_text/crrn_cross_modal_relational_reasoning_network_vqa.pdf|crrn_cross_modal_relational_reasoning_network_vqa]]: . [[papers/dl/transformer/vision_text/crrn_cross_modal_relational_reasoning_network_vqa.md|Notes]]
  - [[pdfs/dl/transformer/vision_text/dall_e.pdf|dall_e]]: . [[papers/dl/transformer/vision_text/dall_e.md|Notes]]
+ - [[pdfs/dl/transformer/vision_text/explainable_semantic_space_by_grounding_language_to_vision_with_cross_modal_contrastive_learning.pdf|explainable_semantic_space_by_grounding_language_to_vision_with_cross_modal_contrastive_learning]]: . [[papers/dl/transformer/vision_text/explainable_semantic_space_by_grounding_language_to_vision_with_cross_modal_contrastive_learning.md|Notes]]
  - [[pdfs/dl/transformer/vision_text/global_fusion_attention_for_vision_and_language_understanding.pdf|global_fusion_attention_for_vision_and_language_understanding]]: . [[papers/dl/transformer/vision_text/global_fusion_attention_for_vision_and_language_understanding.md|Notes]]
  - [[pdfs/dl/transformer/vision_text/lxmert.pdf|lxmert]]: . [[papers/dl/transformer/vision_text/lxmert.md|Notes]]
  - [[pdfs/dl/transformer/vision_text/uniter.pdf|uniter]]: . [[papers/dl/transformer/vision_text/uniter.md|Notes]]
