@@ -276,6 +276,8 @@
  - [[pdfs/nlp/data_augmentation/coda_data_augmentation_in_nlp.pdf|coda_data_augmentation_in_nlp]]: . [[papers/nlp/data_augmentation/coda_data_augmentation_in_nlp.md|Notes]]
  - [[pdfs/nlp/data_augmentation/grondahl_combinatorial_paraphrasing.pdf|grondahl_combinatorial_paraphrasing]]: . [[papers/nlp/data_augmentation/grondahl_combinatorial_paraphrasing.md|Notes]]
  - [[pdfs/nlp/data_augmentation/grondal_text_oversampling_aug.pdf|grondal_text_oversampling_aug]]: . [[papers/nlp/data_augmentation/grondal_text_oversampling_aug.md|Notes]]
+## datasets
+ - [[pdfs/nlp/datasets/open_subtitles_paraphrase_corpus_for_six_languages.pdf|open_subtitles_paraphrase_corpus_for_six_languages]]: . [[papers/nlp/datasets/open_subtitles_paraphrase_corpus_for_six_languages.md|Notes]]
 ## failure_modes
  - [[pdfs/nlp/failure_modes/real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models.pdf|real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models]]: . [[papers/nlp/failure_modes/real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models.md|Notes]]
  - [[pdfs/nlp/failure_modes/the_curious_case_of_neural_text_degeneration.pdf|the_curious_case_of_neural_text_degeneration]]: . [[papers/nlp/failure_modes/the_curious_case_of_neural_text_degeneration.md|Notes]]
