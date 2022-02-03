@@ -343,7 +343,7 @@
  - [[pdfs/rl/grounded_language/babyai/babyai1.1.pdf|BabyAI 1.1.]]: (cite: journals/corr/abs-2007-12770/Hui/2020) . [[papers/rl/grounded_language/babyai/babyai1.1.md|Notes]]
  - [[pdfs/rl/grounded_language/babyai/babyai++.pdf|BabyAI++ - Towards Grounded-Language Learning beyond Memorization.]]: (cite: journals/corr/abs-2004-07200/Cao/2020) . [[papers/rl/grounded_language/babyai/babyai++.md|Notes]]
 ### environments
- - [[pdfs/rl/grounded_language/environments/alfred.pdf|alfred]]: . [[papers/rl/grounded_language/environments/alfred.md|Notes]]
+ - [[pdfs/rl/grounded_language/environments/alfred.pdf|ALFRED - A Benchmark for Interpreting Grounded Instructions for Everyday Tasks.]]: (cite: conf/cvpr/ShridharTGBHMZF20) . [[papers/rl/grounded_language/environments/alfred.md|Notes]]
  - [[pdfs/rl/grounded_language/environments/gscan_grounded_language_benchmarks.pdf|gscan_grounded_language_benchmarks]]: . [[papers/rl/grounded_language/environments/gscan_grounded_language_benchmarks.md|Notes]]
 ### generalization
  - [[pdfs/rl/grounded_language/generalization/bcz_zero_shot_task_generalization_language.pdf|BC-Z Zero-Shot Task Generalization with Robotic Imitation Learning]]: Empircal study of a large-scale interactive imitation learning system that can solve many tasks including tasks not seen during training. A large dataset of 100 manipulation tasks is collected across many robots. At test time the robot can perform 24 unseen manipulation tasks between objects that have never previously appeared together in the same scene. [[papers/rl/grounded_language/generalization/bcz_zero_shot_task_generalization_language.md|Notes]]
