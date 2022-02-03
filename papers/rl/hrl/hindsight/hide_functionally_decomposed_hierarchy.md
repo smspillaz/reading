@@ -12,7 +12,8 @@ doi: 10.1109/LRA.2021.3060403
 ee: https://doi.org/10.1109/LRA.2021.3060403
 url: https://dblp.org/rec/journals/ral/ChristenJAH21
 authors: ["Sammy Christen", "Luk\u00e1s Jendele", "Emre Aksan", "Otmar Hilliges"]
-sync_version: 0
+sync_version: 3
+cite_key: journals/ral/ChristenJAH21
 ---
 
 ![[hide_arch.png]]
@@ -21,7 +22,7 @@ sync_version: 0
  - 2-layer HRL
  - Explicit task decomposition by explicitly separating the state
    spaces in each layer
- - Different layers have different state spaces 
+ - Different layers have different state spaces
  - Allow for different control agents ot be transferred across hierarchies
  - Planning in 2D and in 3D
    - Receives information for planning then provides subgoal
