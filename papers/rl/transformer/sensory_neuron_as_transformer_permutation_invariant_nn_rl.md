@@ -9,7 +9,8 @@ key: journals/corr/abs-2109-02869
 ee: https://arxiv.org/abs/2109.02869
 url: https://dblp.org/rec/journals/corr/abs-2109-02869
 authors: ["Yujin Tang", "David Ha"]
-sync_version: 0
+sync_version: 3
+cite_key: journals/corr/abs-2109-02869/Tang/2021
 ---
 
 # Sensory Neuron as a Transformer: Permutation Invariant Neural Networks for Reinforcement Learning
