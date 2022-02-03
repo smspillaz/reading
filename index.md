@@ -406,12 +406,12 @@
 ## inverse_rl
  - [[pdfs/rl/inverse_rl/guided_cost_learning.pdf|Guided Cost Learning - Deep Inverse Optimal Control via Policy Optimization.]]: (cite: conf/icml/FinnLA16) Extends the MaxEnt method by addressing two challenges, the need for informative features and effective regularization and the difficulty of learning the cost function under unknown dynamics. To address the first problem, learn arbitrary nonlinear cost functions with a neural network. To deal with the second problem, formulate a sample-based approximation for MaxEnt. In Guided Cost Learning, you match the maximum entropy cost distribution (where the cost is the energy function) by optimizing a trajectory distribution with respect to the current cost using RL. Use the samples to both improve the policy and estimate the partition function. This basically requires both offline data and also a few online trajectories where you don't know the reward function but you optimize the online policy according to what your current estimate of the cost function is. . [[papers/rl/inverse_rl/guided_cost_learning.md|Notes]]
 ## learning_algorithms
+ - [[pdfs/rl/learning_algorithms/ppo.pdf|Proximal Policy Optimization Algorithms.]]: (cite: journals/corr/SchulmanWDRK17/Schulman/2017) . [[papers/rl/learning_algorithms/ppo.md|Notes]]
  - [[pdfs/rl/learning_algorithms/action_dependent_baselines.pdf|action_dependent_baselines]]: . [[papers/rl/learning_algorithms/action_dependent_baselines.md|Notes]]
  - [[pdfs/rl/learning_algorithms/ddpg.pdf|ddpg]]: . [[papers/rl/learning_algorithms/ddpg.md|Notes]]
  - [[pdfs/rl/learning_algorithms/equivalence_policy_gradient_soft_q_learning.pdf|equivalence_policy_gradient_soft_q_learning]]: . [[papers/rl/learning_algorithms/equivalence_policy_gradient_soft_q_learning.md|Notes]]
  - [[pdfs/rl/learning_algorithms/gae_generalized_advantage_estimation.pdf|gae_generalized_advantage_estimation]]: . [[papers/rl/learning_algorithms/gae_generalized_advantage_estimation.md|Notes]]
  - [[pdfs/rl/learning_algorithms/phasic_policy_gradient.pdf|phasic_policy_gradient]]: . [[papers/rl/learning_algorithms/phasic_policy_gradient.md|Notes]]
- - [[pdfs/rl/learning_algorithms/ppo.pdf|ppo]]: . [[papers/rl/learning_algorithms/ppo.md|Notes]]
  - [[pdfs/rl/learning_algorithms/soft_actor_critic.pdf|soft_actor_critic]]: . [[papers/rl/learning_algorithms/soft_actor_critic.md|Notes]]
 ## mdp
  - [[pdfs/rl/mdp/partially_observable_stochastic_games.pdf|partially_observable_stochastic_games]]: . [[papers/rl/mdp/partially_observable_stochastic_games.md|Notes]]
