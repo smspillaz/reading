@@ -283,6 +283,8 @@
  - [[pdfs/nlp/knowledge_graph/interpreting_knowledge_graph_relation_representations_from_word_embeddings.pdf|interpreting_knowledge_graph_relation_representations_from_word_embeddings]]: . [[papers/nlp/knowledge_graph/interpreting_knowledge_graph_relation_representations_from_word_embeddings.md|Notes]]
  - [[pdfs/nlp/knowledge_graph/language_models_knowledge_bases.pdf|language_models_knowledge_bases]]: . [[papers/nlp/knowledge_graph/language_models_knowledge_bases.md|Notes]]
  - [[pdfs/nlp/knowledge_graph/seq2kg_e2e_knowledge_graph_creation.pdf|seq2kg_e2e_knowledge_graph_creation]]: . [[papers/nlp/knowledge_graph/seq2kg_e2e_knowledge_graph_creation.md|Notes]]
+## methodology
+ - [[pdfs/nlp/methodology/allentune_show_your_work_improved_reporting_of_experimental_results_acl.pdf|allentune_show_your_work_improved_reporting_of_experimental_results_acl]]: . [[papers/nlp/methodology/allentune_show_your_work_improved_reporting_of_experimental_results_acl.md|Notes]]
 ## rnn
  - [[pdfs/nlp/rnn/neural_machine_translation_jointly_learning_to_align_and_translate.pdf|neural_machine_translation_jointly_learning_to_align_and_translate]]: . [[papers/nlp/rnn/neural_machine_translation_jointly_learning_to_align_and_translate.md|Notes]]
 ## transformer
