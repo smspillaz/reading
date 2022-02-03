@@ -306,6 +306,7 @@
  - [[pdfs/nlp/transformer/competition_level_code_generation_with_alphacode.pdf|competition_level_code_generation_with_alphacode]]: . [[papers/nlp/transformer/competition_level_code_generation_with_alphacode.md|Notes]]
  - [[pdfs/nlp/transformer/instruct_gpt_training_language_models_to_follow_instructions_with_human_feedback.pdf|instruct_gpt_training_language_models_to_follow_instructions_with_human_feedback]]: . [[papers/nlp/transformer/instruct_gpt_training_language_models_to_follow_instructions_with_human_feedback.md|Notes]]
 ## translation
+ - [[pdfs/nlp/translation/generating_similes_like_a_pro_a_style_transfer_approach_for_simile_generation.pdf|generating_similes_like_a_pro_a_style_transfer_approach_for_simile_generation]]: . [[papers/nlp/translation/generating_similes_like_a_pro_a_style_transfer_approach_for_simile_generation.md|Notes]]
 ### editing
  - [[pdfs/nlp/translation/editing/lasertagger_encode_tag_realize_high_precision_text_editting.pdf|Encode, Tag, Realize - High-Precision Text Editing.]]: (cite: conf/emnlp/MalmiKRMS19) . [[papers/nlp/translation/editing/lasertagger_encode_tag_realize_high_precision_text_editting.md|Notes]]
  - [[pdfs/nlp/translation/editing/levenshtein_transformers.pdf|Levenshtein Transformer.]]: (cite: conf/nips/GuWZ19) . [[papers/nlp/translation/editing/levenshtein_transformers.md|Notes]]
