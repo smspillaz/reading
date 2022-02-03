@@ -119,6 +119,8 @@ $$
 
 "Affine coupling layer" - several can be composed together to transform noise vectors into samples from complex distributions.
 
+![[parrot_affine_invertible_architecture.png]]
+
 So basically you learn to map from noise to action that was likely in the dataset.
 
 Since the mapping is invertible, for any $a$ you can find a $z$ that generates $z = f^{-1}_{\phi} (a; s)$ 
