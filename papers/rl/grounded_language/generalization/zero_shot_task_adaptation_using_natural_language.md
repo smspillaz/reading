@@ -9,7 +9,8 @@ key: journals/corr/abs-2106-02972
 ee: https://arxiv.org/abs/2106.02972
 url: https://dblp.org/rec/journals/corr/abs-2106-02972
 authors: ["Prasoon Goyal", "Raymond J. Mooney", "Scott Niekum"]
-sync_version: 0
+sync_version: 3
+cite_key: journals/corr/abs-2106-02972/Goyal/2021
 ---
 
 Proposes a setting where given a demonstration for a task (source task) plus a description of how the target task is different from the source task, do the target task zero shot.
@@ -65,7 +66,7 @@ A datapoint is sampled at random from $D$. When predicting the value function, s
 Place objects in different configurations to create different states. Action space is 30 move actions, eg, 6 x 5 positions.
 
 
-**Language Data**: 
+**Language Data**:
 
  Six different adaptations:
 
