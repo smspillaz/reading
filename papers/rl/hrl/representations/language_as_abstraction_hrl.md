@@ -1,3 +1,17 @@
+---
+title: Language as an Abstraction for Hierarchical Deep Reinforcement Learning.
+venue: NeurIPS
+pages: 9414-9426
+year: 2019
+type: Conference and Workshop Papers
+access: open
+key: conf/nips/JiangGMF19
+ee: https://proceedings.neurips.cc/paper/2019/hash/0af787945872196b42c9f73ead2565c8-Abstract.html
+url: https://dblp.org/rec/conf/nips/JiangGMF19
+authors: ["Yiding Jiang", "Shixiang Gu", "Kevin Murphy", "Chelsea Finn"]
+sync_version: 3
+cite_key: conf/nips/JiangGMF19
+---
 # Language as an Abstraction for Hierarchical Deep RL
 
 How do we solve complex temporally extended tasks? Probably by decomposing into parts, but this is not
@@ -53,7 +67,7 @@ Depends entirely on the final task reward, scales poorly, sample inefficient.
       the actual goal.
    => (comment: So this is sort of like regularization then. Making the loss about $\epsilon$-closeness
        probably makes you overfit to that problem)
-       
+
 ## Some preliminaries
 
 RL: $\max \pi(a_t, s_t) = \sum_t E_{s_t, a_t}[\gamma^t R(s_t, a_t)]$
@@ -96,7 +110,7 @@ Acting within the language:
  -> Technically the size of the action space scales with the number of tokens in the
     language, but the fact that the grammar is consistent means that this isn't
     a problem in reality.
-    
+
 How to generate the language?
  -> Generate some isotropic noise and latent code
  -> Use a generator component to map from a latent code $\hat z$ to a vector
