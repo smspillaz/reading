@@ -8,5 +8,6 @@ key: conf/iclr/FuKLG19
 ee: https://openreview.net/forum?id=r1lq1hRqYQ
 url: https://dblp.org/rec/conf/iclr/FuKLG19
 authors: ["Justin Fu", "Anoop Korattikara", "Sergey Levine", "Sergio Guadarrama"]
-sync_version: 0
+sync_version: 3
+cite_key: conf/iclr/FuKLG19
 ---
