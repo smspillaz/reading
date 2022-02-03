@@ -9,7 +9,8 @@ key: conf/aaai/ChaplotSPRS18
 ee: https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17425
 url: https://dblp.org/rec/conf/aaai/ChaplotSPRS18
 authors: ["Devendra Singh Chaplot", "Kanthashree Mysore Sathyendra", "Rama Kumar Pasumarthi", "Dheeraj Rajagopal", "Ruslan Salakhutdinov"]
-sync_version: 0
+sync_version: 3
+cite_key: conf/aaai/ChaplotSPRS18
 ---
 # Gated Attention architectures for generalization in task-oriented language grounding
 
