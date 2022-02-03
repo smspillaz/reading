@@ -207,6 +207,7 @@
 ## uncertainty
  - [[pdfs/dl/uncertainty/uncertainty_duq.pdf|uncertainty_duq]]: . [[papers/dl/uncertainty/uncertainty_duq.md|Notes]]
 # ethics
+ - [[pdfs/ethics/social_and_governance_implicaitons_of_improved_data_efficiency.pdf|Social and Governance Implications of Improved Data Efficiency.]]: (cite: conf/aies/TuckerAD20) Explores the socio-economic impacts of increased data efficiency. Examines the intuition that increased data efficiency will "erode the barriers to entry protecting incumbent data-rich AI firms" and finds that this intuition is only partially correct. The "access effect" is such that improved data efficiency enables new applications in data limited domains. The "performance effect" (not be confused with the "access effect") is about how much data is required to get superior performance, and here the power law and law of diminishing returns still applies - the base amount of data required to get started is lower and the exponential curve might be slightly flatter, but it is still exponential. . [[papers/ethics/social_and_governance_implicaitons_of_improved_data_efficiency.md|Notes]]
  - [[pdfs/ethics/ai_and_global_south.pdf|ai_and_global_south]]: . [[papers/ethics/ai_and_global_south.md|Notes]]
  - [[pdfs/ethics/ai_now_2017.pdf|ai_now_2017]]: . [[papers/ethics/ai_now_2017.md|Notes]]
  - [[pdfs/ethics/ai_now_2019.pdf|ai_now_2019]]: . [[papers/ethics/ai_now_2019.md|Notes]]
