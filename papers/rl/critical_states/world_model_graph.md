@@ -8,8 +8,9 @@ access: open
 key: conf/icml/Zhang0S21a
 ee: http://proceedings.mlr.press/v139/zhang21x.html
 url: https://dblp.org/rec/conf/icml/Zhang0S21a
-authors: ["Lunjun Zhang", "Ge Yang 0003", "Bradly C. Stadie"]
-sync_version: 0
+authors: ["Lunjun Zhang", "Ge Yang", "Bradly C. Stadie"]
+sync_version: 3
+cite_key: conf/icml/Zhang0S21a
 ---
 
 # Planning
