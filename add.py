@@ -10,8 +10,7 @@ def run(args, dry_run=False, **kwargs):
     print(" ".join(args))
 
     if not dry_run:
-        subprocess.run(args, **kwargs)
-
+        return subprocess.run(args, **kwargs)
 
 
 def main():
