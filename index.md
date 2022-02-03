@@ -267,7 +267,7 @@
  - [[pdfs/nlp/rnn/neural_machine_translation_jointly_learning_to_align_and_translate.pdf|neural_machine_translation_jointly_learning_to_align_and_translate]]: . [[papers/nlp/rnn/neural_machine_translation_jointly_learning_to_align_and_translate.md|Notes]]
 ## transformer
  - [[pdfs/nlp/transformer/gpt3.pdf|Language Models are Few-Shot Learners.]]: (cite: conf/nips/BrownMRSKDNSSAA20) . [[papers/nlp/transformer/gpt3.md|Notes]]
- - [[pdfs/nlp/transformer/transformer_training_tips.pdf|transformer_training_tips]]: . [[papers/nlp/transformer/transformer_training_tips.md|Notes]]
+ - [[pdfs/nlp/transformer/transformer_training_tips.pdf|Training Tips for the Transformer Model.]]: (cite: journals/pbml/PopelB18) . [[papers/nlp/transformer/transformer_training_tips.md|Notes]]
  - [[pdfs/nlp/transformer/vaswani_attention.pdf|vaswani_attention]]: . [[papers/nlp/transformer/vaswani_attention.md|Notes]]
 # programming
  - [[pdfs/programming/catala_programming_for_law.pdf|catala_programming_for_law]]: . [[papers/programming/catala_programming_for_law.md|Notes]]
