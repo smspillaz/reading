@@ -40,8 +40,8 @@ def main():
                     run(["git", "add", "img/" + link], dry_run=args.dry_run)
                     print("Added img", link)
                 elif "/" in link:
-                    ret = run(["git", "add", link]).retcode
-                    if ret != 0:
+                    proc = run(["git", "add", link], dry_run=args.dry_run)
+                    if proc and proc.returncode != 0:
                         print("Failed to add", link)
 
                 else:
