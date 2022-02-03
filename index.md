@@ -49,6 +49,7 @@
  - [[pdfs/dl/contrastive/clip_learning_transferable_visual_models_nl_supervision.pdf|clip_learning_transferable_visual_models_nl_supervision]]: . [[papers/dl/contrastive/clip_learning_transferable_visual_models_nl_supervision.md|Notes]]
  - [[pdfs/dl/contrastive/contrastive_predictive_coding_infonce.pdf|contrastive_predictive_coding_infonce]]: . [[papers/dl/contrastive/contrastive_predictive_coding_infonce.md|Notes]]
  - [[pdfs/dl/contrastive/contrastive_representaiton_hypersphere.pdf|contrastive_representaiton_hypersphere]]: . [[papers/dl/contrastive/contrastive_representaiton_hypersphere.md|Notes]]
+ - [[pdfs/dl/contrastive/data2vec_a_general_framework_for_self_supervised_learning_in_speech_vision_and_language.pdf|data2vec_a_general_framework_for_self_supervised_learning_in_speech_vision_and_language]]: . [[papers/dl/contrastive/data2vec_a_general_framework_for_self_supervised_learning_in_speech_vision_and_language.md|Notes]]
  - [[pdfs/dl/contrastive/ermolov_whitening_ssl.pdf|ermolov_whitening_ssl]]: . [[papers/dl/contrastive/ermolov_whitening_ssl.md|Notes]]
  - [[pdfs/dl/contrastive/scaling_up_visual_and_vision_language_representation_learning_noisy_text.pdf|scaling_up_visual_and_vision_language_representation_learning_noisy_text]]: . [[papers/dl/contrastive/scaling_up_visual_and_vision_language_representation_learning_noisy_text.md|Notes]]
  - [[pdfs/dl/contrastive/simclr_contrastive_visual_rep.pdf|simclr_contrastive_visual_rep]]: . [[papers/dl/contrastive/simclr_contrastive_visual_rep.md|Notes]]
