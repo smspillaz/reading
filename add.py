@@ -19,6 +19,9 @@ def main():
     parser.add_argument(
         "--dry-run", action="store_true", help="Don't run, just print commands"
     )
+    parser.add_argument(
+        "--update-index", action="store_true", help="Also update the index"
+    )
     parser.add_argument("filename")
     args = parser.parse_args()
 
@@ -52,7 +55,7 @@ def main():
         dry_run=args.dry_run,
     )
 
-    if os.path.exists("index.stage"):
+    if args.update_index and os.path.exists("index.stage"):
         basename = os.path.splitext(os.path.basename(args.filename))[0]
         run(
             [
