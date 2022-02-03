@@ -1,14 +1,14 @@
 ---
-title: Robot Manipulation Learning Using Generative Adversarial Imitation Learning.
-venue: IJCAI
-pages: 4893-4894
-year: 2021
-type: Conference and Workshop Papers
+title: Generative Adversarial Imitation Learning.
+venue: NeurIPS
+pages: 4565-4573
+year: 2016
+type: Informal Publications
 access: open
-key: conf/ijcai/Jabri21
-doi: 10.24963/IJCAI.2021/678
-ee: https://doi.org/10.24963/ijcai.2021/678
-url: https://dblp.org/rec/conf/ijcai/Jabri21
-authors: ["Mohamed Khalil Jabri"]
-sync_version: 0
+key: journals/corr/HoE16
+ee: http://papers.nips.cc/paper/6391-generative-adversarial-imitation-learning
+url: http://papers.nips.cc/paper/6391-generative-adversarial-imitation-learning
+authors: ["Jonathan Ho", "Stefano Ermon"]
+sync_version: 3
+cite_key: journals/corr/HoE16
 ---
