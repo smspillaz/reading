@@ -9,7 +9,8 @@ key: conf/icml/HoedtKKHHNHK21
 ee: http://proceedings.mlr.press/v139/hoedt21a.html
 url: https://dblp.org/rec/conf/icml/HoedtKKHHNHK21
 authors: ["Pieter-Jan Hoedt", "Frederik Kratzert", "Daniel Klotz", "Christina Halmich", "Markus Holzleitner", "Grey Nearing", "Sepp Hochreiter", "G\u00fcnter Klambauer"]
-sync_version: 0
+sync_version: 3
+cite_key: conf/icml/HoedtKKHHNHK21
 ---
 
 # MC-LSTM
@@ -52,7 +53,7 @@ $$h^t = \mathbf{o}^t \odot \mathbf{m}^t_{\text{total}}$$
 
 **Positive Left Stochastic Matrix**: Used to describe the transitions of a Markov chain. Each entry mus be a nonnegative real number representing a probability.
 
- - Each column must sum to 1, which is the reason for the identity $1^T \cdot R = 1^T$ 
+ - Each column must sum to 1, which is the reason for the identity $1^T \cdot R = 1^T$
 
 So interpreting each of these equations:
  - First equation is the dot product of the prior cell state (masses), redistributed according to $R^t$ plus the input gate times the auxiliary input $x^t$. Note that $x^t$ is a *scalar* and $i^t$ is a *vector* and the output, $\mathbf{m}_{\text{total}}$ is a *vector*, so the first equation *redistributes the existing mass* and *adds new mass* according to the input gate times some scale factor.
