@@ -35,6 +35,7 @@
  - [[pdfs/dl/slide_lsh.pdf|slide_lsh]]: . [[papers/dl/slide_lsh.md|Notes]]
  - [[pdfs/dl/soft_sort_continuous_argsort.pdf|soft_sort_continuous_argsort]]: . [[papers/dl/soft_sort_continuous_argsort.md|Notes]]
 ## compositional
+ - [[pdfs/dl/compositional/compositional_attention_networks.pdf|Compositional Attention Networks for Machine Reasoning.]]: (cite: conf/iclr/HudsonM18) . [[papers/dl/compositional/compositional_attention_networks.md|Notes]]
  - [[pdfs/dl/compositional/compose_ae_compositional_learning_of_image_text_query_for_image_retrieval.pdf|Compositional Learning of Image-Text Query for Image Retrieval.]]: (cite: conf/wacv/AnwaarLK21) . [[papers/dl/compositional/compose_ae_compositional_learning_of_image_text_query_for_image_retrieval.md|Notes]]
  - [[pdfs/dl/compositional/compositional_generalization_through_meta_seq2seq.pdf|Compositional generalization through meta sequence-to-sequence learning.]]: (cite: conf/nips/Lake19) . [[papers/dl/compositional/compositional_generalization_through_meta_seq2seq.md|Notes]]
  - [[pdfs/dl/compositional/compositionality_decomposed_neural_networks_generalize.pdf|Compositionality Decomposed - How do Neural Networks Generalise?]]: (cite: journals/jair/HupkesDMB20) . [[papers/dl/compositional/compositionality_decomposed_neural_networks_generalize.md|Notes]]
