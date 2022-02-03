@@ -105,9 +105,7 @@ def find_best_hit(title, metadata):
 
 
 def filter_author_text(text):
-    return " ".join([
-        t for t in re.split("\s+", text) if not _RE_NUMBER_ONLY.match(t)
-    ])
+    return " ".join([t for t in re.split("\s+", text) if not _RE_NUMBER_ONLY.match(t)])
 
 
 def metadata_to_frontmatter_content(hit):
