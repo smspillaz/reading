@@ -130,7 +130,9 @@ def make_cite_key(frontmatter_content):
                 cite_key,
                 unicodedata.normalize(
                     "NFD", frontmatter_content["authors"][0].split()[-1]
-                ).encode("ascii", "ignore").decode(),
+                )
+                .encode("ascii", "ignore")
+                .decode(),
                 frontmatter_content["year"],
             ]
         )
