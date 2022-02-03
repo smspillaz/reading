@@ -285,6 +285,8 @@
  - [[pdfs/nlp/knowledge_graph/seq2kg_e2e_knowledge_graph_creation.pdf|seq2kg_e2e_knowledge_graph_creation]]: . [[papers/nlp/knowledge_graph/seq2kg_e2e_knowledge_graph_creation.md|Notes]]
 ## methodology
  - [[pdfs/nlp/methodology/allentune_show_your_work_improved_reporting_of_experimental_results_acl.pdf|allentune_show_your_work_improved_reporting_of_experimental_results_acl]]: . [[papers/nlp/methodology/allentune_show_your_work_improved_reporting_of_experimental_results_acl.md|Notes]]
+## reasoning
+ - [[pdfs/nlp/reasoning/q2_evaluating_factual_consistency_in_knowledge_grounded_dialogues_via_question_generation_and_question_answering.pdf|q2_evaluating_factual_consistency_in_knowledge_grounded_dialogues_via_question_generation_and_question_answering]]: . [[papers/nlp/reasoning/q2_evaluating_factual_consistency_in_knowledge_grounded_dialogues_via_question_generation_and_question_answering.md|Notes]]
 ## rnn
  - [[pdfs/nlp/rnn/neural_machine_translation_jointly_learning_to_align_and_translate.pdf|neural_machine_translation_jointly_learning_to_align_and_translate]]: . [[papers/nlp/rnn/neural_machine_translation_jointly_learning_to_align_and_translate.md|Notes]]
 ## transformer
