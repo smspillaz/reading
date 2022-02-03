@@ -7,7 +7,7 @@
 # cv
  - [[pdfs/cv/film_feature_wise_linear_modulation.pdf|FiLM - Visual Reasoning with a General Conditioning Layer.]]: (cite: conf/aaai/PerezSVDC18) . [[papers/cv/film_feature_wise_linear_modulation.md|Notes]]
  - [[pdfs/cv/mlp_mixer.pdf|MLP-Mixer - An all-MLP Architecture for Vision.]]: Takes the "image-patch transformers" architectures and removes the transformers to test the hypothesis that the patches are what matters. Based exclusively on MLPs. Apply the MLPs to image patches (mixing the per-location features) and then apply the MLPS across patches (mixing spatial information). [[papers/cv/mlp_mixer.md|Notes]]
- - [[pdfs/cv/patches_are_all_you_need_.pdf|Patches are all you need?]]: Is the performance of ViTs due to the transformer or due to the patches? Paper proposes ConvMixer. ConvMixer only uses convolutions to achieve the mixing steps. [[papers/cv/patches_are_all_you_need_.md|Notes]]
+ - [[pdfs/cv/patches_are_all_you_need_.pdf|Patches Are All You Need?]]: (cite: journals/corr/abs-2201-09792/Trockman/2022) Is the performance of ViTs due to the transformer or due to the patches? Paper proposes ConvMixer. ConvMixer only uses convolutions to achieve the mixing steps. [[papers/cv/patches_are_all_you_need_.md|Notes]]
  - [[pdfs/cv/are_cnn_or_transformers_more_like_human_vision.pdf|are_cnn_or_transformers_more_like_human_vision]]: . [[papers/cv/are_cnn_or_transformers_more_like_human_vision.md|Notes]]
  - [[pdfs/cv/deep_automodulators.pdf|deep_automodulators]]: . [[papers/cv/deep_automodulators.md|Notes]]
  - [[pdfs/cv/object_keypoints.pdf|object_keypoints]]: . [[papers/cv/object_keypoints.md|Notes]]
