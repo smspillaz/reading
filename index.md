@@ -284,6 +284,7 @@
 # programming
  - [[pdfs/programming/catala_programming_for_law.pdf|catala_programming_for_law]]: . [[papers/programming/catala_programming_for_law.md|Notes]]
 # rl
+ - [[pdfs/rl/a_markov_decision_process.pdf|A Markovian Decision Process.]]: (cite: bellman1957markovian) . [[papers/rl/a_markov_decision_process.md|Notes]]
  - [[pdfs/rl/deep_rl_statistical_precipice.pdf|Deep Reinforcement Learning at the Edge of the Statistical Precipice.]]: (cite: journals/corr/abs-2108-13264/Agarwal/2021) Presents a common and robust methodology for reporting scores/improvements using a "handful of runs". [[papers/rl/deep_rl_statistical_precipice.md|Notes]]
  - [[pdfs/rl/embodied_intelligence_via_learning_and_evolution.pdf|Embodied Intelligence via Learning and Evolution.]]: (cite: journals/corr/abs-2102-02202/Gupta/2021) Combines evolutionary algorithms and reinforcement learning to study meta-reinforcement-learning via evolution. [[papers/rl/embodied_intelligence_via_learning_and_evolution.md|Notes]]
  - [[pdfs/rl/act2vec.pdf|act2vec]]: . [[papers/rl/act2vec.md|Notes]]
