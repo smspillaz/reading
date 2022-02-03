@@ -1,3 +1,16 @@
+---
+title: On the role of planning in model-based deep reinforcement learning.
+venue: ICLR
+year: 2021
+type: Conference and Workshop Papers
+access: open
+key: conf/iclr/HamrickFBGVWABV21
+ee: https://openreview.net/forum?id=IrM64DGB21
+url: https://dblp.org/rec/conf/iclr/HamrickFBGVWABV21
+authors: ["Jessica B. Hamrick", "Abram L. Friesen", "Feryal Behbahani", "Arthur Guez", "Fabio Viola", "Sims Witherspoon", "Thomas Anthony", "Lars Holger Buesing", "Petar Velickovic", "Theophane Weber"]
+sync_version: 3
+cite_key: conf/iclr/HamrickFBGVWABV21
+---
 # On the Role of Planning in MBRL
 
 Research questions:
