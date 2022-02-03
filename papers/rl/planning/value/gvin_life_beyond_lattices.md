@@ -1,3 +1,17 @@
+---
+title: Generalized Value Iteration Networks - Life Beyond Lattices.
+venue: AAAI
+pages: 6246-6253
+year: 2018
+type: Conference and Workshop Papers
+access: open
+key: conf/aaai/NiuCGTSK18
+ee: https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16552
+url: https://dblp.org/rec/conf/aaai/NiuCGTSK18
+authors: ["Sufeng Niu", "Siheng Chen", "Hanyu Guo", "Colin Targonski", "Melissa C. Smith", "Jelena Kovacevic"]
+sync_version: 3
+cite_key: conf/aaai/NiuCGTSK18
+---
 # Generalized Value Iteration Networks
 
 tl;dr:
@@ -34,5 +48,3 @@ tl;dr:
 	- Embedding
 		- $P_{ij} = \frac{(I_{i = j} A_{ij})}{\sqrt{\sum_k (1 + A_{kj})\sum_k(1 + A_{ik})}} \text{MLP(X_i - X_j)}$
 		- Basically normalized learned function based on embedding L1 norm distance.
-
-
