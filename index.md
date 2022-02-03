@@ -151,6 +151,7 @@
  - [[pdfs/dl/theory/computational_limits_deep_learning.pdf|computational_limits_deep_learning]]: . [[papers/dl/theory/computational_limits_deep_learning.md|Notes]]
  - [[pdfs/dl/theory/modern_math_deep_learning.pdf|modern_math_deep_learning]]: . [[papers/dl/theory/modern_math_deep_learning.md|Notes]]
 ## transformer
+ - [[pdfs/dl/transformer/evolving_attention_with_redisual_convolutions.pdf|Evovlving Attention with Residual Connections]]: . [[papers/dl/transformer/evolving_attention_with_redisual_convolutions.md|Notes]]
  - [[pdfs/dl/transformer/admin_initialization_understanding_difficulty_training_transformers.pdf|admin_initialization_understanding_difficulty_training_transformers]]: . [[papers/dl/transformer/admin_initialization_understanding_difficulty_training_transformers.md|Notes]]
  - [[pdfs/dl/transformer/deberta_decoding_enhanced_bert.pdf|deberta_decoding_enhanced_bert]]: . [[papers/dl/transformer/deberta_decoding_enhanced_bert.md|Notes]]
  - [[pdfs/dl/transformer/dong_attention_is_not_all_you_need.pdf|dong_attention_is_not_all_you_need]]: . [[papers/dl/transformer/dong_attention_is_not_all_you_need.md|Notes]]
