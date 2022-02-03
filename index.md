@@ -441,7 +441,7 @@
  - [[pdfs/rl/offline/lompo-offline-rl-images-latent-space.pdf|lompo-offline-rl-images-latent-space]]: . [[papers/rl/offline/lompo-offline-rl-images-latent-space.md|Notes]]
  - [[pdfs/rl/offline/workflow_offline_model_free_robotic_rl.pdf|workflow_offline_model_free_robotic_rl]]: . [[papers/rl/offline/workflow_offline_model_free_robotic_rl.md|Notes]]
 ## planning
- - [[pdfs/rl/planning/2020_mbrl_survey.pdf|2020_mbrl_survey]]: . [[papers/rl/planning/2020_mbrl_survey.md|Notes]]
+ - [[pdfs/rl/planning/2020_mbrl_survey.pdf|Model-based Reinforcement Learning - A Survey.]]: (cite: journals/corr/abs-2006-16712/Moerland/2020) . [[papers/rl/planning/2020_mbrl_survey.md|Notes]]
  - [[pdfs/rl/planning/chane-sane_goal_conditioned_rl_imagined_subgoals.pdf|chane-sane_goal_conditioned_rl_imagined_subgoals]]: . [[papers/rl/planning/chane-sane_goal_conditioned_rl_imagined_subgoals.md|Notes]]
  - [[pdfs/rl/planning/compositional_rl_logical_specifications.pdf|compositional_rl_logical_specifications]]: . [[papers/rl/planning/compositional_rl_logical_specifications.md|Notes]]
  - [[pdfs/rl/planning/consciousness_inspired_planning_mbrl_set_representation.pdf|consciousness_inspired_planning_mbrl_set_representation]]: . [[papers/rl/planning/consciousness_inspired_planning_mbrl_set_representation.md|Notes]]
