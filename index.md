@@ -288,6 +288,7 @@
  - [[pdfs/nlp/failure_modes/the_curious_case_of_neural_text_degeneration.pdf|the_curious_case_of_neural_text_degeneration]]: . [[papers/nlp/failure_modes/the_curious_case_of_neural_text_degeneration.md|Notes]]
 ## generation
  - [[pdfs/nlp/generation/genpet_few_shot_text_generation_with_natural_language_instructions.pdf|genpet_few_shot_text_generation_with_natural_language_instructions]]: . [[papers/nlp/generation/genpet_few_shot_text_generation_with_natural_language_instructions.md|Notes]]
+ - [[pdfs/nlp/generation/if_beam_search_is_the_answer_what_was_the_question.pdf|if_beam_search_is_the_answer_what_was_the_question]]: . [[papers/nlp/generation/if_beam_search_is_the_answer_what_was_the_question.md|Notes]]
  - [[pdfs/nlp/generation/smart_reply_automated_response_suggestion_for_email.pdf|smart_reply_automated_response_suggestion_for_email]]: . [[papers/nlp/generation/smart_reply_automated_response_suggestion_for_email.md|Notes]]
 ### controlled
  - [[pdfs/nlp/generation/controlled/bert_has_a_mouth_and_it_must_speak_bert_as_a_markov_random_field_language_model.pdf|bert_has_a_mouth_and_it_must_speak_bert_as_a_markov_random_field_language_model]]: . [[papers/nlp/generation/controlled/bert_has_a_mouth_and_it_must_speak_bert_as_a_markov_random_field_language_model.md|Notes]]
