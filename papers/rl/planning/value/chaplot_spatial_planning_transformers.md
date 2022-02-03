@@ -9,7 +9,8 @@ key: conf/icml/ChaplotPM21
 ee: http://proceedings.mlr.press/v139/chaplot21a.html
 url: https://dblp.org/rec/conf/icml/ChaplotPM21
 authors: ["Devendra Singh Chaplot", "Deepak Pathak", "Jitendra Malik"]
-sync_version: 0
+sync_version: 3
+cite_key: conf/icml/ChaplotPM21
 ---
 
 # Differentiable Spatial Planning using Transformers
