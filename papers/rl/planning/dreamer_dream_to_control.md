@@ -1,3 +1,16 @@
+---
+title: Dream to Control - Learning Behaviors by Latent Imagination.
+venue: ICLR
+year: 2020
+type: Conference and Workshop Papers
+access: open
+key: conf/iclr/HafnerLB020
+ee: https://openreview.net/forum?id=S1lOTC4tDS
+url: https://dblp.org/rec/conf/iclr/HafnerLB020
+authors: ["Danijar Hafner", "Timothy P. Lillicrap", "Jimmy Ba", "Mohammad Norouzi"]
+sync_version: 3
+cite_key: conf/iclr/HafnerLB020
+---
 # Dream to control: Learning behaviours by latent imagination
 
  - Similar to muZero and other papers which plan in the latent space.
