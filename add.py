@@ -52,6 +52,28 @@ def main():
         dry_run=args.dry_run,
     )
 
+    if os.path.exists("index.stage"):
+        basename = os.path.splitext(os.path.basename(args.filename))[0]
+        run(
+            [
+                "python",
+                "update_index.py",
+                "index.md",
+                "--filter-changes",
+                basename,
+                "--pull-descriptions",
+                "index.stage",
+            ],
+            dry_run=args.dry_run,
+        )
+        add_index_proc = run(["git", "add", "index.md"], dry_run=args.dry_run)
+
+        if add_index_proc is None or add_index_proc.returncode == 0:
+            run(
+                ["git", "commit", "-m", f"index: Update index for '{basename}'"],
+                dry_run=args.dry_run,
+            )
+
 
 if __name__ == "__main__":
     main()
