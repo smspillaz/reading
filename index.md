@@ -36,9 +36,9 @@
  - [[pdfs/dl/soft_sort_continuous_argsort.pdf|soft_sort_continuous_argsort]]: . [[papers/dl/soft_sort_continuous_argsort.md|Notes]]
 ## compositional
  - [[pdfs/dl/compositional/compose_ae_compositional_learning_of_image_text_query_for_image_retrieval.pdf|Compositional Learning of Image-Text Query for Image Retrieval.]]: (cite: conf/wacv/AnwaarLK21) . [[papers/dl/compositional/compose_ae_compositional_learning_of_image_text_query_for_image_retrieval.md|Notes]]
+ - [[pdfs/dl/compositional/compositional_generalization_through_meta_seq2seq.pdf|Compositional generalization through meta sequence-to-sequence learning.]]: (cite: conf/nips/Lake19) . [[papers/dl/compositional/compositional_generalization_through_meta_seq2seq.md|Notes]]
  - [[pdfs/dl/compositional/compositionality_decomposed_neural_networks_generalize.pdf|Compositionality Decomposed - How do Neural Networks Generalise?]]: . [[papers/dl/compositional/compositionality_decomposed_neural_networks_generalize.md|Notes]]
  - [[pdfs/dl/compositional/composer_visually_grounded_concept_composition.pdf|Visually Grounded Concept Composition.]]: (cite: conf/emnlp/0002HQSS21) . [[papers/dl/compositional/composer_visually_grounded_concept_composition.md|Notes]]
- - [[pdfs/dl/compositional/compositional_generalization_through_meta_seq2seq.pdf|compositional_generalization_through_meta_seq2seq]]: . [[papers/dl/compositional/compositional_generalization_through_meta_seq2seq.md|Notes]]
  - [[pdfs/dl/compositional/latent_compositional_representations_improve_systematic_generalization_in_grounded_question_answering.pdf|latent_compositional_representations_improve_systematic_generalization_in_grounded_question_answering]]: . [[papers/dl/compositional/latent_compositional_representations_improve_systematic_generalization_in_grounded_question_answering.md|Notes]]
  - [[pdfs/dl/compositional/visually_grounded_concept_composition.pdf|visually_grounded_concept_composition]]: . [[papers/dl/compositional/visually_grounded_concept_composition.md|Notes]]
 ## contrastive
