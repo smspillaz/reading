@@ -54,6 +54,7 @@
  - [[pdfs/dl/contrastive/local_plasticity_rules_can_learn_deep_representations_using_self_supervised_contrastive_predictions.pdf|local_plasticity_rules_can_learn_deep_representations_using_self_supervised_contrastive_predictions]]: . [[papers/dl/contrastive/local_plasticity_rules_can_learn_deep_representations_using_self_supervised_contrastive_predictions.md|Notes]]
  - [[pdfs/dl/contrastive/scaling_up_visual_and_vision_language_representation_learning_noisy_text.pdf|scaling_up_visual_and_vision_language_representation_learning_noisy_text]]: . [[papers/dl/contrastive/scaling_up_visual_and_vision_language_representation_learning_noisy_text.md|Notes]]
  - [[pdfs/dl/contrastive/simclr_contrastive_visual_rep.pdf|simclr_contrastive_visual_rep]]: . [[papers/dl/contrastive/simclr_contrastive_visual_rep.md|Notes]]
+ - [[pdfs/dl/contrastive/vicreg_variance_invariance_covariance_regularization_for_self_supervised_learning.pdf|vicreg_variance_invariance_covariance_regularization_for_self_supervised_learning]]: . [[papers/dl/contrastive/vicreg_variance_invariance_covariance_regularization_for_self_supervised_learning.md|Notes]]
 ## conv
  - [[pdfs/dl/conv/coord_conv.pdf|coord_conv]]: . [[papers/dl/conv/coord_conv.md|Notes]]
 ## disentanglement
