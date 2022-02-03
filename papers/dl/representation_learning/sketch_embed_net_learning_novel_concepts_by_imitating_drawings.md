@@ -9,7 +9,8 @@ key: conf/icml/WangRZ21
 ee: http://proceedings.mlr.press/v139/wang21s.html
 url: https://dblp.org/rec/conf/icml/WangRZ21
 authors: ["Alexander Wang", "Mengye Ren", "Richard S. Zemel"]
-sync_version: 0
+sync_version: 3
+cite_key: conf/icml/WangRZ21
 ---
 
 
