@@ -639,14 +639,18 @@ def pull_matching_descriptions(structure_to_update, descriptions_file, filter_ch
     descriptions_filename_to_descriptions = {
         obj["filename"]: obj for obj in walk_structure(descriptions_structure)
     }
+    structure_filename_to_descriptions = {
+        obj["filename"]: obj for obj in walk_structure(structure_to_update)
+    }
     update_paths_and_metadata = [
         (
             obj["fullpath"],
-            descriptions_filename_to_descriptions[os.path.basename(obj["fullpath"])],
+            descriptions_filename_to_descriptions[obj["filename"]],
         )
         for obj in walk_structure(structure_to_update)
         if obj["filename"] in descriptions_filename_to_descriptions
         and matches_filter(obj["filename"], filter_changes)
+        and structure_filename_to_descriptions[obj["filename"]]["content"] != obj["content"]
     ]
     report_pull_index_metadata(update_paths_and_metadata)
 
