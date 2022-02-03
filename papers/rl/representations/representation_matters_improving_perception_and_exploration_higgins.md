@@ -1,3 +1,18 @@
+---
+title: Representation Matters - Improving Perception and Exploration for Robotics.
+venue: ICRA
+pages: 6512-6519
+year: 2021
+type: Conference and Workshop Papers
+access: closed
+key: conf/icra/WulfmeierBHHGKR21
+doi: 10.1109/ICRA48506.2021.9560733
+ee: https://doi.org/10.1109/ICRA48506.2021.9560733
+url: https://dblp.org/rec/conf/icra/WulfmeierBHHGKR21
+authors: ["Markus Wulfmeier", "Arunkumar Byravan", "Tim Hertweck", "Irina Higgins", "Ankush Gupta", "Tejas Kulkarni", "Malcolm Reynolds", "Denis Teplyashin", "Roland Hafner", "Thomas Lampe", "Martin A. Riedmiller"]
+sync_version: 3
+cite_key: conf/icra/WulfmeierBHHGKR21
+---
 # Representation Matters
 
 [[representation_matters_disentanglement_exploration_robotics.pdf]]
