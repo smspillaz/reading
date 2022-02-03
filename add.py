@@ -6,15 +6,24 @@ import re
 _RE_PARSE_LINK = re.compile(r"\[\[(?P<link>[\w_\.\/\-]+)\]\]")
 
 
+def run(args, dry_run=False, **kwargs):
+    print(" ".join(args))
+
+    if not dry_run:
+        subprocess.run(args, **kwargs)
+
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--section", required=True)
+    parser.add_argument("--dry-run", action="store_true", help="Don't run, just print commands")
     parser.add_argument("filename")
     args = parser.parse_args()
 
     img_list = os.listdir("img")
 
-    subprocess.run(["git", "add", args.filename])
+    run(["git", "add", args.filename], dry_run=args.dry_run)
 
     with open(args.filename) as f:
         contents = f.read()
@@ -27,18 +36,18 @@ def main():
                     print("skipping:", link)
 
                 if link in img_list:
-                    subprocess.call(["git", "add", "img/" + link])
+                    run(["git", "add", "img/" + link], dry_run=args.dry_run)
                     print("Added img", link)
                 elif "/" in link:
-                    ret = subprocess.run(["git", "add", link]).retcode
+                    ret = run(["git", "add", link]).retcode
                     if ret != 0:
                         print("Failed to add", link)
 
                 else:
                     print("Ignoring", link)
 
-    subprocess.run(
-        ["git", "commit", "-m", "{}: Add {}".format(args.section, args.filename)]
+    run(
+        ["git", "commit", "-m", "{}: Add {}".format(args.section, args.filename)], dry_run=args.dry_run
     )
 
 
