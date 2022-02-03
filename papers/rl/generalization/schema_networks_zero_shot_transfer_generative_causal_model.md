@@ -9,7 +9,8 @@ key: conf/icml/KanskySMELLDSPG17
 ee: http://proceedings.mlr.press/v70/kansky17a.html
 url: https://dblp.org/rec/conf/icml/KanskySMELLDSPG17
 authors: ["Ken Kansky", "Tom Silver", "David A. M\u00e9ly", "Mohamed Eldawy", "Miguel L\u00e1zaro-Gredilla", "Xinghua Lou", "Nimrod Dorfman", "Szymon Sidor", "D. Scott Phoenix", "Dileep George"]
-sync_version: 0
+sync_version: 3
+cite_key: conf/icml/KanskySMELLDSPG17
 ---
 
 # Schema Networks
