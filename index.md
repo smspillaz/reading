@@ -82,6 +82,8 @@
  - [[pdfs/dl/disentanglement/vqvae_training.pdf|vqvae_training]]: . [[papers/dl/disentanglement/vqvae_training.md|Notes]]
  - [[pdfs/dl/disentanglement/weak_supervised_disentanglement_guarantees.pdf|weak_supervised_disentanglement_guarantees]]: . [[papers/dl/disentanglement/weak_supervised_disentanglement_guarantees.md|Notes]]
  - [[pdfs/dl/disentanglement/weakly_supervised_disentanglement.pdf|weakly_supervised_disentanglement]]: . [[papers/dl/disentanglement/weakly_supervised_disentanglement.md|Notes]]
+## generalization
+ - [[pdfs/dl/generalization/systematic_generalisation_with_group_invariant_predictions.pdf|Systematic generalisation with group invariant predictions.]]: (cite: conf/iclr/AhmedBSC21) . [[papers/dl/generalization/systematic_generalisation_with_group_invariant_predictions.md|Notes]]
 ## generative
  - [[pdfs/dl/generative/adversarial_feature_learning.pdf|adversarial_feature_learning]]: . [[papers/dl/generative/adversarial_feature_learning.md|Notes]]
  - [[pdfs/dl/generative/big_bigan.pdf|big_bigan]]: . [[papers/dl/generative/big_bigan.md|Notes]]
