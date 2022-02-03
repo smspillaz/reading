@@ -89,6 +89,7 @@
 ## generalization
  - [[pdfs/dl/generalization/systematic_generalisation_with_group_invariant_predictions.pdf|Systematic generalisation with group invariant predictions.]]: (cite: conf/iclr/AhmedBSC21) . [[papers/dl/generalization/systematic_generalisation_with_group_invariant_predictions.md|Notes]]
  - [[pdfs/dl/generalization/generalization_without_systematicity_on_the_compositional_skills_of_sequence_to_sequence_rnns.pdf|generalization_without_systematicity_on_the_compositional_skills_of_sequence_to_sequence_rnns]]: . [[papers/dl/generalization/generalization_without_systematicity_on_the_compositional_skills_of_sequence_to_sequence_rnns.md|Notes]]
+ - [[pdfs/dl/generalization/pitfalls_of_simplicity_bias_in_neural_networks.pdf|pitfalls_of_simplicity_bias_in_neural_networks]]: . [[papers/dl/generalization/pitfalls_of_simplicity_bias_in_neural_networks.md|Notes]]
 ## generative
  - [[pdfs/dl/generative/adversarial_feature_learning.pdf|adversarial_feature_learning]]: . [[papers/dl/generative/adversarial_feature_learning.md|Notes]]
  - [[pdfs/dl/generative/big_bigan.pdf|big_bigan]]: . [[papers/dl/generative/big_bigan.md|Notes]]
