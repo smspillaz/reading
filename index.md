@@ -287,7 +287,7 @@
  - [[pdfs/rl/predicting_predictable_frames.pdf|predicting_predictable_frames]]: . [[papers/rl/predicting_predictable_frames.md|Notes]]
  - [[pdfs/rl/shortest_path_constrained_rl_sparse_reward.pdf|shortest_path_constrained_rl_sparse_reward]]: . [[papers/rl/shortest_path_constrained_rl_sparse_reward.md|Notes]]
 ## critical_states
- - [[pdfs/rl/critical_states/world_model_graph.pdf|World Model as a Graph - Learning Latent Landmarks for Planning.]]: Cluster seen states in the latent space, classify landmarks, induce a graph based on a reachability metric and then plan using the graph.  [[papers/rl/critical_states/world_model_graph.md|Notes]]
+ - [[pdfs/rl/critical_states/world_model_graph.pdf|World Model as a Graph - Learning Latent Landmarks for Planning.]]: (cite: conf/icml/Zhang0S21a) Cluster seen states in the latent space, classify landmarks, induce a graph based on a reachability metric and then plan using the graph.  [[papers/rl/critical_states/world_model_graph.md|Notes]]
  - [[pdfs/rl/critical_states/critical_probabilistic_roadmaps.pdf|critical_probabilistic_roadmaps]]: . [[papers/rl/critical_states/critical_probabilistic_roadmaps.md|Notes]]
  - [[pdfs/rl/critical_states/critical_regions_saliency_maps_planning.pdf|critical_regions_saliency_maps_planning]]: . [[papers/rl/critical_states/critical_regions_saliency_maps_planning.md|Notes]]
 ## curriculum
