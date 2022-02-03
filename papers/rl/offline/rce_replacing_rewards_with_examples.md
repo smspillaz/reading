@@ -9,7 +9,8 @@ key: journals/corr/abs-2103-12656
 ee: https://arxiv.org/abs/2103.12656
 url: https://dblp.org/rec/journals/corr/abs-2103-12656
 authors: ["Benjamin Eysenbach", "Sergey Levine", "Ruslan Salakhutdinov"]
-sync_version: 0
+sync_version: 3
+cite_key: journals/corr/abs-2103-12656/Eysenbach/2021
 ---
 
 # RCE: Replacing Rewards with Examples
