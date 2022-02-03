@@ -272,6 +272,7 @@
  - [[pdfs/nlp/rnn/neural_machine_translation_jointly_learning_to_align_and_translate.pdf|neural_machine_translation_jointly_learning_to_align_and_translate]]: . [[papers/nlp/rnn/neural_machine_translation_jointly_learning_to_align_and_translate.md|Notes]]
 ## transformer
  - [[pdfs/nlp/transformer/vaswani_attention.pdf|Attention is All you Need.]]: (cite: conf/nips/VaswaniSPUJGKP17) Introduces the Transformer Architecture, a fully-attentional sequence-to-sequence processing architecture with positional encodings. [[papers/nlp/transformer/vaswani_attention.md|Notes]]
+ - [[pdfs/nlp/transformer/bart_denoising_sequence_to_sequence_pretraining_for_natural_language_generation_translation_and_comprehension.pdf|BART - Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension.]]: (cite: conf/acl/LewisLGGMLSZ20) . [[papers/nlp/transformer/bart_denoising_sequence_to_sequence_pretraining_for_natural_language_generation_translation_and_comprehension.md|Notes]]
  - [[pdfs/nlp/transformer/gpt3.pdf|Language Models are Few-Shot Learners.]]: (cite: conf/nips/BrownMRSKDNSSAA20) . [[papers/nlp/transformer/gpt3.md|Notes]]
  - [[pdfs/nlp/transformer/transformer_training_tips.pdf|Training Tips for the Transformer Model.]]: (cite: journals/pbml/PopelB18) . [[papers/nlp/transformer/transformer_training_tips.md|Notes]]
 # programming
