@@ -1,15 +1,22 @@
 import argparse
+import os
 import subprocess
 import fnmatch
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("papers", type=str, help="Path to papers directory")
+    parser.add_argument(
+        "papers", type=str, help="Path to papers directory", default="papers"
+    )
     parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Just print what would happen but don't do anything",
+    )
+    parser.add_argument("--scripts-dir", default="scripts", type=str)
+    parser.add_argument(
+        "--suffix", type=str, help="File suffix to bulk-add", default="md"
     )
     args = parser.parse_args()
 
@@ -25,7 +32,9 @@ def main():
                 for line in status
                 if (line.startswith(" M") or line.startswith("??"))
             ],
-            f"{args.papers}/**/*.md",
+            f"**/*.{args.suffix}"
+            if args.papers == "."
+            else f"{args.papers}/**/*.{args.suffix}",
         )
     )
 
@@ -36,7 +45,13 @@ def main():
 
     for filename in update_files:
         add_args = (
-            ["python", "scripts/add.py", "--section", "papers", "--update-index"]
+            [
+                "python",
+                f"{args.scripts_dir}/add.py",
+                "--section",
+                filename.split(os.path.sep)[0],
+                "--update-index",
+            ]
             + (["--dry-run"] if args.dry_run else [])
             + [filename]
         )
