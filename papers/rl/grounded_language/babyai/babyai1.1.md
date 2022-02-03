@@ -9,5 +9,6 @@ key: journals/corr/abs-2007-12770
 ee: https://arxiv.org/abs/2007.12770
 url: https://dblp.org/rec/journals/corr/abs-2007-12770
 authors: ["David Yu-Tung Hui", "Maxime Chevalier-Boisvert", "Dzmitry Bahdanau", "Yoshua Bengio"]
-sync_version: 0
+sync_version: 3
+cite_key: journals/corr/abs-2007-12770/Hui/2020
 ---
