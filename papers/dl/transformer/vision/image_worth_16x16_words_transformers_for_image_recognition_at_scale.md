@@ -7,8 +7,9 @@ access: open
 key: conf/iclr/DosovitskiyB0WZ21
 ee: https://openreview.net/forum?id=YicbFdNTTy
 url: https://dblp.org/rec/conf/iclr/DosovitskiyB0WZ21
-authors: ["Alexey Dosovitskiy", "Lucas Beyer", "Alexander Kolesnikov 0003", "Dirk Weissenborn", "Xiaohua Zhai", "Thomas Unterthiner", "Mostafa Dehghani 0001", "Matthias Minderer", "Georg Heigold", "Sylvain Gelly", "Jakob Uszkoreit", "Neil Houlsby"]
-sync_version: 0
+authors: ["Alexey Dosovitskiy", "Lucas Beyer", "Alexander Kolesnikov", "Dirk Weissenborn", "Xiaohua Zhai", "Thomas Unterthiner", "Mostafa Dehghani", "Matthias Minderer", "Georg Heigold", "Sylvain Gelly", "Jakob Uszkoreit", "Neil Houlsby"]
+sync_version: 3
+cite_key: conf/iclr/DosovitskiyB0WZ21
 ---
 
 # An image is worth 16x16 Words: Transformers for Image Recognition at Scale
