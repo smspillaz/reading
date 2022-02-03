@@ -400,6 +400,7 @@
  - [[pdfs/rl/hrl/imitation/discovering_motor_programs_by_recomposing_demonstrations.pdf|discovering_motor_programs_by_recomposing_demonstrations]]: . [[papers/rl/hrl/imitation/discovering_motor_programs_by_recomposing_demonstrations.md|Notes]]
  - [[pdfs/rl/hrl/imitation/hierarchical_task_models_demonstration.pdf|hierarchical_task_models_demonstration]]: . [[papers/rl/hrl/imitation/hierarchical_task_models_demonstration.md|Notes]]
  - [[pdfs/rl/hrl/imitation/jing_adversarial_option_aware_hierarchical_imitation_learning.pdf|jing_adversarial_option_aware_hierarchical_imitation_learning]]: . [[papers/rl/hrl/imitation/jing_adversarial_option_aware_hierarchical_imitation_learning.md|Notes]]
+ - [[pdfs/rl/hrl/imitation/learning_robot_skills_via_temporal_variational_inference.pdf|learning_robot_skills_via_temporal_variational_inference]]: . [[papers/rl/hrl/imitation/learning_robot_skills_via_temporal_variational_inference.md|Notes]]
 ### options
  - [[pdfs/rl/hrl/options/precup_attention_option_critic.pdf|precup_attention_option_critic]]: . [[papers/rl/hrl/options/precup_attention_option_critic.md|Notes]]
  - [[pdfs/rl/hrl/options/precup_option_critic.pdf|precup_option_critic]]: . [[papers/rl/hrl/options/precup_option_critic.md|Notes]]
