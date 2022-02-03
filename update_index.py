@@ -616,6 +616,46 @@ def postprocess_structure(structure):
         postprocess_structure(substructure)
 
 
+def report_pull_index_metadata(update_paths):
+    for path, metadata in update_paths:
+        print(f"Pull index metadata for {path}, '{metadata['content']}'")
+
+
+def sync_description_metadata(structure, obj, metadata):
+    substructure = list(filter(lambda x: x["filename"] == obj, structure))[0]
+
+    substructure["content"] = metadata["content"]
+    substructure["links"] = metadata["links"]
+
+
+def pull_matching_descriptions(structure_to_update, descriptions_file, filter_changes):
+    with open(descriptions_file, "r") as f:
+        descriptions_structure = prune_empty(
+            parse_markdown_to_tree_start(f.readlines())
+        )
+
+    descriptions_filename_to_descriptions = {
+        obj["filename"]: obj for obj in walk_structure(descriptions_structure)
+    }
+    update_paths_and_metadata = [
+        (
+            obj["fullpath"],
+            descriptions_filename_to_descriptions[os.path.basename(obj["fullpath"])],
+        )
+        for obj in walk_structure(structure_to_update)
+        if obj["filename"] in descriptions_filename_to_descriptions
+        and matches_filter(obj["filename"], filter_changes)
+    ]
+    report_pull_index_metadata(update_paths_and_metadata)
+
+    update_keys_and_metadata = [
+        (path_to_key(path), metadata) for path, metadata in update_paths_and_metadata
+    ]
+
+    for dst_key, metadata in update_keys_and_metadata:
+        recursive_do(structure_to_update, dst_key, sync_description_metadata, metadata)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -646,6 +686,11 @@ def main():
         type=str,
         help="Keep added papers matching this regex",
     )
+    parser.add_argument(
+        "--pull-descriptions",
+        type=str,
+        help="Filename to pull descriptions from (staging file)",
+    )
     parser.add_argument("index", help="Index filename to update")
     args = parser.parse_args()
 
@@ -662,6 +707,11 @@ def main():
     # After this, md_structure is the most up to date
     reconcile_structures(fs_structure, md_structure, filter_changes)
     prune_empty(md_structure)
+
+    # If we are pulling descriptions from an external file, we can go ahead and
+    # do that now
+    if args.pull_descriptions:
+        pull_matching_descriptions(md_structure, args.pull_descriptions, filter_changes)
 
     # Its important that we sync the note locations before we call
     # reconcile_notes, that way reconcile_notes will out links to the correct
