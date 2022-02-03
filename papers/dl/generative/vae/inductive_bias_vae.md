@@ -1,5 +1,16 @@
 ---
-title: On incorporating inductive biases into VAEs
+title: InteL-VAEs - Adding Inductive Biases to Variational Auto-Encoders via Intermediary Latents.
+venue: CoRR
+volume: abs/2106.13746
+year: 2021
+type: Informal Publications
+access: open
+key: journals/corr/abs-2106-13746
+ee: https://arxiv.org/abs/2106.13746
+url: https://dblp.org/rec/journals/corr/abs-2106-13746
+authors: ["Ning Miao", "Emile Mathieu", "N. Siddharth", "Yee Whye Teh", "Tom Rainforth"]
+sync_version: 3
+cite_key: journals/corr/abs-2106-13746/Miao/2021
 ---
 
 # On incorporating inductive biases into VAEs (InteL-VAE)
@@ -70,4 +81,3 @@ How to train them:
 	 - $L_{\text{sp}}(\phi, \psi) = E[\frac{1}{M} \sum^M (H(\text{DS}(y_i))) - H(\frac{1}{M} \sum^M \text{DS}(y_i))]$
 	 - What does this do? It says that you want the mean entropy of each individual sample weight to be *low* and the entropy of the mean weights to be *high*
 	 - This basically ensures that you have both diversity between samples, but also sparsity within samples.
-
