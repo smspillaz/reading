@@ -543,6 +543,8 @@
  - [[pdfs/rl/offline/deepaveragers_offline_rl_by_solving_derived_nonparametric_mdps.pdf|deepaveragers_offline_rl_by_solving_derived_nonparametric_mdps]]: . [[papers/rl/offline/deepaveragers_offline_rl_by_solving_derived_nonparametric_mdps.md|Notes]]
  - [[pdfs/rl/offline/lompo-offline-rl-images-latent-space.pdf|lompo-offline-rl-images-latent-space]]: . [[papers/rl/offline/lompo-offline-rl-images-latent-space.md|Notes]]
  - [[pdfs/rl/offline/workflow_offline_model_free_robotic_rl.pdf|workflow_offline_model_free_robotic_rl]]: . [[papers/rl/offline/workflow_offline_model_free_robotic_rl.md|Notes]]
+### model_based
+ - [[pdfs/rl/offline/model_based/combo_conservative_offline_model_based_policy_optimization.pdf|combo_conservative_offline_model_based_policy_optimization]]: . [[papers/rl/offline/model_based/combo_conservative_offline_model_based_policy_optimization.md|Notes]]
 ### transfer
  - [[pdfs/rl/offline/transfer/awac_accelerating_online_reinforcement_learning_with_offline_datasets.pdf|awac_accelerating_online_reinforcement_learning_with_offline_datasets]]: . [[papers/rl/offline/transfer/awac_accelerating_online_reinforcement_learning_with_offline_datasets.md|Notes]]
 ## planning
