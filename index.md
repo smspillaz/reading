@@ -165,9 +165,9 @@
  - [[pdfs/dl/transformer/thinking_like_transformers.pdf|thinking_like_transformers]]: . [[papers/dl/transformer/thinking_like_transformers.md|Notes]]
  - [[pdfs/dl/transformer/transfer_inductive_bias_distillation.pdf|transfer_inductive_bias_distillation]]: . [[papers/dl/transformer/transfer_inductive_bias_distillation.md|Notes]]
 ### linear
+ - [[pdfs/dl/transformer/linear/bigbird.pdf|Big Bird - Transformers for Longer Sequences.]]: (cite: conf/nips/ZaheerGDAAOPRWY20) . [[papers/dl/transformer/linear/bigbird.md|Notes]]
  - [[pdfs/dl/transformer/linear/adaptive_attention_transformer.pdf|adaptive_attention_transformer]]: . [[papers/dl/transformer/linear/adaptive_attention_transformer.md|Notes]]
  - [[pdfs/dl/transformer/linear/attention_free_transformer.pdf|attention_free_transformer]]: . [[papers/dl/transformer/linear/attention_free_transformer.md|Notes]]
- - [[pdfs/dl/transformer/linear/bigbird.pdf|bigbird]]: . [[papers/dl/transformer/linear/bigbird.md|Notes]]
  - [[pdfs/dl/transformer/linear/linformer.pdf|linformer]]: . [[papers/dl/transformer/linear/linformer.md|Notes]]
  - [[pdfs/dl/transformer/linear/liutkus_relative_pos_encoding_linear_complex.pdf|liutkus_relative_pos_encoding_linear_complex]]: . [[papers/dl/transformer/linear/liutkus_relative_pos_encoding_linear_complex.md|Notes]]
  - [[pdfs/dl/transformer/linear/longformer.pdf|longformer]]: . [[papers/dl/transformer/linear/longformer.md|Notes]]
