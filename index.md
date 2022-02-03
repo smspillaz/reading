@@ -330,6 +330,7 @@
  - [[pdfs/rl/generalization/measuring_and_characterizing_generalization_in_deep_rl.pdf|measuring_and_characterizing_generalization_in_deep_rl]]: . [[papers/rl/generalization/measuring_and_characterizing_generalization_in_deep_rl.md|Notes]]
  - [[pdfs/rl/generalization/on_the_measure_of_intelligence.pdf|on_the_measure_of_intelligence]]: . [[papers/rl/generalization/on_the_measure_of_intelligence.md|Notes]]
  - [[pdfs/rl/generalization/quantifying_generalization_in_rl.pdf|quantifying_generalization_in_rl]]: . [[papers/rl/generalization/quantifying_generalization_in_rl.md|Notes]]
+ - [[pdfs/rl/generalization/systematic_generalization_what_is_required_can_it_be_learned.pdf|systematic_generalization_what_is_required_can_it_be_learned]]: . [[papers/rl/generalization/systematic_generalization_what_is_required_can_it_be_learned.md|Notes]]
 ## graph_based
  - [[pdfs/rl/graph_based/graph_based_generation_of_abstractions.pdf|graph_based_generation_of_abstractions]]: . [[papers/rl/graph_based/graph_based_generation_of_abstractions.md|Notes]]
 ## grounded_language
