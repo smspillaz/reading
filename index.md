@@ -268,6 +268,8 @@
  - [[pdfs/nlp/prado_on_device_doc_classification.pdf|prado_on_device_doc_classification]]: . [[papers/nlp/prado_on_device_doc_classification.md|Notes]]
  - [[pdfs/nlp/transferrable_visual_models_from_nl_supervision.pdf|transferrable_visual_models_from_nl_supervision]]: . [[papers/nlp/transferrable_visual_models_from_nl_supervision.md|Notes]]
  - [[pdfs/nlp/vqa.pdf|vqa]]: . [[papers/nlp/vqa.md|Notes]]
+## applications
+ - [[pdfs/nlp/applications/deep_neural_networks_for_youtube_recommendations.pdf|deep_neural_networks_for_youtube_recommendations]]: . [[papers/nlp/applications/deep_neural_networks_for_youtube_recommendations.md|Notes]]
 ## data_augmentation
  - [[pdfs/nlp/data_augmentation/coda_data_augmentation_in_nlp.pdf|coda_data_augmentation_in_nlp]]: . [[papers/nlp/data_augmentation/coda_data_augmentation_in_nlp.md|Notes]]
  - [[pdfs/nlp/data_augmentation/grondahl_combinatorial_paraphrasing.pdf|grondahl_combinatorial_paraphrasing]]: . [[papers/nlp/data_augmentation/grondahl_combinatorial_paraphrasing.md|Notes]]
