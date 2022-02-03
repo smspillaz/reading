@@ -8,8 +8,9 @@ access: open
 key: journals/corr/abs-2102-02202
 ee: https://arxiv.org/abs/2102.02202
 url: https://dblp.org/rec/journals/corr/abs-2102-02202
-authors: ["Agrim Gupta", "Silvio Savarese", "Surya Ganguli", "Li Fei-Fei 0001"]
-sync_version: 0
+authors: ["Agrim Gupta", "Silvio Savarese", "Surya Ganguli", "Li Fei-Fei"]
+sync_version: 3
+cite_key: journals/corr/abs-2102-02202/Gupta/2021
 ---
 
 # Embodied Intelligence via Learning and Evolution
