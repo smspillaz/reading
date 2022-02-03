@@ -263,6 +263,7 @@
  - [[pdfs/nlp/failure_modes/real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models.pdf|real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models]]: . [[papers/nlp/failure_modes/real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models.md|Notes]]
  - [[pdfs/nlp/failure_modes/the_curious_case_of_neural_text_degeneration.pdf|the_curious_case_of_neural_text_degeneration]]: . [[papers/nlp/failure_modes/the_curious_case_of_neural_text_degeneration.md|Notes]]
 ## generation
+ - [[pdfs/nlp/generation/genpet_few_shot_text_generation_with_natural_language_instructions.pdf|genpet_few_shot_text_generation_with_natural_language_instructions]]: . [[papers/nlp/generation/genpet_few_shot_text_generation_with_natural_language_instructions.md|Notes]]
 ### controlled
  - [[pdfs/nlp/generation/controlled/bert_has_a_mouth_and_it_must_speak_bert_as_a_markov_random_field_language_model.pdf|bert_has_a_mouth_and_it_must_speak_bert_as_a_markov_random_field_language_model]]: . [[papers/nlp/generation/controlled/bert_has_a_mouth_and_it_must_speak_bert_as_a_markov_random_field_language_model.md|Notes]]
  - [[pdfs/nlp/generation/controlled/mucoco_controlled_text_generation_as_continuous_optimization_with_multiple_constraints.pdf|mucoco_controlled_text_generation_as_continuous_optimization_with_multiple_constraints]]: . [[papers/nlp/generation/controlled/mucoco_controlled_text_generation_as_continuous_optimization_with_multiple_constraints.md|Notes]]
