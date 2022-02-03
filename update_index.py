@@ -246,6 +246,13 @@ def recursive_do(structure, key, func, *args, **kwargs):
     return func(node, obj, *args, **kwargs)
 
 
+def matches_filter(filename, match_filter):
+    if match_filter is not None:
+        return match_filter.match(filename) is not None
+
+    return True
+
+
 def report_paths_to_update(paths_to_update):
     for src_path, dst_path in paths_to_update:
         print(f"Moving {src_path} -> {dst_path}")
