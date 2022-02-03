@@ -9,7 +9,8 @@ key: journals/corr/abs-2105-05233
 ee: https://arxiv.org/abs/2105.05233
 url: https://dblp.org/rec/journals/corr/abs-2105-05233
 authors: ["Prafulla Dhariwal", "Alex Nichol"]
-sync_version: 0
+sync_version: 3
+cite_key: journals/corr/abs-2105-05233/Dhariwal/2021
 ---
 
 # Diffusion models beat GANs on image synthesis (Guided Diffusion)
