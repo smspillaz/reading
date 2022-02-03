@@ -437,6 +437,7 @@
 ## learning_algorithms
  - [[pdfs/rl/learning_algorithms/ppo.pdf|Proximal Policy Optimization Algorithms.]]: (cite: journals/corr/SchulmanWDRK17/Schulman/2017) . [[papers/rl/learning_algorithms/ppo.md|Notes]]
  - [[pdfs/rl/learning_algorithms/action_dependent_baselines.pdf|action_dependent_baselines]]: . [[papers/rl/learning_algorithms/action_dependent_baselines.md|Notes]]
+ - [[pdfs/rl/learning_algorithms/bear_stabilizing_off_policy_q_learning_via_bootstrapping_error_reduction.pdf|bear_stabilizing_off_policy_q_learning_via_bootstrapping_error_reduction]]: . [[papers/rl/learning_algorithms/bear_stabilizing_off_policy_q_learning_via_bootstrapping_error_reduction.md|Notes]]
  - [[pdfs/rl/learning_algorithms/ddpg.pdf|ddpg]]: . [[papers/rl/learning_algorithms/ddpg.md|Notes]]
  - [[pdfs/rl/learning_algorithms/equivalence_policy_gradient_soft_q_learning.pdf|equivalence_policy_gradient_soft_q_learning]]: . [[papers/rl/learning_algorithms/equivalence_policy_gradient_soft_q_learning.md|Notes]]
  - [[pdfs/rl/learning_algorithms/gae_generalized_advantage_estimation.pdf|gae_generalized_advantage_estimation]]: . [[papers/rl/learning_algorithms/gae_generalized_advantage_estimation.md|Notes]]
