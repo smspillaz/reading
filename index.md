@@ -397,6 +397,7 @@
  - [[pdfs/rl/hrl/hindsight/revisiting_experience_replay_non_stationary_environments.pdf|revisiting_experience_replay_non_stationary_environments]]: . [[papers/rl/hrl/hindsight/revisiting_experience_replay_non_stationary_environments.md|Notes]]
 ### imitation
  - [[pdfs/rl/hrl/imitation/compile_compositional_imitation_learning_and_execution.pdf|compile_compositional_imitation_learning_and_execution]]: . [[papers/rl/hrl/imitation/compile_compositional_imitation_learning_and_execution.md|Notes]]
+ - [[pdfs/rl/hrl/imitation/discovering_motor_programs_by_recomposing_demonstrations.pdf|discovering_motor_programs_by_recomposing_demonstrations]]: . [[papers/rl/hrl/imitation/discovering_motor_programs_by_recomposing_demonstrations.md|Notes]]
  - [[pdfs/rl/hrl/imitation/hierarchical_task_models_demonstration.pdf|hierarchical_task_models_demonstration]]: . [[papers/rl/hrl/imitation/hierarchical_task_models_demonstration.md|Notes]]
  - [[pdfs/rl/hrl/imitation/jing_adversarial_option_aware_hierarchical_imitation_learning.pdf|jing_adversarial_option_aware_hierarchical_imitation_learning]]: . [[papers/rl/hrl/imitation/jing_adversarial_option_aware_hierarchical_imitation_learning.md|Notes]]
 ### options
