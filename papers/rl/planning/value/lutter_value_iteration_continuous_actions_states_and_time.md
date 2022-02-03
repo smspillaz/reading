@@ -8,8 +8,9 @@ access: open
 key: conf/icml/LutterM0FG21
 ee: http://proceedings.mlr.press/v139/lutter21a.html
 url: https://dblp.org/rec/conf/icml/LutterM0FG21
-authors: ["Michael Lutter", "Shie Mannor", "Jan Peters 0001", "Dieter Fox", "Animesh Garg"]
-sync_version: 0
+authors: ["Michael Lutter", "Shie Mannor", "Jan Peters", "Dieter Fox", "Animesh Garg"]
+sync_version: 3
+cite_key: conf/icml/LutterM0FG21
 ---
 
 
