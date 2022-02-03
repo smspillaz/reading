@@ -279,6 +279,8 @@
 ## datasets
  - [[pdfs/nlp/datasets/open_subtitles_paraphrase_corpus_for_six_languages.pdf|open_subtitles_paraphrase_corpus_for_six_languages]]: . [[papers/nlp/datasets/open_subtitles_paraphrase_corpus_for_six_languages.md|Notes]]
  - [[pdfs/nlp/datasets/synthbio_a_case_study_in_human_ai_collaborative_curation_of_text_datasets.pdf|synthbio_a_case_study_in_human_ai_collaborative_curation_of_text_datasets]]: . [[papers/nlp/datasets/synthbio_a_case_study_in_human_ai_collaborative_curation_of_text_datasets.md|Notes]]
+## ethics
+ - [[pdfs/nlp/ethics/ethical_and_social_risks_of_harm_from_language_models.pdf|ethical_and_social_risks_of_harm_from_language_models]]: . [[papers/nlp/ethics/ethical_and_social_risks_of_harm_from_language_models.md|Notes]]
 ## failure_modes
  - [[pdfs/nlp/failure_modes/real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models.pdf|real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models]]: . [[papers/nlp/failure_modes/real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models.md|Notes]]
  - [[pdfs/nlp/failure_modes/the_curious_case_of_neural_text_degeneration.pdf|the_curious_case_of_neural_text_degeneration]]: . [[papers/nlp/failure_modes/the_curious_case_of_neural_text_degeneration.md|Notes]]
