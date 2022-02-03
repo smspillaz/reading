@@ -8,8 +8,9 @@ access: open
 key: journals/corr/abs-2107-08221
 ee: https://arxiv.org/abs/2107.08221
 url: https://dblp.org/rec/journals/corr/abs-2107-08221
-authors: ["Lukas Schott", "Julius von K\u00fcgelgen", "Frederik Tr\u00e4uble", "Peter V. Gehler", "Chris Russell 0001", "Matthias Bethge", "Bernhard Sch\u00f6lkopf", "Francesco Locatello", "Wieland Brendel"]
-sync_version: 0
+authors: ["Lukas Schott", "Julius von K\u00fcgelgen", "Frederik Tr\u00e4uble", "Peter V. Gehler", "Chris Russell", "Matthias Bethge", "Bernhard Sch\u00f6lkopf", "Francesco Locatello", "Wieland Brendel"]
+sync_version: 3
+cite_key: journals/corr/abs-2107-08221/Schott/2021
 ---
 
 # Visual Representation Learning does not Generalize Strongly within the same domain
