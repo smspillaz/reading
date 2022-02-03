@@ -1,3 +1,3 @@
 ---
-title: Do Recent Advancements in Model-Based Reinforcement Learning Really Improve Data Efficiency
+title: Do recent advancements in model-based deep reinforcement learning really improve data efficiency
 ---
