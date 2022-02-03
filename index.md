@@ -44,6 +44,7 @@
  - [[pdfs/dl/compositional/visually_grounded_concept_composition.pdf|visually_grounded_concept_composition]]: . [[papers/dl/compositional/visually_grounded_concept_composition.md|Notes]]
 ## contrastive
  - [[pdfs/dl/contrastive/a_little_help_from_my_friends_nearest_neighbour_contrastive_learning.pdf|a_little_help_from_my_friends_nearest_neighbour_contrastive_learning]]: . [[papers/dl/contrastive/a_little_help_from_my_friends_nearest_neighbour_contrastive_learning.md|Notes]]
+ - [[pdfs/dl/contrastive/barlow_twins_self_supervised_learning_via_redundancy_reduction.pdf|barlow_twins_self_supervised_learning_via_redundancy_reduction]]: . [[papers/dl/contrastive/barlow_twins_self_supervised_learning_via_redundancy_reduction.md|Notes]]
  - [[pdfs/dl/contrastive/byol_self_supervised_no_contrastive.pdf|byol_self_supervised_no_contrastive]]: . [[papers/dl/contrastive/byol_self_supervised_no_contrastive.md|Notes]]
  - [[pdfs/dl/contrastive/clip_learning_transferable_visual_models_nl_supervision.pdf|clip_learning_transferable_visual_models_nl_supervision]]: . [[papers/dl/contrastive/clip_learning_transferable_visual_models_nl_supervision.md|Notes]]
  - [[pdfs/dl/contrastive/contrastive_predictive_coding_infonce.pdf|contrastive_predictive_coding_infonce]]: . [[papers/dl/contrastive/contrastive_predictive_coding_infonce.md|Notes]]
