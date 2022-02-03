@@ -339,9 +339,9 @@
  - [[pdfs/rl/grounded_language/understanding_grounded_language_learning_agents.pdf|understanding_grounded_language_learning_agents]]: . [[papers/rl/grounded_language/understanding_grounded_language_learning_agents.md|Notes]]
 ### babyai
  - [[pdfs/rl/grounded_language/babyai/babyai_with_transformers_kujanpaa.pdf|A Deep Relational Model for Natural Language Understanding]]: . [[papers/rl/grounded_language/babyai/babyai_with_transformers_kujanpaa.md|Notes]]
- - [[pdfs/rl/grounded_language/babyai/babyai.pdf|BabyAI - A Platform to Study the Sample Efficiency of Grounded Language Learning.]]: . [[papers/rl/grounded_language/babyai/babyai.md|Notes]]
- - [[pdfs/rl/grounded_language/babyai/babyai1.1.pdf|BabyAI 1.1.]]: . [[papers/rl/grounded_language/babyai/babyai1.1.md|Notes]]
- - [[pdfs/rl/grounded_language/babyai/babyai++.pdf|BabyAI++ - Towards Grounded-Language Learning beyond Memorization.]]: . [[papers/rl/grounded_language/babyai/babyai++.md|Notes]]
+ - [[pdfs/rl/grounded_language/babyai/babyai.pdf|BabyAI - A Platform to Study the Sample Efficiency of Grounded Language Learning.]]: (cite: conf/iclr/Chevalier-Boisvert19) . [[papers/rl/grounded_language/babyai/babyai.md|Notes]]
+ - [[pdfs/rl/grounded_language/babyai/babyai1.1.pdf|BabyAI 1.1.]]: (cite: journals/corr/abs-2007-12770/Hui/2020) . [[papers/rl/grounded_language/babyai/babyai1.1.md|Notes]]
+ - [[pdfs/rl/grounded_language/babyai/babyai++.pdf|BabyAI++ - Towards Grounded-Language Learning beyond Memorization.]]: (cite: journals/corr/abs-2004-07200/Cao/2020) . [[papers/rl/grounded_language/babyai/babyai++.md|Notes]]
 ### environments
  - [[pdfs/rl/grounded_language/environments/alfred.pdf|alfred]]: . [[papers/rl/grounded_language/environments/alfred.md|Notes]]
  - [[pdfs/rl/grounded_language/environments/gscan_grounded_language_benchmarks.pdf|gscan_grounded_language_benchmarks]]: . [[papers/rl/grounded_language/environments/gscan_grounded_language_benchmarks.md|Notes]]
