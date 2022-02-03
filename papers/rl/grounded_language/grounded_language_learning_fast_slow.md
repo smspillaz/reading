@@ -1,3 +1,16 @@
+---
+title: Grounded Language Learning Fast and Slow.
+venue: ICLR
+year: 2021
+type: Conference and Workshop Papers
+access: open
+key: conf/iclr/HillTGWMC21
+ee: https://openreview.net/forum?id=wpSWuz_hyqA
+url: https://dblp.org/rec/conf/iclr/HillTGWMC21
+authors: ["Felix Hill", "Olivier Tieleman", "Tamara von Glehn", "Nathaniel Wong", "Hamza Merzic", "Stephen Clark"]
+sync_version: 3
+cite_key: conf/iclr/HillTGWMC21
+---
 # Grounded Language Learning Fast and Slow
 
 Contribution: Novel dual-coding external memory which can exhibit one-shot word learning.
@@ -39,12 +52,12 @@ Episodes consist of a discovery phase and an instruction phase.
 
 Two approaches that you can do external memory with:
 
- (1) Differential Neural Computer: 
+ (1) Differential Neural Computer:
  - At each timestep, you have a latent vector $e_t = w(h_{t - 1}, r_{t - 1}, x_t)$,
    function of hidden state, previous memory read and current input
  - In this case, the input $x_t$ is just the concatenated pooled vision input + sentence embedding
  - Latent vector $e_t$ passed to the core memory LSTM to produce current state $h_t$.
- - Reading from memory produces $q(\bold{h}_t)$ (a query vector) and read strength. 
+ - Reading from memory produces $q(\bold{h}_t)$ (a query vector) and read strength.
    - Compute the cosine similarity between the query and all embeddings in the memory - memory
      hard-thresholds this to return only the most simialr entries in the memory.
    - Aggregate everything into a single vector by normalizing with a softmax and taking the weighted average (by softmax).
@@ -57,7 +70,7 @@ Two approaches that you can do external memory with:
  - Apply self-attention to the memories $\hat m_j$ and sum the result elementwise into $r_t$.
  - Same process follows, concat $[r_t, h_{t - 1}, x_t]$ to produce the initial hidden state for the LSTM, which then produces
    the next hidden state $h_t$.
- 
+
  (3) Gated Transformer
  - 4 Layer Transformer with principal embedding size of 256.
 
@@ -87,10 +100,9 @@ Two approaches that you can do external memory with:
 # Integrating Fast and Slow Learning
  - GPT3 is kind of able to do this through its context window:
     "To do a 'farduddle' means to jump up and down really fast. An example of a sentence that uses the word farduddle is:"
-    
+
     response: "One day when I was playing tag with my little sister, she got really excited and she started doing these crazy farduddles"
 
  - Testing in this setting: combine a fast mapping task with a more conventional instruction following task
  - Discovery phase: Agent must explore to find the names of three unfamiliar objects, but room also contains familiar objects
  - Instruction phase: Put one of the unfamiliar objects on either the bed or into the box (familiar objects
-
