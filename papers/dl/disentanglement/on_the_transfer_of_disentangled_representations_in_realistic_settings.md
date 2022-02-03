@@ -1,3 +1,16 @@
+---
+title: On the Transfer of Disentangled Representations in Realistic Settings.
+venue: ICLR
+year: 2021
+type: Conference and Workshop Papers
+access: open
+key: conf/iclr/DittadiTLWAWBS21
+ee: https://openreview.net/forum?id=8VXvj1QNRl1
+url: https://dblp.org/rec/conf/iclr/DittadiTLWAWBS21
+authors: ["Andrea Dittadi", "Frederik Tr\u00e4uble", "Francesco Locatello", "Manuel Wuthrich", "Vaibhav Agrawal", "Ole Winther", "Stefan Bauer", "Bernhard Sch\u00f6lkopf"]
+sync_version: 3
+cite_key: conf/iclr/DittadiTLWAWBS21
+---
 # On the Transfer of Disentangled Representations in Realistic Settings
 
 https://iclr.cc/virtual/2021/poster/2681
@@ -24,11 +37,11 @@ OOD Generalization on Downstream Tasks:
  - Train downstream tasks on some of the VAE colors, but not all.
  - OOD1: VAE has seen them, downstream task has not
  - OOD2: VAE has not seen them.
- 
+
  Task: Given representation x, predict true value of non-OOD factors.
- 
+
  OOD1 Generalization: Very high disentanglement, lower generalization error.
- 
+
  OOD2: Generalization: Disentanglement plays a minor role when representation function goes OOD.
- 
+
  Input noise vs OOD2: Adding noise at training time significantly improves the OOD2 case.
