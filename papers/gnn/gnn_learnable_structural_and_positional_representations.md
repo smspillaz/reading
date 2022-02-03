@@ -8,8 +8,9 @@ access: open
 key: journals/corr/abs-2110-07875
 ee: https://arxiv.org/abs/2110.07875
 url: https://dblp.org/rec/journals/corr/abs-2110-07875
-authors: ["Vijay Prakash Dwivedi", "Anh Tuan Luu", "Thomas Laurent 0001", "Yoshua Bengio", "Xavier Bresson"]
-sync_version: 0
+authors: ["Vijay Prakash Dwivedi", "Anh Tuan Luu", "Thomas Laurent", "Yoshua Bengio", "Xavier Bresson"]
+sync_version: 3
+cite_key: journals/corr/abs-2110-07875/Dwivedi/2021
 ---
 
 Problem: GNNs are designed to aggregate local neighbourhoods, so if an isomorphism exists between two non-intersecting N-balls then those two nodes get the same representation within the graph. See also the WL-test.
