@@ -365,7 +365,7 @@
 ### graphs
  - [[pdfs/rl/hrl/graphs/world_graphs_hrl.pdf|world_graphs_hrl]]: . [[papers/rl/hrl/graphs/world_graphs_hrl.md|Notes]]
 ### hindsight
- - [[pdfs/rl/hrl/hindsight/hide_functionally_decomposed_hierarchy.pdf|Learning Functionally Decomposed Hierarchies for Continuous Control Tasks With Path Planning.]]: Functional decomposition of components. Planning and reward modelling are separate concerns. HiDE also proposes to use MVProp for planning. Reaching a sub-goal and planning sub-goals are done by different components of the system. [[papers/rl/hrl/hindsight/hide_functionally_decomposed_hierarchy.md|Notes]]
+ - [[pdfs/rl/hrl/hindsight/hide_functionally_decomposed_hierarchy.pdf|Learning Functionally Decomposed Hierarchies for Continuous Control Tasks With Path Planning.]]: (cite: journals/ral/ChristenJAH21) Functional decomposition of components. Planning and reward modelling are separate concerns. HiDE also proposes to use MVProp for planning. Reaching a sub-goal and planning sub-goals are done by different components of the system. [[papers/rl/hrl/hindsight/hide_functionally_decomposed_hierarchy.md|Notes]]
  - [[pdfs/rl/hrl/hindsight/hac_hierarchical_actor_critic.pdf|hac_hierarchical_actor_critic]]: . [[papers/rl/hrl/hindsight/hac_hierarchical_actor_critic.md|Notes]]
  - [[pdfs/rl/hrl/hindsight/hiro_data_efficient_hrl.pdf|hiro_data_efficient_hrl]]: . [[papers/rl/hrl/hindsight/hiro_data_efficient_hrl.md|Notes]]
  - [[pdfs/rl/hrl/hindsight/ho2_hindsight_off_policy.pdf|ho2_hindsight_off_policy]]: . [[papers/rl/hrl/hindsight/ho2_hindsight_off_policy.md|Notes]]
