@@ -278,6 +278,7 @@
  - [[pdfs/nlp/transformer/gpt3.pdf|Language Models are Few-Shot Learners.]]: (cite: conf/nips/BrownMRSKDNSSAA20) . [[papers/nlp/transformer/gpt3.md|Notes]]
  - [[pdfs/nlp/transformer/transformer_training_tips.pdf|Training Tips for the Transformer Model.]]: (cite: journals/pbml/PopelB18) . [[papers/nlp/transformer/transformer_training_tips.md|Notes]]
  - [[pdfs/nlp/transformer/competition_level_code_generation_with_alphacode.pdf|competition_level_code_generation_with_alphacode]]: . [[papers/nlp/transformer/competition_level_code_generation_with_alphacode.md|Notes]]
+ - [[pdfs/nlp/transformer/instruct_gpt_training_language_models_to_follow_instructions_with_human_feedback.pdf|instruct_gpt_training_language_models_to_follow_instructions_with_human_feedback]]: . [[papers/nlp/transformer/instruct_gpt_training_language_models_to_follow_instructions_with_human_feedback.md|Notes]]
 # programming
  - [[pdfs/programming/catala_programming_for_law.pdf|catala_programming_for_law]]: . [[papers/programming/catala_programming_for_law.md|Notes]]
 # rl
