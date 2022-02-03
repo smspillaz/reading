@@ -219,6 +219,7 @@
  - [[pdfs/dl/transformer/vision_text/global_fusion_attention_for_vision_and_language_understanding.pdf|global_fusion_attention_for_vision_and_language_understanding]]: . [[papers/dl/transformer/vision_text/global_fusion_attention_for_vision_and_language_understanding.md|Notes]]
  - [[pdfs/dl/transformer/vision_text/lxmert.pdf|lxmert]]: . [[papers/dl/transformer/vision_text/lxmert.md|Notes]]
  - [[pdfs/dl/transformer/vision_text/uniter.pdf|uniter]]: . [[papers/dl/transformer/vision_text/uniter.md|Notes]]
+ - [[pdfs/dl/transformer/vision_text/visual_question_answering_basedon_on_formal_logic.pdf|visual_question_answering_basedon_on_formal_logic]]: . [[papers/dl/transformer/vision_text/visual_question_answering_basedon_on_formal_logic.md|Notes]]
 ## uncertainty
  - [[pdfs/dl/uncertainty/uncertainty_duq.pdf|uncertainty_duq]]: . [[papers/dl/uncertainty/uncertainty_duq.md|Notes]]
 # ethics
