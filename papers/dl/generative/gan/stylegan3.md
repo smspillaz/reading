@@ -9,7 +9,8 @@ key: journals/corr/abs-2106-12423
 ee: https://arxiv.org/abs/2106.12423
 url: https://dblp.org/rec/journals/corr/abs-2106-12423
 authors: ["Tero Karras", "Miika Aittala", "Samuli Laine", "Erik H\u00e4rk\u00f6nen", "Janne Hellsten", "Jaakko Lehtinen", "Timo Aila"]
-sync_version: 0
+sync_version: 3
+cite_key: journals/corr/abs-2106-12423/Karras/2021
 ---
 
 # StyleGAN3: Alias Free Generative Adversarial Networks
