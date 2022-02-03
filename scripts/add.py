@@ -60,7 +60,7 @@ def main():
         run(
             [
                 "python",
-                "update_index.py",
+                "scripts/update_index.py",
                 "index.md",
                 "--filter-changes",
                 basename,

@@ -36,7 +36,7 @@ def main():
 
     for filename in update_files:
         add_args = (
-            ["python", "add.py", "--section", "papers", "--update-index"]
+            ["python", "scripts/add.py", "--section", "papers", "--update-index"]
             + (["--dry-run"] if args.dry_run else [])
             + [filename]
         )

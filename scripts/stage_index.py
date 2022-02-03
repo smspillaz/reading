@@ -9,7 +9,7 @@ def main():
         return
 
     print("Staging index")
-    subprocess.run(["python", "filter_index_adds.py", "index.md", "index.stage"])
+    subprocess.run(["python", "scripts/filter_index_adds.py", "index.md", "index.stage"])
 
 
 if __name__ == "__main__":
