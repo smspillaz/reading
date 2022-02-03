@@ -295,6 +295,7 @@
  - [[pdfs/rl/curriculum/probabilistic_self_based_learning_with_applications_to_rl.pdf|probabilistic_self_based_learning_with_applications_to_rl]]: . [[papers/rl/curriculum/probabilistic_self_based_learning_with_applications_to_rl.md|Notes]]
 ## exploration
  - [[pdfs/rl/exploration/is_curiousity_all_you_need.pdf|Is Curiousity all you need? On the utility of emergent behaviours from curious exploration]]: Curiousity in exploration might overwrite useful behaviours used to reach areas of the state space which are now no longer "interesting", meaning that as an agent explores, it forgets how to reach areas of the state space that it did in the past. This paper proposes a mechanism to try and remember those behaviours, so the the entire state space can still be reached. [[papers/rl/exploration/is_curiousity_all_you_need.md|Notes]]
+ - [[pdfs/rl/exploration/sample_efficient_rl_pomdp.pdf|Sample-Efficient Reinforcement Learning of Undercomplete POMDPs.]]: (cite: conf/nips/JinKKL20) Shows that partial observability does not preclude efficient reinforcement learning for a rich and interesting subclass of POMDPs. Presents a sample-efficient algorithm called *OOM-UCB* for episodic finite *undercomplete* POMDPs where the number of observation is larger tha the number of latent states and where exploration is essential for learning. OOM-UCB gets an $\epsilon$-optimal sample complexity of $\bar{\mathcal{O}(\frac{1}{\epsilon^2}})$ . [[papers/rl/exploration/sample_efficient_rl_pomdp.md|Notes]]
  - [[pdfs/rl/exploration/curl_contrastive_rl.pdf|curl_contrastive_rl]]: . [[papers/rl/exploration/curl_contrastive_rl.md|Notes]]
  - [[pdfs/rl/exploration/episodic_curiousity_through_reachability.pdf|episodic_curiousity_through_reachability]]: . [[papers/rl/exploration/episodic_curiousity_through_reachability.md|Notes]]
  - [[pdfs/rl/exploration/ex2_exploration_exemplar_models.pdf|ex2_exploration_exemplar_models]]: . [[papers/rl/exploration/ex2_exploration_exemplar_models.md|Notes]]
@@ -304,7 +305,6 @@
  - [[pdfs/rl/exploration/provably_efficient_unsupervised.pdf|provably_efficient_unsupervised]]: . [[papers/rl/exploration/provably_efficient_unsupervised.md|Notes]]
  - [[pdfs/rl/exploration/ready_policy_one.pdf|ready_policy_one]]: . [[papers/rl/exploration/ready_policy_one.md|Notes]]
  - [[pdfs/rl/exploration/rig_imagined_goals.pdf|rig_imagined_goals]]: . [[papers/rl/exploration/rig_imagined_goals.md|Notes]]
- - [[pdfs/rl/exploration/sample_efficient_rl_pomdp.pdf|sample_efficient_rl_pomdp]]: . [[papers/rl/exploration/sample_efficient_rl_pomdp.md|Notes]]
  - [[pdfs/rl/exploration/self_paced_deep_reinforcement_learning.pdf|self_paced_deep_reinforcement_learning]]: . [[papers/rl/exploration/self_paced_deep_reinforcement_learning.md|Notes]]
 ## generalization
  - [[pdfs/rl/generalization/survey_generalization_deep_rl_zhang.pdf|A Survey of Generalization in Deep Reinforcement Learning]]: Covers a few different areas, including generalization test environments, metrics for generalization, different types of generalization, un-explored problems in generalization etc. [[papers/rl/generalization/survey_generalization_deep_rl_zhang.md|Notes]]
