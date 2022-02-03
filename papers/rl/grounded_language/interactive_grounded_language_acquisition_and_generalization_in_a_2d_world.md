@@ -8,5 +8,6 @@ key: conf/iclr/YuZX18
 ee: https://openreview.net/forum?id=H1UOm4gA-
 url: https://dblp.org/rec/conf/iclr/YuZX18
 authors: ["Haonan Yu", "Haichao Zhang", "Wei Xu 0017"]
-sync_version: 0
+sync_version: 3
+cite_key: conf/iclr/YuZX18
 ---
