@@ -16,7 +16,9 @@ def run(args, dry_run=False, **kwargs):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--section", required=True)
-    parser.add_argument("--dry-run", action="store_true", help="Don't run, just print commands")
+    parser.add_argument(
+        "--dry-run", action="store_true", help="Don't run, just print commands"
+    )
     parser.add_argument("filename")
     args = parser.parse_args()
 
