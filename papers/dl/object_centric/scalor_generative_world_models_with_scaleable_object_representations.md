@@ -1,0 +1,1 @@
+![[scalor_architecture.png]]
