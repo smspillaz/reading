@@ -282,6 +282,7 @@
 ## ethics
  - [[pdfs/nlp/ethics/ethical_and_social_risks_of_harm_from_language_models.pdf|ethical_and_social_risks_of_harm_from_language_models]]: . [[papers/nlp/ethics/ethical_and_social_risks_of_harm_from_language_models.md|Notes]]
  - [[pdfs/nlp/ethics/language_technology_is_power_a_critical_survey_of_bias_in_nlp.pdf|language_technology_is_power_a_critical_survey_of_bias_in_nlp]]: . [[papers/nlp/ethics/language_technology_is_power_a_critical_survey_of_bias_in_nlp.md|Notes]]
+ - [[pdfs/nlp/ethics/on_the_danger_of_stochastic_parrots_can_language_models_be_too_big.pdf|on_the_danger_of_stochastic_parrots_can_language_models_be_too_big]]: . [[papers/nlp/ethics/on_the_danger_of_stochastic_parrots_can_language_models_be_too_big.md|Notes]]
 ## failure_modes
  - [[pdfs/nlp/failure_modes/real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models.pdf|real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models]]: . [[papers/nlp/failure_modes/real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models.md|Notes]]
  - [[pdfs/nlp/failure_modes/the_curious_case_of_neural_text_degeneration.pdf|the_curious_case_of_neural_text_degeneration]]: . [[papers/nlp/failure_modes/the_curious_case_of_neural_text_degeneration.md|Notes]]
