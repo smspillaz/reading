@@ -265,6 +265,7 @@
 ## generation
 ### controlled
  - [[pdfs/nlp/generation/controlled/bert_has_a_mouth_and_it_must_speak_bert_as_a_markov_random_field_language_model.pdf|bert_has_a_mouth_and_it_must_speak_bert_as_a_markov_random_field_language_model]]: . [[papers/nlp/generation/controlled/bert_has_a_mouth_and_it_must_speak_bert_as_a_markov_random_field_language_model.md|Notes]]
+ - [[pdfs/nlp/generation/controlled/mucoco_controlled_text_generation_as_continuous_optimization_with_multiple_constraints.pdf|mucoco_controlled_text_generation_as_continuous_optimization_with_multiple_constraints]]: . [[papers/nlp/generation/controlled/mucoco_controlled_text_generation_as_continuous_optimization_with_multiple_constraints.md|Notes]]
 ## graph
  - [[pdfs/nlp/graph/gnn_interpreting_nlp_edge_masking.pdf|gnn_interpreting_nlp_edge_masking]]: . [[papers/nlp/graph/gnn_interpreting_nlp_edge_masking.md|Notes]]
 ## image_captioning
