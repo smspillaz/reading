@@ -539,7 +539,7 @@ def sync_note_metadata(structure, obj, note_path, *args, **kwargs):
         # Pull the title from the note frontmatter and use it in the
         # index => the note frontmatter is the source of truth in this case.
         if (
-            not substructure["keys"]
+            not substructure.get("keys", [])
             or substructure["keys"][0]["key"] != note_frontmatter["cite_key"]
         ):
             print(
