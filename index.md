@@ -261,6 +261,7 @@
  - [[pdfs/nlp/data_augmentation/grondal_text_oversampling_aug.pdf|grondal_text_oversampling_aug]]: . [[papers/nlp/data_augmentation/grondal_text_oversampling_aug.md|Notes]]
 ## failure_modes
  - [[pdfs/nlp/failure_modes/real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models.pdf|real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models]]: . [[papers/nlp/failure_modes/real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models.md|Notes]]
+ - [[pdfs/nlp/failure_modes/the_curious_case_of_neural_text_degeneration.pdf|the_curious_case_of_neural_text_degeneration]]: . [[papers/nlp/failure_modes/the_curious_case_of_neural_text_degeneration.md|Notes]]
 ## graph
  - [[pdfs/nlp/graph/gnn_interpreting_nlp_edge_masking.pdf|gnn_interpreting_nlp_edge_masking]]: . [[papers/nlp/graph/gnn_interpreting_nlp_edge_masking.md|Notes]]
 ## image_captioning
