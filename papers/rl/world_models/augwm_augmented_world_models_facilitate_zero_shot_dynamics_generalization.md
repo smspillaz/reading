@@ -9,5 +9,6 @@ key: conf/icml/BallLPR21
 ee: http://proceedings.mlr.press/v139/ball21a.html
 url: https://dblp.org/rec/conf/icml/BallLPR21
 authors: ["Philip J. Ball", "Cong Lu", "Jack Parker-Holder", "Stephen J. Roberts"]
-sync_version: 0
+sync_version: 3
+cite_key: conf/icml/BallLPR21
 ---
