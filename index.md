@@ -453,6 +453,7 @@
  - [[pdfs/rl/multiagent/learning_to_communicate_dial_rial.pdf|learning_to_communicate_dial_rial]]: . [[papers/rl/multiagent/learning_to_communicate_dial_rial.md|Notes]]
  - [[pdfs/rl/multiagent/maddpg.pdf|maddpg]]: . [[papers/rl/multiagent/maddpg.md|Notes]]
 ## multitask
+ - [[pdfs/rl/multitask/learning_to_achieve_goals.ps|Learning to Achieve Goals.]]: (cite: conf/ijcai/Kaelbling93) . [[papers/rl/multitask/learning_to_achieve_goals.md|Notes]]
  - [[pdfs/rl/multitask/mtan_end_to_end_multi_task_learning_with_attention.pdf|Multi-Task Learning With Attention for End-to-End Autonomous Driving.]]: (cite: conf/cvpr/IshiharaKMH21) Task specific channel attention - shared backbone with different channel attention networks per task, which perform a form of feature selection like FiLM (MTAN). [[papers/rl/multitask/mtan_end_to_end_multi_task_learning_with_attention.md|Notes]]
  - [[pdfs/rl/multitask/softmodule_multi_task_rl_with_soft_modularization.pdf|Multi-Task Reinforcement Learning with Soft Modularization.]]: (cite: conf/nips/YangXWW20) Avoid gradient conflicts by using different modules for different tasks and then learning to route inputs between them (SoftModule). [[papers/rl/multitask/softmodule_multi_task_rl_with_soft_modularization.md|Notes]]
  - [[pdfs/rl/multitask/distributional_view_on_multi_objective_policy_optimization.pdf|distributional_view_on_multi_objective_policy_optimization]]: . [[papers/rl/multitask/distributional_view_on_multi_objective_policy_optimization.md|Notes]]
