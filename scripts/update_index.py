@@ -644,13 +644,14 @@ def pull_matching_descriptions(structure_to_update, descriptions_file, filter_ch
     }
     update_paths_and_metadata = [
         (
-            obj["fullpath"],
-            descriptions_filename_to_descriptions[obj["filename"]],
+            structure_filename_to_descriptions[filename]["fullpath"],
+            descriptions_filename_to_descriptions[filename],
         )
-        for obj in walk_structure(structure_to_update)
-        if obj["filename"] in descriptions_filename_to_descriptions
-        and matches_filter(obj["filename"], filter_changes)
-        and structure_filename_to_descriptions[obj["filename"]]["content"] != obj["content"]
+        for filename in descriptions_filename_to_descriptions.keys()
+        if filename in structure_filename_to_descriptions
+        and matches_filter(filename, filter_changes)
+        and structure_filename_to_descriptions[filename]["content"]
+        != descriptions_filename_to_descriptions[filename]["content"]
     ]
     report_pull_index_metadata(update_paths_and_metadata)
 
