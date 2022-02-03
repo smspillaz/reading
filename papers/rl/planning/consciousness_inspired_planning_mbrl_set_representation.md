@@ -1,3 +1,17 @@
+---
+title: A Consciousness-Inspired Planning Agent for Model-Based Reinforcement Learning.
+venue: CoRR
+volume: abs/2106.02097
+year: 2021
+type: Informal Publications
+access: open
+key: journals/corr/abs-2106-02097
+ee: https://arxiv.org/abs/2106.02097
+url: https://dblp.org/rec/journals/corr/abs-2106-02097
+authors: ["Mingde Zhao", "Zhen Liu", "Sitao Luan", "Shuyuan Zhang", "Doina Precup", "Yoshua Bengio"]
+sync_version: 3
+cite_key: journals/corr/abs-2106-02097/Zhao/2021
+---
 # Consciousness inspired Planning, MBRL with Set Representations
 [[conciousness_inspired_planning_mbrl_set_representation.pdf]]
 
