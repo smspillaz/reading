@@ -276,6 +276,7 @@
  - [[pdfs/nlp/transformer/bert_pretraining_of_bidirectional_transformers_for_language_understanding.pdf|BERT - Pre-training of Deep Bidirectional Transformers for Language Understanding.]]: (cite: conf/naacl/DevlinCLT19) . [[papers/nlp/transformer/bert_pretraining_of_bidirectional_transformers_for_language_understanding.md|Notes]]
  - [[pdfs/nlp/transformer/gpt3.pdf|Language Models are Few-Shot Learners.]]: (cite: conf/nips/BrownMRSKDNSSAA20) . [[papers/nlp/transformer/gpt3.md|Notes]]
  - [[pdfs/nlp/transformer/transformer_training_tips.pdf|Training Tips for the Transformer Model.]]: (cite: journals/pbml/PopelB18) . [[papers/nlp/transformer/transformer_training_tips.md|Notes]]
+ - [[pdfs/nlp/transformer/competition_level_code_generation_with_alphacode.pdf|competition_level_code_generation_with_alphacode]]: . [[papers/nlp/transformer/competition_level_code_generation_with_alphacode.md|Notes]]
 # programming
  - [[pdfs/programming/catala_programming_for_law.pdf|catala_programming_for_law]]: . [[papers/programming/catala_programming_for_law.md|Notes]]
 # rl
