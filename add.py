@@ -48,7 +48,8 @@ def main():
                     print("Ignoring", link)
 
     run(
-        ["git", "commit", "-m", "{}: Add {}".format(args.section, args.filename)], dry_run=args.dry_run
+        ["git", "commit", "-m", "{}: Update {}".format(args.section, args.filename)],
+        dry_run=args.dry_run,
     )
 
 
