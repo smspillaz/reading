@@ -51,6 +51,7 @@
  - [[pdfs/dl/contrastive/contrastive_representaiton_hypersphere.pdf|contrastive_representaiton_hypersphere]]: . [[papers/dl/contrastive/contrastive_representaiton_hypersphere.md|Notes]]
  - [[pdfs/dl/contrastive/data2vec_a_general_framework_for_self_supervised_learning_in_speech_vision_and_language.pdf|data2vec_a_general_framework_for_self_supervised_learning_in_speech_vision_and_language]]: . [[papers/dl/contrastive/data2vec_a_general_framework_for_self_supervised_learning_in_speech_vision_and_language.md|Notes]]
  - [[pdfs/dl/contrastive/ermolov_whitening_ssl.pdf|ermolov_whitening_ssl]]: . [[papers/dl/contrastive/ermolov_whitening_ssl.md|Notes]]
+ - [[pdfs/dl/contrastive/local_plasticity_rules_can_learn_deep_representations_using_self_supervised_contrastive_predictions.pdf|local_plasticity_rules_can_learn_deep_representations_using_self_supervised_contrastive_predictions]]: . [[papers/dl/contrastive/local_plasticity_rules_can_learn_deep_representations_using_self_supervised_contrastive_predictions.md|Notes]]
  - [[pdfs/dl/contrastive/scaling_up_visual_and_vision_language_representation_learning_noisy_text.pdf|scaling_up_visual_and_vision_language_representation_learning_noisy_text]]: . [[papers/dl/contrastive/scaling_up_visual_and_vision_language_representation_learning_noisy_text.md|Notes]]
  - [[pdfs/dl/contrastive/simclr_contrastive_visual_rep.pdf|simclr_contrastive_visual_rep]]: . [[papers/dl/contrastive/simclr_contrastive_visual_rep.md|Notes]]
 ## conv
