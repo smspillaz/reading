@@ -167,12 +167,12 @@
 ### linear
  - [[pdfs/dl/transformer/linear/bigbird.pdf|Big Bird - Transformers for Longer Sequences.]]: (cite: conf/nips/ZaheerGDAAOPRWY20) . [[papers/dl/transformer/linear/bigbird.md|Notes]]
  - [[pdfs/dl/transformer/linear/longformer.pdf|Longformer - The Long-Document Transformer.]]: (cite: journals/corr/abs-2004-05150/Beltagy/2020) . [[papers/dl/transformer/linear/longformer.md|Notes]]
+ - [[pdfs/dl/transformer/linear/reformer.pdf|Reformer - The Efficient Transformer.]]: (cite: conf/iclr/KitaevKL20) . [[papers/dl/transformer/linear/reformer.md|Notes]]
  - [[pdfs/dl/transformer/linear/adaptive_attention_transformer.pdf|adaptive_attention_transformer]]: . [[papers/dl/transformer/linear/adaptive_attention_transformer.md|Notes]]
  - [[pdfs/dl/transformer/linear/attention_free_transformer.pdf|attention_free_transformer]]: . [[papers/dl/transformer/linear/attention_free_transformer.md|Notes]]
  - [[pdfs/dl/transformer/linear/linformer.pdf|linformer]]: . [[papers/dl/transformer/linear/linformer.md|Notes]]
  - [[pdfs/dl/transformer/linear/liutkus_relative_pos_encoding_linear_complex.pdf|liutkus_relative_pos_encoding_linear_complex]]: . [[papers/dl/transformer/linear/liutkus_relative_pos_encoding_linear_complex.md|Notes]]
  - [[pdfs/dl/transformer/linear/performer.pdf|performer]]: . [[papers/dl/transformer/linear/performer.md|Notes]]
- - [[pdfs/dl/transformer/linear/reformer.pdf|reformer]]: . [[papers/dl/transformer/linear/reformer.md|Notes]]
  - [[pdfs/dl/transformer/linear/sparse_transformer.pdf|sparse_transformer]]: . [[papers/dl/transformer/linear/sparse_transformer.md|Notes]]
  - [[pdfs/dl/transformer/linear/star_transformer.pdf|star_transformer]]: . [[papers/dl/transformer/linear/star_transformer.md|Notes]]
  - [[pdfs/dl/transformer/linear/transformers_are_rnns.pdf|transformers_are_rnns]]: . [[papers/dl/transformer/linear/transformers_are_rnns.md|Notes]]
