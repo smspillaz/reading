@@ -9,5 +9,6 @@ key: conf/icml/PRM21
 ee: http://proceedings.mlr.press/v139/vlastelica21a.html
 url: https://dblp.org/rec/conf/icml/PRM21
 authors: ["Marin Vlastelica P.", "Michal Rolinek", "Georg Martius"]
-sync_version: 0
+sync_version: 3
+cite_key: conf/icml/PRM21
 ---
