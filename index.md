@@ -104,6 +104,8 @@
  - [[pdfs/dl/generative/energy/improved_contrastive_divergence_training_of_energy_based_model.pdf|improved_contrastive_divergence_training_of_energy_based_model]]: . [[papers/dl/generative/energy/improved_contrastive_divergence_training_of_energy_based_model.md|Notes]]
 ### gan
  - [[pdfs/dl/generative/gan/stylegan3.pdf|Alias-Free Generative Adversarial Networks.]]: (cite: journals/corr/abs-2106-12423/Karras/2021) AKA StyleGAN3. Bad signal processing creates a "texture sticking" problem when interpolating between generated images in the latent space. With some fixes in the encoder/decoder architecture to respect signal processing rules, it fixes the aliasing problem leading to a smoother latent space interpolation without texture sticking. [[papers/dl/generative/gan/stylegan3.md|Notes]]
+### normalizing_flows
+ - [[pdfs/dl/generative/normalizing_flows/density_estimation_using_real_nvp.pdf|Density estimation using Real NVP.]]: (cite: conf/iclr/DinhSB17) . [[papers/dl/generative/normalizing_flows/density_estimation_using_real_nvp.md|Notes]]
 ### vae
  - [[pdfs/dl/generative/vae/inductive_bias_vae.pdf|InteL-VAEs - Adding Inductive Biases to Variational Auto-Encoders via Intermediary Latents.]]: (cite: journals/corr/abs-2106-13746/Miao/2021) Incorporate a mapping function into the encoder of a VAE which maps from a unit sphere distribution to separate clusters. Then it is easier to decode from those clusters. The mapping function can depend on the problem, its a kind of structural prior on the data space. [[papers/dl/generative/vae/inductive_bias_vae.md|Notes]]
 ## graph
