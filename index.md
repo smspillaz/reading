@@ -483,6 +483,8 @@
 ## memory
  - [[pdfs/rl/memory/memory_augmented_control.pdf|memory_augmented_control]]: . [[papers/rl/memory/memory_augmented_control.md|Notes]]
  - [[pdfs/rl/memory/working_memory_graphs.pdf|working_memory_graphs]]: . [[papers/rl/memory/working_memory_graphs.md|Notes]]
+## methodology
+ - [[pdfs/rl/methodology/accounting_for_neglected_dimensions_of_ai_progress.pdf|Accounting for the Neglected Dimensions of AI Progress.]]: (cite: journals/corr/abs-1806-00610/Martinez-Plumed/2018) None. [[papers/rl/methodology/accounting_for_neglected_dimensions_of_ai_progress.md|Notes]]
 ## multiagent
  - [[pdfs/rl/multiagent/learning_to_communicate_dial_rial.pdf|learning_to_communicate_dial_rial]]: . [[papers/rl/multiagent/learning_to_communicate_dial_rial.md|Notes]]
  - [[pdfs/rl/multiagent/maddpg.pdf|maddpg]]: . [[papers/rl/multiagent/maddpg.md|Notes]]
