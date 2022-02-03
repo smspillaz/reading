@@ -258,7 +258,7 @@ def report_paths_to_update(paths_to_update):
         print(f"Moving {src_path} -> {dst_path}")
 
 
-def reconcile_moves(structure_src, structure_to_update):
+def reconcile_moves(structure_src, structure_to_update, filter_changes):
     src_filename_to_fullpath = {
         obj["filename"]: obj["fullpath"] for obj in walk_structure(structure_src)
     }
@@ -278,6 +278,7 @@ def reconcile_moves(structure_src, structure_to_update):
         if filename in src_filename_to_fullpath
         and to_update_filename_to_fullpath[filename]
         != src_filename_to_fullpath[filename]
+        and matches_filter(filename, filter_changes)
     ]
 
     report_paths_to_update(paths_to_update)
@@ -320,7 +321,7 @@ def report_adds(paths):
         print(f"Add {path}")
 
 
-def reconcile_adds(structure_src, structure_to_update):
+def reconcile_adds(structure_src, structure_to_update, filter_changes):
     src_filename_to_fullpath = {
         obj["filename"]: obj["fullpath"] for obj in walk_structure(structure_src)
     }
@@ -334,6 +335,7 @@ def reconcile_adds(structure_src, structure_to_update):
         src_filename_to_fullpath[filename]
         for filename in src_filename_to_fullpath
         if filename not in to_update_filenames
+        and matches_filter(filename, filter_changes)
     ]
 
     report_adds(paths_to_add)
@@ -351,9 +353,9 @@ def reconcile_adds(structure_src, structure_to_update):
         recursive_do(structure_to_update, dst_key, append_by_filename, substructure)
 
 
-def reconcile_structures(structure_src, structure_to_update):
-    reconcile_moves(structure_src, structure_to_update)
-    reconcile_adds(structure_src, structure_to_update)
+def reconcile_structures(structure_src, structure_to_update, filter_adds):
+    reconcile_moves(structure_src, structure_to_update, filter_adds)
+    reconcile_adds(structure_src, structure_to_update, filter_adds)
 
 
 def report_unmatched_notes(unmatched_notes):
@@ -446,7 +448,7 @@ def move_vcs_file(src_path, dst_path):
         os.rename(src_path, dst_path)
 
 
-def sync_notes_locations(structure, notes_directory, dry_run=True):
+def sync_notes_locations(structure, notes_directory, dry_run=True, filter_changes=None):
     objects_to_fullpath = {
         os.path.splitext(obj["filename"])[0]: obj["fullpath"]
         for obj in walk_structure(structure)
@@ -467,14 +469,14 @@ def sync_notes_locations(structure, notes_directory, dry_run=True):
             os.path.join(notes_directory, dst_path),
         )
         for src_path, dst_path in matched_notes
-        if src_path != dst_path
+        if src_path != dst_path and matches_filter(dst_path, filter_changes)
     ]
     notes_to_create = [
         os.path.join(
             notes_directory, os.path.splitext(objects_to_fullpath[key])[0] + ".md"
         )
         for key in objects_to_fullpath
-        if key not in notes
+        if key not in notes and matches_filter(key, filter_changes)
     ]
 
     report_moves(notes_to_move)
@@ -550,7 +552,9 @@ def sync_note_metadata(structure, obj, note_path, *args, **kwargs):
         rewrite_frontmatter_section(note_path, format_frontmatter(note_frontmatter))
 
 
-def reconcile_notes(structure_to_update, notes_directory, dry_run=True):
+def reconcile_notes(
+    structure_to_update, notes_directory, dry_run=True, filter_changes=None
+):
     objects_to_fullpath = {
         os.path.splitext(obj["filename"])[0]: obj["fullpath"]
         for obj in walk_structure(structure_to_update)
@@ -560,10 +564,15 @@ def reconcile_notes(structure_to_update, notes_directory, dry_run=True):
     matched_notes = [
         (notes[key], objects_to_fullpath[key])
         for key in notes
-        if key in objects_to_fullpath
+        if key in objects_to_fullpath and matches_filter(key, filter_changes)
     ]
-    unmatched_notes = [notes[key] for key in notes if key not in objects_to_fullpath]
-    report_unmatched_notes(unmatched_notes)
+
+    # Don't complain about lots of unmatched notes if we're filtering
+    if filter_changes is None:
+        unmatched_notes = [
+            notes[key] for key in notes if key not in objects_to_fullpath
+        ]
+        report_unmatched_notes(unmatched_notes)
 
     note_keys = [
         (note_path, path_to_key(object_path))
@@ -632,6 +641,11 @@ def main():
         action="store_true",
         help="Show the resulting markdown structure in json",
     )
+    parser.add_argument(
+        "--filter-changes",
+        type=str,
+        help="Keep added papers matching this regex",
+    )
     parser.add_argument("index", help="Index filename to update")
     args = parser.parse_args()
 
@@ -641,8 +655,12 @@ def main():
     with open(args.index, "r") as f:
         md_structure = prune_empty(parse_markdown_to_tree_start(f.readlines()))
 
+    filter_changes = (
+        re.compile(f".*{args.filter_changes}.*") if args.filter_changes else None
+    )
+
     # After this, md_structure is the most up to date
-    reconcile_structures(fs_structure, md_structure)
+    reconcile_structures(fs_structure, md_structure, filter_changes)
     prune_empty(md_structure)
 
     # Its important that we sync the note locations before we call
@@ -653,8 +671,10 @@ def main():
     # wrong since sync_notes_locations won't move anything and therefore
     # the displayed link names will be wrong. That's difficult to fix
     # its left broken for now.
-    sync_notes_locations(md_structure, args.notes_directory, args.dry_run)
-    reconcile_notes(md_structure, args.notes_directory, args.dry_run)
+    sync_notes_locations(
+        md_structure, args.notes_directory, args.dry_run, filter_changes
+    )
+    reconcile_notes(md_structure, args.notes_directory, args.dry_run, filter_changes)
 
     # Postprocessing (sorting, etc)
     postprocess_structure(md_structure)
