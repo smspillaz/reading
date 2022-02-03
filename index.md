@@ -221,7 +221,7 @@
 # explainability
  - [[pdfs/explainability/parameter_space_saliency_maps_explainability.pdf|parameter_space_saliency_maps_explainability]]: . [[papers/explainability/parameter_space_saliency_maps_explainability.md|Notes]]
 # gnn
- - [[pdfs/gnn/gnn_learnable_structural_and_positional_representations.pdf|Graph Neural Networks with Learnable Structural and Positional Representations.]]: Have a separate learned position encoding plus position initializations based on $k$-hop random-walk features. [[papers/gnn/gnn_learnable_structural_and_positional_representations.md|Notes]]
+ - [[pdfs/gnn/gnn_learnable_structural_and_positional_representations.pdf|Graph Neural Networks with Learnable Structural and Positional Representations.]]: (cite: journals/corr/abs-2110-07875/Dwivedi/2021) Have a separate learned position encoding plus position initializations based on $k$-hop random-walk features. [[papers/gnn/gnn_learnable_structural_and_positional_representations.md|Notes]]
  - [[pdfs/gnn/deep_path_knowledge_graph_reasoning.pdf|deep_path_knowledge_graph_reasoning]]: . [[papers/gnn/deep_path_knowledge_graph_reasoning.md|Notes]]
  - [[pdfs/gnn/gnn_explainer.pdf|gnn_explainer]]: . [[papers/gnn/gnn_explainer.md|Notes]]
  - [[pdfs/gnn/graph_star_net.pdf|graph_star_net]]: . [[papers/gnn/graph_star_net.md|Notes]]
