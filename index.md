@@ -576,6 +576,9 @@
  - [[pdfs/rl/representations/return_based_contrastive_repre.pdf|return_based_contrastive_repre]]: . [[papers/rl/representations/return_based_contrastive_repre.md|Notes]]
  - [[pdfs/rl/representations/self_supervised_visual_reinfor.pdf|self_supervised_visual_reinfor]]: . [[papers/rl/representations/self_supervised_visual_reinfor.md|Notes]]
  - [[pdfs/rl/representations/smorl_self_supervised_visual_reinforcement_learning_with_object_centric_representations.pdf|smorl_self_supervised_visual_reinforcement_learning_with_object_centric_representations]]: . [[papers/rl/representations/smorl_self_supervised_visual_reinforcement_learning_with_object_centric_representations.md|Notes]]
+## sample_efficiency
+### offline
+ - [[pdfs/rl/sample_efficiency/offline/batch_value_function_approximation_with_only_realizability.pdf|Batch Value-function Approximation with Only Realizability.]]: (cite: conf/icml/XieJ21) Introduces Batch Value Function Tournament. They claim that under the assumption that all actions have some probability weight greater than $\frac{1}{C_A}$ under the dataset given every state and further that the data distribution is exploratory (eg, we have explored many transitions), denoted $C_S$. $C = C_S C_A$ .Then, they show an algorithm bounding the error to $J(\pi^*) - J(\hat \pi) \le \frac{(4 + 8 \sqrt{C}) \epsilon_{\mathcal{F}}}{(1 - \gamma)^2}$  with sample complexity $|D| = \bar {\mathcal{O}} (\frac{C^2 \ln \frac{|\mathcal{F}|}{\delta} \epsilon_{\mathcal{F}}}{\epsilon^4 (1-  \gamma)^8})$ . [[papers/rl/sample_efficiency/offline/batch_value_function_approximation_with_only_realizability.md|Notes]]
 ## symmetry
  - [[pdfs/rl/symmetry/block_mdps_robust_state_abstractions.pdf|block_mdps_robust_state_abstractions]]: . [[papers/rl/symmetry/block_mdps_robust_state_abstractions.md|Notes]]
  - [[pdfs/rl/symmetry/mdp_homomorphic_networks.pdf|mdp_homomorphic_networks]]: . [[papers/rl/symmetry/mdp_homomorphic_networks.md|Notes]]
