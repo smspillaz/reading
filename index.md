@@ -574,7 +574,6 @@
  - [[pdfs/rl/representations/contrastive_explanations_for_rl_self_predictions.pdf|contrastive_explanations_for_rl_self_predictions]]: . [[papers/rl/representations/contrastive_explanations_for_rl_self_predictions.md|Notes]]
  - [[pdfs/rl/representations/reinforcement_learning_prototypical_representations.pdf|reinforcement_learning_prototypical_representations]]: . [[papers/rl/representations/reinforcement_learning_prototypical_representations.md|Notes]]
  - [[pdfs/rl/representations/return_based_contrastive_repre.pdf|return_based_contrastive_repre]]: . [[papers/rl/representations/return_based_contrastive_repre.md|Notes]]
- - [[pdfs/rl/representations/self_supervised_visual_reinfor.pdf|self_supervised_visual_reinfor]]: . [[papers/rl/representations/self_supervised_visual_reinfor.md|Notes]]
  - [[pdfs/rl/representations/smorl_self_supervised_visual_reinforcement_learning_with_object_centric_representations.pdf|smorl_self_supervised_visual_reinforcement_learning_with_object_centric_representations]]: . [[papers/rl/representations/smorl_self_supervised_visual_reinforcement_learning_with_object_centric_representations.md|Notes]]
 ## sample_efficiency
 ### offline
