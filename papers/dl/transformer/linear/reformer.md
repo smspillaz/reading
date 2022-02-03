@@ -1,3 +1,16 @@
+---
+title: Reformer - The Efficient Transformer.
+venue: ICLR
+year: 2020
+type: Conference and Workshop Papers
+access: open
+key: conf/iclr/KitaevKL20
+ee: https://openreview.net/forum?id=rkgNKkHtvB
+url: https://dblp.org/rec/conf/iclr/KitaevKL20
+authors: ["Nikita Kitaev", "Lukasz Kaiser", "Anselm Levskaya"]
+sync_version: 3
+cite_key: conf/iclr/KitaevKL20
+---
 # Reformer: The Efficient Transfomer
 
 Transformers are great and performance seems to scale with the number of parameters.
@@ -18,9 +31,9 @@ Problems:
  - Intermediate computations are huge
  - Need to store the intermediate activations for backprop
  - Attention on sequences length L is O(L^2) in both compute and memory.
- 
+
 ## Contributions
- 
+
  1. Reversible Layers
  2. Splitting activations and processing them in chunks
  3. Approximate attention with LSH (O(L log L))
@@ -28,7 +41,7 @@ Problems:
 ## Memory-Efficient Attention
 
 Normal attenion is a dot product, eg:
- 
+
  $$
  \text{Attention}(Q, K, V) = \text{softmax}(\frac{QK^T}{\sqrt{d_k}}) V
  $$
@@ -64,7 +77,7 @@ and compute softmax over them, then set rest to zero, does it make that much of 
 ...     for i, s in zip(top, softmax_top):
 ...         result[i] = s
 ...     return result
-... 
+...
 >>> r = np.random.normal(size=64000)
 >>> x =  r * r
 >>> entropy(softmax(x), capped_softmax(x, 64000))
