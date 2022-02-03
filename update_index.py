@@ -593,7 +593,9 @@ def reconcile_notes(
 
 def make_markdown(structure, level=1, file=None):
     for object in structure.get("objects", []):
-        cite_key = "" if not object.get("keys", []) else f"(cite: {object['keys'][0]['key']}) "
+        cite_key = (
+            "" if not object.get("keys", []) else f"(cite: {object['keys'][0]['key']}) "
+        )
         print(
             f" - [[{object['linkpath']}|{object['filename_link_text']}]]: {cite_key}{object['content']}",
             file=file or sys.stdout,
