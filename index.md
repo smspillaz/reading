@@ -143,6 +143,7 @@
  - [[pdfs/dl/sequence/mc_lstm.pdf|MC-LSTM - Mass-Conserving LSTM.]]: (cite: conf/icml/HoedtKKHHNHK21) Adjust the architecture of an LSTM such that "mass" cannot appear from nowhere, it must either explicitly enter the system via the input gate and mass leaving the system plus current mass must sum up to the total mass (input + current mass at previous timestep). [[papers/dl/sequence/mc_lstm.md|Notes]]
  - [[pdfs/dl/sequence/conv_lstm.pdf|conv_lstm]]: . [[papers/dl/sequence/conv_lstm.md|Notes]]
  - [[pdfs/dl/sequence/dilated_rnn.pdf|dilated_rnn]]: . [[papers/dl/sequence/dilated_rnn.md|Notes]]
+ - [[pdfs/dl/sequence/soft_dtw_a_differentiable_loss_function_for_time_series.pdf|soft_dtw_a_differentiable_loss_function_for_time_series]]: . [[papers/dl/sequence/soft_dtw_a_differentiable_loss_function_for_time_series.md|Notes]]
  - [[pdfs/dl/sequence/urlstm_gating.pdf|urlstm_gating]]: . [[papers/dl/sequence/urlstm_gating.md|Notes]]
 ## sets
  - [[pdfs/dl/sets/dspn_deep_set_prediction.pdf|dspn_deep_set_prediction]]: . [[papers/dl/sets/dspn_deep_set_prediction.md|Notes]]
