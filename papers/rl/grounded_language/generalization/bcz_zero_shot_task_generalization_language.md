@@ -1,5 +1,16 @@
 ---
-title: BC-Z Zero-Shot Task Generalization with Robotic Imitation Learning
+title: BC-Z - Zero-Shot Task Generalization with Robotic Imitation Learning.
+venue: CoRL
+year: 2021
+type: Conference and Workshop Papers
+access: open
+key: conf/corl/JangIKKELLF21
+ee: https://proceedings.mlr.press/v164/jang22a.html
+url: https://dblp.org/rec/conf/corl/JangIKKELLF21
+authors: ["Eric Jang", "Alex Irpan", "Mohi Khansari", "Daniel Kappler", "Frederik Ebert", "Corey Lynch", "Sergey Levine", "Chelsea Finn"]
+sync_version: 3
+cite_key: conf/corl/JangIKKELLF21
+pages: 991-1002
 ---
 
 
