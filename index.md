@@ -297,6 +297,7 @@
  - [[pdfs/rl/hypothesis_verification.pdf|hypothesis_verification]]: . [[papers/rl/hypothesis_verification.md|Notes]]
  - [[pdfs/rl/laser_latent_action_space_efficient_rl.pdf|laser_latent_action_space_efficient_rl]]: . [[papers/rl/laser_latent_action_space_efficient_rl.md|Notes]]
  - [[pdfs/rl/predicting_predictable_frames.pdf|predicting_predictable_frames]]: . [[papers/rl/predicting_predictable_frames.md|Notes]]
+ - [[pdfs/rl/reinforcement_learning_an_introduction_sutton_barto.pdf|reinforcement_learning_an_introduction_sutton_barto]]: . [[papers/rl/reinforcement_learning_an_introduction_sutton_barto.md|Notes]]
  - [[pdfs/rl/shortest_path_constrained_rl_sparse_reward.pdf|shortest_path_constrained_rl_sparse_reward]]: . [[papers/rl/shortest_path_constrained_rl_sparse_reward.md|Notes]]
 ## critical_states
  - [[pdfs/rl/critical_states/world_model_graph.pdf|World Model as a Graph - Learning Latent Landmarks for Planning.]]: (cite: conf/icml/Zhang0S21a) Cluster seen states in the latent space, classify landmarks, induce a graph based on a reachability metric and then plan using the graph.  [[papers/rl/critical_states/world_model_graph.md|Notes]]
