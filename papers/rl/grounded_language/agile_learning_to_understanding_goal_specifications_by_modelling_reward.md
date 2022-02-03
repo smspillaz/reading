@@ -7,6 +7,7 @@ access: open
 key: conf/iclr/BahdanauHLHHKG19
 ee: https://openreview.net/forum?id=H1xsSjC9Ym
 url: https://dblp.org/rec/conf/iclr/BahdanauHLHHKG19
-authors: ["Dzmitry Bahdanau", "Felix Hill", "Jan Leike", "Edward Hughes 0001", "Seyed Arian Hosseini", "Pushmeet Kohli", "Edward Grefenstette"]
-sync_version: 0
+authors: ["Dzmitry Bahdanau", "Felix Hill", "Jan Leike", "Edward Hughes", "Seyed Arian Hosseini", "Pushmeet Kohli", "Edward Grefenstette"]
+sync_version: 3
+cite_key: conf/iclr/BahdanauHLHHKG19
 ---
