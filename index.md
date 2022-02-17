@@ -632,6 +632,7 @@
  - [[pdfs/rl/planning/value/xlvin_executed_latent_vin.pdf|XLVIN - eXecuted Latent Value Iteration Nets.]]: (cite: journals/corr/abs-2010-13146/Deac/2020) . See [[xlvin_neural_algorithmic_reasoners_are_implicit_planners]] . [[papers/rl/planning/value/xlvin_executed_latent_vin.md|Notes]]
  - [[pdfs/rl/planning/value/graph_based_motion_planning_networks.pdf|graph_based_motion_planning_networks]]: . [[papers/rl/planning/value/graph_based_motion_planning_networks.md|Notes]]
  - [[pdfs/rl/planning/value/motion_planning_transformers.pdf|motion_planning_transformers]]: . [[papers/rl/planning/value/motion_planning_transformers.md|Notes]]
+ - [[pdfs/rl/planning/value/treeqn_and_atreec_differentiable_tree_structured_models_for_deep_reinforcement_learning.pdf|treeqn_and_atreec_differentiable_tree_structured_models_for_deep_reinforcement_learning]]: . [[papers/rl/planning/value/treeqn_and_atreec_differentiable_tree_structured_models_for_deep_reinforcement_learning.md|Notes]]
  - [[pdfs/rl/planning/value/universal_function_value_approximators.pdf|universal_function_value_approximators]]: . [[papers/rl/planning/value/universal_function_value_approximators.md|Notes]]
  - [[pdfs/rl/planning/value/value_prediction_network.pdf|value_prediction_network]]: . [[papers/rl/planning/value/value_prediction_network.md|Notes]]
 ## relational
