@@ -310,6 +310,8 @@
  - [[pdfs/nlp/generation/controlled/step_by_step_separating_planning_from_realization_in_neural_data_to_text_generation.pdf|step_by_step_separating_planning_from_realization_in_neural_data_to_text_generation]]: . [[papers/nlp/generation/controlled/step_by_step_separating_planning_from_realization_in_neural_data_to_text_generation.md|Notes]]
 ## graph
  - [[pdfs/nlp/graph/gnn_interpreting_nlp_edge_masking.pdf|gnn_interpreting_nlp_edge_masking]]: . [[papers/nlp/graph/gnn_interpreting_nlp_edge_masking.md|Notes]]
+## grounding
+ - [[pdfs/nlp/grounding/grounding_grounding_in_nlp.pdf|Grounding &apos;Grounding&apos; in NLP.]]: (cite: conf/acl/ChanduBB21) . [[papers/nlp/grounding/grounding_grounding_in_nlp.md|Notes]]
 ## image_captioning
  - [[pdfs/nlp/image_captioning/film.pdf|film]]: . [[papers/nlp/image_captioning/film.md|Notes]]
  - [[pdfs/nlp/image_captioning/kim_vilt_vision_language_transformer_without_convolution.pdf|kim_vilt_vision_language_transformer_without_convolution]]: . [[papers/nlp/image_captioning/kim_vilt_vision_language_transformer_without_convolution.md|Notes]]
