@@ -323,6 +323,9 @@
  - [[pdfs/nlp/knowledge_graph/seq2kg_e2e_knowledge_graph_creation.pdf|seq2kg_e2e_knowledge_graph_creation]]: . [[papers/nlp/knowledge_graph/seq2kg_e2e_knowledge_graph_creation.md|Notes]]
 ## methodology
  - [[pdfs/nlp/methodology/allentune_show_your_work_improved_reporting_of_experimental_results_acl.pdf|allentune_show_your_work_improved_reporting_of_experimental_results_acl]]: . [[papers/nlp/methodology/allentune_show_your_work_improved_reporting_of_experimental_results_acl.md|Notes]]
+## multimodal
+### image
+ - [[pdfs/nlp/multimodal/image/dependency_induction_through_the_lens_of_visual_perception.pdf|dependency_induction_through_the_lens_of_visual_perception]]: . [[papers/nlp/multimodal/image/dependency_induction_through_the_lens_of_visual_perception.md|Notes]]
 ## reasoning
  - [[pdfs/nlp/reasoning/q2_evaluating_factual_consistency_in_knowledge_grounded_dialogues_via_question_generation_and_question_answering.pdf|q2_evaluating_factual_consistency_in_knowledge_grounded_dialogues_via_question_generation_and_question_answering]]: . [[papers/nlp/reasoning/q2_evaluating_factual_consistency_in_knowledge_grounded_dialogues_via_question_generation_and_question_answering.md|Notes]]
  - [[pdfs/nlp/reasoning/r3_reverse_retrieve_and_rank_for_sarcasm_generation_with_commonsense_knowledge.pdf|r3_reverse_retrieve_and_rank_for_sarcasm_generation_with_commonsense_knowledge]]: . [[papers/nlp/reasoning/r3_reverse_retrieve_and_rank_for_sarcasm_generation_with_commonsense_knowledge.md|Notes]]
