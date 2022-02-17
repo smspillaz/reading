@@ -397,6 +397,7 @@
  - [[pdfs/rl/generalization/environment_inference_for_invariant_learning.pdf|environment_inference_for_invariant_learning]]: . [[papers/rl/generalization/environment_inference_for_invariant_learning.md|Notes]]
  - [[pdfs/rl/generalization/illuminating_generalization_in_deep_rl_through_procedural_generation.pdf|illuminating_generalization_in_deep_rl_through_procedural_generation]]: . [[papers/rl/generalization/illuminating_generalization_in_deep_rl_through_procedural_generation.md|Notes]]
  - [[pdfs/rl/generalization/measuring_and_characterizing_generalization_in_deep_rl.pdf|measuring_and_characterizing_generalization_in_deep_rl]]: . [[papers/rl/generalization/measuring_and_characterizing_generalization_in_deep_rl.md|Notes]]
+ - [[pdfs/rl/generalization/measuring_compositionality_in_reinforcement_learning.pdf|measuring_compositionality_in_reinforcement_learning]]: . [[papers/rl/generalization/measuring_compositionality_in_reinforcement_learning.md|Notes]]
  - [[pdfs/rl/generalization/on_the_measure_of_intelligence.pdf|on_the_measure_of_intelligence]]: . [[papers/rl/generalization/on_the_measure_of_intelligence.md|Notes]]
  - [[pdfs/rl/generalization/quantifying_generalization_in_rl.pdf|quantifying_generalization_in_rl]]: . [[papers/rl/generalization/quantifying_generalization_in_rl.md|Notes]]
 ## graph_based
