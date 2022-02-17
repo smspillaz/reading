@@ -4,6 +4,8 @@
  - [[pdfs/causal/nonlinear_causal_discovery_additive_noise.pdf|nonlinear_causal_discovery_additive_noise]]: . [[papers/causal/nonlinear_causal_discovery_additive_noise.md|Notes]]
  - [[pdfs/causal/towards_causal_representation_learning.pdf|towards_causal_representation_learning]]: . [[papers/causal/towards_causal_representation_learning.md|Notes]]
  - [[pdfs/causal/video_causal_discovery.pdf|video_causal_discovery]]: . [[papers/causal/video_causal_discovery.md|Notes]]
+# cogsci
+ - [[pdfs/cogsci/investigating_human_priors_for_playing_video_games.pdf|investigating_human_priors_for_playing_video_games]]: . [[papers/cogsci/investigating_human_priors_for_playing_video_games.md|Notes]]
 # cv
  - [[pdfs/cv/film_feature_wise_linear_modulation.pdf|FiLM - Visual Reasoning with a General Conditioning Layer.]]: (cite: conf/aaai/PerezSVDC18) . [[papers/cv/film_feature_wise_linear_modulation.md|Notes]]
  - [[pdfs/cv/mlp_mixer.pdf|MLP-Mixer - An all-MLP Architecture for Vision.]]: (cite: journals/corr/abs-2105-01601/Tolstikhin/2021) Takes the "image-patch transformers" architectures and removes the transformers to test the hypothesis that the patches are what matters. Based exclusively on MLPs. Apply the MLPs to image patches (mixing the per-location features) and then apply the MLPS across patches (mixing spatial information). [[papers/cv/mlp_mixer.md|Notes]]
