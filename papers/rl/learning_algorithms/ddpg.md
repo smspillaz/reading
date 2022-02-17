@@ -1,3 +1,16 @@
+---
+title: Continuous control with deep reinforcement learning.
+venue: ICLR
+year: 2016
+type: Conference and Workshop Papers
+access: open
+key: journals/corr/LillicrapHPHETS15
+ee: http://arxiv.org/abs/1509.02971
+url: https://dblp.org/rec/journals/corr/LillicrapHPHETS15
+authors: ["Timothy P. Lillicrap", "Jonathan J. Hunt", "Alexander Pritzel", "Nicolas Heess", "Tom Erez", "Yuval Tassa", "David Silver", "Daan Wierstra"]
+sync_version: 3
+cite_key: journals/corr/LillicrapHPHETS15/Lillicrap/2016
+---
 # Continuous Control with Deep Reinforcement Learning: DDPG
 
 Deterministic Deep Policy Gradients.
