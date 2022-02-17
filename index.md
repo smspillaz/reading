@@ -533,6 +533,7 @@
 ## methodology
  - [[pdfs/rl/methodology/accounting_for_neglected_dimensions_of_ai_progress.pdf|Accounting for the Neglected Dimensions of AI Progress.]]: (cite: journals/corr/abs-1806-00610/Martinez-Plumed/2018) None. [[papers/rl/methodology/accounting_for_neglected_dimensions_of_ai_progress.md|Notes]]
 ## multiagent
+ - [[pdfs/rl/multiagent/a_learning_agent_that_acquires_social_norms_from_public_sanctions_in_decentralized_multi_agent_settings.pdf|A learning agent that acquires social norms from public actions in decentrlalized multi-agent settings]]: . [[papers/rl/multiagent/a_learning_agent_that_acquires_social_norms_from_public_sanctions_in_decentralized_multi_agent_settings.md|Notes]]
  - [[pdfs/rl/multiagent/learning_to_communicate_dial_rial.pdf|learning_to_communicate_dial_rial]]: . [[papers/rl/multiagent/learning_to_communicate_dial_rial.md|Notes]]
  - [[pdfs/rl/multiagent/maddpg.pdf|maddpg]]: . [[papers/rl/multiagent/maddpg.md|Notes]]
 ## multitask
