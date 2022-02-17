@@ -292,6 +292,7 @@
  - [[pdfs/nlp/ethics/on_the_danger_of_stochastic_parrots_can_language_models_be_too_big.pdf|on_the_danger_of_stochastic_parrots_can_language_models_be_too_big]]: . [[papers/nlp/ethics/on_the_danger_of_stochastic_parrots_can_language_models_be_too_big.md|Notes]]
 ## failure_modes
  - [[pdfs/nlp/failure_modes/real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models.pdf|real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models]]: . [[papers/nlp/failure_modes/real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models.md|Notes]]
+ - [[pdfs/nlp/failure_modes/red_teaming_language_models_with_language_models.pdf|red_teaming_language_models_with_language_models]]: . [[papers/nlp/failure_modes/red_teaming_language_models_with_language_models.md|Notes]]
  - [[pdfs/nlp/failure_modes/the_curious_case_of_neural_text_degeneration.pdf|the_curious_case_of_neural_text_degeneration]]: . [[papers/nlp/failure_modes/the_curious_case_of_neural_text_degeneration.md|Notes]]
 ## generation
  - [[pdfs/nlp/generation/genpet_few_shot_text_generation_with_natural_language_instructions.pdf|genpet_few_shot_text_generation_with_natural_language_instructions]]: . [[papers/nlp/generation/genpet_few_shot_text_generation_with_natural_language_instructions.md|Notes]]
