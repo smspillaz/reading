@@ -14,6 +14,8 @@ cite_key: journals/corr/abs-2010-13146/Deac/2020
 ---
 # XLVIN
 
+See also [[xlvin_neural_algorithmic_reasoners_are_implicit_planners]]
+
 [[xlvin_executed_latent_vin.pdf]]
 
 tl;dr:
@@ -44,7 +46,7 @@ Basically, at every step in the rollout, you assign a neighbouring latent state 
 
 ### Execution Model
 
-$N(h_s) \approx \{\mathbb{E}_{s' \sim P(s'|s, a) \} z(s')$
+$N(h_s) \approx \mathbb{E}_{s' \sim P(s'|s, a) } z(s')$
 
 Basically, you combine the neighbourhood set features to produce an updated embedding of state $s, X_s = X(h_s, N(h_s))$
 
