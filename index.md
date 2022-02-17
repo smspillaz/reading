@@ -452,6 +452,7 @@
  - [[pdfs/rl/grounded_language/language_action_space/kg_a2c_graph_constrained_action_spaces.pdf|kg_a2c_graph_constrained_action_spaces]]: . [[papers/rl/grounded_language/language_action_space/kg_a2c_graph_constrained_action_spaces.md|Notes]]
 ### subgoal_planning
  - [[pdfs/rl/grounded_language/subgoal_planning/a_framework_for_learning_to_request_rich_and_contextually_useful_information_from_humans.pdf|a_framework_for_learning_to_request_rich_and_contextually_useful_information_from_humans]]: . [[papers/rl/grounded_language/subgoal_planning/a_framework_for_learning_to_request_rich_and_contextually_useful_information_from_humans.md|Notes]]
+ - [[pdfs/rl/grounded_language/subgoal_planning/film_following_instructions_in_language_with_modular_methods.pdf|film_following_instructions_in_language_with_modular_methods]]: . [[papers/rl/grounded_language/subgoal_planning/film_following_instructions_in_language_with_modular_methods.md|Notes]]
 ## hrl
  - [[pdfs/rl/hrl/attaining_interpretability_hierarchical_primitive_composition.pdf|attaining_interpretability_hierarchical_primitive_composition]]: . [[papers/rl/hrl/attaining_interpretability_hierarchical_primitive_composition.md|Notes]]
  - [[pdfs/rl/hrl/maxq.pdf|maxq]]: . [[papers/rl/hrl/maxq.md|Notes]]
