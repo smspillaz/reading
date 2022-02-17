@@ -5,6 +5,7 @@
  - [[pdfs/causal/towards_causal_representation_learning.pdf|towards_causal_representation_learning]]: . [[papers/causal/towards_causal_representation_learning.md|Notes]]
  - [[pdfs/causal/video_causal_discovery.pdf|video_causal_discovery]]: . [[papers/causal/video_causal_discovery.md|Notes]]
 # cogsci
+ - [[pdfs/cogsci/building_machines_that_learn_and_think_like_people.pdf|building_machines_that_learn_and_think_like_people]]: . [[papers/cogsci/building_machines_that_learn_and_think_like_people.md|Notes]]
  - [[pdfs/cogsci/investigating_human_priors_for_playing_video_games.pdf|investigating_human_priors_for_playing_video_games]]: . [[papers/cogsci/investigating_human_priors_for_playing_video_games.md|Notes]]
 # cv
  - [[pdfs/cv/film_feature_wise_linear_modulation.pdf|FiLM - Visual Reasoning with a General Conditioning Layer.]]: (cite: conf/aaai/PerezSVDC18) . [[papers/cv/film_feature_wise_linear_modulation.md|Notes]]
