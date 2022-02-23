@@ -338,6 +338,7 @@
  - [[pdfs/nlp/methodology/allentune_show_your_work_improved_reporting_of_experimental_results_acl.pdf|allentune_show_your_work_improved_reporting_of_experimental_results_acl]]: . [[papers/nlp/methodology/allentune_show_your_work_improved_reporting_of_experimental_results_acl.md|Notes]]
 ## multimodal
 ### image
+ - [[pdfs/nlp/multimodal/image/analyzing_compositionality_of_visual_question_answering.pdf|analyzing_compositionality_of_visual_question_answering]]: . [[papers/nlp/multimodal/image/analyzing_compositionality_of_visual_question_answering.md|Notes]]
  - [[pdfs/nlp/multimodal/image/attributes_as_operators_factoring_unseen_attribute_object_compositions.pdf|attributes_as_operators_factoring_unseen_attribute_object_compositions]]: . [[papers/nlp/multimodal/image/attributes_as_operators_factoring_unseen_attribute_object_compositions.md|Notes]]
  - [[pdfs/nlp/multimodal/image/dependency_induction_through_the_lens_of_visual_perception.pdf|dependency_induction_through_the_lens_of_visual_perception]]: . [[papers/nlp/multimodal/image/dependency_induction_through_the_lens_of_visual_perception.md|Notes]]
 #### datasets
