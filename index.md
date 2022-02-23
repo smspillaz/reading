@@ -336,6 +336,7 @@
  - [[pdfs/nlp/methodology/allentune_show_your_work_improved_reporting_of_experimental_results_acl.pdf|allentune_show_your_work_improved_reporting_of_experimental_results_acl]]: . [[papers/nlp/methodology/allentune_show_your_work_improved_reporting_of_experimental_results_acl.md|Notes]]
 ## multimodal
 ### image
+ - [[pdfs/nlp/multimodal/image/attributes_as_operators_factoring_unseen_attribute_object_compositions.pdf|attributes_as_operators_factoring_unseen_attribute_object_compositions]]: . [[papers/nlp/multimodal/image/attributes_as_operators_factoring_unseen_attribute_object_compositions.md|Notes]]
  - [[pdfs/nlp/multimodal/image/dependency_induction_through_the_lens_of_visual_perception.pdf|dependency_induction_through_the_lens_of_visual_perception]]: . [[papers/nlp/multimodal/image/dependency_induction_through_the_lens_of_visual_perception.md|Notes]]
 ## reasoning
  - [[pdfs/nlp/reasoning/q2_evaluating_factual_consistency_in_knowledge_grounded_dialogues_via_question_generation_and_question_answering.pdf|q2_evaluating_factual_consistency_in_knowledge_grounded_dialogues_via_question_generation_and_question_answering]]: . [[papers/nlp/reasoning/q2_evaluating_factual_consistency_in_knowledge_grounded_dialogues_via_question_generation_and_question_answering.md|Notes]]
