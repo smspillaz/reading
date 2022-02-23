@@ -2,6 +2,8 @@
 title: Competition-Level Code Generation with AlphaCode
 ---
 
+[[competition_level_code_generation_with_alphacode.pdf]]
+
 Empirical project. What is required to get good and relaible performance on code-generation for these sorts of code-competition tasks?
 
 1. Extensive and clean dataset
@@ -78,7 +80,7 @@ How to reduce false positives? Generate additional test cases by mutating existi
 1. Pre-train a transformer model on GitHub with language modelling objective
 2. Fine-tune the model on competitive programming data using GOLD with tempering as the training objective. GOLD is a kind of RL-based text generation objective.
 3. Generate very large numbers of samples for each problem
-4. Flter the samples to obtain a small set of candidaet submissions, using the example tests and clustering to pick different samples.
+4. Flter the samples to obtain a small set of candidate submissions, using the example tests and clustering to pick different samples.
 
 ## Transformer Model
 
