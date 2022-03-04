@@ -533,6 +533,7 @@
  - [[pdfs/rl/hrl/search/subgoal_search_complex_reasoning.pdf|subgoal_search_complex_reasoning]]: . [[papers/rl/hrl/search/subgoal_search_complex_reasoning.md|Notes]]
 ### skills
  - [[pdfs/rl/hrl/skills/bagaria_deep_skill_graphs.pdf|bagaria_deep_skill_graphs]]: . [[papers/rl/hrl/skills/bagaria_deep_skill_graphs.md|Notes]]
+ - [[pdfs/rl/hrl/skills/combining_modular_skills_in_multitask_learning.pdf|combining_modular_skills_in_multitask_learning]]: . [[papers/rl/hrl/skills/combining_modular_skills_in_multitask_learning.md|Notes]]
  - [[pdfs/rl/hrl/skills/deep_skill_chaining_option_discovery.pdf|deep_skill_chaining_option_discovery]]: . [[papers/rl/hrl/skills/deep_skill_chaining_option_discovery.md|Notes]]
  - [[pdfs/rl/hrl/skills/hippo_sub_policy_adaptation_hrl.pdf|hippo_sub_policy_adaptation_hrl]]: . [[papers/rl/hrl/skills/hippo_sub_policy_adaptation_hrl.md|Notes]]
  - [[pdfs/rl/hrl/skills/latent_skill_planning_for_exploration_and_transfer.pdf|latent_skill_planning_for_exploration_and_transfer]]: . [[papers/rl/hrl/skills/latent_skill_planning_for_exploration_and_transfer.md|Notes]]
