@@ -3,6 +3,14 @@ import os
 import subprocess
 import fnmatch
 
+from update_index import prune_empty, parse_markdown_to_tree_start, walk_structure
+
+
+def get_notes_link(structure):
+    return [
+        l["fullpath"] for l in structure["links"] if l["filename_link_text"] == "Notes"
+    ][0]
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -18,6 +26,7 @@ def main():
     parser.add_argument(
         "--suffix", type=str, help="File suffix to bulk-add", default="md"
     )
+    parser.add_argument("--stage-file", default="index.stage", type=str)
     args = parser.parse_args()
 
     status = subprocess.run(
@@ -25,7 +34,7 @@ def main():
         text=True,
         capture_output=True,
     ).stdout.splitlines(keepends=False)
-    update_files = list(
+    update_files = set(
         fnmatch.filter(
             [
                 line[3:]
@@ -37,6 +46,14 @@ def main():
             else f"{args.papers}/**/*.{args.suffix}",
         )
     )
+
+    if os.path.exists(args.stage_file):
+        with open(args.stage_file, "r") as f:
+            stage_structure = prune_empty(parse_markdown_to_tree_start(f.readlines()))
+            stage_filenames = set(
+                [get_notes_link(obj) for obj in walk_structure(stage_structure)]
+            )
+            update_files |= stage_filenames
 
     print(
         "Creating commits for the following files:\n"
