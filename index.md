@@ -461,6 +461,7 @@
  - [[pdfs/rl/grounded_language/learning_invariable_semantical_representation_for_extensible_policy_generalization.pdf|learning_invariable_semantical_representation_for_extensible_policy_generalization]]: . [[papers/rl/grounded_language/learning_invariable_semantical_representation_for_extensible_policy_generalization.md|Notes]]
  - [[pdfs/rl/grounded_language/pre_trained_language_models_for_interactive_decision_making.pdf|pre_trained_language_models_for_interactive_decision_making]]: . [[papers/rl/grounded_language/pre_trained_language_models_for_interactive_decision_making.md|Notes]]
  - [[pdfs/rl/grounded_language/rtfm_generalizing_by_reading.pdf|rtfm_generalizing_by_reading]]: . [[papers/rl/grounded_language/rtfm_generalizing_by_reading.md|Notes]]
+ - [[pdfs/rl/grounded_language/self_monitoring_navigation_agent_via_auxiliary_progress_estimation.pdf|self_monitoring_navigation_agent_via_auxiliary_progress_estimation]]: . [[papers/rl/grounded_language/self_monitoring_navigation_agent_via_auxiliary_progress_estimation.md|Notes]]
  - [[pdfs/rl/grounded_language/speaker_follower_models.pdf|speaker_follower_models]]: . [[papers/rl/grounded_language/speaker_follower_models.md|Notes]]
  - [[pdfs/rl/grounded_language/text_games_natural_language_actions.pdf|text_games_natural_language_actions]]: . [[papers/rl/grounded_language/text_games_natural_language_actions.md|Notes]]
 ### babyai
