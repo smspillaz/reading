@@ -311,8 +311,8 @@
  - [[pdfs/nlp/failure_modes/red_teaming_language_models_with_language_models.pdf|red_teaming_language_models_with_language_models]]: . [[papers/nlp/failure_modes/red_teaming_language_models_with_language_models.md|Notes]]
  - [[pdfs/nlp/failure_modes/the_curious_case_of_neural_text_degeneration.pdf|the_curious_case_of_neural_text_degeneration]]: . [[papers/nlp/failure_modes/the_curious_case_of_neural_text_degeneration.md|Notes]]
 ## generation
+ - [[pdfs/nlp/generation/genpet_few_shot_text_generation_with_natural_language_instructions.pdf|Few-Shot Text Generation with Natural Language Instructions.]]: (cite: conf/emnlp/SchickS21) . [[papers/nlp/generation/genpet_few_shot_text_generation_with_natural_language_instructions.md|Notes]]
  - [[pdfs/nlp/generation/lamda_language_models_for_dialog_applications.pdf|LaMDA - Language Models for Dialog Applications.]]: (cite: journals/corr/abs-2201-08239/Thoppilan/2022) . [[papers/nlp/generation/lamda_language_models_for_dialog_applications.md|Notes]]
- - [[pdfs/nlp/generation/genpet_few_shot_text_generation_with_natural_language_instructions.pdf|genpet_few_shot_text_generation_with_natural_language_instructions]]: . [[papers/nlp/generation/genpet_few_shot_text_generation_with_natural_language_instructions.md|Notes]]
  - [[pdfs/nlp/generation/if_beam_search_is_the_answer_what_was_the_question.pdf|if_beam_search_is_the_answer_what_was_the_question]]: . [[papers/nlp/generation/if_beam_search_is_the_answer_what_was_the_question.md|Notes]]
  - [[pdfs/nlp/generation/smart_reply_automated_response_suggestion_for_email.pdf|smart_reply_automated_response_suggestion_for_email]]: . [[papers/nlp/generation/smart_reply_automated_response_suggestion_for_email.md|Notes]]
 ### controlled
