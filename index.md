@@ -302,7 +302,7 @@
  - [[pdfs/nlp/datasets/open_subtitles_paraphrase_corpus_for_six_languages.pdf|open_subtitles_paraphrase_corpus_for_six_languages]]: . [[papers/nlp/datasets/open_subtitles_paraphrase_corpus_for_six_languages.md|Notes]]
 ## ethics
  - [[pdfs/nlp/ethics/ethical_and_social_risks_of_harm_from_language_models.pdf|Ethical and social risks of harm from Language Models.]]: (cite: journals/corr/abs-2112-04359/Weidinger/2021) . [[papers/nlp/ethics/ethical_and_social_risks_of_harm_from_language_models.md|Notes]]
- - [[pdfs/nlp/ethics/language_technology_is_power_a_critical_survey_of_bias_in_nlp.pdf|language_technology_is_power_a_critical_survey_of_bias_in_nlp]]: . [[papers/nlp/ethics/language_technology_is_power_a_critical_survey_of_bias_in_nlp.md|Notes]]
+ - [[pdfs/nlp/ethics/language_technology_is_power_a_critical_survey_of_bias_in_nlp.pdf|Language (Technology) is Power - A Critical Survey of &quot;Bias&quot; in NLP.]]: (cite: conf/acl/BlodgettBDW20) . [[papers/nlp/ethics/language_technology_is_power_a_critical_survey_of_bias_in_nlp.md|Notes]]
  - [[pdfs/nlp/ethics/on_the_danger_of_stochastic_parrots_can_language_models_be_too_big.pdf|on_the_danger_of_stochastic_parrots_can_language_models_be_too_big]]: . [[papers/nlp/ethics/on_the_danger_of_stochastic_parrots_can_language_models_be_too_big.md|Notes]]
 ## failure_modes
  - [[pdfs/nlp/failure_modes/real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models.pdf|real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models]]: . [[papers/nlp/failure_modes/real_toxicity_prompts_evaluating_neural_toxic_degeneration_in_language_models.md|Notes]]
