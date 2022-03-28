@@ -140,6 +140,7 @@
  - [[pdfs/dl/object_centric/scalor_generative_world_models_with_scaleable_object_representations.pdf|scalor_generative_world_models_with_scaleable_object_representations]]: . [[papers/dl/object_centric/scalor_generative_world_models_with_scaleable_object_representations.md|Notes]]
  - [[pdfs/dl/object_centric/slot_attention.pdf|slot_attention]]: . [[papers/dl/object_centric/slot_attention.md|Notes]]
 ## relational
+ - [[pdfs/dl/relational/memory_augmented_dynamic_neural_relational_inference.pdf|memory_augmented_dynamic_neural_relational_inference]]: . [[papers/dl/relational/memory_augmented_dynamic_neural_relational_inference.md|Notes]]
  - [[pdfs/dl/relational/transe_translating_embeddings_for_modelling_multi_relational_data.pdf|transe_translating_embeddings_for_modelling_multi_relational_data]]: . [[papers/dl/relational/transe_translating_embeddings_for_modelling_multi_relational_data.md|Notes]]
 ## representation_learning
  - [[pdfs/dl/representation_learning/sketch_embed_net_learning_novel_concepts_by_imitating_drawings.pdf|SketchEmbedNet - Learning Novel Concepts by Imitating Drawings.]]: (cite: conf/icml/WangRZ21) Learn parameters to an RNN which outputs a program used to produce a sketch matching a particular input. The results show that "learning to sketch" produces representations which classify well compared to contrastive learning and demonstrate "conceptual composition" (snowman - circle + square = square snowman) . [[papers/dl/representation_learning/sketch_embed_net_learning_novel_concepts_by_imitating_drawings.md|Notes]]
