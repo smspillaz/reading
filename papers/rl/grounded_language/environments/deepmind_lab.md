@@ -12,3 +12,13 @@ authors: ["Charles Beattie", "Joel Z. Leibo", "Denis Teplyashin", "Tom Ward", "M
 sync_version: 3
 cite_key: journals/corr/BeattieLTWWKLGV16/Beattie/2016
 ---
+
+A first person 3D game platform designed for researech and development of general AI.
+
+Built on Quake III. Rendered with sci-fi visuals.
+
+Considerably richer visuals and more naturalistic physics.
+
+Observation space: RGB image, reward, velocity.
+
+Action space: Movement in three directions and look direction.
