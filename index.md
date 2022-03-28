@@ -151,6 +151,8 @@
  - [[pdfs/dl/satnet/satnet_nlp_application.pdf|satnet_nlp_application]]: . [[papers/dl/satnet/satnet_nlp_application.md|Notes]]
  - [[pdfs/dl/satnet/satnet_symbolic_grounding_assessment.pdf|satnet_symbolic_grounding_assessment]]: . [[papers/dl/satnet/satnet_symbolic_grounding_assessment.md|Notes]]
  - [[pdfs/dl/satnet/techniques_symbolic_grounding_satnet.pdf|techniques_symbolic_grounding_satnet]]: . [[papers/dl/satnet/techniques_symbolic_grounding_satnet.md|Notes]]
+## semisupervised
+ - [[pdfs/dl/semisupervised/mean_teachers_are_better_role_models_weighted_average_consistency_targets_improve_semi_supervised_deep_learning_results.pdf|mean_teachers_are_better_role_models_weighted_average_consistency_targets_improve_semi_supervised_deep_learning_results]]: . [[papers/dl/semisupervised/mean_teachers_are_better_role_models_weighted_average_consistency_targets_improve_semi_supervised_deep_learning_results.md|Notes]]
 ## sequence
  - [[pdfs/dl/sequence/mc_lstm.pdf|MC-LSTM - Mass-Conserving LSTM.]]: (cite: conf/icml/HoedtKKHHNHK21) Adjust the architecture of an LSTM such that "mass" cannot appear from nowhere, it must either explicitly enter the system via the input gate and mass leaving the system plus current mass must sum up to the total mass (input + current mass at previous timestep). [[papers/dl/sequence/mc_lstm.md|Notes]]
  - [[pdfs/dl/sequence/conv_lstm.pdf|conv_lstm]]: . [[papers/dl/sequence/conv_lstm.md|Notes]]
