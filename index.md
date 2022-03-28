@@ -323,6 +323,7 @@
 ## grounding
  - [[pdfs/nlp/grounding/grounding_grounding_in_nlp.pdf|Grounding &apos;Grounding&apos; in NLP.]]: (cite: conf/acl/ChanduBB21) . [[papers/nlp/grounding/grounding_grounding_in_nlp.md|Notes]]
 ## image_captioning
+ - [[pdfs/nlp/image_captioning/cross_modal_retrieval_augmentation_for_multi_modal_classification.pdf|Cross-Modal Retrieval Augmentation for Multi-Modal Classification.]]: (cite: conf/emnlp/GurNSLKR21) . [[papers/nlp/image_captioning/cross_modal_retrieval_augmentation_for_multi_modal_classification.md|Notes]]
  - [[pdfs/nlp/image_captioning/show_attend_tell.pdf|Show, Attend and Tell - Neural Image Caption Generation with Visual Attention.]]: (cite: conf/icml/XuBKCCSZB15) . [[papers/nlp/image_captioning/show_attend_tell.md|Notes]]
  - [[pdfs/nlp/image_captioning/film.pdf|film]]: . [[papers/nlp/image_captioning/film.md|Notes]]
  - [[pdfs/nlp/image_captioning/kim_vilt_vision_language_transformer_without_convolution.pdf|kim_vilt_vision_language_transformer_without_convolution]]: . [[papers/nlp/image_captioning/kim_vilt_vision_language_transformer_without_convolution.md|Notes]]
