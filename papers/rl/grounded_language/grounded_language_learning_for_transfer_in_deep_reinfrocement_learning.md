@@ -1,14 +1,14 @@
 ---
 title: Grounded Language Learning for Transfer in Deep Reinforcement Learning
-venue: CoRR
-volume: abs/1708.00133
-year: 2017
+venue: J. Artif. Intell. Res.
+volume: 63
+year: 2018
 type: Journal Articles
-key: journals/corr/abs-2106-13906
+key: journals/jair/NarasimhanBJ18
 ee: http://arxiv.org/abs/1708.00133
-url: https://dblp.org/rec/journals/corr/abs-1708-00133
+url: https://dblp.org/rec/journals/jair/NarasimhanBJ18
 authors: ["Karthik Narasimhan", "Regina Barzilay", "Tommi S. Jaakkola"]
-cite_key: journals/corr/abs-2106-13906/Narasimhan/2017
+cite_key: journals/jair/NarasimhanBJ18
 sync_version: 3
 ---
 # Grounded Language Learning for Transfer in Deep Reinforcement Learning
