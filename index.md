@@ -577,6 +577,7 @@
  - [[pdfs/rl/memory/memory_augmented_control.pdf|memory_augmented_control]]: . [[papers/rl/memory/memory_augmented_control.md|Notes]]
  - [[pdfs/rl/memory/working_memory_graphs.pdf|working_memory_graphs]]: . [[papers/rl/memory/working_memory_graphs.md|Notes]]
 ## meta
+ - [[pdfs/rl/meta/retrieval_augmented_reinforcement_learning.pdf|retrieval_augmented_reinforcement_learning]]: . [[papers/rl/meta/retrieval_augmented_reinforcement_learning.md|Notes]]
  - [[pdfs/rl/meta/rl2_fast_reinforcement_learning_via_slow_reinforcement_learning.pdf|rl2_fast_reinforcement_learning_via_slow_reinforcement_learning]]: . [[papers/rl/meta/rl2_fast_reinforcement_learning_via_slow_reinforcement_learning.md|Notes]]
 ## methodology
  - [[pdfs/rl/methodology/accounting_for_neglected_dimensions_of_ai_progress.pdf|Accounting for the Neglected Dimensions of AI Progress.]]: (cite: journals/corr/abs-1806-00610/Martinez-Plumed/2018) None. [[papers/rl/methodology/accounting_for_neglected_dimensions_of_ai_progress.md|Notes]]
