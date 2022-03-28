@@ -38,7 +38,7 @@ def format_pages(pages):
     return "--".join(pages.split("-"))
 
 
-def parse_bibentry_from_file(filename):
+def make_bibentry_from_frontmatter(filename):
     frontmatter = parse_frontmatter(filename)
     keys = set(list(frontmatter.keys()))
 
@@ -53,6 +53,7 @@ def parse_bibentry_from_file(filename):
         print(keys)
         return None
 
+    print(f"Generate from {filename}")
     return (
         f"@inproceedings{{{frontmatter['cite_key']},\n  "
         + "\n  ".join(
@@ -81,13 +82,34 @@ def parse_bibentry_from_file(filename):
     )
 
 
+def read_bibentry_from_correpsonding_bibfile(filename):
+    filename, ext = os.path.splitext(filename)
+    bib_filename = filename + ".bib"
+
+    try:
+        with open(bib_filename, "r") as f:
+            print(f"Read from {bib_filename}")
+            return f.read()
+    except IOError:
+        print(f"Could not open {bib_filename}")
+        return None
+
+def get_bibentry_for_filename(filename):
+    bibentry = read_bibentry_from_correpsonding_bibfile(filename)
+
+    if bibentry is not None:
+        return bibentry
+
+    return make_bibentry_from_frontmatter(filename)
+
+
 def walk_and_process_notes(notes_directory):
     for root, dirnames, filenames in os.walk(notes_directory):
         if root != notes_directory:
             yield f"% {os.path.relpath(root, notes_directory)}"
 
         for filename in fnmatch.filter(filenames, "*.md"):
-            bibentry = parse_bibentry_from_file(os.path.join(root, filename))
+            bibentry = get_bibentry_for_filename(os.path.join(root, filename))
 
             if bibentry:
                 yield f"% {filename}"
