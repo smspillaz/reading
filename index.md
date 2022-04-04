@@ -592,6 +592,7 @@
  - [[pdfs/rl/meta/rl2_fast_reinforcement_learning_via_slow_reinforcement_learning.pdf|RL$2$ - Fast Reinforcement Learning via Slow Reinforcement Learning.]]: (cite: journals/corr/DuanSCBSA16/Duan/2016) . [[papers/rl/meta/rl2_fast_reinforcement_learning_via_slow_reinforcement_learning.md|Notes]]
  - [[pdfs/rl/meta/retrieval_augmented_reinforcement_learning.pdf|Retrieval-Augmented Reinforcement Learning.]]: (cite: journals/corr/abs-2202-08417/Goyal/2022) . [[papers/rl/meta/retrieval_augmented_reinforcement_learning.md|Notes]]
  - [[pdfs/rl/meta/transformers_are_meta_reinforcement_learners.pdf|Transformers are Meta-Reinforcement Learners]]: None. [[papers/rl/meta/transformers_are_meta_reinforcement_learners.md|Notes]]
+ - [[pdfs/rl/meta/fast_and_slow_learning_of_recurrent_independent_mechanisms.pdf|fast_and_slow_learning_of_recurrent_independent_mechanisms]]: . [[papers/rl/meta/fast_and_slow_learning_of_recurrent_independent_mechanisms.md|Notes]]
 ## methodology
  - [[pdfs/rl/methodology/accounting_for_neglected_dimensions_of_ai_progress.pdf|Accounting for the Neglected Dimensions of AI Progress.]]: (cite: journals/corr/abs-1806-00610/Martinez-Plumed/2018) None. [[papers/rl/methodology/accounting_for_neglected_dimensions_of_ai_progress.md|Notes]]
 ## multiagent
