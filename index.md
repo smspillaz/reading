@@ -589,6 +589,7 @@
 ## meta
  - [[pdfs/rl/meta/a_simple_neural_attentive_meta_learner.pdf|A Simple Neural Attentive Meta-Learner.]]: (cite: conf/iclr/MishraR0A18) Introduces the SNAIL architecture. Temporal convolutions (WaveNet) + attention for meta-learning. [[papers/rl/meta/a_simple_neural_attentive_meta_learner.md|Notes]]
  - [[pdfs/rl/meta/retrieval_augmented_reinforcement_learning.pdf|Retrieval-Augmented Reinforcement Learning.]]: (cite: journals/corr/abs-2202-08417/Goyal/2022) . [[papers/rl/meta/retrieval_augmented_reinforcement_learning.md|Notes]]
+ - [[pdfs/rl/meta/transformers_are_meta_reinforcement_learners.pdf|Transformers are Meta-Reinforcement Learners]]: None. [[papers/rl/meta/transformers_are_meta_reinforcement_learners.md|Notes]]
  - [[pdfs/rl/meta/rl2_fast_reinforcement_learning_via_slow_reinforcement_learning.pdf|rl2_fast_reinforcement_learning_via_slow_reinforcement_learning]]: . [[papers/rl/meta/rl2_fast_reinforcement_learning_via_slow_reinforcement_learning.md|Notes]]
 ## methodology
  - [[pdfs/rl/methodology/accounting_for_neglected_dimensions_of_ai_progress.pdf|Accounting for the Neglected Dimensions of AI Progress.]]: (cite: journals/corr/abs-1806-00610/Martinez-Plumed/2018) None. [[papers/rl/methodology/accounting_for_neglected_dimensions_of_ai_progress.md|Notes]]
@@ -718,7 +719,6 @@
  - [[pdfs/rl/transfer/using_task_features_for_zero_shot_knowledge_transfer_in_lifelong_learning.pdf|Using Task Features for Zero-Shot Knowledge Transfer in Lifelong Learning.]]: (cite: conf/ijcai/IseleRE16) None. [[papers/rl/transfer/using_task_features_for_zero_shot_knowledge_transfer_in_lifelong_learning.md|Notes]]
 ## transformer
  - [[pdfs/rl/transformer/sensory_neuron_as_transformer_permutation_invariant_nn_rl.pdf|The Sensory Neuron as a Transformer - Permutation-Invariant Neural Networks for Reinforcement Learning.]]: (cite: journals/corr/abs-2109-02869/Tang/2021) Split image into patches and use a transformer without positional encodings. This is permutation invariant at test-time (to permutations of patches). [[papers/rl/transformer/sensory_neuron_as_transformer_permutation_invariant_nn_rl.md|Notes]]
- - [[pdfs/rl/transformer/transformers_are_meta_reinforcement_learners.pdf|Transformers are Meta-Reinforcement Learners]]: Treat the meta-reinforcement learning problem as a sequence learning problem where meta-training consists of feeding many training instances of a task into a transformer. [[papers/rl/transformer/transformers_are_meta_reinforcement_learners.md|Notes]]
  - [[pdfs/rl/transformer/trajectory-transformer-neurips-2021.pdf|trajectory-transformer-neurips-2021]]: . [[papers/rl/transformer/trajectory-transformer-neurips-2021.md|Notes]]
 ## world_models
  - [[pdfs/rl/world_models/augwm_augmented_world_models_facilitate_zero_shot_dynamics_generalization.pdf|Augmented World Models Facilitate Zero-Shot Dynamics Generalization From a Single Offline Environment.]]: (cite: conf/icml/BallLPR21) . [[papers/rl/world_models/augwm_augmented_world_models_facilitate_zero_shot_dynamics_generalization.md|Notes]]
