@@ -191,6 +191,7 @@
  - [[pdfs/dl/transformer/fnet_mixing_tokens_fourier_transforms.pdf|fnet_mixing_tokens_fourier_transforms]]: . [[papers/dl/transformer/fnet_mixing_tokens_fourier_transforms.md|Notes]]
  - [[pdfs/dl/transformer/insertion_transformer.pdf|insertion_transformer]]: . [[papers/dl/transformer/insertion_transformer.md|Notes]]
  - [[pdfs/dl/transformer/making_transformers_solve_compositional_tasks.pdf|making_transformers_solve_compositional_tasks]]: . [[papers/dl/transformer/making_transformers_solve_compositional_tasks.md|Notes]]
+ - [[pdfs/dl/transformer/on_layer_normalization_in_the_transformer_architecture.pdf|on_layer_normalization_in_the_transformer_architecture]]: . [[papers/dl/transformer/on_layer_normalization_in_the_transformer_architecture.md|Notes]]
  - [[pdfs/dl/transformer/perceiver_io.pdf|perceiver_io]]: . [[papers/dl/transformer/perceiver_io.md|Notes]]
  - [[pdfs/dl/transformer/pondernet_learning_to_ponder.pdf|pondernet_learning_to_ponder]]: . [[papers/dl/transformer/pondernet_learning_to_ponder.md|Notes]]
  - [[pdfs/dl/transformer/quantifying_attention_flow_transformers.pdf|quantifying_attention_flow_transformers]]: . [[papers/dl/transformer/quantifying_attention_flow_transformers.md|Notes]]
