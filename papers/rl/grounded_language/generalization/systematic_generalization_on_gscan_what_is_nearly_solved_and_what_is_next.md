@@ -25,6 +25,12 @@ They also analyze data efficiency. You need about 40% of the original 360,000 tr
 
 99.90 and 99.25 on splits B and C is very strong performance.
 
+Unsolved splits:
+
+ - D: Novel Direction: Targets are *south west* of the agent. We have seen south, west and other combinations but not *south west*.
+ - G: Adverb k = 1: Commands with "cautiously", but you only see a few shots of them. You have to generalize to all other sequences from seeing "cautiously" a few times.
+ - H: Adverb-to-verb: In this case you have to "pull while spinning". We know what it means to go to an object "while spinning", but not to pull one while spinning. The errors are not due to errors in visual grounding, they're errors in combining the action sequences.
+
 # Archictecture
 
 ![[compositional_generalization_gscan_what_is_nearly_solved_ablations_of_transformer.png]]
@@ -36,6 +42,26 @@ What matters? Ablation study
 # Extended Task
 
 "Relative" spatial relations are hard.
+
+"Grounded Spatial Relation" Compositional Generalization Task. Very relational.
+
+Contains language expressions that refer to target objects along with their relations to a referent object.
+
+ - Next to
+ - North/west/south/east of
+
+"Blue square next to a red circle" or "blue square north of a red circle".
+
+Also create visual distractors in the environment, eg, blue squares north of other objects.
+
+Splits:
+
+ * I: Random: In-distribution
+ * II: Visual: Red squares are the target or reference. Other things have been the target or the referent but not red squares. Transformer: 64% success.
+ * III Relational: Green squares and blue circles combinations
+ * IV: Referent: Yellow squares are referred to as the target. Eg, "Push a small yellow square west of a green big cylinder". 
+ * V: Relative Position 1: Targets are north of their referent. Nothing has ever been "north" before. Transformer 59.29%
+ * VI: Relative Position 2: Targets are west of their referent. Nothing has ever been "west" before. Transformer 49.50%
 
 # Sample Complexity
 
