@@ -250,6 +250,7 @@
  - [[pdfs/dl/transformer/vision_text/crrn_cross_modal_relational_reasoning_network_vqa.pdf|crrn_cross_modal_relational_reasoning_network_vqa]]: . [[papers/dl/transformer/vision_text/crrn_cross_modal_relational_reasoning_network_vqa.md|Notes]]
  - [[pdfs/dl/transformer/vision_text/global_fusion_attention_for_vision_and_language_understanding.pdf|global_fusion_attention_for_vision_and_language_understanding]]: . [[papers/dl/transformer/vision_text/global_fusion_attention_for_vision_and_language_understanding.md|Notes]]
  - [[pdfs/dl/transformer/vision_text/oscar_object_semantics_aligned_pretraining_for_vision_language_tasks.pdf|oscar_object_semantics_aligned_pretraining_for_vision_language_tasks]]: . [[papers/dl/transformer/vision_text/oscar_object_semantics_aligned_pretraining_for_vision_language_tasks.md|Notes]]
+ - [[pdfs/dl/transformer/vision_text/unicoder_vl_a_universal_encoder_for_vision_and_language_cross_modal_pre_training.pdf|unicoder_vl_a_universal_encoder_for_vision_and_language_cross_modal_pre_training]]: . [[papers/dl/transformer/vision_text/unicoder_vl_a_universal_encoder_for_vision_and_language_cross_modal_pre_training.md|Notes]]
  - [[pdfs/dl/transformer/vision_text/visual_question_answering_basedon_on_formal_logic.pdf|visual_question_answering_basedon_on_formal_logic]]: . [[papers/dl/transformer/vision_text/visual_question_answering_basedon_on_formal_logic.md|Notes]]
 ## uncertainty
  - [[pdfs/dl/uncertainty/uncertainty_duq.pdf|uncertainty_duq]]: . [[papers/dl/uncertainty/uncertainty_duq.md|Notes]]
