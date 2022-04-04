@@ -373,6 +373,7 @@
  - [[pdfs/nlp/rnn/neural_machine_translation_jointly_learning_to_align_and_translate.pdf|neural_machine_translation_jointly_learning_to_align_and_translate]]: . [[papers/nlp/rnn/neural_machine_translation_jointly_learning_to_align_and_translate.md|Notes]]
 ## speech
  - [[pdfs/nlp/speech/end_to_end_adversarial_text_to_speech.pdf|End-to-End Adversarial Text-to-Speech.]]: (cite: journals/corr/abs-2006-03575/Donahue/2020) . Tries to solve the "can we do TTS End-to-End" without lots of different pipeline stages. The main idea to set the problem up as a kind of adversarial learning problem. The authors propose a two-stage pipeline; one stage that generates aligned tokens and latents and another stage which decodes waveforms from those. . [[papers/nlp/speech/end_to_end_adversarial_text_to_speech.md|Notes]]
+ - [[pdfs/nlp/speech/on_generative_spoken_language_modeling_from_raw_audio.pdf|On Generative Spoken Language Modeling from Raw Audio]]: . [[papers/nlp/speech/on_generative_spoken_language_modeling_from_raw_audio.md|Notes]]
 ## tokenization
  - [[pdfs/nlp/tokenization/between_words_and_characters_a_brief_history_of_open_vocabulary_for_modelling_and_tokenization_in_nlp.pdf|Between words and characters - A Brief History of Open-Vocabulary Modeling and Tokenization in NLP.]]: (cite: journals/corr/abs-2112-10508/Mielke/2021) . [[papers/nlp/tokenization/between_words_and_characters_a_brief_history_of_open_vocabulary_for_modelling_and_tokenization_in_nlp.md|Notes]]
 ## transformer
