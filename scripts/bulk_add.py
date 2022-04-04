@@ -1,5 +1,6 @@
 import argparse
 import os
+import itertools
 import subprocess
 import fnmatch
 
@@ -24,7 +25,7 @@ def main():
     )
     parser.add_argument("--scripts-dir", default="scripts", type=str)
     parser.add_argument(
-        "--suffix", type=str, help="File suffix to bulk-add", default="md"
+        "--suffix", type=str, nargs="+", help="File suffix to bulk-add", default=["md"]
     )
     parser.add_argument("--stage-file", default="index.stage", type=str)
     args = parser.parse_args()
@@ -35,15 +36,22 @@ def main():
         capture_output=True,
     ).stdout.splitlines(keepends=False)
     update_files = set(
-        fnmatch.filter(
-            [
-                line[3:]
-                for line in status
-                if (line.startswith(" M") or line.startswith("??"))
-            ],
-            f"**/*.{args.suffix}"
-            if args.papers == "."
-            else f"{args.papers}/**/*.{args.suffix}",
+        list(
+            itertools.chain.from_iterable(
+                [
+                    fnmatch.filter(
+                        [
+                            line[3:]
+                            for line in status
+                            if (line.startswith(" M") or line.startswith("??"))
+                        ],
+                        f"**/*.{suffix}"
+                        if args.papers == "."
+                        else f"{args.papers}/**/*.{suffix}",
+                    )
+                    for suffix in args.suffix
+                ]
+            )
         )
     )
 
