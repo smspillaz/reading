@@ -66,6 +66,7 @@
  - [[pdfs/dl/contrastive/contrastive_representaiton_hypersphere.pdf|contrastive_representaiton_hypersphere]]: . [[papers/dl/contrastive/contrastive_representaiton_hypersphere.md|Notes]]
  - [[pdfs/dl/contrastive/data2vec_a_general_framework_for_self_supervised_learning_in_speech_vision_and_language.pdf|data2vec_a_general_framework_for_self_supervised_learning_in_speech_vision_and_language]]: . [[papers/dl/contrastive/data2vec_a_general_framework_for_self_supervised_learning_in_speech_vision_and_language.md|Notes]]
  - [[pdfs/dl/contrastive/ermolov_whitening_ssl.pdf|ermolov_whitening_ssl]]: . [[papers/dl/contrastive/ermolov_whitening_ssl.md|Notes]]
+ - [[pdfs/dl/contrastive/momentum_contrast_for_unsupervised_visual_representation_learning.pdf|momentum_contrast_for_unsupervised_visual_representation_learning]]: . [[papers/dl/contrastive/momentum_contrast_for_unsupervised_visual_representation_learning.md|Notes]]
  - [[pdfs/dl/contrastive/simclr_contrastive_visual_rep.pdf|simclr_contrastive_visual_rep]]: . [[papers/dl/contrastive/simclr_contrastive_visual_rep.md|Notes]]
  - [[pdfs/dl/contrastive/vicreg_variance_invariance_covariance_regularization_for_self_supervised_learning.pdf|vicreg_variance_invariance_covariance_regularization_for_self_supervised_learning]]: . [[papers/dl/contrastive/vicreg_variance_invariance_covariance_regularization_for_self_supervised_learning.md|Notes]]
 ## conv
