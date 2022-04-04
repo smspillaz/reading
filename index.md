@@ -582,8 +582,8 @@
  - [[pdfs/rl/mdp/partially_observable_stochastic_games.pdf|partially_observable_stochastic_games]]: . [[papers/rl/mdp/partially_observable_stochastic_games.md|Notes]]
  - [[pdfs/rl/mdp/plannable_approximations_to_mdp_homomorphisms_equivariance_under_actions.pdf|plannable_approximations_to_mdp_homomorphisms_equivariance_under_actions]]: . [[papers/rl/mdp/plannable_approximations_to_mdp_homomorphisms_equivariance_under_actions.md|Notes]]
 ## memory
+ - [[pdfs/rl/memory/working_memory_graphs.pdf|Working Memory Graphs.]]: (cite: conf/icml/LoyndFcSH20) Talks about the importance of "factored observations". But in general, proposes an architecture that looks like an RNN but with different memory banks updated on a schedule and self-attention between them . [[papers/rl/memory/working_memory_graphs.md|Notes]]
  - [[pdfs/rl/memory/memory_augmented_control.pdf|memory_augmented_control]]: . [[papers/rl/memory/memory_augmented_control.md|Notes]]
- - [[pdfs/rl/memory/working_memory_graphs.pdf|working_memory_graphs]]: . [[papers/rl/memory/working_memory_graphs.md|Notes]]
 ## meta
  - [[pdfs/rl/meta/a_simple_neural_attentive_meta_learner.pdf|A Simple Neural Attentive Meta-Learner.]]: (cite: conf/iclr/MishraR0A18) Introduces the SNAIL architecture. Temporal convolutions (WaveNet) + attention for meta-learning. [[papers/rl/meta/a_simple_neural_attentive_meta_learner.md|Notes]]
  - [[pdfs/rl/meta/retrieval_augmented_reinforcement_learning.pdf|retrieval_augmented_reinforcement_learning]]: . [[papers/rl/meta/retrieval_augmented_reinforcement_learning.md|Notes]]
