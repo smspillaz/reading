@@ -584,6 +584,7 @@
  - [[pdfs/rl/memory/memory_augmented_control.pdf|memory_augmented_control]]: . [[papers/rl/memory/memory_augmented_control.md|Notes]]
  - [[pdfs/rl/memory/working_memory_graphs.pdf|working_memory_graphs]]: . [[papers/rl/memory/working_memory_graphs.md|Notes]]
 ## meta
+ - [[pdfs/rl/meta/a_simple_neural_attentive_meta_learner.pdf|A Simple Neural Attentive Meta-Learner.]]: (cite: conf/iclr/MishraR0A18) Introduces the SNAIL architecture. Temporal convolutions (WaveNet) + attention for meta-learning. [[papers/rl/meta/a_simple_neural_attentive_meta_learner.md|Notes]]
  - [[pdfs/rl/meta/retrieval_augmented_reinforcement_learning.pdf|retrieval_augmented_reinforcement_learning]]: . [[papers/rl/meta/retrieval_augmented_reinforcement_learning.md|Notes]]
  - [[pdfs/rl/meta/rl2_fast_reinforcement_learning_via_slow_reinforcement_learning.pdf|rl2_fast_reinforcement_learning_via_slow_reinforcement_learning]]: . [[papers/rl/meta/rl2_fast_reinforcement_learning_via_slow_reinforcement_learning.md|Notes]]
 ## methodology
