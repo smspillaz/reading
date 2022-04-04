@@ -1,5 +1,17 @@
 ---
-title: Competition-Level Code Generation with AlphaCode
+title: Competition-Level Code Generation with AlphaCode.
+venue: CoRR
+volume: abs/2203.07814
+year: 2022
+type: Informal Publications
+access: open
+key: journals/corr/abs-2203-07814
+doi: 10.48550/ARXIV.2203.07814
+ee: https://doi.org/10.48550/arXiv.2203.07814
+url: https://dblp.org/rec/journals/corr/abs-2203-07814
+authors: ["Yujia Li", "David H. Choi", "Junyoung Chung", "Nate Kushman", "Julian Schrittwieser", "R\u00e9mi Leblond", "Tom Eccles", "James Keeling", "Felix Gimeno", "Agustin Dal Lago", "Thomas Hubert", "Peter Choy", "Cyprien de Masson d&apos;Autume", "Igor Babuschkin", "Xinyun Chen", "Po-Sen Huang", "Johannes Welbl", "Sven Gowal", "Alexey Cherepanov", "James Molloy", "Daniel J. Mankowitz", "Esme Sutherland Robson", "Pushmeet Kohli", "Nando de Freitas", "Koray Kavukcuoglu", "Oriol Vinyals"]
+sync_version: 3
+cite_key: journals/corr/abs-2203-07814/Li/2022
 ---
 
 [[competition_level_code_generation_with_alphacode.pdf]]
@@ -37,7 +49,7 @@ CodeContests dataset: "split temporallly so that all training data predates all 
 
 Methodology for validating the temporal split. Use baselines:
 
- - "evaluating one solution from each training problem" (eg, the copy-paste baseline): 4.1% random split, 0% temporal split 
+ - "evaluating one solution from each training problem" (eg, the copy-paste baseline): 4.1% random split, 0% temporal split
  - 1B parameter model trained on github: 0.8% random split, 0% temporal split
 
 "The models must go beyond simply remembering the training set".
@@ -236,4 +248,3 @@ Validation loss might increase but solve rate continues to improve past the poin
 6. Intellectual Property
 7. Automation: No more jobs for programmers
 8. Advanced AI risks: Skynet
-
