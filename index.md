@@ -145,6 +145,7 @@
 ## object_centric
  - [[pdfs/dl/object_centric/scalor_generative_world_models_with_scaleable_object_representations.pdf|scalor_generative_world_models_with_scaleable_object_representations]]: . [[papers/dl/object_centric/scalor_generative_world_models_with_scaleable_object_representations.md|Notes]]
  - [[pdfs/dl/object_centric/slot_attention.pdf|slot_attention]]: . [[papers/dl/object_centric/slot_attention.md|Notes]]
+ - [[pdfs/dl/object_centric/unsupervised_learning_of_temporal_abstractions_with_slot_based_transformers.pdf|unsupervised_learning_of_temporal_abstractions_with_slot_based_transformers]]: . [[papers/dl/object_centric/unsupervised_learning_of_temporal_abstractions_with_slot_based_transformers.md|Notes]]
 ## relational
  - [[pdfs/dl/relational/memory_augmented_dynamic_neural_relational_inference.pdf|memory_augmented_dynamic_neural_relational_inference]]: . [[papers/dl/relational/memory_augmented_dynamic_neural_relational_inference.md|Notes]]
  - [[pdfs/dl/relational/transe_translating_embeddings_for_modelling_multi_relational_data.pdf|transe_translating_embeddings_for_modelling_multi_relational_data]]: . [[papers/dl/relational/transe_translating_embeddings_for_modelling_multi_relational_data.md|Notes]]
