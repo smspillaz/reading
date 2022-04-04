@@ -291,6 +291,8 @@
  - [[pdfs/meta/concept_learners.pdf|concept_learners]]: . [[papers/meta/concept_learners.md|Notes]]
  - [[pdfs/meta/meta_few_shot_nlp.pdf|meta_few_shot_nlp]]: . [[papers/meta/meta_few_shot_nlp.md|Notes]]
  - [[pdfs/meta/tasknorm_meta_learning.pdf|tasknorm_meta_learning]]: . [[papers/meta/tasknorm_meta_learning.md|Notes]]
+# ml
+ - [[pdfs/ml/identifying_and_correcting_label_bias_in_machine_learning.pdf|identifying_and_correcting_label_bias_in_machine_learning]]: . [[papers/ml/identifying_and_correcting_label_bias_in_machine_learning.md|Notes]]
 # nlp
  - [[pdfs/nlp/layout_lm_doc_understanding.pdf|layout_lm_doc_understanding]]: . [[papers/nlp/layout_lm_doc_understanding.md|Notes]]
  - [[pdfs/nlp/prado_on_device_doc_classification.pdf|prado_on_device_doc_classification]]: . [[papers/nlp/prado_on_device_doc_classification.md|Notes]]
