@@ -127,6 +127,8 @@
  - [[pdfs/dl/generative/normalizing_flows/density_estimation_using_real_nvp.pdf|Density estimation using Real NVP.]]: (cite: conf/iclr/DinhSB17) . [[papers/dl/generative/normalizing_flows/density_estimation_using_real_nvp.md|Notes]]
 ### vae
  - [[pdfs/dl/generative/vae/inductive_bias_vae.pdf|InteL-VAEs - Adding Inductive Biases to Variational Auto-Encoders via Intermediary Latents.]]: (cite: journals/corr/abs-2106-13746/Miao/2021) Incorporate a mapping function into the encoder of a VAE which maps from a unit sphere distribution to separate clusters. Then it is easier to decode from those clusters. The mapping function can depend on the problem, its a kind of structural prior on the data space. [[papers/dl/generative/vae/inductive_bias_vae.md|Notes]]
+## gflownet
+ - [[pdfs/dl/gflownet/gflownet_foundations.pdf|gflownet_foundations]]: . [[papers/dl/gflownet/gflownet_foundations.md|Notes]]
 ## graph
  - [[pdfs/dl/graph/find_your_friendly_neighbourhood_graph_attention.pdf|find_your_friendly_neighbourhood_graph_attention]]: . [[papers/dl/graph/find_your_friendly_neighbourhood_graph_attention.md|Notes]]
  - [[pdfs/dl/graph/graph_neural_networks_with_lea.pdf|graph_neural_networks_with_lea]]: . [[papers/dl/graph/graph_neural_networks_with_lea.md|Notes]]
