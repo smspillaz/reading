@@ -80,6 +80,7 @@
  - [[pdfs/dl/disentanglement/beta_tcvae.pdf|beta_tcvae]]: . [[papers/dl/disentanglement/beta_tcvae.md|Notes]]
  - [[pdfs/dl/disentanglement/beta_vae_learning_basic_visual_concepts_with_a_constrained_variational_framework.pdf|beta_vae_learning_basic_visual_concepts_with_a_constrained_variational_framework]]: . [[papers/dl/disentanglement/beta_vae_learning_basic_visual_concepts_with_a_constrained_variational_framework.md|Notes]]
  - [[pdfs/dl/disentanglement/challenging_assumptions_unsupervised_disentanglement.pdf|challenging_assumptions_unsupervised_disentanglement]]: . [[papers/dl/disentanglement/challenging_assumptions_unsupervised_disentanglement.md|Notes]]
+ - [[pdfs/dl/disentanglement/deft_distilling_entangled_factors_by_preventing_information_diffusion.pdf|deft_distilling_entangled_factors_by_preventing_information_diffusion]]: . [[papers/dl/disentanglement/deft_distilling_entangled_factors_by_preventing_information_diffusion.md|Notes]]
  - [[pdfs/dl/disentanglement/disentangled_recurrent_wasserstein_autoencoder.pdf|disentangled_recurrent_wasserstein_autoencoder]]: . [[papers/dl/disentanglement/disentangled_recurrent_wasserstein_autoencoder.md|Notes]]
  - [[pdfs/dl/disentanglement/disentangled_representations_correlated_data.pdf|disentangled_representations_correlated_data]]: . [[papers/dl/disentanglement/disentangled_representations_correlated_data.md|Notes]]
  - [[pdfs/dl/disentanglement/disentangling_by_subspace_diffusion.pdf|disentangling_by_subspace_diffusion]]: . [[papers/dl/disentanglement/disentangling_by_subspace_diffusion.md|Notes]]
