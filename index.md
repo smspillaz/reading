@@ -402,6 +402,7 @@
  - [[pdfs/rl/hindsight_credit_assignment.pdf|hindsight_credit_assignment]]: . [[papers/rl/hindsight_credit_assignment.md|Notes]]
  - [[pdfs/rl/hypothesis_verification.pdf|hypothesis_verification]]: . [[papers/rl/hypothesis_verification.md|Notes]]
  - [[pdfs/rl/laser_latent_action_space_efficient_rl.pdf|laser_latent_action_space_efficient_rl]]: . [[papers/rl/laser_latent_action_space_efficient_rl.md|Notes]]
+ - [[pdfs/rl/learning_to_synthesize_programs_as_interpretable_and_generalizable_policies.pdf|learning_to_synthesize_programs_as_interpretable_and_generalizable_policies]]: . [[papers/rl/learning_to_synthesize_programs_as_interpretable_and_generalizable_policies.md|Notes]]
  - [[pdfs/rl/predicting_predictable_frames.pdf|predicting_predictable_frames]]: . [[papers/rl/predicting_predictable_frames.md|Notes]]
  - [[pdfs/rl/reinforcement_learning_an_introduction_sutton_barto.pdf|reinforcement_learning_an_introduction_sutton_barto]]: . [[papers/rl/reinforcement_learning_an_introduction_sutton_barto.md|Notes]]
  - [[pdfs/rl/shortest_path_constrained_rl_sparse_reward.pdf|shortest_path_constrained_rl_sparse_reward]]: . [[papers/rl/shortest_path_constrained_rl_sparse_reward.md|Notes]]
