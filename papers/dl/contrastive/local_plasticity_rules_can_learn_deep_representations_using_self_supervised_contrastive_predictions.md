@@ -1,5 +1,16 @@
 ---
-title: Local plasticity rules can learn deep representations using self-supervised contrastive predictions
+title: Local plasticity rules can learn deep representations using self-supervised contrastive predictions.
+venue: NeurIPS
+pages: 30365-30379
+year: 2021
+type: Conference and Workshop Papers
+access: closed
+key: conf/nips/IllingVBG21
+ee: https://proceedings.neurips.cc/paper/2021/hash/feade1d2047977cd0cefdafc40175a99-Abstract.html
+url: https://dblp.org/rec/conf/nips/IllingVBG21
+authors: ["Bernd Illing", "Jean Ventura", "Guillaume Bellec", "Wulfram Gerstner"]
+sync_version: 3
+cite_key: conf/nips/IllingVBG21
 ---
 
 This paper proposes a learning rule that takes inspiration from neuroscience and recent advances in self-supervision.
@@ -19,7 +30,7 @@ Suggests the "Contrastive, Local and Predictive Plasticity" (CLAPP) model which 
 
 Represent a corticial area by the layer $l$ of a deep neural net, eg $z^{t, l} = \rho(a^{t, l})$ where $\rho$ is a nonlinearity and $a^{t, l} = W^l z^{t, l - 1}$ is the linear transformation.
 
-The plasticity rule proposed exploits the fact that temporal structure of natural inputs affects representation learning. Assume that weigth changes follow Hebbian learning rules, which are local in space and time, $\triangle W^{t}_{ji}$ updates connecting neurons $i$ and $j$ may depend only on the current activity of pre-synaptic and post-synaptic neurons at time $t$, or at $t - \delta t$. Also allow $k$ to influence $\triangle W_{ji}$ updates as long as there is an explicit connection from $k$ to $j$ $W_{jk}$. 
+The plasticity rule proposed exploits the fact that temporal structure of natural inputs affects representation learning. Assume that weigth changes follow Hebbian learning rules, which are local in space and time, $\triangle W^{t}_{ji}$ updates connecting neurons $i$ and $j$ may depend only on the current activity of pre-synaptic and post-synaptic neurons at time $t$, or at $t - \delta t$. Also allow $k$ to influence $\triangle W_{ji}$ updates as long as there is an explicit connection from $k$ to $j$ $W_{jk}$.
 
 
 Assume that the dentritic input influences the weight updates $\triangle W_{ji}$ but not its activity $z^{t}_j$ (eg, stuff from the future can update the weights but not update your activity.)
@@ -102,4 +113,3 @@ Linear Probing: Classification accuracy increases monotonically with the layer n
 
 
 ## Speech and Video
-
