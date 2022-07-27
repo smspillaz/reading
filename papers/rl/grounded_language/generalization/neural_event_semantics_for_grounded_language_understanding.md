@@ -1,5 +1,6 @@
 ---
 title: Neural Event Semantics for Grounded Language Understanding
+cite_key: conf/TACL/Buch2021
 ---
 
 The general idea is to treat all words as classifiers that compose to for ma sentence meaning by multiplying output scores.
