@@ -1,5 +1,16 @@
 ---
-title: Improving Compositional Generalization with Latent Structure and Data Augmentation
+title: Improving Compositional Generalization with Latent Structure and Data Augmentation.
+venue: NAACL-HLT
+pages: 4341-4362
+year: 2022
+type: Conference and Workshop Papers
+access: open
+key: conf/naacl/QiuSPNLST22
+ee: https://aclanthology.org/2022.naacl-main.323
+url: https://dblp.org/rec/conf/naacl/QiuSPNLST22
+authors: ["Linlu Qiu", "Peter Shaw", "Panupong Pasupat", "Pawel Krzysztof Nowak", "Tal Linzen", "Fei Sha", "Kristina Toutanova"]
+sync_version: 3
+cite_key: conf/naacl/QiuSPNLST22
 ---
 
 Training set - Creating an event or creating an org charge.
@@ -69,7 +80,7 @@ $$
 $$
 
 
-## Training 
+## Training
 
 We might want to jointly optimize the grammar induction and weights, but we use a two stage process.
 
@@ -93,7 +104,6 @@ CSL on non-synthetic tasks - CSL can only generate examples that are covered by 
 
 There is a strong potential for using latent variable model as data generators.
 
-Question: Isn't there a chance that you basically just genearte the test set? 
+Question: Isn't there a chance that you basically just genearte the test set?
 
  - In the case of the synthetic data, yes, that's the point.
-
