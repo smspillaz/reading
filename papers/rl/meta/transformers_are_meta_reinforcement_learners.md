@@ -1,5 +1,16 @@
 ---
-title: Transformers are Meta-Reinforcement Learners
+title: Transformers are Meta-Reinforcement Learners.
+venue: ICML
+pages: 15340-15359
+year: 2022
+type: Conference and Workshop Papers
+access: open
+key: conf/icml/Melo22
+ee: https://proceedings.mlr.press/v162/melo22a.html
+url: https://dblp.org/rec/conf/icml/Melo22
+authors: ["Luckeciano C. Melo"]
+sync_version: 3
+cite_key: conf/icml/Melo22
 ---
 
 # Transformers are Meta-Reinforcement Learners
