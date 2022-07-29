@@ -1,5 +1,16 @@
 ---
 title: A distributional view on multi-objective policy optimization.
+venue: ICML
+pages: 11-22
+year: 2020
+type: Conference and Workshop Papers
+access: open
+key: conf/icml/AbdolmalekiHNS20
+ee: http://proceedings.mlr.press/v119/abdolmaleki20a.html
+url: https://dblp.org/rec/conf/icml/AbdolmalekiHNS20
+authors: ["Abbas Abdolmaleki", "Sandy H. Huang", "Leonard Hasenclever", "Michael Neunert", "H. Francis Song", "Martina Zambelli", "Murilo F. Martins", "Nicolas Heess", "Raia Hadsell", "Martin A. Riedmiller"]
+sync_version: 3
+cite_key: conf/icml/AbdolmalekiHNS20
 ---
 # A Distributional View on Multi-Objective Policy Optimization
 
