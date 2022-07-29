@@ -1,5 +1,16 @@
 ---
-title: Challenges of Acquiring Compositional Inductive Biases via Meta-Learning
+title: Challenges of Acquiring Compositional Inductive Biases via Meta-Learning.
+venue: MetaDL@AAAI
+pages: 138-148
+year: 2021
+type: Conference and Workshop Papers
+access: open
+key: conf/aaai/MitchellFM21
+ee: https://proceedings.mlr.press/v140/mitchell21a.html
+url: https://dblp.org/rec/conf/aaai/MitchellFM21
+authors: ["Eric Mitchell", "Chelsea Finn", "Christopher D. Manning"]
+sync_version: 3
+cite_key: conf/aaai/MitchellFM21
 ---
 
 
@@ -17,7 +28,7 @@ Recent studies have shown that compositional generalization is a hard problem:
 
 It is possible to generate an architecture that does compositional generalization for specific tasks, but the level of expertise required for that is quite high. Meta-learning might help here.
 
-They test on [[generalization_without_systematicity_on_the_compositional_skills_of_sequence_to_sequence_rnns|SCAN]]. 
+They test on [[generalization_without_systematicity_on_the_compositional_skills_of_sequence_to_sequence_rnns|SCAN]].
 
 It is rich enough to construct challenging compositional generalization tasks, including the "add primitive" split.
 
@@ -45,4 +56,4 @@ Experiment 5 and 6: Permute the verbs and the connectives together.
 
 # Conclusions
 
-1. The procedure for selecting support set data plays a crucial role 
+1. The procedure for selecting support set data plays a crucial role
