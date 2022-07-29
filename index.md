@@ -471,7 +471,7 @@
  - [[pdfs/nlp/knowledge_graph/interpreting_knowledge_graph_relation_representations_from_word_embeddings.pdf|interpreting_knowledge_graph_relation_representations_from_word_embeddings]]: . [[papers/nlp/knowledge_graph/interpreting_knowledge_graph_relation_representations_from_word_embeddings.md|Notes]]
  - [[pdfs/nlp/knowledge_graph/seq2kg_e2e_knowledge_graph_creation.pdf|seq2kg_e2e_knowledge_graph_creation]]: . [[papers/nlp/knowledge_graph/seq2kg_e2e_knowledge_graph_creation.md|Notes]]
 ### multimodal
- - [[pdfs/nlp/knowledge_graph/multimodal/kat_a_knowledge_augmented_transformer_for_vision_and_language.pdf|KAT: A Knowledge Augmented Transformer for Vision-and-Language]]: A big model that incorporates both "explicit" (eg from a knowledge base) and "implicit" knowledge (from GPT-3), then combines both to produce an answer to a VQA problem. . [[papers/nlp/knowledge_graph/multimodal/kat_a_knowledge_augmented_transformer_for_vision_and_language.md|Notes]]
+ - [[pdfs/nlp/knowledge_graph/multimodal/kat_a_knowledge_augmented_transformer_for_vision_and_language.pdf|KAT: A Knowledge Augmented Transformer for Vision-and-Language.]]: (cite: conf/naacl/GuiWH0BG22) A big model that incorporates both "explicit" (eg from a knowledge base) and "implicit" knowledge (from GPT-3), then combines both to produce an answer to a VQA problem. . [[papers/nlp/knowledge_graph/multimodal/kat_a_knowledge_augmented_transformer_for_vision_and_language.md|Notes]]
 ## meta
  - [[pdfs/nlp/meta/meta_learning_for_natural_language_processing_a_survey.pdf|Meta Learning for Natural Language Processing: A Survey.]]: . [[papers/nlp/meta/meta_learning_for_natural_language_processing_a_survey.md|Notes]]
 ## methodology
