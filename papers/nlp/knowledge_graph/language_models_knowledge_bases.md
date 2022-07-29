@@ -1,3 +1,6 @@
+---
+title: Language Models as Knowledge Bases?
+---
 # Language Models as Knowledge Bases?
 
 General idea: While learning linguistic knowledge, maybe you're also learning relational
