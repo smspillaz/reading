@@ -1,3 +1,6 @@
+---
+title: Disentangled Recurrent Wasserstein Autoencoder.
+---
 # Disentangled Recurrent Wasserstein Autoencoder
 
 https://iclr.cc/virtual/2021/poster/3257
@@ -76,4 +79,3 @@ Only the total number of actions is known.
 Model might fail on video datasets with multiple foreground objects and complex background seens
 
 Model might fail to disentangle fine-grained attributes within content and motion.
-
