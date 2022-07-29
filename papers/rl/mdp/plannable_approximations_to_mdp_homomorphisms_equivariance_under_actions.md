@@ -1,3 +1,6 @@
+---
+title: Plannable Approximations to MDP Homomorphisms: Equivariance under Actions.
+---
 # Plannable Approximatiosn to MDP Homomorphisms: Equivariance under Actions
 
 tl;dr:
