@@ -1,5 +1,15 @@
 ---
 title: Latent Skill Planning for Exploration and Transfer.
+venue: ICLR
+year: 2021
+type: Conference and Workshop Papers
+access: open
+key: conf/iclr/XieBHGS21
+ee: https://openreview.net/forum?id=jXe91kq3jAq
+url: https://dblp.org/rec/conf/iclr/XieBHGS21
+authors: ["Kevin Xie", "Homanga Bharadhwaj", "Danijar Hafner", "Animesh Garg", "Florian Shkurti"]
+sync_version: 3
+cite_key: conf/iclr/XieBHGS21
 ---
 # Latent Skill Planning for Exploration and Transfer
 
@@ -35,7 +45,6 @@ On dm-control we do a little bit better than everyone else.
 Learned skills are good enough to be re-composed.
 
 in an environment with obstacles, its really hard to get to the goal with random rollouts, Our method LSP with fixed policy is able to efficiently explore the state space. Dreamer fails completely because it doesn't get a reward.
-
 
 
 
