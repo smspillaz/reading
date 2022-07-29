@@ -1,5 +1,17 @@
 ---
 title: Plannable Approximations to MDP Homomorphisms: Equivariance under Actions.
+venue: AAMAS
+pages: 1431-1439
+year: 2020
+type: Conference and Workshop Papers
+access: open
+key: conf/atal/PolKOW20
+doi: 10.5555/3398761.3398926
+ee: https://dl.acm.org/doi/10.5555/3398761.3398926
+url: https://dblp.org/rec/conf/atal/PolKOW20
+authors: ["Elise van der Pol", "Thomas Kipf", "Frans A. Oliehoek", "Max Welling"]
+sync_version: 3
+cite_key: conf/atal/PolKOW20
 ---
 # Plannable Approximatiosn to MDP Homomorphisms: Equivariance under Actions
 
