@@ -1,3 +1,6 @@
+---
+title: PonderNet: Learning to Ponder.
+---
 # PonderNet: Learning to Ponder
 
 [[pondernet_learning_to_ponder.pdf]]
@@ -55,7 +58,7 @@ KL is in the same units as information theoretic losses such as cross-entropy.
 1. Parity bit
 2. bAbI Question Answering
 3. Paired Associative Inference
-4. 
+4.
 
 
 ## Difference between PonderNet and ACT
@@ -67,4 +70,3 @@ In ACT, you unroll until $\sum \lambda_n \ge 1 - \epsilon$. The output is not pr
 In PonderNet the output is probabilistic - you halt and then take the output at the step where you halted. Instead you have a weighted average *loss*.
 
 Also in PonderNet, the pondering process wraps the entire network, so if you process a sequence the step is in the outer loop, eg, process sequence, decide whether to halt, if no, process sequence again conditioned on previous input.
-
