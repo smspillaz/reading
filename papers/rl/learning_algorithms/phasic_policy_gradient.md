@@ -1,3 +1,6 @@
+---
+title: Phasic Policy Gradient.
+---
 # Phasic Policy Gradient
 
 When doing actor-critic, usually you have one feature processing network, then a policy and value head. The idea is that features trained by each objective are complimentary, so its better to let the two heads help each other.
@@ -23,4 +26,3 @@ In the auxiliary phase, we take our sample buffer store the outcome of the polic
 We then have a loss function for the value prediction from the policy network (where the target is the output of the value network) plus a regularization term which ensures that the updated policy diverge from the previous policy. So basically, by updating value prediction head of the policy network, we can "help" our policy prediction network learn better features offline, but we make sure to do it such that the policy head "compensates" by predicting the same distribution.
 
 ![[ppg_algorithm.png]]
-
