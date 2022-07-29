@@ -70,24 +70,25 @@ def main():
     parser.add_argument(
         "--update-index", action="store_true", help="Also update the index"
     )
-    parser.add_argument("filename")
+    parser.add_argument("filenames", nargs="+")
     args = parser.parse_args()
 
-    run(["git", "add", args.filename], dry_run=args.dry_run)
+    for filename in args.filenames:
+        run(["git", "add", filename], dry_run=args.dry_run)
 
-    if os.path.splitext(args.filename)[1] == ".md":
-        add_linked_content(args.filename, dry_run=args.dry_run)
+        if os.path.splitext(filename)[1] == ".md":
+            add_linked_content(filename, dry_run=args.dry_run)
 
-    run(
-        ["git", "commit", "-m", "{}: Update {}".format(args.section, args.filename)],
-        dry_run=args.dry_run,
-    )
+        run(
+            ["git", "commit", "-m", "{}: Update {}".format(args.section, filename)],
+            dry_run=args.dry_run,
+        )
 
-    if args.update_index:
-        if not os.path.exists("index.stage"):
-            print("index.stage does not exist, cannot update an index")
-        else:
-            update_index(args.filename, dry_run=args.dry_run)
+        if args.update_index:
+            if not os.path.exists("index.stage"):
+                print("index.stage does not exist, cannot update an index")
+            else:
+                update_index(filename, dry_run=args.dry_run)
 
 
 if __name__ == "__main__":
