@@ -1,3 +1,6 @@
+---
+title: Neural Arithmetic Units.
+---
 # Neural Arithmetic Units
 
 Differentiable binary arithmetic operations:
