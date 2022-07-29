@@ -1,3 +1,6 @@
+---
+title: Latent Skill Planning for Exploration and Transfer.
+---
 # Latent Skill Planning for Exploration and Transfer
 
 Partial amortization for fast adaption at test time. Actions are produced by a policy that is learned over time while the skills it conditions on are chosen using online planning.
@@ -32,7 +35,6 @@ On dm-control we do a little bit better than everyone else.
 Learned skills are good enough to be re-composed.
 
 in an environment with obstacles, its really hard to get to the goal with random rollouts, Our method LSP with fixed policy is able to efficiently explore the state space. Dreamer fails completely because it doesn't get a reward.
-
 
 
 
