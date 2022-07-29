@@ -1,3 +1,6 @@
+---
+title: A distributional view on multi-objective policy optimization.
+---
 # A Distributional View on Multi-Objective Policy Optimization
 
 Multi-objective policy optimization: We have multiple objectives that
@@ -19,7 +22,7 @@ Q only for that objective).
 Then to combine the policies, you don't optimize the main
 policy directly. Instead what you do is you optimize
 each of the $q_k(a|s)$ distributions, subject to some
-KL divergence between the $\pi_{\theta}^{\text{old}}$ and 
+KL divergence between the $\pi_{\theta}^{\text{old}}$ and
 $q_k(a|s)$ being less than $\epsilon_k$ (step (1)). Here $\epsilon_k$
 is encoding a *preference*, eg, the larger the $\epsilon_k$, the
 more $q_k$ is allowed to diverge from the old policy.
