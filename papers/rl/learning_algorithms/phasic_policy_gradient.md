@@ -1,5 +1,16 @@
 ---
 title: Phasic Policy Gradient.
+venue: ICML
+pages: 2020-2027
+year: 2021
+type: Conference and Workshop Papers
+access: open
+key: conf/icml/CobbeHKS21
+ee: http://proceedings.mlr.press/v139/cobbe21a.html
+url: https://dblp.org/rec/conf/icml/CobbeHKS21
+authors: ["Karl Cobbe", "Jacob Hilton", "Oleg Klimov", "John Schulman"]
+sync_version: 3
+cite_key: conf/icml/CobbeHKS21
 ---
 # Phasic Policy Gradient
 
