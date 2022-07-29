@@ -1,5 +1,17 @@
 ---
 title: Language Models as Knowledge Bases?
+venue: EMNLP/IJCNLP
+pages: 2463-2473
+year: 2019
+type: Conference and Workshop Papers
+access: open
+key: conf/emnlp/PetroniRRLBWM19
+doi: 10.18653/V1/D19-1250
+ee: https://doi.org/10.18653/v1/D19-1250
+url: https://dblp.org/rec/conf/emnlp/PetroniRRLBWM19
+authors: ["Fabio Petroni", "Tim Rockt\u00e4schel", "Sebastian Riedel", "Patrick S. H. Lewis", "Anton Bakhtin", "Yuxiang Wu", "Alexander H. Miller"]
+sync_version: 3
+cite_key: conf/emnlp/PetroniRRLBWM19
 ---
 # Language Models as Knowledge Bases?
 
