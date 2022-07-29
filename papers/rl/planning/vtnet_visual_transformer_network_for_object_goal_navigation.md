@@ -1,3 +1,6 @@
+---
+title: VTNet: Visual Transformer Network for Object Goal Navigation.
+---
 # VTNet: Visual Transformer Network for Object-Goal Visual Navigation
 
 tl;dr: Object-goal visual navigation aims to steer an agent towards a target object based on observatons of the agent.
@@ -15,4 +18,3 @@ Spatial Enhanced local descriptors = take advantange of all detected objects for
 Positional Global Descriptor.
 
 Directly training VTNet with navigation policy network fails to converge due to training difficulty of transformer. We have a pre-training scheme. We imitate expert trajectories.
-
