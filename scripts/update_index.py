@@ -376,6 +376,7 @@ def update_link(content, existing_link, new_link):
             )
             return content
 
+    raise RuntimeError(f"No links to update for {existing_link}")
 
 def add_link_if_not_exists(structure, obj, link_to_add, *args, **kwargs):
     substructure = list(filter(lambda x: x["filename"] == obj, structure))[0]
