@@ -367,7 +367,7 @@ def format_link(link):
 
 
 def update_link(content, existing_link, new_link):
-    link_matches = list(_RE_LINK_INTERNAL.finditer(content))
+    link_matches = list(process_link_matches(_RE_LINK.finditer(content)))
 
     for link in link_matches:
         if link.group("link") == existing_link["fullpath"]:
