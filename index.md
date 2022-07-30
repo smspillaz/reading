@@ -24,7 +24,7 @@
  - [[pdfs/cv/visual_reasoning_with_multi_hop_feature_modulation.pdf|Visual Reasoning with Multi-hop Feature Modulation.]]: (cite: conf/eccv/StrubSPVMPCP18) Extension of FiLM for long-running language tasks. The basic idea is to refine the conditioning vector for each convolutional layer by using attention over the encoded language inputs . [[papers/cv/visual_reasoning_with_multi_hop_feature_modulation.md|Notes]]
  - [[pdfs/cv/are_cnn_or_transformers_more_like_human_vision.pdf|are_cnn_or_transformers_more_like_human_vision]]: . [[papers/cv/are_cnn_or_transformers_more_like_human_vision.md|Notes]]
  - [[pdfs/cv/residual_attention_network.pdf|residual_attention_network]]: . [[papers/cv/residual_attention_network.md|Notes]]
- - [[pdfs/cv/spatial_attention.pdf|spatial_attention]]: . [[papers/cv/spatial_attention.md|Notes]]
+ - [[pdfs/cv/a_novel_global_spatial_attention_mechanism_in_convolutional_neural_network_for_medical_image_classification.pdf|a_novel_global_spatial_attention_mechanism_in_convolutional_neural_network_for_medical_image_classification]]: . [[papers/cv/a_novel_global_spatial_attention_mechanism_in_convolutional_neural_network_for_medical_image_classification.md|Notes]]
 # dbml
  - [[pdfs/dbml/certifiable_unlearning_pipelines_for_logistic_regression_an_experimental_study.pdf|certifiable_unlearning_pipelines_for_logistic_regression_an_experimental_study]]: . [[papers/dbml/certifiable_unlearning_pipelines_for_logistic_regression_an_experimental_study.md|Notes]]
  - [[pdfs/dbml/dbml_survey.pdf|dbml_survey]]: . [[papers/dbml/dbml_survey.md|Notes]]
