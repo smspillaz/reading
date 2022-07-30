@@ -367,10 +367,11 @@ def format_link(link):
 
 
 def update_link(content, existing_link, new_link):
-    link_matches = list(process_link_matches(_RE_LINK.finditer(content)))
+    link_matches = list(_RE_LINK.finditer(content))
+    processed_link_matches = list(process_link_matches(link_matches))
 
-    for link in link_matches:
-        if link.group("link") == existing_link["fullpath"]:
+    for link, processed_link in zip(link_matches, processed_link_matches):
+        if processed_link.group("link") == existing_link["fullpath"]:
             content = (
                 content[: link.start()] + format_link(new_link) + content[link.end() :]
             )
