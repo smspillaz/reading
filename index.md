@@ -2,7 +2,7 @@
  - [[pdfs/causal/a_meta_transfer_objective_for_learning_to_disentangle_causal_mechanisms.pdf|A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms.]]: (cite: conf/iclr/BengioDRKLBGP20) . [[papers/causal/a_meta_transfer_objective_for_learning_to_disentangle_causal_mechanisms.md|Notes]]
  - [[pdfs/causal/towards_causal_representation_learning.pdf|Towards Causal Representation Learning.]]: (cite: journals/corr/abs-2102-11107/Scholkopf/2021) . [[papers/causal/towards_causal_representation_learning.md|Notes]]
  - [[pdfs/causal/indepedendent_causal_mechanisms.pdf|indepedendent_causal_mechanisms]]: . [[papers/causal/indepedendent_causal_mechanisms.md|Notes]]
- - [[pdfs/causal/nonlinear_causal_discovery_additive_noise.pdf|nonlinear_causal_discovery_additive_noise]]: . [[papers/causal/nonlinear_causal_discovery_additive_noise.md|Notes]]
+ - [[pdfs/causal/nonlinear_causal_discovery_with_additive_noise_models.pdf|nonlinear_causal_discovery_with_additive_noise_models]]: [[papers/causal/nonlinear_causal_discovery_with_additive_noise_models.md|Notes]]
  - [[pdfs/causal/video_causal_discovery.pdf|video_causal_discovery]]: . [[papers/causal/video_causal_discovery.md|Notes]]
 # cogsci
  - [[pdfs/cogsci/building_machines_that_learn_and_think_like_people.pdf|Building Machines that Learn and Think Like People.]]: (cite: conf/atal/Tenenbaum18) . [[papers/cogsci/building_machines_that_learn_and_think_like_people.md|Notes]]
