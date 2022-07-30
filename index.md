@@ -23,7 +23,7 @@
  - [[pdfs/cv/generative_pretraining_from_pixels.pdf|generative_pretraining_from_pixels]]: [[papers/cv/generative_pretraining_from_pixels.md|Notes]]
  - [[pdfs/cv/designing_network_design_spaces.pdf|designing_network_design_spaces]]: [[papers/cv/designing_network_design_spaces.md|Notes]]
  - [[pdfs/cv/residual_attention_network.pdf|residual_attention_network]]: . [[papers/cv/residual_attention_network.md|Notes]]
- - [[pdfs/cv/revisiting_resnets_improved_training_and_scaling.pdf|revisiting_resnets_improved_training_and_scaling]]: . [[papers/cv/revisiting_resnets_improved_training_and_scaling.md|Notes]]
+ - [[pdfs/cv/revisiting_resnets_improved_training_and_scaling_strategies.pdf|revisiting_resnets_improved_training_and_scaling_strategies]]: . [[papers/cv/revisiting_resnets_improved_training_and_scaling_strategies.md|Notes]]
  - [[pdfs/cv/spatial_attention.pdf|spatial_attention]]: . [[papers/cv/spatial_attention.md|Notes]]
 # dbml
  - [[pdfs/dbml/certifiable_unlearning_pipelines_for_logistic_regression_an_experimental_study.pdf|certifiable_unlearning_pipelines_for_logistic_regression_an_experimental_study]]: . [[papers/dbml/certifiable_unlearning_pipelines_for_logistic_regression_an_experimental_study.md|Notes]]
