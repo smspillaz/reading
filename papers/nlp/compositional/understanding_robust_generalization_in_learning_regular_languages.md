@@ -12,3 +12,8 @@ authors: ["Soham Dan", "Osbert Bastani", "Dan Roth"]
 sync_version: 3
 cite_key: conf/icml/DanBR22
 ---
+Looks at robust generalization in the context of using RNNs to learn a regular language.
+
+Map strings to labels with a compositional strategy that predicts the structure of the deterministic finite state automaton accepting the regular language.
+
+Compositional Strategy via an auxiliary task where the goal is to predict the intermediate states visited by the DFA when parsing a string.
