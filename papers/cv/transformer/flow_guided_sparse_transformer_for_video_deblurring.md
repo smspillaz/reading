@@ -12,3 +12,9 @@ authors: ["Jing Lin", "Yuanhao Cai", "Xiaowan Hu", "Haoqian Wang", "Youliang Yan
 sync_version: 3
 cite_key: conf/icml/LinCHWYZDZTG22
 ---
+
+Customzies a self-attention module into the "Flow Guided Sparse Window based Multi Head Self-Attention"
+
+For each query, use the estimated optimal flow to globally sample sparse key elements corresponding to the same scene patch in a neighbourhood.
+
+Recurrent embedding mechanism to transfer information from parse frames and strength long term temporal dependencies.
