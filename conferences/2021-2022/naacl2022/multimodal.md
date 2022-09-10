@@ -205,7 +205,7 @@ Defining or learning relationships over which composition occurrs
 	- See MUFASA: Multimodal fusion architecture search for electronic health records AAAI 2021
 	- Nice, but slow.
 - Neuro-symbolic concepts
-	- Hand-crafted concepts based on domain kopedlge
+	- Hand-crafted concepts based on domain knowledge
 	- Attention maps (attend to red shapes in the image)
 	- Attend to circles
 	- Then do logical composition with interpretable output concepts. Combine intersection.
