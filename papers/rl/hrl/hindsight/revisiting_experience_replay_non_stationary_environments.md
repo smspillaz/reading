@@ -1,3 +1,6 @@
+---
+title: Revisiting Experience Replay in Non-Stationary Environments
+---
 # Revisiting Experience Replay in Nonstationary Environments
 
 [[revisiting_experience_replay_non_stationary_environments.pdf]]
