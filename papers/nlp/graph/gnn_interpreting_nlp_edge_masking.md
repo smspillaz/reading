@@ -1,3 +1,16 @@
+---
+title: Interpreting Graph Neural Networks for NLP With Differentiable Edge Masking.
+venue: ICLR
+year: 2021
+type: Conference and Workshop Papers
+access: open
+key: conf/iclr/SchlichtkrullCT21
+ee: https://openreview.net/forum?id=WznmQa42ZAx
+url: https://dblp.org/rec/conf/iclr/SchlichtkrullCT21
+authors: ["Michael Sejr Schlichtkrull", "Nicola De Cao", "Ivan Titov"]
+sync_version: 3
+cite_key: conf/iclr/SchlichtkrullCT21
+---
 # Interpreting Graph Neural Networks for NLP with Differentiable Edge Masking
 
 tl;dr: There has been little work on intepreting GNNs. Introduces a method for interpreting the predictions of GNNs which identifies unnecessary edges. Learn a simple classifier that, for every edge in every layer, predicts if that edge can be dropped. Use this as an attribution method to analyze GNN models for two tasks - question answering and semantic role labeling. We can drop a large proportion of the edges without deteriorating performance.
