@@ -1,3 +1,17 @@
+---
+title: Graph Star Net for Generalized Multi-Task Learning.
+venue: CoRR
+volume: abs/1906.12330
+year: 2019
+type: Informal Publications
+access: open
+key: journals/corr/abs-1906-12330
+ee: http://arxiv.org/abs/1906.12330
+url: https://dblp.org/rec/journals/corr/abs-1906-12330
+authors: ["Haonan Lu", "Seth H. Huang", "Tian Ye", "Xiuyan Guo"]
+sync_version: 3
+cite_key: journals/corr/abs-1906-12330/Lu/2019
+---
 # GraphStar
 
 Non-spectral methods conduct local convolutions, but to capture global state you need to
@@ -10,7 +24,7 @@ Star Transformer: Virtual message passing relay, reducing number of connections 
    * On the first phase, update the hidden state of each node as $\bold{C^t_i} = [h^{t - 1}_{i - 1}; h^{t - 1}_{i}; e^i s^_{t - 1}]$ and $h^t_i = $\text{Att}(h_{t - 1}_i, C^t_i)$
      * Eg, C is a sequence of vectors, we take attention *just* over the neighbours last hidden states, the current node's embedding and the hub node
    * On the second phase, update the star by taking attention between the star and everything else.
-     
+
 
 GraphStar:
  - Perform inductive tasks on previously unseen graphs
