@@ -9,7 +9,7 @@ Method 2: Adversarial Transfer Model
 
 Combining methods 1 and 2, DAML-ATM (Domain adaptive Meta-Learning with Adversarial Transfer Model
 
-# Don't take it Lterally an Edit invariant Loss
+# Don't take it Literally an Edit invariant Loss
 
 Problems in training text-genreation mdoels - optimize the cross entropy loss.
 
