@@ -1,3 +1,17 @@
+---
+title: Deep Set Prediction Networks.
+venue: NeurIPS
+pages: 3207-3217
+year: 2019
+type: Conference and Workshop Papers
+access: open
+key: conf/nips/ZhangHP19
+ee: https://proceedings.neurips.cc/paper/2019/hash/6e79ed05baec2754e25b4eac73a332d2-Abstract.html
+url: https://dblp.org/rec/conf/nips/ZhangHP19
+authors: ["Yan Zhang", "Jonathon S. Hare", "Adam Pr\u00fcgel-Bennett"]
+sync_version: 3
+cite_key: conf/nips/ZhangHP19
+---
 # Deep Set Prediction
 
 https://github.com/Cyanogenoid/dspn/blob/master/dspn.py
