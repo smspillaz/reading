@@ -1,3 +1,16 @@
+---
+title: Object-Centric Learning with Slot Attention.
+venue: NeurIPS
+year: 2020
+type: Conference and Workshop Papers
+access: open
+key: conf/nips/LocatelloWUMHUD20
+ee: https://proceedings.neurips.cc/paper/2020/hash/8511df98c02ab60aea1b2356c013bc0f-Abstract.html
+url: https://dblp.org/rec/conf/nips/LocatelloWUMHUD20
+authors: ["Francesco Locatello", "Dirk Weissenborn", "Thomas Unterthiner", "Aravindh Mahendran", "Georg Heigold", "Jakob Uszkoreit", "Alexey Dosovitskiy", "Thomas Kipf"]
+sync_version: 3
+cite_key: conf/nips/LocatelloWUMHUD20
+---
 # Object-Centric Learning with Slot Attention
 
 Most deep learning approaches for image processing captures texture information but not really
@@ -58,7 +71,7 @@ Encoder:
 (2) Positional encoding is absolute, so no translation equivariance
 (3) Slot attention "does not know about objects per-se", segmentation largely driven by downstream task.
   - > Does not actually detect objects, but relies on downstream task to do this.
-  
+
 # Ablation Study
 
 - Position embeddings matter if you want to retain positional information.
@@ -71,4 +84,3 @@ How to pick the number of training slots?
  - Upper bound: NUmber of objects in the dataset
 
 # Proof that slot attention is permutation invariance
-
