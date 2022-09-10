@@ -1,3 +1,16 @@
+---
+title: Towards Nonlinear Disentanglement in Natural Data with Temporal Sparse Coding.
+venue: ICLR
+year: 2021
+type: Conference and Workshop Papers
+access: open
+key: conf/iclr/KlindtSSUBBP21
+ee: https://openreview.net/forum?id=EbIDjBynYJ8
+url: https://dblp.org/rec/conf/iclr/KlindtSSUBBP21
+authors: ["David A. Klindt", "Lukas Schott", "Yash Sharma", "Ivan Ustyuzhaninov", "Wieland Brendel", "Matthias Bethge", "Dylan M. Paiton"]
+sync_version: 3
+cite_key: conf/iclr/KlindtSSUBBP21
+---
 # Towards Nonlinear Disentanglement with Temporal Sparse Coding
 
  - Most experiments are limited to carefully constructed scenarios
@@ -7,7 +20,7 @@
 
 => Disentanglement:
 	We want to learn representations such that we can recover the generator factors. To compare, we need to know the state of the world.
-	
+
 	Nonlinear ICA: If observations are sampled IID, it is impossible to guarantee that the model recovers the underlying state of the world. Similar result in Locatello.
 => What do we know from existing work -  we need an inductive bias
 => can this be found in natural video?
@@ -27,7 +40,7 @@ We have the state of the world, but this state is a function of time z = g(t), i
 
 ![[sparse_disentanglement.png]]
 
-Intuition: Start with sparse natural transitions. This gives us a prior that objects in nature change sparsely. 
+Intuition: Start with sparse natural transitions. This gives us a prior that objects in nature change sparsely.
 
 Notice that the prior on the distribution has principal components that are orthogonal.
 
