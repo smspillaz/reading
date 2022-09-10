@@ -1,3 +1,17 @@
+---
+title: Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments.
+venue: NIPS
+pages: 6379-6390
+year: 2017
+type: Conference and Workshop Papers
+access: open
+key: conf/nips/LoweWTHAM17
+ee: https://proceedings.neurips.cc/paper/2017/hash/68a9750337a418a86fe06c1991a1d64c-Abstract.html
+url: https://dblp.org/rec/conf/nips/LoweWTHAM17
+authors: ["Ryan Lowe", "Yi Wu", "Aviv Tamar", "Jean Harb", "Pieter Abbeel", "Igor Mordatch"]
+sync_version: 3
+cite_key: conf/nips/LoweWTHAM17
+---
 # Multi-Agent Actor-Critic for Mixed Co-operative and Competitive Environments
 
 Basically in this paper you have local actors which have access only
