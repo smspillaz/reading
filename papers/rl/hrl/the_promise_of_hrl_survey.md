@@ -1,3 +1,6 @@
+---
+title: The Promise of Hierarchical Reinforcement Learning
+---
 # The promise of Hierarchical RL
 
 From The Gradient:
@@ -57,7 +60,7 @@ for specific kind of problems, does not converge to optimal policy.
 ### Options Framework
 
 See:
- 
+
  - The Option Critic Architecture (Pierre-Luc Bacon, Harb et al, 2017)
  - Between MDPs and Semi-MDPs: A framework for temporal abstraction in RL (Sutton & Singh, 1999)
 
@@ -227,4 +230,3 @@ atomic macro-actions independent from each other.
 Task compositionality - ideally the sub-policies should each be doing something different, or delegating to another sub-policy.
 
 Does the manager need to give a reward to the sub-policy? When does it do that?
-
