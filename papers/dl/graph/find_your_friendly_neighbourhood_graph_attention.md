@@ -1,11 +1,24 @@
+---
+title: How to Find Your Friendly Neighborhood: Graph Attention Design with Self-Supervision.
+venue: ICLR
+year: 2021
+type: Conference and Workshop Papers
+access: open
+key: conf/iclr/KimO21
+ee: https://openreview.net/forum?id=Wi5KUNlqWty
+url: https://dblp.org/rec/conf/iclr/KimO21
+authors: ["Dongkwan Kim", "Alice Oh"]
+sync_version: 3
+cite_key: conf/iclr/KimO21
+---
 # How to find your friendly neighbourhood: Graph Attention Design with Self-Supervision
 
 Attention over edges: learns relationship importance between nodes
 
 Contributions:
  - Self-supervised attention using edge information
- 
- 
+
+
 ## Self-supervised attention using edge information.
 
 ![[find_your_friengly_neighbourhood_gat_probability.png]]
