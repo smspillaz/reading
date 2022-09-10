@@ -1,3 +1,17 @@
+---
+title: DeepAveragers: Offline Reinforcement Learning by Solving Derived Non-Parametric MDPs.
+venue: CoRR
+volume: abs/2010.08891
+year: 2020
+type: Informal Publications
+access: open
+key: journals/corr/abs-2010-08891
+ee: https://arxiv.org/abs/2010.08891
+url: https://dblp.org/rec/journals/corr/abs-2010-08891
+authors: ["Aayam Shrestha", "Stefan Lee", "Prasad Tadepalli", "Alan Fern"]
+sync_version: 3
+cite_key: journals/corr/abs-2010-08891/Shrestha/2020
+---
 # DeepAveragers: Offline RL by solving derived non-parametric MDPs
 
 tl;dr: Optimally solve finitely represented MDPs derived from a static dataset of experience. Can be applied on top of any learned representation and has the potential to easily support multiple solution objectives and zero-shot adjustment to changing environments and goals.
