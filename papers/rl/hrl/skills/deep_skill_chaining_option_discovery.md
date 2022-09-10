@@ -1,3 +1,16 @@
+---
+title: Option Discovery using Deep Skill Chaining.
+venue: ICLR
+year: 2020
+type: Conference and Workshop Papers
+access: open
+key: conf/iclr/BagariaK20
+ee: https://openreview.net/forum?id=B1gqipNYwH
+url: https://dblp.org/rec/conf/iclr/BagariaK20
+authors: ["Akhil Bagaria", "George Konidaris"]
+sync_version: 3
+cite_key: conf/iclr/BagariaK20
+---
 # Option Skill Chains
 
 ## Algorithm
@@ -35,4 +48,3 @@ In general, you get a different sub-policy for each room.
 
  - Shows how to learn the options
  - Doesn't treat options as fixed
-
