@@ -1,3 +1,16 @@
+---
+title: Time-Agnostic Prediction: Predicting Predictable Video Frames.
+venue: ICLR
+year: 2019
+type: Conference and Workshop Papers
+access: open
+key: conf/iclr/JayaramanEEL19
+ee: https://openreview.net/forum?id=SyzVb3CcFX
+url: https://dblp.org/rec/conf/iclr/JayaramanEEL19
+authors: ["Dinesh Jayaraman", "Frederik Ebert", "Alexei A. Efros", "Sergey Levine"]
+sync_version: 3
+cite_key: conf/iclr/JayaramanEEL19
+---
 # Time Agnostic Prediction: Predicting Predictable Video Frames
 
 Basic Idea: Predicting between the waypoints is hard, but there are bottlenecks or
@@ -107,5 +120,3 @@ pick the one that brings you closest to the goal state (cross-entropy method).
 
  - Can we figure out timestamps?
  - Repeated frames, mgiht just collapse to predicting the input state.
-
-
