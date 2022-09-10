@@ -1,8 +1,21 @@
+---
+title: Contrastive Explanations for Reinforcement Learning via Embedded Self Predictions.
+venue: ICLR
+year: 2021
+type: Conference and Workshop Papers
+access: open
+key: conf/iclr/LinLF21
+ee: https://openreview.net/forum?id=Ud3DSz72nYR
+url: https://dblp.org/rec/conf/iclr/LinLF21
+authors: ["Zhengxian Lin", "Kin-Ho Lam", "Alan Fern"]
+sync_version: 3
+cite_key: conf/iclr/LinLF21
+---
 # Contrastive Explanations for Reinforcement Learning via Embedded Self-Predictions
 
  => Explain why a learned agent prefers one action over another
  => Learn action values directly represented via human-understandable properties of expected features
- 
+
  Motivation: How do humans explain their action preferences.
   - eg, via impact on expected future
   - I built more marines rather than saver minerals because I expect to be overtaken in the future
