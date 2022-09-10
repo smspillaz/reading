@@ -1,3 +1,16 @@
+---
+title: Interpreting Knowledge Graph Relation Representation from Word Embeddings.
+venue: ICLR
+year: 2021
+type: Conference and Workshop Papers
+access: open
+key: conf/iclr/AllenBH21
+ee: https://openreview.net/forum?id=gLWj29369lW
+url: https://dblp.org/rec/conf/iclr/AllenBH21
+authors: ["Carl Allen", "Ivana Balazevic", "Timothy M. Hospedales"]
+sync_version: 3
+cite_key: conf/iclr/AllenBH21
+---
 # Interpreting Knowledge Graph Relation Representation from Word Embeddings
 
 => Building on recent theoretical understanding of word embeddings, we categorise knowledge graph relations into three types and for each derive explicit requirements of their representation
@@ -15,23 +28,23 @@ From analogies to relations:
 
  -> Analogies contain certain common binary word relations similar to KGs
  -> For certain analogies the associated vector offset gives a transformation representing the relation.
- 
- 
+
+
  Identify other semantic relation types:
   -> Relatedness
   -> Specialization
   -> Context shift
-  
+
   Determine this by pairwise difference/similarity between vector.
-  
+
   Categorise the relations into semantic relation types. We can come up with functions which cature this.
-  
+
   S- Relatedness:
    - Both entity embeddings share a common subspace (S) component
    - Project $V_S$ by $P_r$ and compare:
 	   - Dot produict: $(P_r e_s)^T(P_r e_o) = e_s^T M_r e_o$
 	   - Euclidean Distance: $||P_r e_s - P_r e_o||^2 = ||P_r e_s||^2 - 2e_s^T M_r e_0 + ||P_r e_o||^2$
-  
+
   Specialization / Context Shift:
    - Requires S-Relatedness and relation-specific components $v_r^s, v_r^o$
    - Project on to subspace corresponding to $S$, $v_r^s$ and $v_r^o$
