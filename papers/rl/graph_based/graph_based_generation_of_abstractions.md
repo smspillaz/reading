@@ -1,3 +1,6 @@
+---
+title: Graph Learning based Generation of Abstractions for Reinforcement Learning
+---
 # Graph Learning based Generation of Abstractiosn for RL
 
 [[graph_based_generation_of_abstractions.pdf]]
@@ -47,4 +50,4 @@ Requirements:
 Maximize:
 
  - $\sum_{s \ in V} \sum_{s' \ in N(s)} (\log (\sigma(phi(s)) \cdot \oemga(s')) + \sum^K_{k = 1} \E_{s'' \in P} \log(\sigma(-\phi(s) \cdot \omega(s''))))$
- - Where $\sigam$ is sigmopid and $P$ is a random distribution ove rthe node set. 
+ - Where $\sigam$ is sigmopid and $P$ is a random distribution ove rthe node set.
