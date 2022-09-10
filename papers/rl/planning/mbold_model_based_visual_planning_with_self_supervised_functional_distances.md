@@ -1,3 +1,16 @@
+---
+title: Model-Based Visual Planning with Self-Supervised Functional Distances.
+venue: ICLR
+year: 2021
+type: Conference and Workshop Papers
+access: open
+key: conf/iclr/TianNEDEFL21
+ee: https://openreview.net/forum?id=UcoXdfrORC
+url: https://dblp.org/rec/conf/iclr/TianNEDEFL21
+authors: ["Stephen Tian", "Suraj Nair", "Frederik Ebert", "Sudeep Dasari", "Benjamin Eysenbach", "Chelsea Finn", "Sergey Levine"]
+sync_version: 3
+cite_key: conf/iclr/TianNEDEFL21
+---
 # Model-based visual planning with self-supervised functional distances
 
 Learning goal-reaching policies with RL is hard when hand-engineered reward functions are not available. Planning to reach goals requires a notion of functional similarity between observations and goal states.
