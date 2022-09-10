@@ -1,3 +1,16 @@
+---
+title: Learning &quot;What-if&quot; Explanations for Sequential Decision-Making.
+venue: ICLR
+year: 2021
+type: Conference and Workshop Papers
+access: open
+key: conf/iclr/BicaJHS21
+ee: https://openreview.net/forum?id=h0de3QWtGG
+url: https://dblp.org/rec/conf/iclr/BicaJHS21
+authors: ["Ioana Bica", "Daniel Jarrett", "Alihan H\u00fcy\u00fck", "Mihaela van der Schaar"]
+sync_version: 3
+cite_key: conf/iclr/BicaJHS21
+---
 # Learning "what if" explanations for sequential decisionmaking
 
  - Integrate counterfactual reasoning into batch inverse RL.
@@ -38,4 +51,3 @@ To estimate feature expectations, propose a new algorithm which takes advantage 
 Counterfactual $\mu$-learning is a TDL method which estimates feature expectations by using counterfactuals as part of temporal difference learning with 1-step boostraping. Basically take the current mu-values and the ones that you would get with the counterfactual.
 
 Experiment: Disease progression dynamics, side effect dynamics, determine how well you can recover the reward weights.
-
