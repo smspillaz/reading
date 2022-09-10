@@ -1,3 +1,17 @@
+---
+title: What Can Learned Intrinsic Rewards Capture?
+venue: ICML
+pages: 11436-11446
+year: 2020
+type: Conference and Workshop Papers
+access: open
+key: conf/icml/ZhengOHXKHSS20
+ee: http://proceedings.mlr.press/v119/zheng20b.html
+url: https://dblp.org/rec/conf/icml/ZhengOHXKHSS20
+authors: ["Zeyu Zheng", "Junhyuk Oh", "Matteo Hessel", "Zhongwen Xu", "Manuel Kroiss", "Hado van Hasselt", "David Silver", "Satinder Singh"]
+sync_version: 3
+cite_key: conf/icml/ZhengOHXKHSS20
+---
 # What can learned intrinsic rewards capture?
 
 Basic idea: you essentially have an RNN which learns to give the reward which is used to update the policy in the inner loop -
