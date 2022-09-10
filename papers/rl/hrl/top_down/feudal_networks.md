@@ -1,3 +1,17 @@
+---
+title: FeUdal Networks for Hierarchical Reinforcement Learning.
+venue: ICML
+pages: 3540-3549
+year: 2017
+type: Conference and Workshop Papers
+access: open
+key: conf/icml/VezhnevetsOSHJS17
+ee: http://proceedings.mlr.press/v70/vezhnevets17a.html
+url: https://dblp.org/rec/conf/icml/VezhnevetsOSHJS17
+authors: ["Alexander Sasha Vezhnevets", "Simon Osindero", "Tom Schaul", "Nicolas Heess", "Max Jaderberg", "David Silver", "Koray Kavukcuoglu"]
+sync_version: 3
+cite_key: conf/icml/VezhnevetsOSHJS17
+---
 # Feudal Networks
 
 Modular Neural Network consisting of a worker and a manger.
@@ -56,7 +70,7 @@ The input also gets sent to the worker, who produces a state using an RNN ($U_t)
 The worker produces $w_t$ based on $\phi(\sum^t_{t - c} g_i)$ (so basically, the "instruction"
 is actually the moving average of the last few goals).
 
-Then the worker takes action $a_t$ based on $w_t$ and $U_t$. 
+Then the worker takes action $a_t$ based on $w_t$ and $U_t$.
 
 ### "goal embedding"
 
