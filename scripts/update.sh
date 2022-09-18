@@ -10,4 +10,4 @@ python scripts/download_bibentries.py papers
 bash scripts/move_untracked_images.sh
 python scripts/stage_index.py
 python scripts/bulk_add.py papers --suffix md bib
-python scripts/bibliography.py papers bibiliography.bib --append extrabib.bib
+python scripts/bibliography.py papers bibliography.bib --append extrabib.bib
