@@ -13,3 +13,19 @@ authors: ["Nathan Ng", "Neha Hulkund", "Kyunghyun Cho", "Marzyeh Ghassemi"]
 sync_version: 3
 cite_key: journals/corr/abs-2207-02093/Ng/2022
 ---
+
+Novel complexity measure based on local manifold smoothness of a classifier.
+
+This is the classifier's sensitivity to perturbations in its input around a test point.
+
+Neighbourhood decision distribution:
+
+$$
+p_j(x) = \frac{|\{x' \in N_{\mathcal{M}} : f(x') = j\}|}{|N_{\mathcal{M}}|}
+$$
+
+Smoothness is given as $\mu(f, x) = \max p_j(x)_{j \in \mathcal{Y}}$
+
+$N_{\mathcal{M}}$ is the "neighbourhood manifold", eg, the set of points that are at distance at most $r$ away from the $x$ as measured in the original input space.
+
+$\mathcal{Y}$ is the output space with $k$ classes. So this basically says that smoothness 
