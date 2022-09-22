@@ -1,7 +1,7 @@
 ---
 title: Grokking - Generalization Beyond Overfitting on Small Algorithmic Datasets.
-venue: CoRR
-volume: abs/2201.02177
+venue: Mathematical Reasoning in General Artificial Intelligence Workshop, ICLR 2021
+volume: 1
 year: 2022
 type: Informal Publications
 access: open
