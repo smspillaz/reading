@@ -1,16 +1,16 @@
 ---
 title: Neural Algorithmic Reasoners are Implicit Planners.
-venue: CoRR
-volume: abs/2110.05442
+cite_key: conf/nips/DeacVMBTN21
+venue: NeurIPS
+pages: 15529-15542
 year: 2021
-type: Informal Publications
+type: Conference and Workshop Papers
 access: open
-key: journals/corr/abs-2110-05442
-ee: https://arxiv.org/abs/2110.05442
-url: https://dblp.org/rec/journals/corr/abs-2110-05442
+key: conf/nips/DeacVMBTN21
+ee: https://proceedings.neurips.cc/paper/2021/hash/82e9e7a12665240d13d0b928be28f230-Abstract.html
+url: https://dblp.org/rec/conf/nips/DeacVMBTN21
 authors: ["Andreea Deac", "Petar Velickovic", "Ognjen Milinkovic", "Pierre-Luc Bacon", "Jian Tang", "Mladen Nikolic"]
 sync_version: 3
-cite_key: journals/corr/abs-2110-05442/Deac/2021
 ---
 
 [[xlvin_neural_algorithmic_reasoners_are_implicit_planners.pdf]]
