@@ -1,15 +1,15 @@
 ---
-title: Measuring Compositionality in Representation Learning.
-venue: ICLR
+title: "Measuring Compositionality in Representation Learning."
+venue: "ICLR"
 year: 2019
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/Andreas19
-ee: https://openreview.net/forum?id=HJz05o0qK7
-url: https://dblp.org/rec/conf/iclr/Andreas19
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/Andreas19"
+ee: "https://openreview.net/forum?id=HJz05o0qK7"
+url: "https://dblp.org/rec/conf/iclr/Andreas19"
 authors: ["Jacob Andreas"]
 sync_version: 3
-cite_key: conf/iclr/Andreas19
+cite_key: "conf/iclr/Andreas19"
 ---
 
 When inputs exhibit compositional structure, eg, objects built from parts or procedures, its is natural to ask whether this compositional structure is reflected somehow in the representations.
@@ -101,4 +101,3 @@ Relationship between TRE and reward. Compositional languages have lower generali
 ![[relationship_between_tre_and_generalization.png]]
 
 Low TRE is not a necessary condition for good generalization.
-
