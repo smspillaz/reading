@@ -1,16 +1,16 @@
 ---
-title: End-to-End Adversarial Text-to-Speech.
-venue: CoRR
-volume: abs/2006.03575
+title: "End-to-End Adversarial Text-to-Speech."
+venue: "CoRR"
+volume: "abs/2006.03575"
 year: 2020
-type: Informal Publications
-access: open
-key: journals/corr/abs-2006-03575
-ee: https://arxiv.org/abs/2006.03575
-url: https://dblp.org/rec/journals/corr/abs-2006-03575
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2006-03575"
+ee: "https://arxiv.org/abs/2006.03575"
+url: "https://dblp.org/rec/journals/corr/abs-2006-03575"
 authors: ["Jeff Donahue", "Sander Dieleman", "Mikolaj Binkowski", "Erich Elsen", "Karen Simonyan"]
 sync_version: 3
-cite_key: journals/corr/abs-2006-03575/Donahue/2020
+cite_key: "journals/corr/abs-2006-03575/Donahue/2020"
 ---
 
 # End-to-End Adversarial TTS
@@ -94,7 +94,7 @@ $S_{\text{gen}}$ is the generated spectrogram and $S_{\text{gt}}$ is the ground-
 
 How does it work? Briefly: At each iteration $k$ do one of the following:
 
-1. Go to the next timestep in both $S_{\text{gen}}$ and $S_{\text{gt}}$ 
+1. Go to the next timestep in both $S_{\text{gen}}$ and $S_{\text{gt}}$
 2. Go to the next timestep in $S_{\text{gt}}$ only
 3. Go to the next timestep in $S_{\text{gen}}$ only.
 
@@ -132,5 +132,3 @@ $$
 ## Text Pre-processing
 
 Use *phonemizer* whih does partial normalization and phonemisation. Pre-pad and post-pad the sequence with "silence" tokens.
-
-
