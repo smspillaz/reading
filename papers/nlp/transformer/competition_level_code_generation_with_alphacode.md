@@ -12,6 +12,7 @@ url: "https://dblp.org/rec/journals/corr/abs-2203-07814"
 authors: ["Yujia Li", "David H. Choi", "Junyoung Chung", "Nate Kushman", "Julian Schrittwieser", "R\u00e9mi Leblond", "Tom Eccles", "James Keeling", "Felix Gimeno", "Agustin Dal Lago", "Thomas Hubert", "Peter Choy", "Cyprien de Masson d&apos;Autume", "Igor Babuschkin", "Xinyun Chen", "Po-Sen Huang", "Johannes Welbl", "Sven Gowal", "Alexey Cherepanov", "James Molloy", "Daniel J. Mankowitz", "Esme Sutherland Robson", "Pushmeet Kohli", "Nando de Freitas", "Koray Kavukcuoglu", "Oriol Vinyals"]
 sync_version: 3
 cite_key: "journals/corr/abs-2203-07814/Li/2022"
+tags: ["DeepMind"]
 ---
 
 [[competition_level_code_generation_with_alphacode.pdf]]
