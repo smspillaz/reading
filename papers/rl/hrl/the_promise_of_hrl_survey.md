@@ -1,5 +1,6 @@
 ---
 title: "The Promise of Hierarchical Reinforcement Learning"
+tags: ["DeepMind"]
 ---
 # The promise of Hierarchical RL
 
