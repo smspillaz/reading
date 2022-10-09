@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/nips/LampinenCBH21"
 authors: ["Andrew K. Lampinen", "Stephanie C. Y. Chan", "Andrea Banino", "Felix Hill"]
 sync_version: 3
 cite_key: "conf/nips/LampinenCBH21"
+tags: ["DeepMind"]
 ---
