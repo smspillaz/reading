@@ -10,4 +10,5 @@ authors: ["Nantas Nardelli", "Gabriel Synnaeve", "Zeming Lin", "Pushmeet Kohli",
 sync_version: 3
 ee: "https://openreview.net/forum?id=SJG6G2RqtX"
 cite_key: "conf/iclr/NardelliSLKTU19"
+tags: ["DeepMind"]
 ---
