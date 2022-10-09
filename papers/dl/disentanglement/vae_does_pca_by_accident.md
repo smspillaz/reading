@@ -12,4 +12,5 @@ url: "https://dblp.org/rec/conf/cvpr/RolinekZM19"
 authors: ["Michal Rol\u00ednek", "Dominik Zietlow", "Georg Martius"]
 sync_version: 3
 cite_key: "conf/cvpr/RolinekZM19"
+tags: ["DeepMind"]
 ---
