@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/journals/corr/abs-1910-02876"
 authors: ["Petros Christodoulou", "Robert Tjarko Lange", "Ali Shafti", "A. Aldo Faisal"]
 sync_version: 3
 cite_key: "journals/corr/abs-1910-02876/Christodoulou/2019"
+tags: ["DeepMind"]
 ---
 # Reinforcement Learning with Structured Hierarchical Grammar Representations of Actions
 
