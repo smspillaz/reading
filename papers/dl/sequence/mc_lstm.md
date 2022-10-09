@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/conf/icml/HoedtKKHHNHK21"
 authors: ["Pieter-Jan Hoedt", "Frederik Kratzert", "Daniel Klotz", "Christina Halmich", "Markus Holzleitner", "Grey Nearing", "Sepp Hochreiter", "G\u00fcnter Klambauer"]
 sync_version: 3
 cite_key: "conf/icml/HoedtKKHHNHK21"
+tags: ["DeepMind"]
 ---
 
 # MC-LSTM
