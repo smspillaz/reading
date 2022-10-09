@@ -1,15 +1,15 @@
 ---
-title: Vision-and-Language Navigation - Interpreting visually-grounded navigation instructions in real environments.
-venue: CoRR
+title: "Vision-and-Language Navigation - Interpreting visually-grounded navigation instructions in real environments."
+venue: "CoRR"
 year: 2018
-type: Informal Publications
-access: open
-key: conf/cvpr/AndersonWTB0S0G18
-ee: http://arxiv.org/abs/1711.07280
-url: https://dblp.org/rec/conf/cvpr/AndersonWTB0S0G18
+type: "Informal Publications"
+access: "open"
+key: "conf/cvpr/AndersonWTB0S0G18"
+ee: "http://arxiv.org/abs/1711.07280"
+url: "https://dblp.org/rec/conf/cvpr/AndersonWTB0S0G18"
 authors: ["Peter Anderson", "Qi Wu", "Damien Teney", "Jake Bruce", "Mark Johnson", "Niko S\u00fcnderhauf", "Ian D. Reid", "Stephen Gould", "Anton van den Hengel"]
 sync_version: 3
-cite_key: conf/cvpr/AndersonWTB0S0G18
+cite_key: "conf/cvpr/AndersonWTB0S0G18"
 ---
 
 To enable and encourage the application of vision and language methods to the problem of interpreting visually grounded navigation instructions, present the Matterport3D simulator.
