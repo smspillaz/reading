@@ -1,16 +1,16 @@
 ---
-title: Plan Arithmetic: Compositional Plan Vectors for Multi-Task Control.
-venue: CoRR
-volume: abs/1910.14033
+title: "Plan Arithmetic: Compositional Plan Vectors for Multi-Task Control."
+venue: "CoRR"
+volume: "abs/1910.14033"
 year: 2019
-type: Informal Publications
-access: open
-key: journals/corr/abs-1910-14033
-ee: http://arxiv.org/abs/1910.14033
-url: https://dblp.org/rec/journals/corr/abs-1910-14033
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-1910-14033"
+ee: "http://arxiv.org/abs/1910.14033"
+url: "https://dblp.org/rec/journals/corr/abs-1910-14033"
 authors: ["Coline Devin", "Daniel Geng", "Pieter Abbeel", "Trevor Darrell", "Sergey Levine"]
 sync_version: 3
-cite_key: journals/corr/abs-1910-14033/Devin/2019
+cite_key: "journals/corr/abs-1910-14033/Devin/2019"
 ---
 # Plan Arithmetic
 
