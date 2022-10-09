@@ -11,6 +11,7 @@ ee: "https://proceedings.neurips.cc/paper/2021/hash/82e9e7a12665240d13d0b928be28
 url: "https://dblp.org/rec/conf/nips/DeacVMBTN21"
 authors: ["Andreea Deac", "Petar Velickovic", "Ognjen Milinkovic", "Pierre-Luc Bacon", "Jian Tang", "Mladen Nikolic"]
 sync_version: 3
+tags: ["DeepMind"]
 ---
 
 [[xlvin_neural_algorithmic_reasoners_are_implicit_planners.pdf]]
