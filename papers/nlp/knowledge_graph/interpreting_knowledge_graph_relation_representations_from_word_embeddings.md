@@ -1,15 +1,15 @@
 ---
-title: Interpreting Knowledge Graph Relation Representation from Word Embeddings.
-venue: ICLR
+title: "Interpreting Knowledge Graph Relation Representation from Word Embeddings."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/AllenBH21
-ee: https://openreview.net/forum?id=gLWj29369lW
-url: https://dblp.org/rec/conf/iclr/AllenBH21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/AllenBH21"
+ee: "https://openreview.net/forum?id=gLWj29369lW"
+url: "https://dblp.org/rec/conf/iclr/AllenBH21"
 authors: ["Carl Allen", "Ivana Balazevic", "Timothy M. Hospedales"]
 sync_version: 3
-cite_key: conf/iclr/AllenBH21
+cite_key: "conf/iclr/AllenBH21"
 ---
 # Interpreting Knowledge Graph Relation Representation from Word Embeddings
 
