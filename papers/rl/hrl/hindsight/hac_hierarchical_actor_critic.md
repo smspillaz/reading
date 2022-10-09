@@ -1,15 +1,15 @@
 ---
-title: Learning Multi-Level Hierarchies with Hindsight.
-venue: ICLR
+title: "Learning Multi-Level Hierarchies with Hindsight."
+venue: "ICLR"
 year: 2019
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/LevyKPS19
-ee: https://openreview.net/forum?id=ryzECoAcY7
-url: https://dblp.org/rec/conf/iclr/LevyKPS19
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/LevyKPS19"
+ee: "https://openreview.net/forum?id=ryzECoAcY7"
+url: "https://dblp.org/rec/conf/iclr/LevyKPS19"
 authors: ["Andrew Levy", "George Dimitri Konidaris", "Robert Platt Jr.", "Kate Saenko"]
 sync_version: 3
-cite_key: conf/iclr/LevyKPS19
+cite_key: "conf/iclr/LevyKPS19"
 ---
 # HAC (Hierarchical Actor-Critic)
 
