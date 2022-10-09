@@ -1,3 +1,3 @@
 ---
-title: Quantifying G eneralization in Reinforcement Learning
+title: "Quantifying G eneralization in Reinforcement Learning"
 ---
