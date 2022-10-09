@@ -1,3 +1,3 @@
 ---
-title: Isolating Sources of Disentanglement in VAEs
+title: "Isolating Sources of Disentanglement in VAEs"
 ---
