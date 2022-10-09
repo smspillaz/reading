@@ -1,19 +1,19 @@
 ---
-title: CoBERL - Contrastive BERT for Reinforcement Learning.
-venue: CoRR
-volume: abs/2107.05431
+title: "CoBERL - Contrastive BERT for Reinforcement Learning."
+venue: "CoRR"
+volume: "abs/2107.05431"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2107-05431
-ee: https://arxiv.org/abs/2107.05431
-url: https://dblp.org/rec/journals/corr/abs-2107-05431
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2107-05431"
+ee: "https://arxiv.org/abs/2107.05431"
+url: "https://dblp.org/rec/journals/corr/abs-2107-05431"
 authors: ["Andrea Banino", "Adri\u00e0 Puigdom\u00e8nech Badia", "Jacob C. Walker", "Tim Scholtes", "Jovana Mitrovic", "Charles Blundell"]
 sync_version: 3
-cite_key: journals/corr/abs-2107-05431/Banino/2021
+cite_key: "journals/corr/abs-2107-05431/Banino/2021"
 ---
- 
- 
+
+
  Contrastive BERT for Reinforcement Learning.
 
 Combines a new contrastive loss and hybrid LSTM transformer to tackle the challenge of improving data efficiency.
@@ -22,7 +22,7 @@ Bidirectional masked prediction in combination with a generalization of recent c
 
 Extending BERT masked prediction to RL isn't trivial because in RL there are no discrete targets. Instead use RELIC and extend it to the time domain and use it as a proxy supervision signal for the masked prediction.
 
-Based on GTrXL [[stabilizing_transformers_for_reinforcement_learning]]. 
+Based on GTrXL [[stabilizing_transformers_for_reinforcement_learning]].
 
 ![[coberl_architecture.png]]
 
