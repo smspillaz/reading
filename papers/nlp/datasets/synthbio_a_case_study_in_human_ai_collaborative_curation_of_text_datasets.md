@@ -1,16 +1,16 @@
 ---
-title: SynthBio - A Case Study in Human-AI Collaborative Curation of Text Datasets.
-venue: CoRR
-volume: abs/2111.06467
+title: "SynthBio - A Case Study in Human-AI Collaborative Curation of Text Datasets."
+venue: "CoRR"
+volume: "abs/2111.06467"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2111-06467
-ee: https://arxiv.org/abs/2111.06467
-url: https://dblp.org/rec/journals/corr/abs-2111-06467
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2111-06467"
+ee: "https://arxiv.org/abs/2111.06467"
+url: "https://dblp.org/rec/journals/corr/abs-2111-06467"
 authors: ["Ann Yuan", "Daphne Ippolito", "Vitaly Nikolaev", "Chris Callison-Burch", "Andy Coenen", "Sebastian Gehrmann"]
 sync_version: 3
-cite_key: journals/corr/abs-2111-06467/Yuan/2021
+cite_key: "journals/corr/abs-2111-06467/Yuan/2021"
 ---
 
 Introduces a novel method for dataset curation. Use an LLM to provide seed generations to human raters, which means that you change dataset authoriing from a writing task to an editing task.
