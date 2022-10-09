@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/journals/corr/abs-2105-05233"
 authors: ["Prafulla Dhariwal", "Alex Nichol"]
 sync_version: 3
 cite_key: "journals/corr/abs-2105-05233/Dhariwal/2021"
+tags: ["DeepMind"]
 ---
 
 # Diffusion models beat GANs on image synthesis (Guided Diffusion)
