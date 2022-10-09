@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/nips/KulkarniGIBRZM19"
 authors: ["Tejas D. Kulkarni", "Ankush Gupta", "Catalin Ionescu", "Sebastian Borgeaud", "Malcolm Reynolds", "Andrew Zisserman", "Volodymyr Mnih"]
 sync_version: 3
 cite_key: "conf/nips/KulkarniGIBRZM19"
+tags: ["DeepMind"]
 ---
