@@ -12,4 +12,5 @@ url: "https://dblp.org/rec/journals/corr/abs-2203-15556"
 authors: ["Jordan Hoffmann", "Sebastian Borgeaud", "Arthur Mensch", "Elena Buchatskaya", "Trevor Cai", "Eliza Rutherford", "Diego de Las Casas", "Lisa Anne Hendricks", "Johannes Welbl", "Aidan Clark", "Tom Hennigan", "Eric Noland", "Katie Millican", "George van den Driessche", "Bogdan Damoc", "Aurelia Guy", "Simon Osindero", "Karen Simonyan", "Erich Elsen", "Jack W. Rae", "Oriol Vinyals", "Laurent Sifre"]
 sync_version: 3
 cite_key: "journals/corr/abs-2203-15556/Hoffmann/2022"
+tags: ["DeepMind"]
 ---
