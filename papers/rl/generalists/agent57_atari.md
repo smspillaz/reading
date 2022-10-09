@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/icml/BadiaPKSVGB20"
 authors: ["Adri\u00e0 Puigdom\u00e8nech Badia", "Bilal Piot", "Steven Kapturowski", "Pablo Sprechmann", "Alex Vitvitskyi", "Zhaohan Daniel Guo", "Charles Blundell"]
 sync_version: 3
 cite_key: "conf/icml/BadiaPKSVGB20"
+tags: ["DeepMind"]
 ---
