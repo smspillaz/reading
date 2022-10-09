@@ -1,16 +1,16 @@
 ---
-title: Human few-shot learning of compositional instructions.
-venue: CogSci
-pages: 611-617
+title: "Human few-shot learning of compositional instructions."
+venue: "CogSci"
+pages: "611-617"
 year: 2019
-type: Conference and Workshop Papers
-access: open
-key: conf/cogsci/LakeLB19
-ee: https://mindmodeling.org/cogsci2019/papers/0123/index.html
-url: https://dblp.org/rec/conf/cogsci/LakeLB19
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/cogsci/LakeLB19"
+ee: "https://mindmodeling.org/cogsci2019/papers/0123/index.html"
+url: "https://dblp.org/rec/conf/cogsci/LakeLB19"
 authors: ["Brenden M. Lake", "Tal Linzen", "Marco Baroni"]
 sync_version: 3
-cite_key: conf/cogsci/LakeLB19
+cite_key: "conf/cogsci/LakeLB19"
 ---
 Generate a completely new "pseudo language" and test compositional generalization on humans.
 
