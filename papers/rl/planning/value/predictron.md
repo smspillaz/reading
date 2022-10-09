@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/conf/icml/SilverHHSGHDRRB17"
 authors: ["David Silver", "Hado van Hasselt", "Matteo Hessel", "Tom Schaul", "Arthur Guez", "Tim Harley", "Gabriel Dulac-Arnold", "David P. Reichert", "Neil C. Rabinowitz", "Andr\u00e9 Barreto", "Thomas Degris"]
 sync_version: 3
 cite_key: "conf/icml/SilverHHSGHDRRB17"
+tags: ["DeepMind"]
 ---
 # The Predictron: End-to-End Leraning and Planning
 
