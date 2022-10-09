@@ -12,4 +12,5 @@ url: "https://dblp.org/rec/conf/iccv/DwibediATSZ21"
 authors: ["Debidatta Dwibedi", "Yusuf Aytar", "Jonathan Tompson", "Pierre Sermanet", "Andrew Zisserman"]
 sync_version: 3
 cite_key: "conf/iccv/DwibediATSZ21"
+tags: ["DeepMind"]
 ---
