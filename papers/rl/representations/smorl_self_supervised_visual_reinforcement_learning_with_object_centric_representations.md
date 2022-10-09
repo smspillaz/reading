@@ -1,15 +1,15 @@
 ---
-title: Self-supervised Visual Reinforcement Learning with Object-centric Representations.
-venue: ICLR
+title: "Self-supervised Visual Reinforcement Learning with Object-centric Representations."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/ZadaianchukSM21
-ee: https://openreview.net/forum?id=xppLmXCbOw1
-url: https://dblp.org/rec/conf/iclr/ZadaianchukSM21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/ZadaianchukSM21"
+ee: "https://openreview.net/forum?id=xppLmXCbOw1"
+url: "https://dblp.org/rec/conf/iclr/ZadaianchukSM21"
 authors: ["Andrii Zadaianchuk", "Maximilian Seitzer", "Georg Martius"]
 sync_version: 3
-cite_key: conf/iclr/ZadaianchukSM21
+cite_key: "conf/iclr/ZadaianchukSM21"
 ---
 # Self Supervised Visual Reinforcement Learning with Object-Centric Representations
 
@@ -29,7 +29,7 @@ Some dimensions encode task-irrelevant information, but they're needed for recon
 
 
 
-Object-centric representations provide better goals. Observations and represented as a set of low-dimensional vectors. Each object representaitons can be additionaly structured. Disentangling location and appearance methods. See [[scalor_generative_world_models_with_scaleable_object_representations]] . Several other related works, in particular [[slot_attention]] 
+Object-centric representations provide better goals. Observations and represented as a set of low-dimensional vectors. Each object representaitons can be additionaly structured. Disentangling location and appearance methods. See [[scalor_generative_world_models_with_scaleable_object_representations]] . Several other related works, in particular [[slot_attention]]
 
 ## Contributions
 
