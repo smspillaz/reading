@@ -1,15 +1,15 @@
 ---
-title: Plug and Play Language Models - A Simple Approach to Controlled Text Generation.
-venue: ICLR
+title: "Plug and Play Language Models - A Simple Approach to Controlled Text Generation."
+venue: "ICLR"
 year: 2020
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/DathathriMLHFMY20
-ee: https://openreview.net/forum?id=H1edEyBKDS
-url: https://dblp.org/rec/conf/iclr/DathathriMLHFMY20
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/DathathriMLHFMY20"
+ee: "https://openreview.net/forum?id=H1edEyBKDS"
+url: "https://dblp.org/rec/conf/iclr/DathathriMLHFMY20"
 authors: ["Sumanth Dathathri", "Andrea Madotto", "Janice Lan", "Jane Hung", "Eric Frank", "Piero Molino", "Jason Yosinski", "Rosanne Liu"]
 sync_version: 3
-cite_key: conf/iclr/DathathriMLHFMY20
+cite_key: "conf/iclr/DathathriMLHFMY20"
 ---
 Controlling attributes of generated language (eg, switching topic/sentiment) is kinda hard to do without tuning the architecture on attribute specific data.
 
