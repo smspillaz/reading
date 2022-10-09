@@ -1,3 +1,3 @@
 ---
-title: On Sample Efficiency and Systematic Generalization of Grounded Language Understanding with Deep Learning (PhD Thesis, Bahdanau)
+title: "On Sample Efficiency and Systematic Generalization of Grounded Language Understanding with Deep Learning (PhD Thesis, Bahdanau)"
 ---
