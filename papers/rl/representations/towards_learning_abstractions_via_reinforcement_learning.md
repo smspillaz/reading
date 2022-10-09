@@ -1,3 +1,3 @@
 ---
-title: Towards Learning Abstractions via Reinforcement Learning
+title: "Towards Learning Abstractions via Reinforcement Learning"
 ---
