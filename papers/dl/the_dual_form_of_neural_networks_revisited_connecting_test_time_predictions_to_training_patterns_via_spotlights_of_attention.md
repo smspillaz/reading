@@ -1,16 +1,16 @@
 ---
-title: The Dual Form of Neural Networks Revisited: Connecting Test Time Predictions to Training Patterns via Spotlights of Attention.
-venue: ICML
-pages: 9639-9659
+title: "The Dual Form of Neural Networks Revisited: Connecting Test Time Predictions to Training Patterns via Spotlights of Attention."
+venue: "ICML"
+pages: "9639-9659"
 year: 2022
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/IrieCS22
-ee: https://proceedings.mlr.press/v162/irie22a.html
-url: https://dblp.org/rec/conf/icml/IrieCS22
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/IrieCS22"
+ee: "https://proceedings.mlr.press/v162/irie22a.html"
+url: "https://dblp.org/rec/conf/icml/IrieCS22"
 authors: ["Kazuki Irie", "R\u00f3bert Csord\u00e1s", "J\u00fcrgen Schmidhuber"]
 sync_version: 3
-cite_key: conf/icml/IrieCS22
+cite_key: "conf/icml/IrieCS22"
 ---
 
 Linear layers in neural networks trained by gradient descent are essentially a key-value system that memorizes the training data and initial weights, producing unnormalized dot product attention over the entire training experience.
@@ -42,7 +42,7 @@ $$
 
 Or in other words:  $W = W_0 + \sum^T x_t \otimes e_t$
 
-Of course the computational complexity of this depends on $|T|$. 
+Of course the computational complexity of this depends on $|T|$.
 
 ### Some Experiments
 The way that they confirm this in the experiments is to train an NN by backpropagation, but also keep a record of all the data points and error signals seen during training.
