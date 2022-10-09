@@ -1,16 +1,16 @@
 ---
-title: Diffusion Models Beat GANs on Image Synthesis.
-venue: CoRR
-volume: abs/2105.05233
+title: "Diffusion Models Beat GANs on Image Synthesis."
+venue: "CoRR"
+volume: "abs/2105.05233"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2105-05233
-ee: https://arxiv.org/abs/2105.05233
-url: https://dblp.org/rec/journals/corr/abs-2105-05233
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2105-05233"
+ee: "https://arxiv.org/abs/2105.05233"
+url: "https://dblp.org/rec/journals/corr/abs-2105-05233"
 authors: ["Prafulla Dhariwal", "Alex Nichol"]
 sync_version: 3
-cite_key: journals/corr/abs-2105-05233/Dhariwal/2021
+cite_key: "journals/corr/abs-2105-05233/Dhariwal/2021"
 ---
 
 # Diffusion models beat GANs on image synthesis (Guided Diffusion)
