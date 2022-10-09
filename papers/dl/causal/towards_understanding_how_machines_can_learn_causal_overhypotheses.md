@@ -12,4 +12,5 @@ url: "https://dblp.org/rec/journals/corr/abs-2206-08353"
 authors: ["Eliza Kosoy", "David M. Chan", "Adrian Liu", "Jasmine Collins", "Bryanna Kaufmann", "Sandy Han Huang", "Jessica B. Hamrick", "John F. Canny", "Nan Rosemary Ke", "Alison Gopnik"]
 sync_version: 3
 cite_key: "journals/corr/abs-2206-08353/Kosoy/2022"
+tags: ["DeepMind"]
 ---
