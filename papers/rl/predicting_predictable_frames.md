@@ -1,15 +1,15 @@
 ---
-title: Time-Agnostic Prediction: Predicting Predictable Video Frames.
-venue: ICLR
+title: "Time-Agnostic Prediction: Predicting Predictable Video Frames."
+venue: "ICLR"
 year: 2019
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/JayaramanEEL19
-ee: https://openreview.net/forum?id=SyzVb3CcFX
-url: https://dblp.org/rec/conf/iclr/JayaramanEEL19
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/JayaramanEEL19"
+ee: "https://openreview.net/forum?id=SyzVb3CcFX"
+url: "https://dblp.org/rec/conf/iclr/JayaramanEEL19"
 authors: ["Dinesh Jayaraman", "Frederik Ebert", "Alexei A. Efros", "Sergey Levine"]
 sync_version: 3
-cite_key: conf/iclr/JayaramanEEL19
+cite_key: "conf/iclr/JayaramanEEL19"
 ---
 # Time Agnostic Prediction: Predicting Predictable Video Frames
 
