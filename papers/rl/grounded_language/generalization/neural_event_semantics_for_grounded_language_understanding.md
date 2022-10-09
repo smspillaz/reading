@@ -1,16 +1,16 @@
 ---
-title: Neural Event Semantics for Grounded Language Understanding.
-cite_key: journals/tacl/BuchFG21
-venue: Trans. Assoc. Comput. Linguistics
+title: "Neural Event Semantics for Grounded Language Understanding."
+cite_key: "journals/tacl/BuchFG21"
+venue: "Trans. Assoc. Comput. Linguistics"
 volume: 9
-pages: 875-890
+pages: "875-890"
 year: 2021
-type: Journal Articles
-access: closed
-key: journals/tacl/BuchFG21
-doi: 10.1162/TACL_A_00402
-ee: https://doi.org/10.1162/tacl_a_00402
-url: https://dblp.org/rec/journals/tacl/BuchFG21
+type: "Journal Articles"
+access: "closed"
+key: "journals/tacl/BuchFG21"
+doi: "10.1162/TACL_A_00402"
+ee: "https://doi.org/10.1162/tacl_a_00402"
+url: "https://dblp.org/rec/journals/tacl/BuchFG21"
 authors: ["Shyamal Buch", "Li Fei-Fei", "Noah D. Goodman"]
 sync_version: 3
 ---
