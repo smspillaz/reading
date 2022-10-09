@@ -1,17 +1,17 @@
 ---
-title: Inducing Transformer&apos;s Compositional Generalization Ability via Auxiliary Sequence Prediction Tasks.
-venue: EMNLP
-pages: 6253-6265
+title: "Inducing Transformer&apos;s Compositional Generalization Ability via Auxiliary Sequence Prediction Tasks."
+venue: "EMNLP"
+pages: "6253-6265"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/emnlp/JiangB21
-doi: 10.18653/V1/2021.EMNLP-MAIN.505
-ee: https://doi.org/10.18653/v1/2021.emnlp-main.505
-url: https://dblp.org/rec/conf/emnlp/JiangB21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/emnlp/JiangB21"
+doi: "10.18653/V1/2021.EMNLP-MAIN.505"
+ee: "https://doi.org/10.18653/v1/2021.emnlp-main.505"
+url: "https://dblp.org/rec/conf/emnlp/JiangB21"
 authors: ["Yichen Jiang", "Mohit Bansal"]
 sync_version: 3
-cite_key: conf/emnlp/JiangB21
+cite_key: "conf/emnlp/JiangB21"
 ---
 
 Motivated by the failure of transformer models on the SCAN challenge, proposes two auxiliary sequence prediction tasks that track the progress of function and argument semantics, as additional training supervision;.
