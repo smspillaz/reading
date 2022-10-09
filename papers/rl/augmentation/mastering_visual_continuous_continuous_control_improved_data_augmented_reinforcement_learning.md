@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/journals/corr/abs-2107-09645"
 authors: ["Denis Yarats", "Rob Fergus", "Alessandro Lazaric", "Lerrel Pinto"]
 sync_version: 3
 cite_key: "journals/corr/abs-2107-09645/Yarats/2021"
+tags: ["DeepMind"]
 ---
 DrQ-v2: Solve Humanoid Walk from Images.
 
