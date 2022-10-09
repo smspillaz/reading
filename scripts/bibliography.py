@@ -101,6 +101,7 @@ def read_bibentry_from_correpsonding_bibfile(filename):
         print(f"Could not open {bib_filename}")
         return None
 
+
 def get_bibentry_for_filename(filename):
     bibentry = read_bibentry_from_correpsonding_bibfile(filename)
 
