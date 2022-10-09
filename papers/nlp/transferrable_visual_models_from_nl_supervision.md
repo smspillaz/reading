@@ -1,3 +1,3 @@
 ---
-title: Learning Transferrable Visual Models from Natural Language Supervision
+title: "Learning Transferrable Visual Models from Natural Language Supervision"
 ---
