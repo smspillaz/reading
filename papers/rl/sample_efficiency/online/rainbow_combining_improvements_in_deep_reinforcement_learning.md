@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/aaai/HesselMHSODHPAS18"
 authors: ["Matteo Hessel", "Joseph Modayil", "Hado van Hasselt", "Tom Schaul", "Georg Ostrovski", "Will Dabney", "Dan Horgan", "Bilal Piot", "Mohammad Gheshlaghi Azar", "David Silver"]
 sync_version: 3
 cite_key: "conf/aaai/HesselMHSODHPAS18"
+tags: ["DeepMind"]
 ---
