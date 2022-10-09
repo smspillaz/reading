@@ -1,16 +1,16 @@
 ---
-title: Between words and characters - A Brief History of Open-Vocabulary Modeling and Tokenization in NLP.
-venue: CoRR
-volume: abs/2112.10508
+title: "Between words and characters - A Brief History of Open-Vocabulary Modeling and Tokenization in NLP."
+venue: "CoRR"
+volume: "abs/2112.10508"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2112-10508
-ee: https://arxiv.org/abs/2112.10508
-url: https://dblp.org/rec/journals/corr/abs-2112-10508
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2112-10508"
+ee: "https://arxiv.org/abs/2112.10508"
+url: "https://dblp.org/rec/journals/corr/abs-2112-10508"
 authors: ["Sabrina J. Mielke", "Zaid Alyafeai", "Elizabeth Salesky", "Colin Raffel", "Manan Dey", "Matthias Gall\u00e9", "Arun Raja", "Chenglei Si", "Wilson Y. Lee", "Beno\u00eet Sagot", "Samson Tan"]
 sync_version: 3
-cite_key: journals/corr/abs-2112-10508/Mielke/2021
+cite_key: "journals/corr/abs-2112-10508/Mielke/2021"
 ---
 
 Examines the question of "what are the units of text that we want to model"?
@@ -143,7 +143,7 @@ How to use subword units?
 
  - One option, manually constructed rule-based systems
  - Data-drive segmentation learners
- - Simple heuristics 
+ - Simple heuristics
 
 Subword segmentation might be a bad idea when you have nonconcatenative morphological phenomena.
 
@@ -207,4 +207,3 @@ Character sequences are much longer than word or subword sequences which makes i
 chung et al: A bi-scale RNN; enable the decoder to produce character sequences - they demonstrate improved performacne over a subword level decoder.
 
 Lee, Gao: Convolution and pooling layers at the input of the encoder.
-
