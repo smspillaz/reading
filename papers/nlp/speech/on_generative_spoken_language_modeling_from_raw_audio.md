@@ -1,5 +1,5 @@
 ---
-title: On Generative Spoken Language Modeling from Raw Audio
+title: "On Generative Spoken Language Modeling from Raw Audio"
 ---
 Introduces Generative Spoken Language Modelling - learning acoustic and lingustiic characteristics of language from raw audio.
 
