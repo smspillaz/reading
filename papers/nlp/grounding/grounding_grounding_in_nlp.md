@@ -1,17 +1,17 @@
 ---
-title: Grounding &apos;Grounding&apos; in NLP.
-venue: ACL/IJCNLP
-pages: 4283-4305
+title: "Grounding &apos;Grounding&apos; in NLP."
+venue: "ACL/IJCNLP"
+pages: "4283-4305"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/acl/ChanduBB21
-doi: 10.18653/V1/2021.FINDINGS-ACL.375
-ee: https://doi.org/10.18653/v1/2021.findings-acl.375
-url: https://dblp.org/rec/conf/acl/ChanduBB21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/acl/ChanduBB21"
+doi: "10.18653/V1/2021.FINDINGS-ACL.375"
+ee: "https://doi.org/10.18653/v1/2021.findings-acl.375"
+url: "https://dblp.org/rec/conf/acl/ChanduBB21"
 authors: ["Khyathi Raghavi Chandu", "Yonatan Bisk", "Alan W. Black"]
 sync_version: 3
-cite_key: conf/acl/ChanduBB21
+cite_key: "conf/acl/ChanduBB21"
 ---
 
 The term "grounding" is used to denote "any" linking of text with a non-textual modality in NLP.
@@ -72,4 +72,3 @@ Grounding concepts often involves multiple modalities that are linked. Three maj
 1. Fusion/concatenation: For text, concatenate
 2. Alignment: Temporal alignment in videos, phrase localization in images
 3. Projecting into a common space: Cross-lingual NER
-
