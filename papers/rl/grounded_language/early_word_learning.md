@@ -1,5 +1,5 @@
 ---
-title: Understanding Early Word Learning in Situated Artificial Agents.
+title: "Understanding Early Word Learning in Situated Artificial Agents."
 ---
 # Understanding Early Word Learning in Situated Artificial Agents
 
