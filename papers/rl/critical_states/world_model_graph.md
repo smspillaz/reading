@@ -1,16 +1,16 @@
 ---
-title: World Model as a Graph - Learning Latent Landmarks for Planning.
-venue: ICML
-pages: 12611-12620
+title: "World Model as a Graph - Learning Latent Landmarks for Planning."
+venue: "ICML"
+pages: "12611-12620"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/Zhang0S21a
-ee: http://proceedings.mlr.press/v139/zhang21x.html
-url: https://dblp.org/rec/conf/icml/Zhang0S21a
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/Zhang0S21a"
+ee: "http://proceedings.mlr.press/v139/zhang21x.html"
+url: "https://dblp.org/rec/conf/icml/Zhang0S21a"
 authors: ["Lunjun Zhang", "Ge Yang", "Bradly C. Stadie"]
 sync_version: 3
-cite_key: conf/icml/Zhang0S21a
+cite_key: "conf/icml/Zhang0S21a"
 ---
 
 # Planning
