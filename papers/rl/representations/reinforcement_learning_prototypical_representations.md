@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/icml/YaratsFLP21"
 authors: ["Denis Yarats", "Rob Fergus", "Alessandro Lazaric", "Lerrel Pinto"]
 sync_version: 3
 cite_key: "conf/icml/YaratsFLP21"
+tags: ["DeepMind"]
 ---
