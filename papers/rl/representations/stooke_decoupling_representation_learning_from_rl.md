@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/icml/StookeLAL21"
 authors: ["Adam Stooke", "Kimin Lee", "Pieter Abbeel", "Michael Laskin"]
 sync_version: 3
 cite_key: "conf/icml/StookeLAL21"
+tags: ["DeepMind"]
 ---
