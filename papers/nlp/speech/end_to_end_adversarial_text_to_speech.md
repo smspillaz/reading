@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/journals/corr/abs-2006-03575"
 authors: ["Jeff Donahue", "Sander Dieleman", "Mikolaj Binkowski", "Erich Elsen", "Karen Simonyan"]
 sync_version: 3
 cite_key: "journals/corr/abs-2006-03575/Donahue/2020"
+tags: ["DeepMind"]
 ---
 
 # End-to-End Adversarial TTS
