@@ -1,16 +1,16 @@
 ---
-title: DeepAveragers: Offline Reinforcement Learning by Solving Derived Non-Parametric MDPs.
-venue: CoRR
-volume: abs/2010.08891
+title: "DeepAveragers: Offline Reinforcement Learning by Solving Derived Non-Parametric MDPs."
+venue: "CoRR"
+volume: "abs/2010.08891"
 year: 2020
-type: Informal Publications
-access: open
-key: journals/corr/abs-2010-08891
-ee: https://arxiv.org/abs/2010.08891
-url: https://dblp.org/rec/journals/corr/abs-2010-08891
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2010-08891"
+ee: "https://arxiv.org/abs/2010.08891"
+url: "https://dblp.org/rec/journals/corr/abs-2010-08891"
 authors: ["Aayam Shrestha", "Stefan Lee", "Prasad Tadepalli", "Alan Fern"]
 sync_version: 3
-cite_key: journals/corr/abs-2010-08891/Shrestha/2020
+cite_key: "journals/corr/abs-2010-08891/Shrestha/2020"
 ---
 # DeepAveragers: Offline RL by solving derived non-parametric MDPs
 
