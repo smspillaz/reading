@@ -1,3 +1,3 @@
 ---
-title: Variable Compositionality Reliably Emerges in Neural Networks
+title: "Variable Compositionality Reliably Emerges in Neural Networks"
 ---
