@@ -10,4 +10,5 @@ url: "https://dblp.org/rec/conf/nips/LeeNAL20"
 authors: ["Alex X. Lee", "Anusha Nagabandi", "Pieter Abbeel", "Sergey Levine"]
 sync_version: 3
 cite_key: "conf/nips/LeeNAL20"
+tags: ["DeepMind"]
 ---
