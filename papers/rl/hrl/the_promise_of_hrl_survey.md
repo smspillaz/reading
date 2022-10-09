@@ -1,5 +1,5 @@
 ---
-title: The Promise of Hierarchical Reinforcement Learning
+title: "The Promise of Hierarchical Reinforcement Learning"
 ---
 # The promise of Hierarchical RL
 
