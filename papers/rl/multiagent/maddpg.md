@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/conf/nips/LoweWTHAM17"
 authors: ["Ryan Lowe", "Yi Wu", "Aviv Tamar", "Jean Harb", "Pieter Abbeel", "Igor Mordatch"]
 sync_version: 3
 cite_key: "conf/nips/LoweWTHAM17"
+tags: ["DeepMind"]
 ---
 # Multi-Agent Actor-Critic for Mixed Co-operative and Competitive Environments
 
