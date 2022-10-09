@@ -1,3 +1,3 @@
 ---
-title: Deep Learning (Bengio, Courville & Goodfellow)
+title: "Deep Learning (Bengio, Courville & Goodfellow)"
 ---
