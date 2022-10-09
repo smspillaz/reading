@@ -1,5 +1,5 @@
 ---
-title: Is Curiousity all you need? On the utility of emergent behaviours from curious exploration
+title: "Is Curiousity all you need? On the utility of emergent behaviours from curious exploration"
 ---
 
 # Is Curiousity all you need? On the utility of emergent behaviours from curious exploration
