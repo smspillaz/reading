@@ -1,17 +1,17 @@
 ---
-title: Socratic Models - Composing Zero-Shot Multimodal Reasoning with Language.
-venue: CoRR
-volume: abs/2204.00598
+title: "Socratic Models - Composing Zero-Shot Multimodal Reasoning with Language."
+venue: "CoRR"
+volume: "abs/2204.00598"
 year: 2022
-type: Informal Publications
-access: open
-key: journals/corr/abs-2204-00598
-doi: 10.48550/ARXIV.2204.00598
-ee: https://doi.org/10.48550/arXiv.2204.00598
-url: https://dblp.org/rec/journals/corr/abs-2204-00598
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2204-00598"
+doi: "10.48550/ARXIV.2204.00598"
+ee: "https://doi.org/10.48550/arXiv.2204.00598"
+url: "https://dblp.org/rec/journals/corr/abs-2204-00598"
 authors: ["Andy Zeng", "Adrian Wong", "Stefan Welker", "Krzysztof Choromanski", "Federico Tombari", "Aveek Purohit", "Michael S. Ryoo", "Vikas Sindhwani", "Johnny Lee", "Vincent Vanhoucke", "Pete Florence"]
 sync_version: 3
-cite_key: journals/corr/abs-2204-00598/Zeng/2022
+cite_key: "journals/corr/abs-2204-00598/Zeng/2022"
 ---
 
 Large scale models (visual/language models), (language models) and audio LMs are trained on disjoint data. These models store different forms of commonsense knowledge across different domains.
