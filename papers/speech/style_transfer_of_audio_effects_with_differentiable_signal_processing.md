@@ -1,17 +1,17 @@
 ---
-title: Style Transfer of Audio Effects with Differentiable Signal Processing.
-venue: CoRR
-volume: abs/2207.08759
+title: "Style Transfer of Audio Effects with Differentiable Signal Processing."
+venue: "CoRR"
+volume: "abs/2207.08759"
 year: 2022
-type: Informal Publications
-access: open
-key: journals/corr/abs-2207-08759
-doi: 10.48550/ARXIV.2207.08759
-ee: https://doi.org/10.48550/arXiv.2207.08759
-url: https://dblp.org/rec/journals/corr/abs-2207-08759
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2207-08759"
+doi: "10.48550/ARXIV.2207.08759"
+ee: "https://doi.org/10.48550/arXiv.2207.08759"
+url: "https://dblp.org/rec/journals/corr/abs-2207-08759"
 authors: ["Christian J. Steinmetz", "Nicholas J. Bryan", "Joshua D. Reiss"]
 sync_version: 3
-cite_key: journals/corr/abs-2207-08759/Steinmetz/2022
+cite_key: "journals/corr/abs-2207-08759/Steinmetz/2022"
 ---
 Impose audio effects and production style from one recording to another by example.
 
