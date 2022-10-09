@@ -1,17 +1,17 @@
 ---
-title: Latent Compositional Representations Improve Systematic Generalization in Grounded Question Answering.
-venue: Trans. Assoc. Comput. Linguistics
+title: "Latent Compositional Representations Improve Systematic Generalization in Grounded Question Answering."
+venue: "Trans. Assoc. Comput. Linguistics"
 volume: 9
-pages: 195-210
+pages: "195-210"
 year: 2021
-type: Journal Articles
-access: open
-key: journals/tacl/BoginSGB21
-ee: https://transacl.org/ojs/index.php/tacl/article/view/2489
-url: https://dblp.org/rec/journals/tacl/BoginSGB21
+type: "Journal Articles"
+access: "open"
+key: "journals/tacl/BoginSGB21"
+ee: "https://transacl.org/ojs/index.php/tacl/article/view/2489"
+url: "https://dblp.org/rec/journals/tacl/BoginSGB21"
 authors: ["Ben Bogin", "Sanjay Subramanian", "Matt Gardner", "Jonathan Berant"]
 sync_version: 3
-cite_key: journals/tacl/BoginSGB21
+cite_key: "journals/tacl/BoginSGB21"
 ---
 
 In this work, a model that computes representations and denotation for all question spans in a bottom-up compositional manner using a CKY style parser.
