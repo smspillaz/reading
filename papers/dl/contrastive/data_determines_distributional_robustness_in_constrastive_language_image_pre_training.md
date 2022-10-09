@@ -1,16 +1,16 @@
 ---
-title: Data Determines Distributional Robustness in Contrastive Language Image Pre-training (CLIP).
-venue: ICML
-pages: 6216-6234
+title: "Data Determines Distributional Robustness in Contrastive Language Image Pre-training (CLIP)."
+venue: "ICML"
+pages: "6216-6234"
 year: 2022
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/FangIWWSDS22
-ee: https://proceedings.mlr.press/v162/fang22a.html
-url: https://dblp.org/rec/conf/icml/FangIWWSDS22
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/FangIWWSDS22"
+ee: "https://proceedings.mlr.press/v162/fang22a.html"
+url: "https://dblp.org/rec/conf/icml/FangIWWSDS22"
 authors: ["Alex Fang", "Gabriel Ilharco", "Mitchell Wortsman", "Yuhao Wan", "Vaishaal Shankar", "Achal Dave", "Ludwig Schmidt"]
 sync_version: 3
-cite_key: conf/icml/FangIWWSDS22
+cite_key: "conf/icml/FangIWWSDS22"
 ---
 Why are CLIP/ALIGN/BASIC robust to distribution shifts? This paper attempts to answer that question through systematic experimental investigation.
 
