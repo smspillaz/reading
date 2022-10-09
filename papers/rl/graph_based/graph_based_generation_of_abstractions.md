@@ -1,5 +1,5 @@
 ---
-title: Graph Learning based Generation of Abstractions for Reinforcement Learning
+title: "Graph Learning based Generation of Abstractions for Reinforcement Learning"
 ---
 # Graph Learning based Generation of Abstractiosn for RL
 
