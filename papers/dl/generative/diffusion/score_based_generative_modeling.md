@@ -1,15 +1,15 @@
 ---
-title: Score-Based Generative Modeling through Stochastic Differential Equations.
-venue: ICLR
+title: "Score-Based Generative Modeling through Stochastic Differential Equations."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/0011SKKEP21
-ee: https://openreview.net/forum?id=PxTIG12RRHS
-url: https://dblp.org/rec/conf/iclr/0011SKKEP21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/0011SKKEP21"
+ee: "https://openreview.net/forum?id=PxTIG12RRHS"
+url: "https://dblp.org/rec/conf/iclr/0011SKKEP21"
 authors: ["Yang Song", "Jascha Sohl-Dickstein", "Diederik P. Kingma", "Abhishek Kumar", "Stefano Ermon", "Ben Poole"]
 sync_version: 3
-cite_key: conf/iclr/0011SKKEP21
+cite_key: "conf/iclr/0011SKKEP21"
 ---
 
 # Score based Generative Modeling through Stochastic Differential Equations
