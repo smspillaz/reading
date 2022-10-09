@@ -1,16 +1,16 @@
 ---
-title: CtrlFormer: Learning Transferable State Representation for Visual Control via Transformer.
-venue: ICML
-pages: 16043-16061
+title: "CtrlFormer: Learning Transferable State Representation for Visual Control via Transformer."
+venue: "ICML"
+pages: "16043-16061"
 year: 2022
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/MuCDCCL22
-ee: https://proceedings.mlr.press/v162/mu22a.html
-url: https://dblp.org/rec/conf/icml/MuCDCCL22
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/MuCDCCL22"
+ee: "https://proceedings.mlr.press/v162/mu22a.html"
+url: "https://dblp.org/rec/conf/icml/MuCDCCL22"
 authors: ["Yao Mark Mu", "Shoufa Chen", "Mingyu Ding", "Jianyu Chen", "Runjian Chen", "Ping Luo"]
 sync_version: 3
-cite_key: conf/icml/MuCDCCL22
+cite_key: "conf/icml/MuCDCCL22"
 ---
 In Visual Control, learning transferrable state representations that can transfer between different control takss is important to reduce the training sample size.
 
