@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/conf/icml/AbdolmalekiHNS20"
 authors: ["Abbas Abdolmaleki", "Sandy H. Huang", "Leonard Hasenclever", "Michael Neunert", "H. Francis Song", "Martina Zambelli", "Murilo F. Martins", "Nicolas Heess", "Raia Hadsell", "Martin A. Riedmiller"]
 sync_version: 3
 cite_key: "conf/icml/AbdolmalekiHNS20"
+tags: ["DeepMind"]
 ---
 # A Distributional View on Multi-Objective Policy Optimization
 
