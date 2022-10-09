@@ -1,17 +1,17 @@
 ---
-title: Emerging Properties in Self-Supervised Vision Transformers.
-venue: ICCV
-pages: 9630-9640
+title: "Emerging Properties in Self-Supervised Vision Transformers."
+venue: "ICCV"
+pages: "9630-9640"
 year: 2021
-type: Conference and Workshop Papers
-access: closed
-key: conf/iccv/CaronTMJMBJ21
-doi: 10.1109/ICCV48922.2021.00951
-ee: https://doi.org/10.1109/ICCV48922.2021.00951
-url: https://dblp.org/rec/conf/iccv/CaronTMJMBJ21
+type: "Conference and Workshop Papers"
+access: "closed"
+key: "conf/iccv/CaronTMJMBJ21"
+doi: "10.1109/ICCV48922.2021.00951"
+ee: "https://doi.org/10.1109/ICCV48922.2021.00951"
+url: "https://dblp.org/rec/conf/iccv/CaronTMJMBJ21"
 authors: ["Mathilde Caron", "Hugo Touvron", "Ishan Misra", "Herv\u00e9 J\u00e9gou", "Julien Mairal", "Piotr Bojanowski", "Armand Joulin"]
 sync_version: 3
-cite_key: conf/iccv/CaronTMJMBJ21
+cite_key: "conf/iccv/CaronTMJMBJ21"
 ---
 
 Cool plots showing unsupervised segmentation / salience maps.
@@ -40,4 +40,3 @@ Attention maps:
 ![[dino_attention_maps.png]]
 
 Transformer has different heads and different heads look at different parts of the image.
-
