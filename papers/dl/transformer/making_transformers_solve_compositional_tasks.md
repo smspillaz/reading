@@ -1,16 +1,16 @@
 ---
-title: Making Transformers Solve Compositional Tasks.
-venue: CoRR
-volume: abs/2108.04378
+title: "Making Transformers Solve Compositional Tasks."
+venue: "CoRR"
+volume: "abs/2108.04378"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2108-04378
-ee: https://arxiv.org/abs/2108.04378
-url: https://dblp.org/rec/journals/corr/abs-2108-04378
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2108-04378"
+ee: "https://arxiv.org/abs/2108.04378"
+url: "https://dblp.org/rec/journals/corr/abs-2108-04378"
 authors: ["Santiago Onta\u00f1\u00f3n", "Joshua Ainslie", "Vaclav Cvicek", "Zachary Fisher"]
 sync_version: 3
-cite_key: journals/corr/abs-2108-04378/Ontanon/2021
+cite_key: "journals/corr/abs-2108-04378/Ontanon/2021"
 ---
 In this paper, explore the design space of transforemr models showing that certain design decisions impact compositional generalization.
 
