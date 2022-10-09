@@ -1,17 +1,17 @@
 ---
-title: Visual Reasoning with Multi-hop Feature Modulation.
-venue: ECCV
-pages: 808-831
+title: "Visual Reasoning with Multi-hop Feature Modulation."
+venue: "ECCV"
+pages: "808-831"
 year: 2018
-type: Conference and Workshop Papers
-access: closed
-key: conf/eccv/StrubSPVMPCP18
-doi: 10.1007/978-3-030-01228-1_48
-ee: https://doi.org/10.1007/978-3-030-01228-1_48
-url: https://dblp.org/rec/conf/eccv/StrubSPVMPCP18
+type: "Conference and Workshop Papers"
+access: "closed"
+key: "conf/eccv/StrubSPVMPCP18"
+doi: "10.1007/978-3-030-01228-1_48"
+ee: "https://doi.org/10.1007/978-3-030-01228-1_48"
+url: "https://dblp.org/rec/conf/eccv/StrubSPVMPCP18"
 authors: ["Florian Strub", "Mathieu Seurin", "Ethan Perez", "Harm de Vries", "J\u00e9r\u00e9mie Mary", "Philippe Preux", "Aaron C. Courville", "Olivier Pietquin"]
 sync_version: 3
-cite_key: conf/eccv/StrubSPVMPCP18
+cite_key: "conf/eccv/StrubSPVMPCP18"
 ---
 Generate the parameters fo the FiLM layers in a "multi-hop" fashion rather than all at once. This can scale to longer input sequences such as dialogue.
 
