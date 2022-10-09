@@ -1,17 +1,17 @@
 ---
-title: Compositional Networks Enable Systematic Generalization for Grounded Language Understanding.
-venue: EMNLP
-pages: 216-226
+title: "Compositional Networks Enable Systematic Generalization for Grounded Language Understanding."
+venue: "EMNLP"
+pages: "216-226"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/emnlp/KuoKB21
-doi: 10.18653/V1/2021.FINDINGS-EMNLP.21
-ee: https://doi.org/10.18653/v1/2021.findings-emnlp.21
-url: https://dblp.org/rec/conf/emnlp/KuoKB21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/emnlp/KuoKB21"
+doi: "10.18653/V1/2021.FINDINGS-EMNLP.21"
+ee: "https://doi.org/10.18653/v1/2021.findings-emnlp.21"
+url: "https://dblp.org/rec/conf/emnlp/KuoKB21"
 authors: ["Yen-Ling Kuo", "Boris Katz", "Andrei Barbu"]
 sync_version: 3
-cite_key: conf/emnlp/KuoKB21
+cite_key: "conf/emnlp/KuoKB21"
 ---
 
 Given a command, a command specific network is assembled from previously trained modules. Modules are discovered from the training set without annotation. Then you combine these modules from the lingusitic structure of the command.
