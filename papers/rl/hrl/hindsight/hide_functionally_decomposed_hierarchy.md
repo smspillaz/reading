@@ -14,6 +14,7 @@ url: "https://dblp.org/rec/journals/ral/ChristenJAH21"
 authors: ["Sammy Christen", "Luk\u00e1s Jendele", "Emre Aksan", "Otmar Hilliges"]
 sync_version: 3
 cite_key: "journals/ral/ChristenJAH21"
+tags: ["DeepMind"]
 ---
 
 ![[hide_arch.png]]
