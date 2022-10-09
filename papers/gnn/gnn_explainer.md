@@ -1,3 +1,3 @@
 ---
-title: GNN Explainer: Generating Explanations for Graph Neural Networks.
+title: "GNN Explainer: Generating Explanations for Graph Neural Networks."
 ---
