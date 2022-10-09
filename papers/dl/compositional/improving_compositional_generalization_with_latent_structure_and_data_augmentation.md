@@ -1,16 +1,16 @@
 ---
-title: Improving Compositional Generalization with Latent Structure and Data Augmentation.
-venue: NAACL-HLT
-pages: 4341-4362
+title: "Improving Compositional Generalization with Latent Structure and Data Augmentation."
+venue: "NAACL-HLT"
+pages: "4341-4362"
 year: 2022
-type: Conference and Workshop Papers
-access: open
-key: conf/naacl/QiuSPNLST22
-ee: https://aclanthology.org/2022.naacl-main.323
-url: https://dblp.org/rec/conf/naacl/QiuSPNLST22
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/naacl/QiuSPNLST22"
+ee: "https://aclanthology.org/2022.naacl-main.323"
+url: "https://dblp.org/rec/conf/naacl/QiuSPNLST22"
 authors: ["Linlu Qiu", "Peter Shaw", "Panupong Pasupat", "Pawel Krzysztof Nowak", "Tal Linzen", "Fei Sha", "Kristina Toutanova"]
 sync_version: 3
-cite_key: conf/naacl/QiuSPNLST22
+cite_key: "conf/naacl/QiuSPNLST22"
 ---
 
 Training set - Creating an event or creating an org charge.
