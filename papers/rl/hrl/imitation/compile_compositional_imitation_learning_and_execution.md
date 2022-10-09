@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/icml/KipfLDZSGKB19"
 authors: ["Thomas Kipf", "Yujia Li", "Hanjun Dai", "Vin\u00edcius Flores Zambaldi", "Alvaro Sanchez-Gonzalez", "Edward Grefenstette", "Pushmeet Kohli", "Peter W. Battaglia"]
 sync_version: 3
 cite_key: "conf/icml/KipfLDZSGKB19"
+tags: ["DeepMind"]
 ---
