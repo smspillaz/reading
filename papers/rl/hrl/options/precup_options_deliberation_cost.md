@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/aaai/HarbBKP18"
 authors: ["Jean Harb", "Pierre-Luc Bacon", "Martin Klissarov", "Doina Precup"]
 sync_version: 3
 cite_key: "conf/aaai/HarbBKP18"
+tags: ["DeepMind"]
 ---
