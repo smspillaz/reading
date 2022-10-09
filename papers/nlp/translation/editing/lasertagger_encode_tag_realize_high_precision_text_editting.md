@@ -1,17 +1,17 @@
 ---
-title: Encode, Tag, Realize - High-Precision Text Editing.
-venue: EMNLP/IJCNLP
-pages: 5053-5064
+title: "Encode, Tag, Realize - High-Precision Text Editing."
+venue: "EMNLP/IJCNLP"
+pages: "5053-5064"
 year: 2019
-type: Conference and Workshop Papers
-access: open
-key: conf/emnlp/MalmiKRMS19
-doi: 10.18653/V1/D19-1510
-ee: https://doi.org/10.18653/v1/D19-1510
-url: https://dblp.org/rec/conf/emnlp/MalmiKRMS19
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/emnlp/MalmiKRMS19"
+doi: "10.18653/V1/D19-1510"
+ee: "https://doi.org/10.18653/v1/D19-1510"
+url: "https://dblp.org/rec/conf/emnlp/MalmiKRMS19"
 authors: ["Eric Malmi", "Sebastian Krause", "Sascha Rothe", "Daniil Mirylenka", "Aliaksei Severyn"]
 sync_version: 3
-cite_key: conf/emnlp/MalmiKRMS19
+cite_key: "conf/emnlp/MalmiKRMS19"
 ---
 
 Proposes the LaserTagger method; a sequence tagging approach that does text summarization as a text-editing task, eg, by predicting a sequence of edits.
@@ -137,7 +137,7 @@ Error patterns:
  - Imaginary Words
  - Repeated Phrases
  - Premature EOS
- - Hallucinations 
+ - Hallucinations
  - Coreference Issues
  - Misleading rephrasing
  - Lazy sentence splitting
@@ -147,4 +147,3 @@ Error patterns:
 
 1. Arbitrary word reordering is not feasible, but limited reordering can be achieved with SWAP tokens.
 2. Might be tough on languages not as morphologically rich as English.
-
