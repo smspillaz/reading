@@ -10,6 +10,7 @@ url: "https://dblp.org/rec/conf/iclr/KlindtSSUBBP21"
 authors: ["David A. Klindt", "Lukas Schott", "Yash Sharma", "Ivan Ustyuzhaninov", "Wieland Brendel", "Matthias Bethge", "Dylan M. Paiton"]
 sync_version: 3
 cite_key: "conf/iclr/KlindtSSUBBP21"
+tags: ["DeepMind"]
 ---
 # Towards Nonlinear Disentanglement with Temporal Sparse Coding
 
