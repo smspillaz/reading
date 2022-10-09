@@ -1,16 +1,16 @@
 ---
-title: Understanding Grounded Language Learning Agents.
-venue: CoRR
-volume: abs/1710.09867
+title: "Understanding Grounded Language Learning Agents."
+venue: "CoRR"
+volume: "abs/1710.09867"
 year: 2017
-type: Informal Publications
-access: open
-key: journals/corr/abs-1710-09867
-ee: http://arxiv.org/abs/1710.09867
-url: https://dblp.org/rec/journals/corr/abs-1710-09867
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-1710-09867"
+ee: "http://arxiv.org/abs/1710.09867"
+url: "https://dblp.org/rec/journals/corr/abs-1710-09867"
 authors: ["Felix Hill", "Karl Moritz Hermann", "Phil Blunsom", "Stephen Clark"]
 sync_version: 3
-cite_key: journals/corr/abs-1710-09867/Hill/2017
+cite_key: "journals/corr/abs-1710-09867/Hill/2017"
 ---
 # Understanding Grounded Language Learning Agents
 
