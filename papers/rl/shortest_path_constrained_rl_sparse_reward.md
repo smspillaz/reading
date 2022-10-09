@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/icml/SohnLCSFL21"
 authors: ["Sungryull Sohn", "Sungtae Lee", "Jongwook Choi", "Harm van Seijen", "Mehdi Fatemi", "Honglak Lee"]
 sync_version: 3
 cite_key: "conf/icml/SohnLCSFL21"
+tags: ["DeepMind"]
 ---
