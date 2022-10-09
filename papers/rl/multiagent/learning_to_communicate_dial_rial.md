@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/nips/FoersterAFW16"
 authors: ["Jakob N. Foerster", "Yannis M. Assael", "Nando de Freitas", "Shimon Whiteson"]
 sync_version: 3
 cite_key: "conf/nips/FoersterAFW16"
+tags: ["DeepMind"]
 ---
