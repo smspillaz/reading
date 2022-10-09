@@ -1,16 +1,16 @@
 ---
-title: Visual Representation Learning Does Not Generalize Strongly Within the Same Domain.
-venue: CoRR
-volume: abs/2107.08221
+title: "Visual Representation Learning Does Not Generalize Strongly Within the Same Domain."
+venue: "CoRR"
+volume: "abs/2107.08221"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2107-08221
-ee: https://arxiv.org/abs/2107.08221
-url: https://dblp.org/rec/journals/corr/abs-2107-08221
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2107-08221"
+ee: "https://arxiv.org/abs/2107.08221"
+url: "https://dblp.org/rec/journals/corr/abs-2107-08221"
 authors: ["Lukas Schott", "Julius von K\u00fcgelgen", "Frederik Tr\u00e4uble", "Peter V. Gehler", "Chris Russell", "Matthias Bethge", "Bernhard Sch\u00f6lkopf", "Francesco Locatello", "Wieland Brendel"]
 sync_version: 3
-cite_key: journals/corr/abs-2107-08221/Schott/2021
+cite_key: "journals/corr/abs-2107-08221/Schott/2021"
 ---
 
 # Visual Representation Learning does not Generalize Strongly within the same domain
