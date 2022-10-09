@@ -1,15 +1,15 @@
 ---
-title: An Image is Worth 16x16 Words - Transformers for Image Recognition at Scale.
-venue: ICLR
+title: "An Image is Worth 16x16 Words - Transformers for Image Recognition at Scale."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/DosovitskiyB0WZ21
-ee: https://openreview.net/forum?id=YicbFdNTTy
-url: https://dblp.org/rec/conf/iclr/DosovitskiyB0WZ21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/DosovitskiyB0WZ21"
+ee: "https://openreview.net/forum?id=YicbFdNTTy"
+url: "https://dblp.org/rec/conf/iclr/DosovitskiyB0WZ21"
 authors: ["Alexey Dosovitskiy", "Lucas Beyer", "Alexander Kolesnikov", "Dirk Weissenborn", "Xiaohua Zhai", "Thomas Unterthiner", "Mostafa Dehghani", "Matthias Minderer", "Georg Heigold", "Sylvain Gelly", "Jakob Uszkoreit", "Neil Houlsby"]
 sync_version: 3
-cite_key: conf/iclr/DosovitskiyB0WZ21
+cite_key: "conf/iclr/DosovitskiyB0WZ21"
 ---
 
 # An image is worth 16x16 Words: Transformers for Image Recognition at Scale
