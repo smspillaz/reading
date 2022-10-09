@@ -10,4 +10,5 @@ url: "https://dblp.org/rec/conf/iclr/HigginsSMPBBSBH18"
 authors: ["Irina Higgins", "Nicolas Sonnerat", "Loic Matthey", "Arka Pal", "Christopher P. Burgess", "Matko Bosnjak", "Murray Shanahan", "Matthew M. Botvinick", "Demis Hassabis", "Alexander Lerchner"]
 sync_version: 3
 cite_key: "conf/iclr/HigginsSMPBBSBH18"
+tags: ["DeepMind"]
 ---
