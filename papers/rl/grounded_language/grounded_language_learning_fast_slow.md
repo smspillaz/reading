@@ -1,15 +1,15 @@
 ---
-title: Grounded Language Learning Fast and Slow.
-venue: ICLR
+title: "Grounded Language Learning Fast and Slow."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/HillTGWMC21
-ee: https://openreview.net/forum?id=wpSWuz_hyqA
-url: https://dblp.org/rec/conf/iclr/HillTGWMC21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/HillTGWMC21"
+ee: "https://openreview.net/forum?id=wpSWuz_hyqA"
+url: "https://dblp.org/rec/conf/iclr/HillTGWMC21"
 authors: ["Felix Hill", "Olivier Tieleman", "Tamara von Glehn", "Nathaniel Wong", "Hamza Merzic", "Stephen Clark"]
 sync_version: 3
-cite_key: conf/iclr/HillTGWMC21
+cite_key: "conf/iclr/HillTGWMC21"
 ---
 # Grounded Language Learning Fast and Slow
 
