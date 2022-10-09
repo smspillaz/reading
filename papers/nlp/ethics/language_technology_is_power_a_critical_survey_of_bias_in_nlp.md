@@ -1,17 +1,17 @@
 ---
-title: Language (Technology) is Power - A Critical Survey of &quot;Bias&quot; in NLP.
-venue: ACL
-pages: 5454-5476
+title: "Language (Technology) is Power - A Critical Survey of &quot;Bias&quot; in NLP."
+venue: "ACL"
+pages: "5454-5476"
 year: 2020
-type: Conference and Workshop Papers
-access: open
-key: conf/acl/BlodgettBDW20
-doi: 10.18653/V1/2020.ACL-MAIN.485
-ee: https://doi.org/10.18653/v1/2020.acl-main.485
-url: https://dblp.org/rec/conf/acl/BlodgettBDW20
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/acl/BlodgettBDW20"
+doi: "10.18653/V1/2020.ACL-MAIN.485"
+ee: "https://doi.org/10.18653/v1/2020.acl-main.485"
+url: "https://dblp.org/rec/conf/acl/BlodgettBDW20"
 authors: ["Su Lin Blodgett", "Solon Barocas", "Hal Daum\u00e9 III", "Hanna M. Wallach"]
 sync_version: 3
-cite_key: conf/acl/BlodgettBDW20
+cite_key: "conf/acl/BlodgettBDW20"
 ---
 
 Survey 146 papers about "bias" and find that:
@@ -116,6 +116,6 @@ Would you be less hurt if you were discriminated by an NLP system than by a huma
 
 Should anti-discrimination laws apply to NLP systems?
 
- * Katja: I'm a bit afraid of laws :-) 
+ * Katja: I'm a bit afraid of laws :-)
 
 * Allocational harms: This is already true. Look at the decisionmaking process. See also EU directives on high risk systems. Needs to affect some fundamental rights.  For representational harms, harder because you have to ascribe intent.
