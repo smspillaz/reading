@@ -12,4 +12,5 @@ url: "https://dblp.org/rec/journals/corr/abs-2205-06175"
 authors: ["Scott E. Reed", "Konrad Zolna", "Emilio Parisotto", "Sergio Gomez Colmenarejo", "Alexander Novikov", "Gabriel Barth-Maron", "Mai Gimenez", "Yury Sulsky", "Jackie Kay", "Jost Tobias Springenberg", "Tom Eccles", "Jake Bruce", "Ali Razavi", "Ashley Edwards", "Nicolas Heess", "Yutian Chen", "Raia Hadsell", "Oriol Vinyals", "Mahyar Bordbar", "Nando de Freitas"]
 sync_version: 3
 cite_key: "journals/corr/abs-2205-06175/Reed/2022"
+tags: ["DeepMind"]
 ---
