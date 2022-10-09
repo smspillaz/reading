@@ -1,16 +1,16 @@
 ---
-title: Working Memory Graphs.
-venue: ICML
-pages: 6404-6414
+title: "Working Memory Graphs."
+venue: "ICML"
+pages: "6404-6414"
 year: 2020
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/LoyndFcSH20
-ee: http://proceedings.mlr.press/v119/loynd20a.html
-url: https://dblp.org/rec/conf/icml/LoyndFcSH20
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/LoyndFcSH20"
+ee: "http://proceedings.mlr.press/v119/loynd20a.html"
+url: "https://dblp.org/rec/conf/icml/LoyndFcSH20"
 authors: ["Ricky Loynd", "Roland Fernandez", "Asli Celikyilmaz", "Adith Swaminathan", "Matthew J. Hausknecht"]
 sync_version: 3
-cite_key: conf/icml/LoyndFcSH20
+cite_key: "conf/icml/LoyndFcSH20"
 ---
 # Working Memory Graphs
 
