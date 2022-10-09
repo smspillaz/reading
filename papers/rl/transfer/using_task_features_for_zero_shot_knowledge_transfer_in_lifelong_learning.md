@@ -1,16 +1,16 @@
 ---
-title: Using Task Features for Zero-Shot Knowledge Transfer in Lifelong Learning.
-venue: IJCAI
-pages: 1620-1626
+title: "Using Task Features for Zero-Shot Knowledge Transfer in Lifelong Learning."
+venue: "IJCAI"
+pages: "1620-1626"
 year: 2016
-type: Conference and Workshop Papers
-access: open
-key: conf/ijcai/IseleRE16
-ee: http://www.ijcai.org/Abstract/16/232
-url: https://dblp.org/rec/conf/ijcai/IseleRE16
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/ijcai/IseleRE16"
+ee: "http://www.ijcai.org/Abstract/16/232"
+url: "https://dblp.org/rec/conf/ijcai/IseleRE16"
 authors: ["David Isele", "Mohammad Rostami", "Eric Eaton"]
 sync_version: 3
-cite_key: conf/ijcai/IseleRE16
+cite_key: "conf/ijcai/IseleRE16"
 ---
 
 Develop a lifelong learning reinforcement method based on coupled dictionary learning that incorporates high-level task descriptors to model the inter-task relationships. Using task descriptors improves the performance of the learned task policies.
