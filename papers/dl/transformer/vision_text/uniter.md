@@ -1,17 +1,17 @@
 ---
-title: UNITER - UNiversal Image-TExt Representation Learning.
-venue: ECCV
-pages: 104-120
+title: "UNITER - UNiversal Image-TExt Representation Learning."
+venue: "ECCV"
+pages: "104-120"
 year: 2020
-type: Conference and Workshop Papers
-access: closed
-key: conf/eccv/ChenLYK0G0020
-doi: 10.1007/978-3-030-58577-8_7
-ee: https://doi.org/10.1007/978-3-030-58577-8_7
-url: https://dblp.org/rec/conf/eccv/ChenLYK0G0020
+type: "Conference and Workshop Papers"
+access: "closed"
+key: "conf/eccv/ChenLYK0G0020"
+doi: "10.1007/978-3-030-58577-8_7"
+ee: "https://doi.org/10.1007/978-3-030-58577-8_7"
+url: "https://dblp.org/rec/conf/eccv/ChenLYK0G0020"
 authors: ["Yen-Chun Chen", "Linjie Li", "Licheng Yu", "Ahmed El Kholy", "Faisal Ahmed", "Zhe Gan", "Yu Cheng", "Jingjing Liu"]
 sync_version: 3
-cite_key: conf/eccv/ChenLYK0G0020
+cite_key: "conf/eccv/ChenLYK0G0020"
 ---
 
 UNITER model, learned by large-scale pretrinaing over four image text datasets (COCO, Visual Genome, Conceptual Captions, SBU Captions). Four pretrainig tasks: MLM, Masked Region Modelling, Image Text Matching and Word-Region Alignment. Use conditional masking on the pre-training tasks. Also proposes word-region alignment via the use of optimal transport to explicitly encourage fine-grained alignment between word and imave regions during pretraining.
