@@ -1,5 +1,5 @@
 ---
-title: Omnigrok: Grokking Beyond Algorithmic Data
+title: "Omnigrok: Grokking Beyond Algorithmic Data"
 ---
 
 Grokking remains elusive. Where does it come from? This paper identifies the mismatch between training and test loss landscapes as the cause for grokking.
@@ -30,6 +30,6 @@ So, what happens. When we don't have regularization, then as training loss decre
 
 ## Omnigrok: Grokking for more interesting tasks
 
-Loss landscape of MNIST. Larger initializations lead to grokking (slow generalization). Large datasets de-grok (eg, you get faster generalization). 
+Loss landscape of MNIST. Larger initializations lead to grokking (slow generalization). Large datasets de-grok (eg, you get faster generalization).
 
 The plots are of training loss/test loss decrease as a function of dataset size N and relative weight norm $w / w_0$.
