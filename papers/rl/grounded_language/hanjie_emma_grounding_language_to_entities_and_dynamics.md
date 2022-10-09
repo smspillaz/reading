@@ -1,16 +1,16 @@
 ---
-title: Grounding Language to Entities and Dynamics for Generalization in Reinforcement Learning.
-venue: ICML
-pages: 4051-4062
+title: "Grounding Language to Entities and Dynamics for Generalization in Reinforcement Learning."
+venue: "ICML"
+pages: "4051-4062"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/HanjieZN21
-ee: http://proceedings.mlr.press/v139/hanjie21a.html
-url: https://dblp.org/rec/conf/icml/HanjieZN21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/HanjieZN21"
+ee: "http://proceedings.mlr.press/v139/hanjie21a.html"
+url: "https://dblp.org/rec/conf/icml/HanjieZN21"
 authors: ["Austin W. Hanjie", "Victor Zhong", "Karthik Narasimhan"]
 sync_version: 3
-cite_key: conf/icml/HanjieZN21
+cite_key: "conf/icml/HanjieZN21"
 ---
 
 
