@@ -1,3 +1,3 @@
 ---
-title: Task Factorization in Curriculum Learning
+title: "Task Factorization in Curriculum Learning"
 ---
