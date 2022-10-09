@@ -1,16 +1,16 @@
 ---
-title: Generalized Value Iteration Networks - Life Beyond Lattices.
-venue: AAAI
-pages: 6246-6253
+title: "Generalized Value Iteration Networks - Life Beyond Lattices."
+venue: "AAAI"
+pages: "6246-6253"
 year: 2018
-type: Conference and Workshop Papers
-access: open
-key: conf/aaai/NiuCGTSK18
-ee: https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16552
-url: https://dblp.org/rec/conf/aaai/NiuCGTSK18
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/aaai/NiuCGTSK18"
+ee: "https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16552"
+url: "https://dblp.org/rec/conf/aaai/NiuCGTSK18"
 authors: ["Sufeng Niu", "Siheng Chen", "Hanyu Guo", "Colin Targonski", "Melissa C. Smith", "Jelena Kovacevic"]
 sync_version: 3
-cite_key: conf/aaai/NiuCGTSK18
+cite_key: "conf/aaai/NiuCGTSK18"
 ---
 # Generalized Value Iteration Networks
 
