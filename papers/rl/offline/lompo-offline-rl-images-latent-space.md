@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/l4dc/RafailovYRF21"
 authors: ["Rafael Rafailov", "Tianhe Yu", "Aravind Rajeswaran", "Chelsea Finn"]
 sync_version: 3
 cite_key: "conf/l4dc/RafailovYRF21"
+tags: ["DeepMind"]
 ---
