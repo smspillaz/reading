@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/conf/icml/ParisottoSRPGJJ20"
 authors: ["Emilio Parisotto", "H. Francis Song", "Jack W. Rae", "Razvan Pascanu", "\u00c7aglar G\u00fcl\u00e7ehre", "Siddhant M. Jayakumar", "Max Jaderberg", "Rapha\u00ebl Lopez Kaufman", "Aidan Clark", "Seb Noury", "Matthew Botvinick", "Nicolas Heess", "Raia Hadsell"]
 sync_version: 3
 cite_key: "conf/icml/ParisottoSRPGJJ20"
+tags: ["DeepMind"]
 ---
 
 Applying Transformers to the reinforcement learning setting is hard. This paper discusses some methods for how you could tweak the architecture to improve training stability.
