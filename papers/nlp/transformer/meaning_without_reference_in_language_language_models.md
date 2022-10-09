@@ -12,4 +12,5 @@ url: "https://dblp.org/rec/journals/corr/abs-2208-02957"
 authors: ["Steven T. Piantadosi", "Felix Hill"]
 sync_version: 3
 cite_key: "journals/corr/abs-2208-02957/Piantadosi/2022"
+tags: ["DeepMind"]
 ---
