@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/journals/corr/abs-2112-04359"
 authors: ["Laura Weidinger", "John Mellor", "Maribeth Rauh", "Conor Griffin", "Jonathan Uesato", "Po-Sen Huang", "Myra Cheng", "Mia Glaese", "Borja Balle", "Atoosa Kasirzadeh", "Zac Kenton", "Sasha Brown", "Will Hawkins", "Tom Stepleton", "Courtney Biles", "Abeba Birhane", "Julia Haas", "Laura Rimell", "Lisa Anne Hendricks", "William S. Isaac", "Sean Legassick", "Geoffrey Irving", "Iason Gabriel"]
 sync_version: 3
 cite_key: "journals/corr/abs-2112-04359/Weidinger/2021"
+tags: ["DeepMind"]
 ---
 
 From Table 1, the main categories are:
