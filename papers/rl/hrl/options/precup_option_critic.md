@@ -1,16 +1,16 @@
 ---
-title: The Option-Critic Architecture.
-venue: AAAI
-pages: 1726-1734
+title: "The Option-Critic Architecture."
+venue: "AAAI"
+pages: "1726-1734"
 year: 2017
-type: Conference and Workshop Papers
-access: open
-key: conf/aaai/BaconHP17
-ee: http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14858
-url: https://dblp.org/rec/conf/aaai/BaconHP17
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/aaai/BaconHP17"
+ee: "http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14858"
+url: "https://dblp.org/rec/conf/aaai/BaconHP17"
 authors: ["Pierre-Luc Bacon", "Jean Harb", "Doina Precup"]
 sync_version: 3
-cite_key: conf/aaai/BaconHP17
+cite_key: "conf/aaai/BaconHP17"
 ---
 # Option Critic Framework
 
