@@ -1,15 +1,15 @@
 ---
-title: Learning from Demonstration with Weakly Supervised Disentanglement.
-venue: ICLR
+title: "Learning from Demonstration with Weakly Supervised Disentanglement."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/HristovR21
-ee: https://openreview.net/forum?id=Ldau9eHU-qO
-url: https://dblp.org/rec/conf/iclr/HristovR21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/HristovR21"
+ee: "https://openreview.net/forum?id=Ldau9eHU-qO"
+url: "https://dblp.org/rec/conf/iclr/HristovR21"
 authors: ["Yordan Hristov", "Subramanian Ramamoorthy"]
 sync_version: 3
-cite_key: conf/iclr/HristovR21
+cite_key: "conf/iclr/HristovR21"
 ---
 # Learning from Demonstration with Weakly Supervised Disentanglement
 
