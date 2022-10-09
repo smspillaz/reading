@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/conf/icml/VezhnevetsOSHJS17"
 authors: ["Alexander Sasha Vezhnevets", "Simon Osindero", "Tom Schaul", "Nicolas Heess", "Max Jaderberg", "David Silver", "Koray Kavukcuoglu"]
 sync_version: 3
 cite_key: "conf/icml/VezhnevetsOSHJS17"
+tags: ["DeepMind"]
 ---
 # Feudal Networks
 
