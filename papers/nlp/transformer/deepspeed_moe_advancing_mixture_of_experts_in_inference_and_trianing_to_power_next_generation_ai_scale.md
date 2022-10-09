@@ -1,16 +1,16 @@
 ---
-title: DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale.
-venue: ICML
-pages: 18332-18346
+title: "DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale."
+venue: "ICML"
+pages: "18332-18346"
 year: 2022
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/RajbhandariLYZA22
-ee: https://proceedings.mlr.press/v162/rajbhandari22a.html
-url: https://dblp.org/rec/conf/icml/RajbhandariLYZA22
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/RajbhandariLYZA22"
+ee: "https://proceedings.mlr.press/v162/rajbhandari22a.html"
+url: "https://dblp.org/rec/conf/icml/RajbhandariLYZA22"
 authors: ["Samyam Rajbhandari", "Conglong Li", "Zhewei Yao", "Minjia Zhang", "Reza Yazdani Aminabadi", "Ammar Ahmad Awan", "Jeff Rasley", "Yuxiong He"]
 sync_version: 3
-cite_key: conf/icml/RajbhandariLYZA22
+cite_key: "conf/icml/RajbhandariLYZA22"
 ---
 Due to the very large model size of MoE and their unique architecture, providing fast MoE inference is challenging.
 
