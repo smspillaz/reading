@@ -1,16 +1,16 @@
 ---
-title: Think before you act - A simple baseline for compositional generalization.
-venue: CoRR
-volume: abs/2009.13962
+title: "Think before you act - A simple baseline for compositional generalization."
+venue: "CoRR"
+volume: "abs/2009.13962"
 year: 2020
-type: Informal Publications
-access: open
-key: journals/corr/abs-2009-13962
-ee: https://arxiv.org/abs/2009.13962
-url: https://dblp.org/rec/journals/corr/abs-2009-13962
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2009-13962"
+ee: "https://arxiv.org/abs/2009.13962"
+url: "https://dblp.org/rec/journals/corr/abs-2009-13962"
 authors: ["Christina Heinze-Deml", "Diane Bouchacourt"]
 sync_version: 3
-cite_key: journals/corr/abs-2009-13962/Heinze-Deml/2020
+cite_key: "journals/corr/abs-2009-13962/Heinze-Deml/2020"
 ---
 
 This paper looks at the gSCAN benchmark on the following splits:
