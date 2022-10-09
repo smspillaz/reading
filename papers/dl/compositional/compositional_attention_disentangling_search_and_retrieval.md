@@ -1,16 +1,16 @@
 ---
-title: Compositional Attention - Disentangling Search and Retrieval.
-venue: CoRR
-volume: abs/2110.09419
+title: "Compositional Attention - Disentangling Search and Retrieval."
+venue: "CoRR"
+volume: "abs/2110.09419"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2110-09419
-ee: https://arxiv.org/abs/2110.09419
-url: https://dblp.org/rec/journals/corr/abs-2110-09419
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2110-09419"
+ee: "https://arxiv.org/abs/2110.09419"
+url: "https://dblp.org/rec/journals/corr/abs-2110-09419"
 authors: ["Sarthak Mittal", "Sharath Chandra Raparthy", "Irina Rish", "Yoshua Bengio", "Guillaume Lajoie"]
 sync_version: 3
-cite_key: journals/corr/abs-2110-09419/Mittal/2021
+cite_key: "journals/corr/abs-2110-09419/Mittal/2021"
 ---
 
 MH Key-value attention does two operations, search and retrieval.
