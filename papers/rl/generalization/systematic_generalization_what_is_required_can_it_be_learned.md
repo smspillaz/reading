@@ -1,15 +1,15 @@
 ---
-title: Systematic Generalization - What Is Required and Can It Be Learned?
-venue: ICLR
+title: "Systematic Generalization - What Is Required and Can It Be Learned?"
+venue: "ICLR"
 year: 2019
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/BahdanauMNNVC19
-ee: https://openreview.net/forum?id=HkezXnA9YX
-url: https://dblp.org/rec/conf/iclr/BahdanauMNNVC19
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/BahdanauMNNVC19"
+ee: "https://openreview.net/forum?id=HkezXnA9YX"
+url: "https://dblp.org/rec/conf/iclr/BahdanauMNNVC19"
 authors: ["Dzmitry Bahdanau", "Shikhar Murty", "Michael Noukhovitch", "Thien Huu Nguyen", "Harm de Vries", "Aaron C. Courville"]
 sync_version: 3
-cite_key: conf/iclr/BahdanauMNNVC19
+cite_key: "conf/iclr/BahdanauMNNVC19"
 ---
 
 Examines systematic generalization within the grounded language understanding context.
