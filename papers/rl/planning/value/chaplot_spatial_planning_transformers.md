@@ -1,16 +1,16 @@
 ---
-title: Differentiable Spatial Planning using Transformers.
-venue: ICML
-pages: 1484-1495
+title: "Differentiable Spatial Planning using Transformers."
+venue: "ICML"
+pages: "1484-1495"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/ChaplotPM21
-ee: http://proceedings.mlr.press/v139/chaplot21a.html
-url: https://dblp.org/rec/conf/icml/ChaplotPM21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/ChaplotPM21"
+ee: "http://proceedings.mlr.press/v139/chaplot21a.html"
+url: "https://dblp.org/rec/conf/icml/ChaplotPM21"
 authors: ["Devendra Singh Chaplot", "Deepak Pathak", "Jitendra Malik"]
 sync_version: 3
-cite_key: conf/icml/ChaplotPM21
+cite_key: "conf/icml/ChaplotPM21"
 ---
 
 # Differentiable Spatial Planning using Transformers
