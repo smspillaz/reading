@@ -183,9 +183,6 @@ def get_updated_frontmatter(filename, no_download=True):
 
 
 def format_item(value):
-    if isinstance(value, str):
-        return value
-
     return json.dumps(value)
 
 
