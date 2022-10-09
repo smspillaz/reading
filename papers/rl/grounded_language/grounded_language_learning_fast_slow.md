@@ -10,6 +10,7 @@ url: "https://dblp.org/rec/conf/iclr/HillTGWMC21"
 authors: ["Felix Hill", "Olivier Tieleman", "Tamara von Glehn", "Nathaniel Wong", "Hamza Merzic", "Stephen Clark"]
 sync_version: 3
 cite_key: "conf/iclr/HillTGWMC21"
+tags: ["DeepMind"]
 ---
 # Grounded Language Learning Fast and Slow
 
