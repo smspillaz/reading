@@ -10,4 +10,5 @@ url: "https://dblp.org/rec/conf/iclr/LiFCA20"
 authors: ["Alexander C. Li", "Carlos Florensa", "Ignasi Clavera", "Pieter Abbeel"]
 sync_version: 3
 cite_key: "conf/iclr/LiFCA20"
+tags: ["DeepMind"]
 ---
