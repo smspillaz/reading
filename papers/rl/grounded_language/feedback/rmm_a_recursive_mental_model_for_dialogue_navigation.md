@@ -1,3 +1,3 @@
 ---
-title: RMM: A Recursive Mental Model for Dialogue Navigation
+title: "RMM: A Recursive Mental Model for Dialogue Navigation"
 ---
