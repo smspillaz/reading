@@ -1,15 +1,15 @@
 ---
-title: CoDA: Contrast-enhanced and Diversity-promoting Data Augmentation for Natural Language Understanding.
-venue: ICLR
+title: "CoDA: Contrast-enhanced and Diversity-promoting Data Augmentation for Natural Language Understanding."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/QuSSSC021
-ee: https://openreview.net/forum?id=Ozk9MrX1hvA
-url: https://dblp.org/rec/conf/iclr/QuSSSC021
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/QuSSSC021"
+ee: "https://openreview.net/forum?id=Ozk9MrX1hvA"
+url: "https://dblp.org/rec/conf/iclr/QuSSSC021"
 authors: ["Yanru Qu", "Dinghan Shen", "Yelong Shen", "Sandra Sajeev", "Weizhu Chen", "Jiawei Han"]
 sync_version: 3
-cite_key: conf/iclr/QuSSSC021
+cite_key: "conf/iclr/QuSSSC021"
 ---
 # CODA: Contrast Enhanced Diversity Promoting Data Augmentation for NLU
 
