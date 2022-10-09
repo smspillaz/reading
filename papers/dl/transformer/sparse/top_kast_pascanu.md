@@ -10,4 +10,5 @@ url: "https://dblp.org/rec/conf/nips/JayakumarPROE20"
 authors: ["Siddhant M. Jayakumar", "Razvan Pascanu", "Jack W. Rae", "Simon Osindero", "Erich Elsen"]
 sync_version: 3
 cite_key: "conf/nips/JayakumarPROE20"
+tags: ["DeepMind"]
 ---
