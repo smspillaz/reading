@@ -10,4 +10,5 @@ url: "https://dblp.org/rec/conf/iclr/HigginsMPBGBML17"
 authors: ["Irina Higgins", "Lo\u00efc Matthey", "Arka Pal", "Christopher P. Burgess", "Xavier Glorot", "Matthew M. Botvinick", "Shakir Mohamed", "Alexander Lerchner"]
 sync_version: 3
 cite_key: "conf/iclr/HigginsMPBGBML17"
+tags: ["DeepMind"]
 ---
