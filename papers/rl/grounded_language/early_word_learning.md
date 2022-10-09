@@ -1,5 +1,6 @@
 ---
 title: "Understanding Early Word Learning in Situated Artificial Agents."
+tags: ["DeepMind"]
 ---
 # Understanding Early Word Learning in Situated Artificial Agents
 
