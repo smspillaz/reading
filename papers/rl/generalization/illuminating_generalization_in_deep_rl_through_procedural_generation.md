@@ -1,3 +1,3 @@
 ---
-title: Illuminating Generalization in Deep Reinforcement Learning through Procedural Level Generation
+title: "Illuminating Generalization in Deep Reinforcement Learning through Procedural Level Generation"
 ---
