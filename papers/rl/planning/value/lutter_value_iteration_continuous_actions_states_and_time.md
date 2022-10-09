@@ -1,16 +1,16 @@
 ---
-title: Value Iteration in Continuous Actions, States and Time.
-venue: ICML
-pages: 7224-7234
+title: "Value Iteration in Continuous Actions, States and Time."
+venue: "ICML"
+pages: "7224-7234"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/LutterM0FG21
-ee: http://proceedings.mlr.press/v139/lutter21a.html
-url: https://dblp.org/rec/conf/icml/LutterM0FG21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/LutterM0FG21"
+ee: "http://proceedings.mlr.press/v139/lutter21a.html"
+url: "https://dblp.org/rec/conf/icml/LutterM0FG21"
 authors: ["Michael Lutter", "Shie Mannor", "Jan Peters", "Dieter Fox", "Animesh Garg"]
 sync_version: 3
-cite_key: conf/icml/LutterM0FG21
+cite_key: "conf/icml/LutterM0FG21"
 ---
 
 
