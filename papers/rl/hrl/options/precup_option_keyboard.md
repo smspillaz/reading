@@ -1,16 +1,16 @@
 ---
-title: The Option Keyboard: Combining Skills in Reinforcement Learning.
-venue: NeurIPS
-pages: 13031-13041
+title: "The Option Keyboard: Combining Skills in Reinforcement Learning."
+venue: "NeurIPS"
+pages: "13031-13041"
 year: 2019
-type: Conference and Workshop Papers
-access: open
-key: conf/nips/BarretoBHCAHTHM19
-ee: https://proceedings.neurips.cc/paper/2019/hash/251c5ffd6b62cc21c446c963c76cf214-Abstract.html
-url: https://dblp.org/rec/conf/nips/BarretoBHCAHTHM19
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/nips/BarretoBHCAHTHM19"
+ee: "https://proceedings.neurips.cc/paper/2019/hash/251c5ffd6b62cc21c446c963c76cf214-Abstract.html"
+url: "https://dblp.org/rec/conf/nips/BarretoBHCAHTHM19"
 authors: ["Andr\u00e9 Barreto", "Diana Borsa", "Shaobo Hou", "Gheorghe Comanici", "Eser Ayg\u00fcn", "Philippe Hamel", "Daniel Toyama", "Jonathan J. Hunt", "Shibl Mourad", "David Silver", "Doina Precup"]
 sync_version: 3
-cite_key: conf/nips/BarretoBHCAHTHM19
+cite_key: "conf/nips/BarretoBHCAHTHM19"
 ---
 # The Option Keyboard: Combining Skills in Reinforcement Learning
 
