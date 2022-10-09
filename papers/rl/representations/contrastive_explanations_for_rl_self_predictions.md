@@ -1,15 +1,15 @@
 ---
-title: Contrastive Explanations for Reinforcement Learning via Embedded Self Predictions.
-venue: ICLR
+title: "Contrastive Explanations for Reinforcement Learning via Embedded Self Predictions."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/LinLF21
-ee: https://openreview.net/forum?id=Ud3DSz72nYR
-url: https://dblp.org/rec/conf/iclr/LinLF21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/LinLF21"
+ee: "https://openreview.net/forum?id=Ud3DSz72nYR"
+url: "https://dblp.org/rec/conf/iclr/LinLF21"
 authors: ["Zhengxian Lin", "Kin-Ho Lam", "Alan Fern"]
 sync_version: 3
-cite_key: conf/iclr/LinLF21
+cite_key: "conf/iclr/LinLF21"
 ---
 # Contrastive Explanations for Reinforcement Learning via Embedded Self-Predictions
 
