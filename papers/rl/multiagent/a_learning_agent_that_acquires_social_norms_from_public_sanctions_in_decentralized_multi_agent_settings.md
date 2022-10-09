@@ -1,5 +1,5 @@
 ---
-title: A learning agent that acquires social norms from public actions in decentrlalized multi-agent settings
+title: "A learning agent that acquires social norms from public actions in decentrlalized multi-agent settings"
 ---
 
 Society is characterised by social norms. Introduce a training regime for multi-agent settings where all agents access "sanctioning" events but learning is otherwise decentralized.
