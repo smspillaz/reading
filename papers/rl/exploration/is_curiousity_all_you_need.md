@@ -1,5 +1,6 @@
 ---
 title: "Is Curiousity all you need? On the utility of emergent behaviours from curious exploration"
+tags: ["DeepMind"]
 ---
 
 # Is Curiousity all you need? On the utility of emergent behaviours from curious exploration
