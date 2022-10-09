@@ -1,16 +1,16 @@
 ---
-title: Deep Reinforcement Learning at the Edge of the Statistical Precipice.
-venue: CoRR
-volume: abs/2108.13264
+title: "Deep Reinforcement Learning at the Edge of the Statistical Precipice."
+venue: "CoRR"
+volume: "abs/2108.13264"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2108-13264
-ee: https://arxiv.org/abs/2108.13264
-url: https://dblp.org/rec/journals/corr/abs-2108-13264
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2108-13264"
+ee: "https://arxiv.org/abs/2108.13264"
+url: "https://dblp.org/rec/journals/corr/abs-2108-13264"
 authors: ["Rishabh Agarwal", "Max Schwarzer", "Pablo Samuel Castro", "Aaron C. Courville", "Marc G. Bellemare"]
 sync_version: 3
-cite_key: journals/corr/abs-2108-13264/Agarwal/2021
+cite_key: "journals/corr/abs-2108-13264/Agarwal/2021"
 ---
 
 # Deep Reinforcement Learning at the Edge of the Statistical Precipice
