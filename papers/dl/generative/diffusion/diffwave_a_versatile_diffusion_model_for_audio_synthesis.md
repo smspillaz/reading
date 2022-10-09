@@ -1,15 +1,15 @@
 ---
-title: DiffWave - A Versatile Diffusion Model for Audio Synthesis.
-venue: ICLR
+title: "DiffWave - A Versatile Diffusion Model for Audio Synthesis."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/KongPHZC21
-ee: https://openreview.net/forum?id=a-xFK8Ymz5J
-url: https://dblp.org/rec/conf/iclr/KongPHZC21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/KongPHZC21"
+ee: "https://openreview.net/forum?id=a-xFK8Ymz5J"
+url: "https://dblp.org/rec/conf/iclr/KongPHZC21"
 authors: ["Zhifeng Kong", "Wei Ping", "Jiaji Huang", "Kexin Zhao", "Bryan Catanzaro"]
 sync_version: 3
-cite_key: conf/iclr/KongPHZC21
+cite_key: "conf/iclr/KongPHZC21"
 ---
 
 Proposes DiffWave, a diffusion probabilistic model for conditional and unconditional waveform generation.
@@ -101,7 +101,7 @@ This allows reparameterizing the ELBO as:
 
 $$c + \sum^T \kappa_t \mathbb{E}_{x_0, \epsilon} || \epsilon - \epsilon_{\theta}(\sqrt{\bar \alpha_t} x_0 + \sqrt{1 - \bar{\alpha}_t \epsilon})||^2_2$$
 
-where $\kappa_t$ is a weight, $\frac{\beta_t}{2 \alpha_t(1 - \bar{\alpha}_{t - 1})}$ 
+where $\kappa_t$ is a weight, $\frac{\beta_t}{2 \alpha_t(1 - \bar{\alpha}_{t - 1})}$
 
 The ELBO is a sum of KL divergences between tractable Gaussians. You can also drop the weight and just optimize the unweighted version.
 
@@ -143,9 +143,6 @@ Global conditioner: Speaker id or word ids. Shared embeddings.
 Need to generate consistent utterances without conditional information. The receptive field needs to have a length larger than the desired size $L$.
 
 DiffWave the advantage of enlarging the receptive fields of output $x_0$ by iteration from $x_T$ to $x_0$ in the reverse process.
-
-
-
 
 
 
