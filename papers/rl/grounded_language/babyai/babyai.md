@@ -1,15 +1,15 @@
 ---
-title: BabyAI - A Platform to Study the Sample Efficiency of Grounded Language Learning.
-venue: ICLR
+title: "BabyAI - A Platform to Study the Sample Efficiency of Grounded Language Learning."
+venue: "ICLR"
 year: 2019
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/Chevalier-Boisvert19
-ee: https://openreview.net/forum?id=rJeXCo0cYX
-url: https://dblp.org/rec/conf/iclr/Chevalier-Boisvert19
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/Chevalier-Boisvert19"
+ee: "https://openreview.net/forum?id=rJeXCo0cYX"
+url: "https://dblp.org/rec/conf/iclr/Chevalier-Boisvert19"
 authors: ["Maxime Chevalier-Boisvert", "Dzmitry Bahdanau", "Salem Lahlou", "Lucas Willems", "Chitwan Saharia", "Thien Huu Nguyen", "Yoshua Bengio"]
 sync_version: 3
-cite_key: conf/iclr/Chevalier-Boisvert19
+cite_key: "conf/iclr/Chevalier-Boisvert19"
 ---
 # BabyAI: A Platform to study the sample efficiency of grounded language learning
 
