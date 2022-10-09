@@ -1,16 +1,16 @@
 ---
-title: Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model.
-venue: CoRR
-volume: abs/1911.08265
+title: "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model."
+venue: "CoRR"
+volume: "abs/1911.08265"
 year: 2019
-type: Informal Publications
-access: open
-key: journals/corr/abs-1911-08265
-ee: http://arxiv.org/abs/1911.08265
-url: https://dblp.org/rec/journals/corr/abs-1911-08265
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-1911-08265"
+ee: "http://arxiv.org/abs/1911.08265"
+url: "https://dblp.org/rec/journals/corr/abs-1911-08265"
 authors: ["Julian Schrittwieser", "Ioannis Antonoglou", "Thomas Hubert", "Karen Simonyan", "Laurent Sifre", "Simon Schmitt", "Arthur Guez", "Edward Lockhart", "Demis Hassabis", "Thore Graepel", "Timothy P. Lillicrap", "David Silver"]
 sync_version: 3
-cite_key: journals/corr/abs-1911-08265/Schrittwieser/2019
+cite_key: "journals/corr/abs-1911-08265/Schrittwieser/2019"
 ---
 # MuZero
 
