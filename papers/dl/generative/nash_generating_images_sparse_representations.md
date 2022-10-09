@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/icml/NashMDB21"
 authors: ["Charlie Nash", "Jacob Menick", "Sander Dieleman", "Peter W. Battaglia"]
 sync_version: 3
 cite_key: "conf/icml/NashMDB21"
+tags: ["DeepMind"]
 ---
