@@ -1,17 +1,17 @@
 ---
-title: Smart Reply - Automated Response Suggestion for Email.
-venue: KDD
-pages: 955-964
+title: "Smart Reply - Automated Response Suggestion for Email."
+venue: "KDD"
+pages: "955-964"
 year: 2016
-type: Conference and Workshop Papers
-access: closed
-key: conf/kdd/KannanKRKTMCLGY16
-doi: 10.1145/2939672.2939801
-ee: https://doi.org/10.1145/2939672.2939801
-url: https://dblp.org/rec/conf/kdd/KannanKRKTMCLGY16
+type: "Conference and Workshop Papers"
+access: "closed"
+key: "conf/kdd/KannanKRKTMCLGY16"
+doi: "10.1145/2939672.2939801"
+ee: "https://doi.org/10.1145/2939672.2939801"
+url: "https://dblp.org/rec/conf/kdd/KannanKRKTMCLGY16"
 authors: ["Anjuli Kannan", "Karol Kurach", "Sujith Ravi", "Tobias Kaufmann", "Andrew Tomkins", "Balint Miklos", "Greg Corrado", "L\u00e1szl\u00f3 Luk\u00e1cs", "Marina Ganea", "Peter Young", "Vivek Ramavajjala"]
 sync_version: 3
-cite_key: conf/kdd/KannanKRKTMCLGY16
+cite_key: "conf/kdd/KannanKRKTMCLGY16"
 ---
 Challenges:
 
