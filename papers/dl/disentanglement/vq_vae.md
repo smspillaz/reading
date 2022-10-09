@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/nips/OordVK17"
 authors: ["A\u00e4ron van den Oord", "Oriol Vinyals", "Koray Kavukcuoglu"]
 sync_version: 3
 cite_key: "conf/nips/OordVK17"
+tags: ["DeepMind"]
 ---
