@@ -1,3 +1,3 @@
 ---
-title: Accelerated Reinforcement Learning with Learned Skill Priors
+title: "Accelerated Reinforcement Learning with Learned Skill Priors"
 ---
