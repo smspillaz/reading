@@ -1,3 +1,3 @@
 ---
-title: Understanding disentangling in $beta$-VAE
+title: "Understanding disentangling in $beta$-VAE"
 ---
