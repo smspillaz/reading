@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/journals/corr/abs-2106-02097"
 authors: ["Mingde Zhao", "Zhen Liu", "Sitao Luan", "Shuyuan Zhang", "Doina Precup", "Yoshua Bengio"]
 sync_version: 3
 cite_key: "journals/corr/abs-2106-02097/Zhao/2021"
+tags: ["DeepMind"]
 ---
 # Consciousness inspired Planning, MBRL with Set Representations
 [[conciousness_inspired_planning_mbrl_set_representation.pdf]]
