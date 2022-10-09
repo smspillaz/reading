@@ -1,15 +1,15 @@
 ---
-title: Reformer - The Efficient Transformer.
-venue: ICLR
+title: "Reformer - The Efficient Transformer."
+venue: "ICLR"
 year: 2020
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/KitaevKL20
-ee: https://openreview.net/forum?id=rkgNKkHtvB
-url: https://dblp.org/rec/conf/iclr/KitaevKL20
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/KitaevKL20"
+ee: "https://openreview.net/forum?id=rkgNKkHtvB"
+url: "https://dblp.org/rec/conf/iclr/KitaevKL20"
 authors: ["Nikita Kitaev", "Lukasz Kaiser", "Anselm Levskaya"]
 sync_version: 3
-cite_key: conf/iclr/KitaevKL20
+cite_key: "conf/iclr/KitaevKL20"
 ---
 # Reformer: The Efficient Transfomer
 
