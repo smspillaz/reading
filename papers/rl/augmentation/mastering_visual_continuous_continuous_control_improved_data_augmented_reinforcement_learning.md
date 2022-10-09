@@ -1,16 +1,16 @@
 ---
-title: Mastering Visual Continuous Control - Improved Data-Augmented Reinforcement Learning.
-venue: CoRR
-volume: abs/2107.09645
+title: "Mastering Visual Continuous Control - Improved Data-Augmented Reinforcement Learning."
+venue: "CoRR"
+volume: "abs/2107.09645"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2107-09645
-ee: https://arxiv.org/abs/2107.09645
-url: https://dblp.org/rec/journals/corr/abs-2107-09645
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2107-09645"
+ee: "https://arxiv.org/abs/2107.09645"
+url: "https://dblp.org/rec/journals/corr/abs-2107-09645"
 authors: ["Denis Yarats", "Rob Fergus", "Alessandro Lazaric", "Lerrel Pinto"]
 sync_version: 3
-cite_key: journals/corr/abs-2107-09645/Yarats/2021
+cite_key: "journals/corr/abs-2107-09645/Yarats/2021"
 ---
 DrQ-v2: Solve Humanoid Walk from Images.
 
