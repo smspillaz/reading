@@ -1,15 +1,15 @@
 ---
-title: Parrot - Data-Driven Behavioral Priors for Reinforcement Learning.
-venue: ICLR
+title: "Parrot - Data-Driven Behavioral Priors for Reinforcement Learning."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/SinghLZYRL21
-ee: https://openreview.net/forum?id=Ysuv-WOFeKR
-url: https://dblp.org/rec/conf/iclr/SinghLZYRL21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/SinghLZYRL21"
+ee: "https://openreview.net/forum?id=Ysuv-WOFeKR"
+url: "https://dblp.org/rec/conf/iclr/SinghLZYRL21"
 authors: ["Avi Singh", "Huihan Liu", "Gaoyue Zhou", "Albert Yu", "Nicholas Rhinehart", "Sergey Levine"]
 sync_version: 3
-cite_key: conf/iclr/SinghLZYRL21
+cite_key: "conf/iclr/SinghLZYRL21"
 ---
 # Parrot
 
@@ -60,7 +60,7 @@ $$
 This is kind of like meta-RL, but you don't have to access any task in $p(M)$ except the task you are learnng. RL only performed on the target environment, skills come from prior environments.
 
 ## Method
- 
+
 
  PARROT: Prior AccelRated ReinfOrcemenT.
 
@@ -123,7 +123,7 @@ $$
 
 So basically you learn to map from noise to action that was likely in the dataset.
 
-Since the mapping is invertible, for any $a$ you can find a $z$ that generates $z = f^{-1}_{\phi} (a; s)$ 
+Since the mapping is invertible, for any $a$ you can find a $z$ that generates $z = f^{-1}_{\phi} (a; s)$
 
 ## Experiments
 
@@ -159,4 +159,3 @@ Future Directions:
  => Utilizing flow-based models as priors can lead to safer exploration
  => Optimal architecture for the flow based model.
  => Lifelong learning systems
-
