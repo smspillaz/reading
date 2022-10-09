@@ -1,17 +1,17 @@
 ---
-title: Meta-Learning to Compositionally Generalize.
-venue: ACL/IJCNLP
-pages: 3322-3335
+title: "Meta-Learning to Compositionally Generalize."
+venue: "ACL/IJCNLP"
+pages: "3322-3335"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/acl/ConklinWST20
-doi: 10.18653/V1/2021.ACL-LONG.258
-ee: https://doi.org/10.18653/v1/2021.acl-long.258
-url: https://dblp.org/rec/conf/acl/ConklinWST20
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/acl/ConklinWST20"
+doi: "10.18653/V1/2021.ACL-LONG.258"
+ee: "https://doi.org/10.18653/v1/2021.acl-long.258"
+url: "https://dblp.org/rec/conf/acl/ConklinWST20"
 authors: ["Henry Conklin", "Bailin Wang", "Kenny Smith", "Ivan Titov"]
 sync_version: 3
-cite_key: conf/acl/ConklinWST20
+cite_key: "conf/acl/ConklinWST20"
 ---
 
 In this paper, they optimize a meta-learnign augmented version of supervised-learning, where the objective directly optimizes for OOD.
@@ -48,7 +48,7 @@ Baselines:
  - Transformer Seq2seq
  - GECA
 
-How do we do? Lev-MAML can improve performance a lot on SCAN MCD1 and MCD2, at least when using LSTM. It doesn't help a lot when using a Transformer. GECA + LSTM can make things even better. 
+How do we do? Lev-MAML can improve performance a lot on SCAN MCD1 and MCD2, at least when using LSTM. It doesn't help a lot when using a Transformer. GECA + LSTM can make things even better.
 
 On COGS, Tree-MAML can boost performance by about 8 points on the Gen set. So not bad.
 
