@@ -1,16 +1,16 @@
 ---
-title: Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision.
-venue: ICML
-pages: 4904-4916
+title: "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision."
+venue: "ICML"
+pages: "4904-4916"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/JiaYXCPPLSLD21
-ee: http://proceedings.mlr.press/v139/jia21b.html
-url: https://dblp.org/rec/conf/icml/JiaYXCPPLSLD21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/JiaYXCPPLSLD21"
+ee: "http://proceedings.mlr.press/v139/jia21b.html"
+url: "https://dblp.org/rec/conf/icml/JiaYXCPPLSLD21"
 authors: ["Chao Jia", "Yinfei Yang", "Ye Xia", "Yi-Ting Chen", "Zarana Parekh", "Hieu Pham", "Quoc V. Le", "Yun-Hsuan Sung", "Zhen Li", "Tom Duerig"]
 sync_version: 3
-cite_key: conf/icml/JiaYXCPPLSLD21
+cite_key: "conf/icml/JiaYXCPPLSLD21"
 ---
 
 Vision-language datasets rely on curated training datasets that are expensive or reqire expert knowledge.
