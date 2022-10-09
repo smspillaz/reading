@@ -1,16 +1,16 @@
 ---
-title: The Information Geometry of Unsupervised Reinforcement Learning.
-venue: CoRR
-volume: abs/2110.02719
+title: "The Information Geometry of Unsupervised Reinforcement Learning."
+venue: "CoRR"
+volume: "abs/2110.02719"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2110-02719
-ee: https://arxiv.org/abs/2110.02719
-url: https://dblp.org/rec/journals/corr/abs-2110-02719
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2110-02719"
+ee: "https://arxiv.org/abs/2110.02719"
+url: "https://dblp.org/rec/journals/corr/abs-2110-02719"
 authors: ["Benjamin Eysenbach", "Ruslan Salakhutdinov", "Sergey Levine"]
 sync_version: 3
-cite_key: journals/corr/abs-2110-02719/Eysenbach/2021
+cite_key: "journals/corr/abs-2110-02719/Eysenbach/2021"
 ---
 RL agents can prepare to solve unknown downstream tasks by performing unsuperivsed skill discovery.
 
