@@ -1,3 +1,3 @@
 ---
-title: Causal Transformers: Improving the Robustness on Spurious Correlations
+title: "Causal Transformers: Improving the Robustness on Spurious Correlations"
 ---
