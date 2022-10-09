@@ -1,5 +1,5 @@
 ---
-title: The Devil is in the Detail: Simple Tricks to Improve Systematic Generalization of Transformers
+title: "The Devil is in the Detail: Simple Tricks to Improve Systematic Generalization of Transformers"
 ---
 
 Revisit relative position encoding, [[universal_transformers|universal transformer]] variants, embedding scaling.
