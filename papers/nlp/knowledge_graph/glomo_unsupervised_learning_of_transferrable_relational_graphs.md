@@ -1,16 +1,16 @@
 ---
-title: GLoMo: Unsupervised Learning of Transferable Relational Graphs.
-venue: NeurIPS
-pages: 8964-8975
+title: "GLoMo: Unsupervised Learning of Transferable Relational Graphs."
+venue: "NeurIPS"
+pages: "8964-8975"
 year: 2018
-type: Conference and Workshop Papers
-access: open
-key: conf/nips/YangZDHCSL18
-ee: https://proceedings.neurips.cc/paper/2018/hash/5dbc8390f17e019d300d5a162c3ce3bc-Abstract.html
-url: https://dblp.org/rec/conf/nips/YangZDHCSL18
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/nips/YangZDHCSL18"
+ee: "https://proceedings.neurips.cc/paper/2018/hash/5dbc8390f17e019d300d5a162c3ce3bc-Abstract.html"
+url: "https://dblp.org/rec/conf/nips/YangZDHCSL18"
 authors: ["Zhilin Yang", "Junbo Jake Zhao", "Bhuwan Dhingra", "Kaiming He", "William W. Cohen", "Ruslan Salakhutdinov", "Yann LeCun"]
 sync_version: 3
-cite_key: conf/nips/YangZDHCSL18
+cite_key: "conf/nips/YangZDHCSL18"
 ---
 # GLoMo: Unsupervised Learning of Transferrable Relational Graphs
 
