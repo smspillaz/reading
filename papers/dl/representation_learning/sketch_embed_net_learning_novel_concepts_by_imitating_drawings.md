@@ -1,16 +1,16 @@
 ---
-title: SketchEmbedNet - Learning Novel Concepts by Imitating Drawings.
-venue: ICML
-pages: 10870-10881
+title: "SketchEmbedNet - Learning Novel Concepts by Imitating Drawings."
+venue: "ICML"
+pages: "10870-10881"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/WangRZ21
-ee: http://proceedings.mlr.press/v139/wang21s.html
-url: https://dblp.org/rec/conf/icml/WangRZ21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/WangRZ21"
+ee: "http://proceedings.mlr.press/v139/wang21s.html"
+url: "https://dblp.org/rec/conf/icml/WangRZ21"
 authors: ["Alexander Wang", "Mengye Ren", "Richard S. Zemel"]
 sync_version: 3
-cite_key: conf/icml/WangRZ21
+cite_key: "conf/icml/WangRZ21"
 ---
 
 
