@@ -10,6 +10,7 @@ url: "https://dblp.org/rec/conf/iclr/Chevalier-Boisvert19"
 authors: ["Maxime Chevalier-Boisvert", "Dzmitry Bahdanau", "Salem Lahlou", "Lucas Willems", "Chitwan Saharia", "Thien Huu Nguyen", "Yoshua Bengio"]
 sync_version: 3
 cite_key: "conf/iclr/Chevalier-Boisvert19"
+tags: ["DeepMind"]
 ---
 # BabyAI: A Platform to study the sample efficiency of grounded language learning
 
