@@ -10,4 +10,5 @@ url: "https://dblp.org/rec/conf/nips/LaskinLSPAS20"
 authors: ["Michael Laskin", "Kimin Lee", "Adam Stooke", "Lerrel Pinto", "Pieter Abbeel", "Aravind Srinivas"]
 sync_version: 3
 cite_key: "conf/nips/LaskinLSPAS20"
+tags: ["DeepMind"]
 ---
