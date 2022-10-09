@@ -1,15 +1,15 @@
 ---
-title: Learning &quot;What-if&quot; Explanations for Sequential Decision-Making.
-venue: ICLR
+title: "Learning &quot;What-if&quot; Explanations for Sequential Decision-Making."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/BicaJHS21
-ee: https://openreview.net/forum?id=h0de3QWtGG
-url: https://dblp.org/rec/conf/iclr/BicaJHS21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/BicaJHS21"
+ee: "https://openreview.net/forum?id=h0de3QWtGG"
+url: "https://dblp.org/rec/conf/iclr/BicaJHS21"
 authors: ["Ioana Bica", "Daniel Jarrett", "Alihan H\u00fcy\u00fck", "Mihaela van der Schaar"]
 sync_version: 3
-cite_key: conf/iclr/BicaJHS21
+cite_key: "conf/iclr/BicaJHS21"
 ---
 # Learning "what if" explanations for sequential decisionmaking
 
