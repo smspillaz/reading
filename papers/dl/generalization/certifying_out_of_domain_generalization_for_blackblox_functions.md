@@ -1,16 +1,16 @@
 ---
-title: Certifying Out-of-Domain Generalization for Blackbox Functions.
-venue: ICML
-pages: 23527-23548
+title: "Certifying Out-of-Domain Generalization for Blackbox Functions."
+venue: "ICML"
+pages: "23527-23548"
 year: 2022
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/WeberLWZ0022
-ee: https://proceedings.mlr.press/v162/weber22a.html
-url: https://dblp.org/rec/conf/icml/WeberLWZ0022
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/WeberLWZ0022"
+ee: "https://proceedings.mlr.press/v162/weber22a.html"
+url: "https://dblp.org/rec/conf/icml/WeberLWZ0022"
 authors: ["Maurice Weber", "Linyi Li", "Boxin Wang", "Zhikuan Zhao", "Bo Li", "Ce Zhang"]
 sync_version: 3
-cite_key: conf/icml/WeberLWZ0022
+cite_key: "conf/icml/WeberLWZ0022"
 ---
 Being able to have some bounds on OOD generalization would be nice, but most of the existing techniques assume something about the model class or loss function.
 
