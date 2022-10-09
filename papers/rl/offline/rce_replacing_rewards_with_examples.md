@@ -1,16 +1,16 @@
 ---
-title: Replacing Rewards with Examples - Example-Based Policy Search via Recursive Classification.
-venue: CoRR
-volume: abs/2103.12656
+title: "Replacing Rewards with Examples - Example-Based Policy Search via Recursive Classification."
+venue: "CoRR"
+volume: "abs/2103.12656"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2103-12656
-ee: https://arxiv.org/abs/2103.12656
-url: https://dblp.org/rec/journals/corr/abs-2103-12656
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2103-12656"
+ee: "https://arxiv.org/abs/2103.12656"
+url: "https://dblp.org/rec/journals/corr/abs-2103-12656"
 authors: ["Benjamin Eysenbach", "Sergey Levine", "Ruslan Salakhutdinov"]
 sync_version: 3
-cite_key: journals/corr/abs-2103-12656/Eysenbach/2021
+cite_key: "journals/corr/abs-2103-12656/Eysenbach/2021"
 ---
 
 # RCE: Replacing Rewards with Examples
