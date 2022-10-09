@@ -1,16 +1,16 @@
 ---
-title: Understanding Dataset Difficulty with V-Usable Information.
-venue: ICML
-pages: 5988-6008
+title: "Understanding Dataset Difficulty with V-Usable Information."
+venue: "ICML"
+pages: "5988-6008"
 year: 2022
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/EthayarajhCS22
-ee: https://proceedings.mlr.press/v162/ethayarajh22a.html
-url: https://dblp.org/rec/conf/icml/EthayarajhCS22
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/EthayarajhCS22"
+ee: "https://proceedings.mlr.press/v162/ethayarajh22a.html"
+url: "https://dblp.org/rec/conf/icml/EthayarajhCS22"
 authors: ["Kawin Ethayarajh", "Yejin Choi", "Swabha Swayamdipta"]
 sync_version: 3
-cite_key: conf/icml/EthayarajhCS22
+cite_key: "conf/icml/EthayarajhCS22"
 ---
 
 Proposes the idea of $\mathcal{V}$-usable information with respect to a model $\mathcal{V}$ for a more instructive metric of how difficult a dataset is.
@@ -22,4 +22,3 @@ However this doesn't say anything about the *form* of $X$. Eg, if $X$ is encrypt
 What can PVI do in practice?
  - Find mislabelled instances
  - Find instances that are likely to be mispredicted ($\text{PVI} \ge 0.5$)
-
