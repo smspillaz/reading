@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/journals/corr/abs-1807-03748"
 authors: ["A\u00e4ron van den Oord", "Yazhe Li", "Oriol Vinyals"]
 sync_version: 3
 cite_key: "journals/corr/abs-1807-03748/Oord/2018"
+tags: ["DeepMind"]
 ---
