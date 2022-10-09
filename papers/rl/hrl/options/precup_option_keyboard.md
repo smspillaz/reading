@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/conf/nips/BarretoBHCAHTHM19"
 authors: ["Andr\u00e9 Barreto", "Diana Borsa", "Shaobo Hou", "Gheorghe Comanici", "Eser Ayg\u00fcn", "Philippe Hamel", "Daniel Toyama", "Jonathan J. Hunt", "Shibl Mourad", "David Silver", "Doina Precup"]
 sync_version: 3
 cite_key: "conf/nips/BarretoBHCAHTHM19"
+tags: ["DeepMind"]
 ---
 # The Option Keyboard: Combining Skills in Reinforcement Learning
 
