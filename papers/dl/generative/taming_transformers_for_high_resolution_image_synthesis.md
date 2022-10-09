@@ -12,4 +12,5 @@ url: "https://dblp.org/rec/conf/cvpr/EsserRO21"
 authors: ["Patrick Esser", "Robin Rombach", "Bj\u00f6rn Ommer"]
 sync_version: 3
 cite_key: "conf/cvpr/EsserRO21"
+tags: ["DeepMind"]
 ---
