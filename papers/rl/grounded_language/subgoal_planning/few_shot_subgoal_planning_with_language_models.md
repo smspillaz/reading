@@ -1,16 +1,16 @@
 ---
-title: Few-shot Subgoal Planning with Language Models.
-venue: NAACL-HLT
-pages: 5493-5506
+title: "Few-shot Subgoal Planning with Language Models."
+venue: "NAACL-HLT"
+pages: "5493-5506"
 year: 2022
-type: Conference and Workshop Papers
-access: open
-key: conf/naacl/LogeswaranFLL22
-ee: https://aclanthology.org/2022.naacl-main.402
-url: https://dblp.org/rec/conf/naacl/LogeswaranFLL22
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/naacl/LogeswaranFLL22"
+ee: "https://aclanthology.org/2022.naacl-main.402"
+url: "https://dblp.org/rec/conf/naacl/LogeswaranFLL22"
 authors: ["Lajanugen Logeswaran", "Yao Fu", "Moontae Lee", "Honglak Lee"]
 sync_version: 3
-cite_key: conf/naacl/LogeswaranFLL22
+cite_key: "conf/naacl/LogeswaranFLL22"
 ---
 
 Given a text instruction, language priors allow you to infer subgoal sequences. You don't need subgoal supervision - the language model can generate it for you.
