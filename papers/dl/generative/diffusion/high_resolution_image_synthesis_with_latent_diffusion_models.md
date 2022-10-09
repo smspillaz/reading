@@ -1,16 +1,16 @@
 ---
-title: High-Resolution Image Synthesis with Latent Diffusion Models.
-venue: CoRR
-volume: abs/2112.10752
+title: "High-Resolution Image Synthesis with Latent Diffusion Models."
+venue: "CoRR"
+volume: "abs/2112.10752"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2112-10752
-ee: https://arxiv.org/abs/2112.10752
-url: https://dblp.org/rec/journals/corr/abs-2112-10752
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2112-10752"
+ee: "https://arxiv.org/abs/2112.10752"
+url: "https://dblp.org/rec/journals/corr/abs-2112-10752"
 authors: ["Robin Rombach", "Andreas Blattmann", "Dominik Lorenz", "Patrick Esser", "Bj\u00f6rn Ommer"]
 sync_version: 3
-cite_key: journals/corr/abs-2112-10752/Rombach/2021
+cite_key: "journals/corr/abs-2112-10752/Rombach/2021"
 ---
 
 Main idea: Do the diffusion in the latent space as opposed to the image space.
@@ -75,6 +75,3 @@ They also do image synthesis based on semantic layouts. Semantic synthesis is ba
 ### Inpainting
 
 You can improve performance by at least 2.7x on pixel and latent based diffusion methods.
-
-
-
