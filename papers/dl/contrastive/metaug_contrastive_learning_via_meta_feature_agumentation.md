@@ -1,16 +1,16 @@
 ---
-title: MetAug: Contrastive Learning via Meta Feature Augmentation.
-venue: ICML
-pages: 12964-12978
+title: "MetAug: Contrastive Learning via Meta Feature Augmentation."
+venue: "ICML"
+pages: "12964-12978"
 year: 2022
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/LiQZ0X22
-ee: https://proceedings.mlr.press/v162/li22r.html
-url: https://dblp.org/rec/conf/icml/LiQZ0X22
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/LiQZ0X22"
+ee: "https://proceedings.mlr.press/v162/li22r.html"
+url: "https://dblp.org/rec/conf/icml/LiQZ0X22"
 authors: ["Jiangmeng Li", "Wenwen Qiang", "Changwen Zheng", "Bing Su", "Hui Xiong"]
 sync_version: 3
-cite_key: conf/icml/LiQZ0X22
+cite_key: "conf/icml/LiQZ0X22"
 ---
 
 Contrastive Learning relies on "informative" features or "hard" features.
