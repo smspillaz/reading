@@ -1,16 +1,16 @@
 ---
-title: Local plasticity rules can learn deep representations using self-supervised contrastive predictions.
-venue: NeurIPS
-pages: 30365-30379
+title: "Local plasticity rules can learn deep representations using self-supervised contrastive predictions."
+venue: "NeurIPS"
+pages: "30365-30379"
 year: 2021
-type: Conference and Workshop Papers
-access: closed
-key: conf/nips/IllingVBG21
-ee: https://proceedings.neurips.cc/paper/2021/hash/feade1d2047977cd0cefdafc40175a99-Abstract.html
-url: https://dblp.org/rec/conf/nips/IllingVBG21
+type: "Conference and Workshop Papers"
+access: "closed"
+key: "conf/nips/IllingVBG21"
+ee: "https://proceedings.neurips.cc/paper/2021/hash/feade1d2047977cd0cefdafc40175a99-Abstract.html"
+url: "https://dblp.org/rec/conf/nips/IllingVBG21"
 authors: ["Bernd Illing", "Jean Ventura", "Guillaume Bellec", "Wulfram Gerstner"]
 sync_version: 3
-cite_key: conf/nips/IllingVBG21
+cite_key: "conf/nips/IllingVBG21"
 ---
 
 This paper proposes a learning rule that takes inspiration from neuroscience and recent advances in self-supervision.
