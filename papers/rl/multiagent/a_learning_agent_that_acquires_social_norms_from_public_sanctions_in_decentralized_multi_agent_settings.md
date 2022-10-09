@@ -1,5 +1,6 @@
 ---
 title: "A learning agent that acquires social norms from public actions in decentrlalized multi-agent settings"
+tags: ["DeepMind"]
 ---
 
 Society is characterised by social norms. Introduce a training regime for multi-agent settings where all agents access "sanctioning" events but learning is otherwise decentralized.
