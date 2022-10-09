@@ -10,6 +10,7 @@ url: "https://dblp.org/rec/conf/iclr/HafnerLB020"
 authors: ["Danijar Hafner", "Timothy P. Lillicrap", "Jimmy Ba", "Mohammad Norouzi"]
 sync_version: 3
 cite_key: "conf/iclr/HafnerLB020"
+tags: ["DeepMind"]
 ---
 # Dream to control: Learning behaviours by latent imagination
 
