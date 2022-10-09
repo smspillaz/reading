@@ -16,7 +16,9 @@ def filter_content(bibtex_entry, frontmatter):
     return "\n".join(lines)
 
 
-def download_bibentry_from_file(filename, dry_run=False, redownload=False, rewrite=False):
+def download_bibentry_from_file(
+    filename, dry_run=False, redownload=False, rewrite=False
+):
     frontmatter = parse_frontmatter(filename)
 
     if not "cite_key" in frontmatter:
