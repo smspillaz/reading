@@ -1,16 +1,16 @@
 ---
-title: Graph neural induction of value iteration.
-venue: CoRR
-volume: abs/2009.12604
+title: "Graph neural induction of value iteration."
+venue: "CoRR"
+volume: "abs/2009.12604"
 year: 2020
-type: Informal Publications
-access: open
-key: journals/corr/abs-2009-12604
-ee: https://arxiv.org/abs/2009.12604
-url: https://dblp.org/rec/journals/corr/abs-2009-12604
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2009-12604"
+ee: "https://arxiv.org/abs/2009.12604"
+url: "https://dblp.org/rec/journals/corr/abs-2009-12604"
 authors: ["Andreea Deac", "Pierre-Luc Bacon", "Jian Tang"]
 sync_version: 3
-cite_key: journals/corr/abs-2009-12604/Deac/2020
+cite_key: "journals/corr/abs-2009-12604/Deac/2020"
 ---
 
 Motivation: GVIN generalizes VIN to graphs ([[gvin_life_beyond_lattices]]) but doesn ot account ofr the correspondences between value iteration and the graph convolution operator, making use of graph kernels instead.
