@@ -12,4 +12,5 @@ url: "https://dblp.org/rec/journals/corr/abs-2206-04114"
 authors: ["Danijar Hafner", "Kuang-Huei Lee", "Ian Fischer", "Pieter Abbeel"]
 sync_version: 3
 cite_key: "journals/corr/abs-2206-04114/Hafner/2022"
+tags: ["DeepMind"]
 ---
