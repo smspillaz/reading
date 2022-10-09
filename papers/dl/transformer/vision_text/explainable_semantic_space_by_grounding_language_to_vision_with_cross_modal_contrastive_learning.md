@@ -1,16 +1,16 @@
 ---
-title: Explainable Semantic Space by Grounding Language to Vision with Cross-Modal Contrastive Learning.
-venue: CoRR
-volume: abs/2111.07180
+title: "Explainable Semantic Space by Grounding Language to Vision with Cross-Modal Contrastive Learning."
+venue: "CoRR"
+volume: "abs/2111.07180"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2111-07180
-ee: https://arxiv.org/abs/2111.07180
-url: https://dblp.org/rec/journals/corr/abs-2111-07180
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2111-07180"
+ee: "https://arxiv.org/abs/2111.07180"
+url: "https://dblp.org/rec/journals/corr/abs-2111-07180"
 authors: ["Yizhen Zhang", "Minkyu Choi", "Kuan Han", "Zhongming Liu"]
 sync_version: 3
-cite_key: journals/corr/abs-2111-07180/Zhang/2021
+cite_key: "journals/corr/abs-2111-07180/Zhang/2021"
 ---
 
 Designs a two-stream model for grounding language learning in vision.
@@ -72,4 +72,3 @@ Then we can also use contrastive learning here - take the cross-entropy loss bet
 2. Clustering of word representations. Calculate the silhouette coefficient to measure clustering strength of visually grounded words.
 3. Visually informed compositional reasoning
 4. Multimodal image search
-
