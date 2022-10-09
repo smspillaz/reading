@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/corl/YuQHJHFL19"
 authors: ["Tianhe Yu", "Deirdre Quillen", "Zhanpeng He", "Ryan Julian", "Karol Hausman", "Chelsea Finn", "Sergey Levine"]
 sync_version: 3
 cite_key: "conf/corl/YuQHJHFL19"
+tags: ["DeepMind"]
 ---
