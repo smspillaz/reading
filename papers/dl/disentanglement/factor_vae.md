@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/conf/icml/KimM18"
 authors: ["Hyunjik Kim", "Andriy Mnih"]
 sync_version: 3
 cite_key: "conf/icml/KimM18"
+tags: ["DeepMind"]
 ---
 This paper aims to improve upon $\beta$-VAE by encouraging the distribution of representations to be factorial and hence independent.
 
