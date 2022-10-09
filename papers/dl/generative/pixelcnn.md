@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/nips/OordKEKVG16"
 authors: ["A\u00e4ron van den Oord", "Nal Kalchbrenner", "Lasse Espeholt", "Koray Kavukcuoglu", "Oriol Vinyals", "Alex Graves"]
 sync_version: 3
 cite_key: "conf/nips/OordKEKVG16"
+tags: ["DeepMind"]
 ---
