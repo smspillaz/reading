@@ -1,17 +1,17 @@
 ---
-title: Do As I Can, Not As I Say - Grounding Language in Robotic Affordances.
-venue: CoRR
-volume: abs/2204.01691
+title: "Do As I Can, Not As I Say - Grounding Language in Robotic Affordances."
+venue: "CoRR"
+volume: "abs/2204.01691"
 year: 2022
-type: Informal Publications
-access: open
-key: journals/corr/abs-2204-01691
-doi: 10.48550/ARXIV.2204.01691
-ee: https://doi.org/10.48550/arXiv.2204.01691
-url: https://dblp.org/rec/journals/corr/abs-2204-01691
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2204-01691"
+doi: "10.48550/ARXIV.2204.01691"
+ee: "https://doi.org/10.48550/arXiv.2204.01691"
+url: "https://dblp.org/rec/journals/corr/abs-2204-01691"
 authors: ["Michael Ahn", "Anthony Brohan", "Noah Brown", "Yevgen Chebotar", "Omar Cortes", "Byron David", "Chelsea Finn", "Keerthana Gopalakrishnan", "Karol Hausman", "Alexander Herzog", "Daniel Ho", "Jasmine Hsu", "Julian Ibarz", "Brian Ichter", "Alex Irpan", "Eric Jang", "Rosario Jauregui Ruano", "Kyle Jeffrey", "Sally Jesmonth", "Nikhil J. Joshi", "Ryan Julian", "Dmitry Kalashnikov", "Yuheng Kuang", "Kuang-Huei Lee", "Sergey Levine", "Yao Lu", "Linda Luu", "Carolina Parada", "Peter Pastor", "Jornell Quiambao", "Kanishka Rao", "Jarek Rettinghouse", "Diego Reyes", "Pierre Sermanet", "Nicolas Sievers", "Clayton Tan", "Alexander Toshev", "Vincent Vanhoucke", "Fei Xia", "Ted Xiao", "Peng Xu", "Sichun Xu", "Mengyuan Yan"]
 sync_version: 3
-cite_key: journals/corr/abs-2204-01691/Ahn/2022
+cite_key: "journals/corr/abs-2204-01691/Ahn/2022"
 ---
 
 Large language models have lots of embedded knowledge. We could use that embedded knowledge to do planning or just to interpret instructions. However LMs and robots are grounded in different ways.
