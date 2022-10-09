@@ -1,15 +1,15 @@
 ---
-title: Learning to Reach Goals via Iterated Supervised Learning.
-venue: ICLR
+title: "Learning to Reach Goals via Iterated Supervised Learning."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/Ghosh0RFDEL21
-ee: https://openreview.net/forum?id=rALA0Xo6yNJ
-url: https://dblp.org/rec/conf/iclr/Ghosh0RFDEL21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/Ghosh0RFDEL21"
+ee: "https://openreview.net/forum?id=rALA0Xo6yNJ"
+url: "https://dblp.org/rec/conf/iclr/Ghosh0RFDEL21"
 authors: ["Dibya Ghosh", "Abhishek Gupta", "Ashwin Reddy", "Justin Fu", "Coline Manon Devin", "Benjamin Eysenbach", "Sergey Levine"]
 sync_version: 3
-cite_key: conf/iclr/Ghosh0RFDEL21
+cite_key: "conf/iclr/Ghosh0RFDEL21"
 ---
 # Learning to reach goals via iterated supervised learning
 
