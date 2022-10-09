@@ -1,16 +1,16 @@
 ---
-title: Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning.
-venue: ICML
-pages: 2661-2670
+title: "Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning."
+venue: "ICML"
+pages: "2661-2670"
 year: 2017
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/OhSLK17
-ee: http://proceedings.mlr.press/v70/oh17a.html
-url: https://dblp.org/rec/conf/icml/OhSLK17
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/OhSLK17"
+ee: "http://proceedings.mlr.press/v70/oh17a.html"
+url: "https://dblp.org/rec/conf/icml/OhSLK17"
 authors: ["Junhyuk Oh", "Satinder P. Singh", "Honglak Lee", "Pushmeet Kohli"]
 sync_version: 3
-cite_key: conf/icml/OhSLK17
+cite_key: "conf/icml/OhSLK17"
 ---
 
 Considers two types of generalization:
