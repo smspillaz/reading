@@ -1,16 +1,16 @@
 ---
-title: Fast and Slow Learning of Recurrent Independent Mechanisms.
-venue: CoRR
-volume: abs/2105.08710
+title: "Fast and Slow Learning of Recurrent Independent Mechanisms."
+venue: "CoRR"
+volume: "abs/2105.08710"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2105-08710
-ee: https://arxiv.org/abs/2105.08710
-url: https://dblp.org/rec/journals/corr/abs-2105-08710
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2105-08710"
+ee: "https://arxiv.org/abs/2105.08710"
+url: "https://dblp.org/rec/journals/corr/abs-2105-08710"
 authors: ["Kanika Madan", "Nan Rosemary Ke", "Anirudh Goyal", "Bernhard Sch\u00f6lkopf", "Yoshua Bengio"]
 sync_version: 3
-cite_key: journals/corr/abs-2105-08710/Madan/2021
+cite_key: "journals/corr/abs-2105-08710/Madan/2021"
 ---
 
 A learning agent interacting with its environment is likely to be faced with situations requiring novel combinations of existing pieces of knowledge.
