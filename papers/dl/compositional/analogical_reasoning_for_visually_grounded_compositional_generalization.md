@@ -1,3 +1,3 @@
 ---
-title: Analogical Reasoning for Visually Grounded Compositional Generation
+title: "Analogical Reasoning for Visually Grounded Compositional Generation"
 ---
