@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/nips/BeckhamHVLGHBP19"
 authors: ["Christopher Beckham", "Sina Honari", "Vikas Verma", "Alex Lamb", "Farnoosh Ghadiri", "R. Devon Hjelm", "Yoshua Bengio", "Chris Pal"]
 sync_version: 3
 cite_key: "conf/nips/BeckhamHVLGHBP19"
+tags: ["DeepMind"]
 ---
