@@ -1,16 +1,16 @@
 ---
-title: Challenges of Acquiring Compositional Inductive Biases via Meta-Learning.
-venue: MetaDL@AAAI
-pages: 138-148
+title: "Challenges of Acquiring Compositional Inductive Biases via Meta-Learning."
+venue: "MetaDL@AAAI"
+pages: "138-148"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/aaai/MitchellFM21
-ee: https://proceedings.mlr.press/v140/mitchell21a.html
-url: https://dblp.org/rec/conf/aaai/MitchellFM21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/aaai/MitchellFM21"
+ee: "https://proceedings.mlr.press/v140/mitchell21a.html"
+url: "https://dblp.org/rec/conf/aaai/MitchellFM21"
 authors: ["Eric Mitchell", "Chelsea Finn", "Christopher D. Manning"]
 sync_version: 3
-cite_key: conf/aaai/MitchellFM21
+cite_key: "conf/aaai/MitchellFM21"
 ---
 
 
