@@ -10,6 +10,7 @@ url: "https://dblp.org/rec/conf/iclr/XieBHGS21"
 authors: ["Kevin Xie", "Homanga Bharadhwaj", "Danijar Hafner", "Animesh Garg", "Florian Shkurti"]
 sync_version: 3
 cite_key: "conf/iclr/XieBHGS21"
+tags: ["DeepMind"]
 ---
 # Latent Skill Planning for Exploration and Transfer
 
