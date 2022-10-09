@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/journals/corr/abs-2108-13264"
 authors: ["Rishabh Agarwal", "Max Schwarzer", "Pablo Samuel Castro", "Aaron C. Courville", "Marc G. Bellemare"]
 sync_version: 3
 cite_key: "journals/corr/abs-2108-13264/Agarwal/2021"
+tags: ["DeepMind"]
 ---
 
 # Deep Reinforcement Learning at the Edge of the Statistical Precipice
