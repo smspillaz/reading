@@ -1,16 +1,16 @@
 ---
-title: On the Learning of Non-Autoregressive Transformers.
-venue: ICML
-pages: 9356-9376
+title: "On the Learning of Non-Autoregressive Transformers."
+venue: "ICML"
+pages: "9356-9376"
 year: 2022
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/HuangTZLH22
-ee: https://proceedings.mlr.press/v162/huang22k.html
-url: https://dblp.org/rec/conf/icml/HuangTZLH22
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/HuangTZLH22"
+ee: "https://proceedings.mlr.press/v162/huang22k.html"
+url: "https://dblp.org/rec/conf/icml/HuangTZLH22"
 authors: ["Fei Huang", "Tianhua Tao", "Hao Zhou", "Lei Li", "Minlie Huang"]
 sync_version: 3
-cite_key: conf/icml/HuangTZLH22
+cite_key: "conf/icml/HuangTZLH22"
 ---
 
 A non-autoregressive transformer (NAT) tries to predict the whole target sequence all at once in parallel. Having these is nice because then you don't have to run the decoder many times (which is slow in terms of latency).
@@ -39,12 +39,12 @@ $$
 \mathcal{D}_{KL}[P_{\text{data}}(Y|X)||P_{\theta}(Y|X)] = -H_{\text{data}}(Y|X) - \mathbb{E}_{P_{\text{data}}(Y|X)} [\sum \log P_{\theta}(y_i|X)]
 $$
 $$
--H_{\text{data}}(Y|X) - \sum 
+-H_{\text{data}}(Y|X) - \sum
  \mathbb{E}_{P_{\text{data}}(Y|X)} [\log P_{\theta}(y_i|X)]
 $$
 
 $$
-\ge -H_{\text{data}}(Y|X) + \sum 
+\ge -H_{\text{data}}(Y|X) + \sum
  H_{\text{data}}(y_i|X)
 $$
 (by Gibbs inequality)
