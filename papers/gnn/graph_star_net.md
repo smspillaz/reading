@@ -1,16 +1,16 @@
 ---
-title: Graph Star Net for Generalized Multi-Task Learning.
-venue: CoRR
-volume: abs/1906.12330
+title: "Graph Star Net for Generalized Multi-Task Learning."
+venue: "CoRR"
+volume: "abs/1906.12330"
 year: 2019
-type: Informal Publications
-access: open
-key: journals/corr/abs-1906-12330
-ee: http://arxiv.org/abs/1906.12330
-url: https://dblp.org/rec/journals/corr/abs-1906-12330
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-1906-12330"
+ee: "http://arxiv.org/abs/1906.12330"
+url: "https://dblp.org/rec/journals/corr/abs-1906-12330"
 authors: ["Haonan Lu", "Seth H. Huang", "Tian Ye", "Xiuyan Guo"]
 sync_version: 3
-cite_key: journals/corr/abs-1906-12330/Lu/2019
+cite_key: "journals/corr/abs-1906-12330/Lu/2019"
 ---
 # GraphStar
 
