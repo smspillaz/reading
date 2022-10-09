@@ -1,16 +1,16 @@
 ---
-title: KAT: A Knowledge Augmented Transformer for Vision-and-Language.
-venue: NAACL-HLT
-pages: 956-968
+title: "KAT: A Knowledge Augmented Transformer for Vision-and-Language."
+venue: "NAACL-HLT"
+pages: "956-968"
 year: 2022
-type: Conference and Workshop Papers
-access: open
-key: conf/naacl/GuiWH0BG22
-ee: https://aclanthology.org/2022.naacl-main.70
-url: https://dblp.org/rec/conf/naacl/GuiWH0BG22
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/naacl/GuiWH0BG22"
+ee: "https://aclanthology.org/2022.naacl-main.70"
+url: "https://dblp.org/rec/conf/naacl/GuiWH0BG22"
 authors: ["Liangke Gui", "Borui Wang", "Qiuyuan Huang", "Alexander Hauptmann", "Yonatan Bisk", "Jianfeng Gao"]
 sync_version: 3
-cite_key: conf/naacl/GuiWH0BG22
+cite_key: "conf/naacl/GuiWH0BG22"
 ---
 Proposes a method to leverage explicit knowledgebases in a transformer.
 
