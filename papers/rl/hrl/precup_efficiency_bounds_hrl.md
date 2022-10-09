@@ -10,4 +10,5 @@ url: "https://dblp.org/rec/conf/nips/WenPIBRS20"
 authors: ["Zheng Wen", "Doina Precup", "Morteza Ibrahimi", "Andr\u00e9 Barreto", "Benjamin Van Roy", "Satinder Singh"]
 sync_version: 3
 cite_key: "conf/nips/WenPIBRS20"
+tags: ["DeepMind"]
 ---
