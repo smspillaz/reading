@@ -1,3 +1,3 @@
 ---
-title: Hitchhikers guide to AI Ethics.
+title: "Hitchhikers guide to AI Ethics."
 ---
