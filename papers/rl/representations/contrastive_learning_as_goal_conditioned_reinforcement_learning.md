@@ -12,4 +12,5 @@ url: "https://dblp.org/rec/journals/corr/abs-2206-07568"
 authors: ["Benjamin Eysenbach", "Tianjun Zhang", "Ruslan Salakhutdinov", "Sergey Levine"]
 sync_version: 3
 cite_key: "journals/corr/abs-2206-07568/Eysenbach/2022"
+tags: ["DeepMind"]
 ---
