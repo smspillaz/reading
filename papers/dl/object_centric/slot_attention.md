@@ -10,6 +10,7 @@ url: "https://dblp.org/rec/conf/nips/LocatelloWUMHUD20"
 authors: ["Francesco Locatello", "Dirk Weissenborn", "Thomas Unterthiner", "Aravindh Mahendran", "Georg Heigold", "Jakob Uszkoreit", "Alexey Dosovitskiy", "Thomas Kipf"]
 sync_version: 3
 cite_key: "conf/nips/LocatelloWUMHUD20"
+tags: ["DeepMind"]
 ---
 # Object-Centric Learning with Slot Attention
 
