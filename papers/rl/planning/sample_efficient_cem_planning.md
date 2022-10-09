@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/corl/PinneriSBASRM20"
 authors: ["Cristina Pinneri", "Shambhuraj Sawant", "Sebastian Blaes", "Jan Achterhold", "Joerg Stueckler", "Michal Rol\u00ednek", "Georg Martius"]
 sync_version: 3
 cite_key: "conf/corl/PinneriSBASRM20"
+tags: ["DeepMind"]
 ---
