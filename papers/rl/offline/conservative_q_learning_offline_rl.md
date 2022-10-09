@@ -1,15 +1,15 @@
 ---
-title: Conservative Q-Learning for Offline Reinforcement Learning.
-venue: NeurIPS
+title: "Conservative Q-Learning for Offline Reinforcement Learning."
+venue: "NeurIPS"
 year: 2020
-type: Conference and Workshop Papers
-access: open
-key: conf/nips/KumarZTL20
-ee: https://proceedings.neurips.cc/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html
-url: https://dblp.org/rec/conf/nips/KumarZTL20
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/nips/KumarZTL20"
+ee: "https://proceedings.neurips.cc/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html"
+url: "https://dblp.org/rec/conf/nips/KumarZTL20"
 authors: ["Aviral Kumar", "Aurick Zhou", "George Tucker", "Sergey Levine"]
 sync_version: 3
-cite_key: conf/nips/KumarZTL20
+cite_key: "conf/nips/KumarZTL20"
 ---
 "Conservative off-policy evaluation" is given by:
 
