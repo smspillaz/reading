@@ -1,16 +1,16 @@
 ---
-title: Word2Pix - Word to Pixel Cross Attention Transformer in Visual Grounding.
-venue: CoRR
-volume: abs/2108.00205
+title: "Word2Pix - Word to Pixel Cross Attention Transformer in Visual Grounding."
+venue: "CoRR"
+volume: "abs/2108.00205"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2108-00205
-ee: https://arxiv.org/abs/2108.00205
-url: https://dblp.org/rec/journals/corr/abs-2108-00205
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2108-00205"
+ee: "https://arxiv.org/abs/2108.00205"
+url: "https://dblp.org/rec/journals/corr/abs-2108-00205"
 authors: ["Heng Zhao", "Joey Tianyi Zhou", "Yew-Soon Ong"]
 sync_version: 3
-cite_key: journals/corr/abs-2108-00205/Zhao/2021
+cite_key: "journals/corr/abs-2108-00205/Zhao/2021"
 ---
 
 ![[word2pix_architecture.png]]
