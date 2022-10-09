@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/conf/icml/ZhengOHXKHSS20"
 authors: ["Zeyu Zheng", "Junhyuk Oh", "Matteo Hessel", "Zhongwen Xu", "Manuel Kroiss", "Hado van Hasselt", "David Silver", "Satinder Singh"]
 sync_version: 3
 cite_key: "conf/icml/ZhengOHXKHSS20"
+tags: ["DeepMind"]
 ---
 # What can learned intrinsic rewards capture?
 
