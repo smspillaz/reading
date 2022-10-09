@@ -1,15 +1,15 @@
 ---
-title: Interpreting Graph Neural Networks for NLP With Differentiable Edge Masking.
-venue: ICLR
+title: "Interpreting Graph Neural Networks for NLP With Differentiable Edge Masking."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/SchlichtkrullCT21
-ee: https://openreview.net/forum?id=WznmQa42ZAx
-url: https://dblp.org/rec/conf/iclr/SchlichtkrullCT21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/SchlichtkrullCT21"
+ee: "https://openreview.net/forum?id=WznmQa42ZAx"
+url: "https://dblp.org/rec/conf/iclr/SchlichtkrullCT21"
 authors: ["Michael Sejr Schlichtkrull", "Nicola De Cao", "Ivan Titov"]
 sync_version: 3
-cite_key: conf/iclr/SchlichtkrullCT21
+cite_key: "conf/iclr/SchlichtkrullCT21"
 ---
 # Interpreting Graph Neural Networks for NLP with Differentiable Edge Masking
 
