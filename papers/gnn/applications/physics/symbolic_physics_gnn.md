@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/journals/corr/abs-1909-05862"
 authors: ["Miles D. Cranmer", "Rui Xu", "Peter W. Battaglia", "Shirley Ho"]
 sync_version: 3
 cite_key: "journals/corr/abs-1909-05862/Cranmer/2019"
+tags: ["DeepMind"]
 ---
