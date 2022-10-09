@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/nips/HarutyunyanDMAP19"
 authors: ["Anna Harutyunyan", "Will Dabney", "Thomas Mesnard", "Mohammad Gheshlaghi Azar", "Bilal Piot", "Nicolas Heess", "Hado van Hasselt", "Gregory Wayne", "Satinder Singh", "Doina Precup", "R\u00e9mi Munos"]
 sync_version: 3
 cite_key: "conf/nips/HarutyunyanDMAP19"
+tags: ["DeepMind"]
 ---
