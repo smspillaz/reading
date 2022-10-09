@@ -1,16 +1,16 @@
 ---
-title: Improving Transformers with Probabilistic Attention Keys.
-venue: ICML
-pages: 16595-16621
+title: "Improving Transformers with Probabilistic Attention Keys."
+venue: "ICML"
+pages: "16595-16621"
 year: 2022
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/NguyenNLNTBHO22
-ee: https://proceedings.mlr.press/v162/nguyen22c.html
-url: https://dblp.org/rec/conf/icml/NguyenNLNTBHO22
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/NguyenNLNTBHO22"
+ee: "https://proceedings.mlr.press/v162/nguyen22c.html"
+url: "https://dblp.org/rec/conf/icml/NguyenNLNTBHO22"
 authors: ["Tam Minh Nguyen", "Tan Minh Nguyen", "Dung D. D. Le", "Duy Khuong Nguyen", "Viet-Anh Tran", "Richard G. Baraniuk", "Nhat Ho", "Stanley J. Osher"]
 sync_version: 3
-cite_key: conf/icml/NguyenNLNTBHO22
+cite_key: "conf/icml/NguyenNLNTBHO22"
 ---
 
 For many applications, attention heads learn redundant embeddings and most of them can be removed without degrading most of the performance of the model.
@@ -82,4 +82,3 @@ P(t_j = 1|q_i) = \frac{\max_r \exp {||q_i -  k_{jr}||^2/2\sigma^2_{jr}}}{\sum_{j
 $$
 
 Then instead of an $M$ step, you just learn via gradient descent via the $E$ step, eg, just learn $q_i$ and $k_{jr}$.
-
