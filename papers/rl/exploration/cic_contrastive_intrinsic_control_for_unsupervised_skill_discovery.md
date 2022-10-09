@@ -1,16 +1,16 @@
 ---
-title: CIC - Contrastive Intrinsic Control for Unsupervised Skill Discovery.
-venue: CoRR
-volume: abs/2202.00161
+title: "CIC - Contrastive Intrinsic Control for Unsupervised Skill Discovery."
+venue: "CoRR"
+volume: "abs/2202.00161"
 year: 2022
-type: Informal Publications
-access: open
-key: journals/corr/abs-2202-00161
-ee: https://arxiv.org/abs/2202.00161
-url: https://dblp.org/rec/journals/corr/abs-2202-00161
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2202-00161"
+ee: "https://arxiv.org/abs/2202.00161"
+url: "https://dblp.org/rec/journals/corr/abs-2202-00161"
 authors: ["Michael Laskin", "Hao Liu", "Xue Bin Peng", "Denis Yarats", "Aravind Rajeswaran", "Pieter Abbeel"]
 sync_version: 3
-cite_key: journals/corr/abs-2202-00161/Laskin/2022
+cite_key: "journals/corr/abs-2202-00161/Laskin/2022"
 ---
 
 The basic issue they were trying ot solve is how to perform unsupervised skill discovery from unlabelled data.
