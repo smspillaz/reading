@@ -1,3 +1,3 @@
 ---
-title: Analyzing Compositionality of Visual Question Answering
+title: "Analyzing Compositionality of Visual Question Answering"
 ---
