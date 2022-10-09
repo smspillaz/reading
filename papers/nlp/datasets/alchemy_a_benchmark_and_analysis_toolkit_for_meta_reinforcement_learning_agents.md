@@ -10,4 +10,5 @@ url: "https://dblp.org/rec/conf/nips/0001KPKZDCCRSBR21"
 authors: ["Jane Wang", "Michael King", "Nicolas Porcel", "Zeb Kurth-Nelson", "Tina Zhu", "Charles Deck", "Peter Choy", "Mary Cassin", "Malcolm Reynolds", "H. Francis Song", "Gavin Buttimore", "David P. Reichert", "Neil C. Rabinowitz", "Loic Matthey", "Demis Hassabis", "Alexander Lerchner", "Matt M. Botvinick"]
 sync_version: 3
 cite_key: "conf/nips/0001KPKZDCCRSBR21"
+tags: ["DeepMind"]
 ---
