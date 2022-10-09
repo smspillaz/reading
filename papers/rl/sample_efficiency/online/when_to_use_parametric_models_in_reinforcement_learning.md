@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/nips/HasseltHA19"
 authors: ["Hado van Hasselt", "Matteo Hessel", "John Aslanides"]
 sync_version: 3
 cite_key: "conf/nips/HasseltHA19"
+tags: ["DeepMind"]
 ---
