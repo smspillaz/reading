@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/icml/OzairLRAOV21"
 authors: ["Sherjil Ozair", "Yazhe Li", "Ali Razavi", "Ioannis Antonoglou", "A\u00e4ron van den Oord", "Oriol Vinyals"]
 sync_version: 3
 cite_key: "conf/icml/OzairLRAOV21"
+tags: ["DeepMind"]
 ---
