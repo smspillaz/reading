@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/icml/LaskinSA20"
 authors: ["Michael Laskin", "Aravind Srinivas", "Pieter Abbeel"]
 sync_version: 3
 cite_key: "conf/icml/LaskinSA20"
+tags: ["DeepMind"]
 ---
