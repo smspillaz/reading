@@ -10,4 +10,5 @@ url: "https://dblp.org/rec/conf/iclr/HafnerL0B21"
 authors: ["Danijar Hafner", "Timothy P. Lillicrap", "Mohammad Norouzi", "Jimmy Ba"]
 sync_version: 3
 cite_key: "conf/iclr/HafnerL0B21"
+tags: ["DeepMind"]
 ---
