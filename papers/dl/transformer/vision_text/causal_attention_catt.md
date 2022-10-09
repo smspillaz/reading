@@ -1,16 +1,16 @@
 ---
-title: Causal Attention for Vision-Language Tasks.
-venue: CVPR
-pages: 9847-9857
+title: "Causal Attention for Vision-Language Tasks."
+venue: "CVPR"
+pages: "9847-9857"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/cvpr/YangZQ021
-ee: https://openaccess.thecvf.com/content/CVPR2021/html/Yang_Causal_Attention_for_Vision-Language_Tasks_CVPR_2021_paper.html
-url: https://dblp.org/rec/conf/cvpr/YangZQ021
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/cvpr/YangZQ021"
+ee: "https://openaccess.thecvf.com/content/CVPR2021/html/Yang_Causal_Attention_for_Vision-Language_Tasks_CVPR_2021_paper.html"
+url: "https://dblp.org/rec/conf/cvpr/YangZQ021"
 authors: ["Xu Yang", "Hanwang Zhang", "Guojun Qi", "Jianfei Cai"]
 sync_version: 3
-cite_key: conf/cvpr/YangZQ021
+cite_key: "conf/cvpr/YangZQ021"
 ---
 
 Proposes a novel attention mechanism, Causal Attention (CATT) to remove confounding effect in existing attention-based vision-language models, which causes attention to focus on spurious correlations in the training data.
@@ -97,4 +97,3 @@ $V_C$ comes from the global dictionaries compressed from the whole training set 
 The inputs of the encoder include the embedding set of the current image and global image embedding dictionary. There's an image encoder and a language decoder.
 
 ![[catt_lxmert.png]]
-
