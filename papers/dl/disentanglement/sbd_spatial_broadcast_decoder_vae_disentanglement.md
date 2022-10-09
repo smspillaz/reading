@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/journals/corr/abs-1901-07017"
 authors: ["Nicholas Watters", "Lo\u00efc Matthey", "Christopher P. Burgess", "Alexander Lerchner"]
 sync_version: 3
 cite_key: "journals/corr/abs-1901-07017/Watters/2019"
+tags: ["DeepMind"]
 ---
