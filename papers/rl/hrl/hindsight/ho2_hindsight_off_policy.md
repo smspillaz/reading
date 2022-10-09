@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/icml/WulfmeierRHLAHN21"
 authors: ["Markus Wulfmeier", "Dushyant Rao", "Roland Hafner", "Thomas Lampe", "Abbas Abdolmaleki", "Tim Hertweck", "Michael Neunert", "Dhruva Tirumala", "Noah Y. Siegel", "Nicolas Heess", "Martin A. Riedmiller"]
 sync_version: 3
 cite_key: "conf/icml/WulfmeierRHLAHN21"
+tags: ["DeepMind"]
 ---
