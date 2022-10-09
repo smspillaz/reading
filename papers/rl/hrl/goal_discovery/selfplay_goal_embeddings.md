@@ -1,16 +1,16 @@
 ---
-title: Learning Goal Embeddings via Self-Play for Hierarchical Reinforcement Learning.
-venue: CoRR
-volume: abs/1811.09083
+title: "Learning Goal Embeddings via Self-Play for Hierarchical Reinforcement Learning."
+venue: "CoRR"
+volume: "abs/1811.09083"
 year: 2018
-type: Informal Publications
-access: open
-key: journals/corr/abs-1811-09083
-ee: http://arxiv.org/abs/1811.09083
-url: https://dblp.org/rec/journals/corr/abs-1811-09083
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-1811-09083"
+ee: "http://arxiv.org/abs/1811.09083"
+url: "https://dblp.org/rec/journals/corr/abs-1811-09083"
 authors: ["Sainbayar Sukhbaatar", "Emily Denton", "Arthur Szlam", "Rob Fergus"]
 sync_version: 3
-cite_key: journals/corr/abs-1811-09083/Sukhbaatar/2018
+cite_key: "journals/corr/abs-1811-09083/Sukhbaatar/2018"
 ---
 # Learning Goal Embeddings via Self-Play for Hierarchical Reinforcement Learning
 
