@@ -1,16 +1,16 @@
 ---
-title: Disentangling by Factorising.
-venue: ICML
-pages: 2654-2663
+title: "Disentangling by Factorising."
+venue: "ICML"
+pages: "2654-2663"
 year: 2018
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/KimM18
-ee: http://proceedings.mlr.press/v80/kim18b.html
-url: https://dblp.org/rec/conf/icml/KimM18
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/KimM18"
+ee: "http://proceedings.mlr.press/v80/kim18b.html"
+url: "https://dblp.org/rec/conf/icml/KimM18"
 authors: ["Hyunjik Kim", "Andriy Mnih"]
 sync_version: 3
-cite_key: conf/icml/KimM18
+cite_key: "conf/icml/KimM18"
 ---
 This paper aims to improve upon $\beta$-VAE by encouraging the distribution of representations to be factorial and hence independent.
 
