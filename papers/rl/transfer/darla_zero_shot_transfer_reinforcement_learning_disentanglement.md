@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/icml/HigginsPRMBPBBL17"
 authors: ["Irina Higgins", "Arka Pal", "Andrei A. Rusu", "Lo\u00efc Matthey", "Christopher Burgess", "Alexander Pritzel", "Matthew Botvinick", "Charles Blundell", "Alexander Lerchner"]
 sync_version: 3
 cite_key: "conf/icml/HigginsPRMBPBBL17"
+tags: ["DeepMind"]
 ---
