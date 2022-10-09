@@ -1,3 +1,3 @@
 ---
-title: Compositional Models for Few-Shot Sequence Learning
+title: "Compositional Models for Few-Shot Sequence Learning"
 ---
