@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/nips/NairPDBLL18"
 authors: ["Ashvin Nair", "Vitchyr Pong", "Murtaza Dalal", "Shikhar Bahl", "Steven Lin", "Sergey Levine"]
 sync_version: 3
 cite_key: "conf/nips/NairPDBLL18"
+tags: ["DeepMind"]
 ---
