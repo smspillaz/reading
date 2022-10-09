@@ -10,6 +10,7 @@ url: "https://dblp.org/rec/journals/corr/LillicrapHPHETS15"
 authors: ["Timothy P. Lillicrap", "Jonathan J. Hunt", "Alexander Pritzel", "Nicolas Heess", "Tom Erez", "Yuval Tassa", "David Silver", "Daan Wierstra"]
 sync_version: 3
 cite_key: "journals/corr/LillicrapHPHETS15/Lillicrap/2016"
+tags: ["DeepMind"]
 ---
 # Continuous Control with Deep Reinforcement Learning: DDPG
 
