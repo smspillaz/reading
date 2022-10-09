@@ -10,5 +10,6 @@ url: "https://dblp.org/rec/conf/iclr/HillLSCBMS20"
 authors: ["Felix Hill", "Andrew K. Lampinen", "Rosalia Schneider", "Stephen Clark", "Matthew Botvinick", "James L. McClelland", "Adam Santoro"]
 sync_version: 3
 cite_key: "conf/iclr/HillLSCBMS20"
+tags: ["DeepMind"]
 ---
 ø
