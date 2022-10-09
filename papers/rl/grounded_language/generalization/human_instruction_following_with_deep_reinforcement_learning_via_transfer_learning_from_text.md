@@ -1,16 +1,16 @@
 ---
-title: Human Instruction-Following with Deep Reinforcement Learning via Transfer-Learning from Text.
-venue: CoRR
-volume: abs/2005.09382
+title: "Human Instruction-Following with Deep Reinforcement Learning via Transfer-Learning from Text."
+venue: "CoRR"
+volume: "abs/2005.09382"
 year: 2020
-type: Informal Publications
-access: open
-key: journals/corr/abs-2005-09382
-ee: https://arxiv.org/abs/2005.09382
-url: https://dblp.org/rec/journals/corr/abs-2005-09382
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2005-09382"
+ee: "https://arxiv.org/abs/2005.09382"
+url: "https://dblp.org/rec/journals/corr/abs-2005-09382"
 authors: ["Felix Hill", "Sona Mokra", "Nathaniel Wong", "Tim Harley"]
 sync_version: 3
-cite_key: journals/corr/abs-2005-09382/Hill/2020
+cite_key: "journals/corr/abs-2005-09382/Hill/2020"
 ---
 
 # Human Instruction-Following with Deep Reinforcement Learning via Transfer Learning from Text
