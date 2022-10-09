@@ -1,16 +1,16 @@
 ---
-title: Flowformer: Linearizing Transformers with Conservation Flows.
-venue: ICML
-pages: 24226-24242
+title: "Flowformer: Linearizing Transformers with Conservation Flows."
+venue: "ICML"
+pages: "24226-24242"
 year: 2022
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/WuWXWL22
-ee: https://proceedings.mlr.press/v162/wu22m.html
-url: https://dblp.org/rec/conf/icml/WuWXWL22
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/WuWXWL22"
+ee: "https://proceedings.mlr.press/v162/wu22m.html"
+url: "https://dblp.org/rec/conf/icml/WuWXWL22"
 authors: ["Haixu Wu", "Jialong Wu", "Jiehui Xu", "Jianmin Wang", "Mingsheng Long"]
 sync_version: 3
-cite_key: conf/icml/WuWXWL22
+cite_key: "conf/icml/WuWXWL22"
 ---
 
 Attention has quadtratic complexity, previous methods rely on similarity decomposition and associativity of matrix multiplication to deivse a linear time attention. The problem with decomposition is that you're not able to take the softmax anymore, so this can result in degenerate attention. The point of the softmax is to introduce competition amongst the tokens, eg, enforcing higher attenton only to essential tokens and avoiding near-uniform attention weights. But this is inherently a quadratic operaton.
