@@ -1,15 +1,15 @@
 ---
-title: On the Transfer of Disentangled Representations in Realistic Settings.
-venue: ICLR
+title: "On the Transfer of Disentangled Representations in Realistic Settings."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/DittadiTLWAWBS21
-ee: https://openreview.net/forum?id=8VXvj1QNRl1
-url: https://dblp.org/rec/conf/iclr/DittadiTLWAWBS21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/DittadiTLWAWBS21"
+ee: "https://openreview.net/forum?id=8VXvj1QNRl1"
+url: "https://dblp.org/rec/conf/iclr/DittadiTLWAWBS21"
 authors: ["Andrea Dittadi", "Frederik Tr\u00e4uble", "Francesco Locatello", "Manuel Wuthrich", "Vaibhav Agrawal", "Ole Winther", "Stefan Bauer", "Bernhard Sch\u00f6lkopf"]
 sync_version: 3
-cite_key: conf/iclr/DittadiTLWAWBS21
+cite_key: "conf/iclr/DittadiTLWAWBS21"
 ---
 # On the Transfer of Disentangled Representations in Realistic Settings
 
