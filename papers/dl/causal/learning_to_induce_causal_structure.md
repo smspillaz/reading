@@ -12,4 +12,5 @@ url: "https://dblp.org/rec/journals/corr/abs-2204-04875"
 authors: ["Nan Rosemary Ke", "Silvia Chiappa", "Jane Wang", "J\u00f6rg Bornschein", "Theophane Weber", "Anirudh Goyal", "Matthew M. Botvinick", "Michael Mozer", "Danilo Jimenez Rezende"]
 sync_version: 3
 cite_key: "journals/corr/abs-2204-04875/Ke/2022"
+tags: ["DeepMind"]
 ---
