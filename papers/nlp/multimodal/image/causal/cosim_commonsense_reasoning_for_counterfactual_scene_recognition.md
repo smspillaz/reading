@@ -1,3 +1,3 @@
 ---
-title: CoSIm: Commonsense Reasoning for Counterfactual Scene Recognition
+title: "CoSIm: Commonsense Reasoning for Counterfactual Scene Recognition"
 ---
