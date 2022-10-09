@@ -1,16 +1,16 @@
 ---
-title: Generating similes like a Pro - A Style Transfer Approach for Simile Generation.
-venue: CoRR
-volume: abs/2009.08942
+title: "Generating similes like a Pro - A Style Transfer Approach for Simile Generation."
+venue: "CoRR"
+volume: "abs/2009.08942"
 year: 2020
-type: Informal Publications
-access: open
-key: journals/corr/abs-2009-08942
-ee: https://arxiv.org/abs/2009.08942
-url: https://dblp.org/rec/journals/corr/abs-2009-08942
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2009-08942"
+ee: "https://arxiv.org/abs/2009.08942"
+url: "https://dblp.org/rec/journals/corr/abs-2009-08942"
 authors: ["Tuhin Chakrabarty", "Smaranda Muresan", "Nanyun Peng"]
 sync_version: 3
-cite_key: journals/corr/abs-2009-08942/Chakrabarty/2020
+cite_key: "journals/corr/abs-2009-08942/Chakrabarty/2020"
 ---
 Simles:
  - Topics
