@@ -1,3 +1,3 @@
 ---
-title: Distributionally Adaptive Meta Reinforcement Learning
+title: "Distributionally Adaptive Meta Reinforcement Learning"
 ---
