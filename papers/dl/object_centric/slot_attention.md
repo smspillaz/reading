@@ -1,15 +1,15 @@
 ---
-title: Object-Centric Learning with Slot Attention.
-venue: NeurIPS
+title: "Object-Centric Learning with Slot Attention."
+venue: "NeurIPS"
 year: 2020
-type: Conference and Workshop Papers
-access: open
-key: conf/nips/LocatelloWUMHUD20
-ee: https://proceedings.neurips.cc/paper/2020/hash/8511df98c02ab60aea1b2356c013bc0f-Abstract.html
-url: https://dblp.org/rec/conf/nips/LocatelloWUMHUD20
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/nips/LocatelloWUMHUD20"
+ee: "https://proceedings.neurips.cc/paper/2020/hash/8511df98c02ab60aea1b2356c013bc0f-Abstract.html"
+url: "https://dblp.org/rec/conf/nips/LocatelloWUMHUD20"
 authors: ["Francesco Locatello", "Dirk Weissenborn", "Thomas Unterthiner", "Aravindh Mahendran", "Georg Heigold", "Jakob Uszkoreit", "Alexey Dosovitskiy", "Thomas Kipf"]
 sync_version: 3
-cite_key: conf/nips/LocatelloWUMHUD20
+cite_key: "conf/nips/LocatelloWUMHUD20"
 ---
 # Object-Centric Learning with Slot Attention
 
