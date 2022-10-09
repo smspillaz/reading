@@ -1,3 +1,3 @@
 ---
-title: Situating Methods in the Magic of Big Data and Artificial Intelligence
+title: "Situating Methods in the Magic of Big Data and Artificial Intelligence"
 ---
