@@ -1,15 +1,15 @@
 ---
-title: VTNet: Visual Transformer Network for Object Goal Navigation.
-venue: ICLR
+title: "VTNet: Visual Transformer Network for Object Goal Navigation."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/DuY021
-ee: https://openreview.net/forum?id=DILxQP08O3B
-url: https://dblp.org/rec/conf/iclr/DuY021
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/DuY021"
+ee: "https://openreview.net/forum?id=DILxQP08O3B"
+url: "https://dblp.org/rec/conf/iclr/DuY021"
 authors: ["Heming Du", "Xin Yu", "Liang Zheng"]
 sync_version: 3
-cite_key: conf/iclr/DuY021
+cite_key: "conf/iclr/DuY021"
 ---
 # VTNet: Visual Transformer Network for Object-Goal Visual Navigation
 
