@@ -1,3 +1,3 @@
 ---
-title: Energy Transformer
+title: "Energy Transformer"
 ---
