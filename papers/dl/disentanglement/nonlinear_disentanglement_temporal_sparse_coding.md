@@ -1,15 +1,15 @@
 ---
-title: Towards Nonlinear Disentanglement in Natural Data with Temporal Sparse Coding.
-venue: ICLR
+title: "Towards Nonlinear Disentanglement in Natural Data with Temporal Sparse Coding."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/KlindtSSUBBP21
-ee: https://openreview.net/forum?id=EbIDjBynYJ8
-url: https://dblp.org/rec/conf/iclr/KlindtSSUBBP21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/KlindtSSUBBP21"
+ee: "https://openreview.net/forum?id=EbIDjBynYJ8"
+url: "https://dblp.org/rec/conf/iclr/KlindtSSUBBP21"
 authors: ["David A. Klindt", "Lukas Schott", "Yash Sharma", "Ivan Ustyuzhaninov", "Wieland Brendel", "Matthias Bethge", "Dylan M. Paiton"]
 sync_version: 3
-cite_key: conf/iclr/KlindtSSUBBP21
+cite_key: "conf/iclr/KlindtSSUBBP21"
 ---
 # Towards Nonlinear Disentanglement with Temporal Sparse Coding
 
