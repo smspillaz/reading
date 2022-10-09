@@ -10,6 +10,7 @@ url: "https://dblp.org/rec/conf/iclr/HamrickFBGVWABV21"
 authors: ["Jessica B. Hamrick", "Abram L. Friesen", "Feryal Behbahani", "Arthur Guez", "Fabio Viola", "Sims Witherspoon", "Thomas Anthony", "Lars Holger Buesing", "Petar Velickovic", "Theophane Weber"]
 sync_version: 3
 cite_key: "conf/iclr/HamrickFBGVWABV21"
+tags: ["DeepMind"]
 ---
 # On the Role of Planning in MBRL
 
