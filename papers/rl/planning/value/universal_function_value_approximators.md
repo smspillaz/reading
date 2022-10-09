@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/icml/SchaulHGS15"
 authors: ["Tom Schaul", "Daniel Horgan", "Karol Gregor", "David Silver"]
 sync_version: 3
 cite_key: "conf/icml/SchaulHGS15"
+tags: ["DeepMind"]
 ---
