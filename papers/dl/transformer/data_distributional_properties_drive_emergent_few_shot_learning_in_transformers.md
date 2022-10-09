@@ -1,3 +1,3 @@
 ---
-title: Data Distributional Properties Drive Emergent Few-Shot Learning in Transformers
+title: "Data Distributional Properties Drive Emergent Few-Shot Learning in Transformers"
 ---
