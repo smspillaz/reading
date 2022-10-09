@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/journals/corr/abs-1710-09867"
 authors: ["Felix Hill", "Karl Moritz Hermann", "Phil Blunsom", "Stephen Clark"]
 sync_version: 3
 cite_key: "journals/corr/abs-1710-09867/Hill/2017"
+tags: ["DeepMind"]
 ---
 # Understanding Grounded Language Learning Agents
 
