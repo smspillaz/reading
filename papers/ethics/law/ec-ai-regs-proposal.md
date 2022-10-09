@@ -1,3 +1,3 @@
 ---
-title: EC AI Act Proposal (2021)
+title: "EC AI Act Proposal (2021)"
 ---
