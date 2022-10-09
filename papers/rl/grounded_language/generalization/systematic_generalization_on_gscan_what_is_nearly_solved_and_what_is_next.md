@@ -1,17 +1,17 @@
 ---
-title: Systematic Generalization on gSCAN - What is Nearly Solved and What is Next?
-venue: EMNLP
-pages: 2180-2188
+title: "Systematic Generalization on gSCAN - What is Nearly Solved and What is Next?"
+venue: "EMNLP"
+pages: "2180-2188"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/emnlp/QiuH0SS21
-doi: 10.18653/V1/2021.EMNLP-MAIN.166
-ee: https://doi.org/10.18653/v1/2021.emnlp-main.166
-url: https://dblp.org/rec/conf/emnlp/QiuH0SS21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/emnlp/QiuH0SS21"
+doi: "10.18653/V1/2021.EMNLP-MAIN.166"
+ee: "https://doi.org/10.18653/v1/2021.emnlp-main.166"
+url: "https://dblp.org/rec/conf/emnlp/QiuH0SS21"
 authors: ["Linlu Qiu", "Hexiang Hu", "Bowen Zhang", "Peter Shaw", "Fei Sha"]
 sync_version: 3
-cite_key: conf/emnlp/QiuH0SS21
+cite_key: "conf/emnlp/QiuH0SS21"
 ---
 
 Analyze grounded scan through a big multi-modal transformer.
@@ -59,7 +59,7 @@ Splits:
  * I: Random: In-distribution
  * II: Visual: Red squares are the target or reference. Other things have been the target or the referent but not red squares. Transformer: 64% success.
  * III Relational: Green squares and blue circles combinations
- * IV: Referent: Yellow squares are referred to as the target. Eg, "Push a small yellow square west of a green big cylinder". 
+ * IV: Referent: Yellow squares are referred to as the target. Eg, "Push a small yellow square west of a green big cylinder".
  * V: Relative Position 1: Targets are north of their referent. Nothing has ever been "north" before. Transformer 59.29%
  * VI: Relative Position 2: Targets are west of their referent. Nothing has ever been "west" before. Transformer 49.50%
 
