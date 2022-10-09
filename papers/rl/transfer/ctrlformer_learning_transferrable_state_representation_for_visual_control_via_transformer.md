@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/conf/icml/MuCDCCL22"
 authors: ["Yao Mark Mu", "Shoufa Chen", "Mingyu Ding", "Jianyu Chen", "Runjian Chen", "Ping Luo"]
 sync_version: 3
 cite_key: "conf/icml/MuCDCCL22"
+tags: ["DeepMind"]
 ---
 In Visual Control, learning transferrable state representations that can transfer between different control takss is important to reduce the training sample size.
 
