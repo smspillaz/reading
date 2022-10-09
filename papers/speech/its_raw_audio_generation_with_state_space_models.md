@@ -1,16 +1,16 @@
 ---
-title: It&apos;s Raw! Audio Generation with State-Space Models.
-venue: ICML
-pages: 7616-7633
+title: "It&apos;s Raw! Audio Generation with State-Space Models."
+venue: "ICML"
+pages: "7616-7633"
 year: 2022
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/GoelGDR22
-ee: https://proceedings.mlr.press/v162/goel22a.html
-url: https://dblp.org/rec/conf/icml/GoelGDR22
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/GoelGDR22"
+ee: "https://proceedings.mlr.press/v162/goel22a.html"
+url: "https://dblp.org/rec/conf/icml/GoelGDR22"
 authors: ["Karan Goel", "Albert Gu", "Chris Donahue", "Christopher R\u00e9"]
 sync_version: 3
-cite_key: conf/icml/GoelGDR22
+cite_key: "conf/icml/GoelGDR22"
 ---
 SaShiMi - a new multi-scale architecture for waveform modeling built around the recently introduced S4 model for long-sequence modeling.
 
