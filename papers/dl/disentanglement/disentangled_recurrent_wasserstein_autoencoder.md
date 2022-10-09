@@ -1,15 +1,15 @@
 ---
-title: Disentangled Recurrent Wasserstein Autoencoder.
-venue: ICLR
+title: "Disentangled Recurrent Wasserstein Autoencoder."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/HanMHLZ21
-ee: https://openreview.net/forum?id=O7ms4LFdsX
-url: https://dblp.org/rec/conf/iclr/HanMHLZ21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/HanMHLZ21"
+ee: "https://openreview.net/forum?id=O7ms4LFdsX"
+url: "https://dblp.org/rec/conf/iclr/HanMHLZ21"
 authors: ["Jun Han", "Martin Renqiang Min", "Ligong Han", "Li Erran Li", "Xuan Zhang"]
 sync_version: 3
-cite_key: conf/iclr/HanMHLZ21
+cite_key: "conf/iclr/HanMHLZ21"
 ---
 # Disentangled Recurrent Wasserstein Autoencoder
 
