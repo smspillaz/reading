@@ -60,6 +60,11 @@ def parse_frontmatter(filename):
                 key, value = line.split(":", maxsplit=1)
                 frontmatter[key] = value.lstrip().rstrip()
 
+                try:
+                    frontmatter[key] = json.loads(frontmatter[key])
+                except:
+                    pass
+
     return frontmatter
 
 
