@@ -1,17 +1,17 @@
 ---
-title: Few-Shot Text Generation with Natural Language Instructions.
-venue: EMNLP
-pages: 390-402
+title: "Few-Shot Text Generation with Natural Language Instructions."
+venue: "EMNLP"
+pages: "390-402"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/emnlp/SchickS21
-doi: 10.18653/V1/2021.EMNLP-MAIN.32
-ee: https://doi.org/10.18653/v1/2021.emnlp-main.32
-url: https://dblp.org/rec/conf/emnlp/SchickS21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/emnlp/SchickS21"
+doi: "10.18653/V1/2021.EMNLP-MAIN.32"
+ee: "https://doi.org/10.18653/v1/2021.emnlp-main.32"
+url: "https://dblp.org/rec/conf/emnlp/SchickS21"
 authors: ["Timo Schick", "Hinrich Sch\u00fctze"]
 sync_version: 3
-cite_key: conf/emnlp/SchickS21
+cite_key: "conf/emnlp/SchickS21"
 ---
 
 "It is crucila to find task descriptions that are easy to understand for the pretrained model and ensure that it actually makes good use of them".
