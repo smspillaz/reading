@@ -1,17 +1,17 @@
 ---
-title: Why do tree-based models still outperform deep learning on tabular data?
-venue: CoRR
-volume: abs/2207.08815
+title: "Why do tree-based models still outperform deep learning on tabular data?"
+venue: "CoRR"
+volume: "abs/2207.08815"
 year: 2022
-type: Informal Publications
-access: open
-key: journals/corr/abs-2207-08815
-doi: 10.48550/ARXIV.2207.08815
-ee: https://doi.org/10.48550/arXiv.2207.08815
-url: https://dblp.org/rec/journals/corr/abs-2207-08815
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2207-08815"
+doi: "10.48550/ARXIV.2207.08815"
+ee: "https://doi.org/10.48550/arXiv.2207.08815"
+url: "https://dblp.org/rec/journals/corr/abs-2207-08815"
 authors: ["L\u00e9o Grinsztajn", "Edouard Oyallon", "Ga\u00ebl Varoquaux"]
 sync_version: 3
-cite_key: journals/corr/abs-2207-08815/Grinsztajn/2022
+cite_key: "journals/corr/abs-2207-08815/Grinsztajn/2022"
 ---
 
 In this paper they collect 45 datasets from varied domains. They have a consistent methodology for fitting tree-based models and deep learning models and tuning their hyperparameters.
