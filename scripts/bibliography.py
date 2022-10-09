@@ -27,7 +27,14 @@ def format_author(author):
 
 
 def format_authors(authors):
-    return " and ".join([format_author(author) for author in json.loads(authors)])
+    return " and ".join(
+        [
+            format_author(author)
+            for author in (
+                json.loads(authors) if not isinstance(authors, list) else authors
+            )
+        ]
+    )
 
 
 def format_title(title):
