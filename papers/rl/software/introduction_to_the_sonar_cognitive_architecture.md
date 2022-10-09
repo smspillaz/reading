@@ -1,3 +1,3 @@
 ---
-title: Introduction to the Sonar Cognitive Architecture
+title: "Introduction to the Sonar Cognitive Architecture"
 ---
