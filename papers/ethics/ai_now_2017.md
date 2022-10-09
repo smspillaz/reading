@@ -1,3 +1,3 @@
 ---
-title: AI Now 2017 Report.
+title: "AI Now 2017 Report."
 ---
