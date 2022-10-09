@@ -12,4 +12,5 @@ url: "https://dblp.org/rec/conf/emnlp/LeblondASPLASV21"
 authors: ["R\u00e9mi Leblond", "Jean-Baptiste Alayrac", "Laurent Sifre", "Miruna Pislar", "Jean-Baptiste Lespiau", "Ioannis Antonoglou", "Karen Simonyan", "Oriol Vinyals"]
 sync_version: 3
 cite_key: "conf/emnlp/LeblondASPLASV21"
+tags: ["DeepMind"]
 ---
