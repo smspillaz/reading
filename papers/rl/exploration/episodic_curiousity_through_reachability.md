@@ -1,3 +1,3 @@
 ---
-title: Episodic Curiousity through Reachability
+title: "Episodic Curiousity through Reachability"
 ---
