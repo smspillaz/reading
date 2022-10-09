@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/icml/GuGP0P20"
 authors: ["Albert Gu", "\u00c7aglar G\u00fcl\u00e7ehre", "Thomas Paine", "Matt Hoffman", "Razvan Pascanu"]
 sync_version: 3
 cite_key: "conf/icml/GuGP0P20"
+tags: ["DeepMind"]
 ---
