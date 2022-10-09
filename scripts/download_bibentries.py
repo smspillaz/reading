@@ -44,7 +44,7 @@ def download_bibentry_from_file(
                 try:
                     with open(bib_filename, "r") as f:
                         contents = filter_content(f.read(), frontmatter)
-                    
+
                     if not dry_run:
                         with open(bib_filename, "w") as f:
                             f.write(contents)
@@ -71,10 +71,17 @@ def download_bibentry_from_file(
     return None
 
 
-def walk_and_process_notes(notes_directory, dry_run=False, redownload=False, rewrite=False):
+def walk_and_process_notes(
+    notes_directory, dry_run=False, redownload=False, rewrite=False
+):
     for root, dirnames, filenames in os.walk(notes_directory):
         for filename in fnmatch.filter(filenames, "*.md"):
-            download_bibentry_from_file(os.path.join(root, filename), dry_run=dry_run, redownload=redownload, rewrite=rewrite)
+            download_bibentry_from_file(
+                os.path.join(root, filename),
+                dry_run=dry_run,
+                redownload=redownload,
+                rewrite=rewrite,
+            )
 
 
 def read_file(filename):
@@ -103,7 +110,9 @@ def main():
     args = parser.parse_args()
 
     print(f"Process {args.notes_directory}")
-    walk_and_process_notes(args.notes_directory, args.dry_run, args.redownload, args.rewrite)
+    walk_and_process_notes(
+        args.notes_directory, args.dry_run, args.redownload, args.rewrite
+    )
 
 
 if __name__ == "__main__":
