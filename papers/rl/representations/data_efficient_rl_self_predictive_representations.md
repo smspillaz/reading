@@ -1,15 +1,15 @@
 ---
-title: Data-Efficient Reinforcement Learning with Self-Predictive Representations.
-venue: ICLR
+title: "Data-Efficient Reinforcement Learning with Self-Predictive Representations."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/SchwarzerAGHCB21
-ee: https://openreview.net/forum?id=uCQfPZwRaUu
-url: https://dblp.org/rec/conf/iclr/SchwarzerAGHCB21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/SchwarzerAGHCB21"
+ee: "https://openreview.net/forum?id=uCQfPZwRaUu"
+url: "https://dblp.org/rec/conf/iclr/SchwarzerAGHCB21"
 authors: ["Max Schwarzer", "Ankesh Anand", "Rishab Goel", "R. Devon Hjelm", "Aaron C. Courville", "Philip Bachman"]
 sync_version: 3
-cite_key: conf/iclr/SchwarzerAGHCB21
+cite_key: "conf/iclr/SchwarzerAGHCB21"
 ---
 # Data Efficient Reinforcement Learning with Self Predictive Representations
 
@@ -65,4 +65,3 @@ Dynamics modelling is key: performance improves linearly with prediction depth.
 Target encoder is necessary: Using target network with stop-gradient significantly boosts performance (0.27 -> 0.41 median HNS)
 
 Data augmentation not strictly speaking necessarily, but needs an alternative form of noise like dropout.
-
