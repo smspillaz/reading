@@ -1,16 +1,16 @@
 ---
-title: Language as an Abstraction for Hierarchical Deep Reinforcement Learning.
-venue: NeurIPS
-pages: 9414-9426
+title: "Language as an Abstraction for Hierarchical Deep Reinforcement Learning."
+venue: "NeurIPS"
+pages: "9414-9426"
 year: 2019
-type: Conference and Workshop Papers
-access: open
-key: conf/nips/JiangGMF19
-ee: https://proceedings.neurips.cc/paper/2019/hash/0af787945872196b42c9f73ead2565c8-Abstract.html
-url: https://dblp.org/rec/conf/nips/JiangGMF19
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/nips/JiangGMF19"
+ee: "https://proceedings.neurips.cc/paper/2019/hash/0af787945872196b42c9f73ead2565c8-Abstract.html"
+url: "https://dblp.org/rec/conf/nips/JiangGMF19"
 authors: ["Yiding Jiang", "Shixiang Gu", "Kevin Murphy", "Chelsea Finn"]
 sync_version: 3
-cite_key: conf/nips/JiangGMF19
+cite_key: "conf/nips/JiangGMF19"
 ---
 # Language as an Abstraction for Hierarchical Deep RL
 
