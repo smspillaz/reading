@@ -1,16 +1,16 @@
 ---
-title: Explicit Sparse Transformer - Concentrated Attention Through Explicit Selection.
-venue: CoRR
-volume: abs/1912.11637
+title: "Explicit Sparse Transformer - Concentrated Attention Through Explicit Selection."
+venue: "CoRR"
+volume: "abs/1912.11637"
 year: 2019
-type: Informal Publications
-access: open
-key: journals/corr/abs-1912-11637
-ee: http://arxiv.org/abs/1912.11637
-url: https://dblp.org/rec/journals/corr/abs-1912-11637
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-1912-11637"
+ee: "http://arxiv.org/abs/1912.11637"
+url: "https://dblp.org/rec/journals/corr/abs-1912-11637"
 authors: ["Guangxiang Zhao", "Junyang Lin", "Zhiyuan Zhang", "Xuancheng Ren", "Qi Su", "Xu Sun"]
 sync_version: 3
-cite_key: journals/corr/abs-1912-11637/Zhao/2019
+cite_key: "journals/corr/abs-1912-11637/Zhao/2019"
 ---
 
 Self-attention suffers from the problem of extracting irrelevant information from the context.
@@ -37,5 +37,4 @@ Somewhere between 8 and 16.
 
  - [[from_softmax_to_sparsemax_a_sparse_model_of_attention_and_multi_label_classification|Sparsemax]]
  - [[entmax_sparse_sequence_to_sequence_models|Entmax]]
- - [[sact_learning_when_to_concentrate_or_divert_attention_self_adaptive_attention_temperature_for_neural_machine_translation|SaCT]] - learnable temperature parameter 
-
+ - [[sact_learning_when_to_concentrate_or_divert_attention_self_adaptive_attention_temperature_for_neural_machine_translation|SaCT]] - learnable temperature parameter
