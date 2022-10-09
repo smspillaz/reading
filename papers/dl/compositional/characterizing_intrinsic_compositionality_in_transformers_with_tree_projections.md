@@ -1,5 +1,5 @@
 ---
-title: Characterizing Intrinsic Compositionality in Transformers with Tree Projections
+title: "Characterizing Intrinsic Compositionality in Transformers with Tree Projections"
 ---
 There is an apparent tension between compositional human language understanding and transformers where you can route information arbitrarily.
 
