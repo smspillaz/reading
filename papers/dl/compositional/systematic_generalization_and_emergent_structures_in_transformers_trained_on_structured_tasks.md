@@ -1,5 +1,5 @@
 ---
-title: Systematic Generalization and Emergent Structures in Transformers Trained on Structured Tasks
+title: "Systematic Generalization and Emergent Structures in Transformers Trained on Structured Tasks"
 ---
 In this paper they explore how well a transformer can perform tasks like copying, sorting and hierarchical compositions.
 
