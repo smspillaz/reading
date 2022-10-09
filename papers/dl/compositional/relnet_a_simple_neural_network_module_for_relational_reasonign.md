@@ -1,16 +1,16 @@
 ---
-title: A simple neural network module for relational reasoning.
-venue: NIPS
-pages: 4967-4976
+title: "A simple neural network module for relational reasoning."
+venue: "NIPS"
+pages: "4967-4976"
 year: 2017
-type: Conference and Workshop Papers
-access: open
-key: conf/nips/SantoroRBMPBL17
-ee: https://proceedings.neurips.cc/paper/2017/hash/e6acf4b0f69f6f6e60e9a815938aa1ff-Abstract.html
-url: https://dblp.org/rec/conf/nips/SantoroRBMPBL17
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/nips/SantoroRBMPBL17"
+ee: "https://proceedings.neurips.cc/paper/2017/hash/e6acf4b0f69f6f6e60e9a815938aa1ff-Abstract.html"
+url: "https://dblp.org/rec/conf/nips/SantoroRBMPBL17"
 authors: ["Adam Santoro", "David Raposo", "David G. T. Barrett", "Mateusz Malinowski", "Razvan Pascanu", "Peter W. Battaglia", "Tim Lillicrap"]
 sync_version: 3
-cite_key: conf/nips/SantoroRBMPBL17
+cite_key: "conf/nips/SantoroRBMPBL17"
 ---
 Proposes "Relation Networks" to solve problems that rely on relational reasoning.
 
