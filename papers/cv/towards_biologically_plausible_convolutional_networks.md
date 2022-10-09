@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/journals/corr/abs-2106-13031"
 authors: ["Roman Pogodin", "Yash Mehta", "Timothy P. Lillicrap", "Peter E. Latham"]
 sync_version: 3
 cite_key: "journals/corr/abs-2106-13031/Pogodin/2021"
+tags: ["DeepMind"]
 ---
 
 Main idea behind this paper: Human vision does not use weight sharing, so convolution cannot be biologically plausible. Local connections are possible, weight sharing is not possible.
