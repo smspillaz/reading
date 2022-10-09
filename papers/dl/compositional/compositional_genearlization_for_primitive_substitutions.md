@@ -1,3 +1,3 @@
 ---
-title: Compositional Generaliation for Primitive Substitution
+title: "Compositional Generaliation for Primitive Substitution"
 ---
