@@ -1,3 +1,3 @@
 ---
-title: Grounded Compositional Generalization with Environment Interactions
+title: "Grounded Compositional Generalization with Environment Interactions"
 ---
