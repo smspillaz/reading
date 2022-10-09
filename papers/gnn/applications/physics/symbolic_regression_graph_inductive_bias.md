@@ -10,4 +10,5 @@ url: "https://dblp.org/rec/conf/nips/CranmerSBXCSH20"
 authors: ["Miles D. Cranmer", "Alvaro Sanchez-Gonzalez", "Peter W. Battaglia", "Rui Xu", "Kyle Cranmer", "David N. Spergel", "Shirley Ho"]
 sync_version: 3
 cite_key: "conf/nips/CranmerSBXCSH20"
+tags: ["DeepMind"]
 ---
