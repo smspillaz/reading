@@ -1,16 +1,16 @@
 ---
-title: MC-LSTM - Mass-Conserving LSTM.
-venue: ICML
-pages: 4275-4286
+title: "MC-LSTM - Mass-Conserving LSTM."
+venue: "ICML"
+pages: "4275-4286"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/HoedtKKHHNHK21
-ee: http://proceedings.mlr.press/v139/hoedt21a.html
-url: https://dblp.org/rec/conf/icml/HoedtKKHHNHK21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/HoedtKKHHNHK21"
+ee: "http://proceedings.mlr.press/v139/hoedt21a.html"
+url: "https://dblp.org/rec/conf/icml/HoedtKKHHNHK21"
 authors: ["Pieter-Jan Hoedt", "Frederik Kratzert", "Daniel Klotz", "Christina Halmich", "Markus Holzleitner", "Grey Nearing", "Sepp Hochreiter", "G\u00fcnter Klambauer"]
 sync_version: 3
-cite_key: conf/icml/HoedtKKHHNHK21
+cite_key: "conf/icml/HoedtKKHHNHK21"
 ---
 
 # MC-LSTM
