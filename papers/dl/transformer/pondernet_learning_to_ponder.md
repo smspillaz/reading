@@ -1,16 +1,16 @@
 ---
-title: PonderNet: Learning to Ponder.
-venue: CoRR
-volume: abs/2107.05407
+title: "PonderNet: Learning to Ponder."
+venue: "CoRR"
+volume: "abs/2107.05407"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2107-05407
-ee: https://arxiv.org/abs/2107.05407
-url: https://dblp.org/rec/journals/corr/abs-2107-05407
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2107-05407"
+ee: "https://arxiv.org/abs/2107.05407"
+url: "https://dblp.org/rec/journals/corr/abs-2107-05407"
 authors: ["Andrea Banino", "Jan Balaguer", "Charles Blundell"]
 sync_version: 3
-cite_key: journals/corr/abs-2107-05407/Banino/2021
+cite_key: "journals/corr/abs-2107-05407/Banino/2021"
 ---
 # PonderNet: Learning to Ponder
 
