@@ -1,15 +1,15 @@
 ---
-title: Option Discovery using Deep Skill Chaining.
-venue: ICLR
+title: "Option Discovery using Deep Skill Chaining."
+venue: "ICLR"
 year: 2020
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/BagariaK20
-ee: https://openreview.net/forum?id=B1gqipNYwH
-url: https://dblp.org/rec/conf/iclr/BagariaK20
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/BagariaK20"
+ee: "https://openreview.net/forum?id=B1gqipNYwH"
+url: "https://dblp.org/rec/conf/iclr/BagariaK20"
 authors: ["Akhil Bagaria", "George Konidaris"]
 sync_version: 3
-cite_key: conf/iclr/BagariaK20
+cite_key: "conf/iclr/BagariaK20"
 ---
 # Option Skill Chains
 
