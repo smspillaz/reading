@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/journals/corr/HermannHGWFSSCJ17"
 authors: ["Karl Moritz Hermann", "Felix Hill", "Simon Green", "Fumin Wang", "Ryan Faulkner", "Hubert Soyer", "David Szepesvari", "Wojciech Marian Czarnecki", "Max Jaderberg", "Denis Teplyashin", "Marcus Wainwright", "Chris Apps", "Demis Hassabis", "Phil Blunsom"]
 sync_version: 3
 cite_key: "journals/corr/HermannHGWFSSCJ17/Hermann/2017"
+tags: ["DeepMind"]
 ---
 Presents an agent that learns to interpret langauge in a simulated 3D environment.
 
