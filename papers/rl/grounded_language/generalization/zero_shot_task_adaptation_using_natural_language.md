@@ -1,16 +1,16 @@
 ---
-title: Zero-shot Task Adaptation using Natural Language.
-venue: CoRR
-volume: abs/2106.02972
+title: "Zero-shot Task Adaptation using Natural Language."
+venue: "CoRR"
+volume: "abs/2106.02972"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2106-02972
-ee: https://arxiv.org/abs/2106.02972
-url: https://dblp.org/rec/journals/corr/abs-2106-02972
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2106-02972"
+ee: "https://arxiv.org/abs/2106.02972"
+url: "https://dblp.org/rec/journals/corr/abs-2106-02972"
 authors: ["Prasoon Goyal", "Raymond J. Mooney", "Scott Niekum"]
 sync_version: 3
-cite_key: journals/corr/abs-2106-02972/Goyal/2021
+cite_key: "journals/corr/abs-2106-02972/Goyal/2021"
 ---
 
 Proposes a setting where given a demonstration for a task (source task) plus a description of how the target task is different from the source task, do the target task zero shot.
