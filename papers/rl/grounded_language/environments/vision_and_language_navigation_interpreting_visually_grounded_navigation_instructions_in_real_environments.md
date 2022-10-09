@@ -10,6 +10,7 @@ url: "https://dblp.org/rec/conf/cvpr/AndersonWTB0S0G18"
 authors: ["Peter Anderson", "Qi Wu", "Damien Teney", "Jake Bruce", "Mark Johnson", "Niko S\u00fcnderhauf", "Ian D. Reid", "Stephen Gould", "Anton van den Hengel"]
 sync_version: 3
 cite_key: "conf/cvpr/AndersonWTB0S0G18"
+tags: ["DeepMind"]
 ---
 
 To enable and encourage the application of vision and language methods to the problem of interpreting visually grounded navigation instructions, present the Matterport3D simulator.
