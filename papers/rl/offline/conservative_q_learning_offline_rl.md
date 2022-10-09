@@ -10,6 +10,7 @@ url: "https://dblp.org/rec/conf/nips/KumarZTL20"
 authors: ["Aviral Kumar", "Aurick Zhou", "George Tucker", "Sergey Levine"]
 sync_version: 3
 cite_key: "conf/nips/KumarZTL20"
+tags: ["DeepMind"]
 ---
 "Conservative off-policy evaluation" is given by:
 
