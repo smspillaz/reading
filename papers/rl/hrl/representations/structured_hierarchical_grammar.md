@@ -1,16 +1,16 @@
 ---
-title: Reinforcement Learning with Structured Hierarchical Grammar Representations of Actions.
-venue: CoRR
-volume: abs/1910.02876
+title: "Reinforcement Learning with Structured Hierarchical Grammar Representations of Actions."
+venue: "CoRR"
+volume: "abs/1910.02876"
 year: 2019
-type: Informal Publications
-access: open
-key: journals/corr/abs-1910-02876
-ee: http://arxiv.org/abs/1910.02876
-url: https://dblp.org/rec/journals/corr/abs-1910-02876
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-1910-02876"
+ee: "http://arxiv.org/abs/1910.02876"
+url: "https://dblp.org/rec/journals/corr/abs-1910-02876"
 authors: ["Petros Christodoulou", "Robert Tjarko Lange", "Ali Shafti", "A. Aldo Faisal"]
 sync_version: 3
-cite_key: journals/corr/abs-1910-02876/Christodoulou/2019
+cite_key: "journals/corr/abs-1910-02876/Christodoulou/2019"
 ---
 # Reinforcement Learning with Structured Hierarchical Grammar Representations of Actions
 
