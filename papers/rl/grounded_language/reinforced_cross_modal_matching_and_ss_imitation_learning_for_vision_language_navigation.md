@@ -1,17 +1,17 @@
 ---
-title: Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation.
-venue: CVPR
-pages: 6629-6638
+title: "Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation."
+venue: "CVPR"
+pages: "6629-6638"
 year: 2019
-type: Conference and Workshop Papers
-access: open
-key: conf/cvpr/WangHcGSWWZ19
-doi: 10.1109/CVPR.2019.00679
-ee: http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Reinforced_Cross-Modal_Matching_and_Self-Supervised_Imitation_Learning_for_Vision-Language_Navigation_CVPR_2019_paper.html
-url: https://dblp.org/rec/conf/cvpr/WangHcGSWWZ19
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/cvpr/WangHcGSWWZ19"
+doi: "10.1109/CVPR.2019.00679"
+ee: "http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Reinforced_Cross-Modal_Matching_and_Self-Supervised_Imitation_Learning_for_Vision-Language_Navigation_CVPR_2019_paper.html"
+url: "https://dblp.org/rec/conf/cvpr/WangHcGSWWZ19"
 authors: ["Xin Wang", "Qiuyuan Huang", "Asli Celikyilmaz", "Jianfeng Gao", "Dinghan Shen", "Yuan-Fang Wang", "William Yang Wang", "Lei Zhang"]
 sync_version: 3
-cite_key: conf/cvpr/WangHcGSWWZ19
+cite_key: "conf/cvpr/WangHcGSWWZ19"
 ---
 
 Study how to address three critical challenges for this task:
@@ -57,5 +57,3 @@ Adopt an attention-based sequence-to-sequence language model as the matching cri
 # Learning
 
 Reward is $\mathcal{D}_{\text{target}}(s_t) - \mathcal{D}_{\text{target}}(s_{t + 1})$ - eg, you get a reward for having a reduced distance to the target. You also get a reward for success.
-
-
