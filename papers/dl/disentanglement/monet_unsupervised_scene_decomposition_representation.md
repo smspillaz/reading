@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/journals/corr/abs-1901-11390"
 authors: ["Christopher P. Burgess", "Lo\u00efc Matthey", "Nicholas Watters", "Rishabh Kabra", "Irina Higgins", "Matthew M. Botvinick", "Alexander Lerchner"]
 sync_version: 3
 cite_key: "journals/corr/abs-1901-11390/Burgess/2019"
+tags: ["DeepMind"]
 ---
