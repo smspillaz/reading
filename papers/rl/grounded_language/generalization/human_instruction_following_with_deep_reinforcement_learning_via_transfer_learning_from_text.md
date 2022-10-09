@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/journals/corr/abs-2005-09382"
 authors: ["Felix Hill", "Sona Mokra", "Nathaniel Wong", "Tim Harley"]
 sync_version: 3
 cite_key: "journals/corr/abs-2005-09382/Hill/2020"
+tags: ["DeepMind"]
 ---
 
 # Human Instruction-Following with Deep Reinforcement Learning via Transfer Learning from Text
