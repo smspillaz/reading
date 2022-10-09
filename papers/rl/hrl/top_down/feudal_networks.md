@@ -1,16 +1,16 @@
 ---
-title: FeUdal Networks for Hierarchical Reinforcement Learning.
-venue: ICML
-pages: 3540-3549
+title: "FeUdal Networks for Hierarchical Reinforcement Learning."
+venue: "ICML"
+pages: "3540-3549"
 year: 2017
-type: Conference and Workshop Papers
-access: open
-key: conf/icml/VezhnevetsOSHJS17
-ee: http://proceedings.mlr.press/v70/vezhnevets17a.html
-url: https://dblp.org/rec/conf/icml/VezhnevetsOSHJS17
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/VezhnevetsOSHJS17"
+ee: "http://proceedings.mlr.press/v70/vezhnevets17a.html"
+url: "https://dblp.org/rec/conf/icml/VezhnevetsOSHJS17"
 authors: ["Alexander Sasha Vezhnevets", "Simon Osindero", "Tom Schaul", "Nicolas Heess", "Max Jaderberg", "David Silver", "Koray Kavukcuoglu"]
 sync_version: 3
-cite_key: conf/icml/VezhnevetsOSHJS17
+cite_key: "conf/icml/VezhnevetsOSHJS17"
 ---
 # Feudal Networks
 
