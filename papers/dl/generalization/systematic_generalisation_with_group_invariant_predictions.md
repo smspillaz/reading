@@ -1,15 +1,15 @@
 ---
-title: Systematic generalisation with group invariant predictions.
-venue: ICLR
+title: "Systematic generalisation with group invariant predictions."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/AhmedBSC21
-ee: https://openreview.net/forum?id=b9PoimzZFJ
-url: https://dblp.org/rec/conf/iclr/AhmedBSC21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/AhmedBSC21"
+ee: "https://openreview.net/forum?id=b9PoimzZFJ"
+url: "https://dblp.org/rec/conf/iclr/AhmedBSC21"
 authors: ["Faruk Ahmed", "Yoshua Bengio", "Harm van Seijen", "Aaron C. Courville"]
 sync_version: 3
-cite_key: conf/iclr/AhmedBSC21
+cite_key: "conf/iclr/AhmedBSC21"
 ---
 
 Considers situations hwere the presence of "dominant simpler correlations with the target variable" in a training set can cause NNs to be less reliant on more persistently correlating complex features. When these non-persistnet simpler corelations correlate to background factors, NNs trained on this data exhibit failure on encountering systematic distributional shift when those correlating features appear on other objects.
