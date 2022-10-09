@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/icml/HafnerLFVHLD19"
 authors: ["Danijar Hafner", "Timothy P. Lillicrap", "Ian Fischer", "Ruben Villegas", "David Ha", "Honglak Lee", "James Davidson"]
 sync_version: 3
 cite_key: "conf/icml/HafnerLFVHLD19"
+tags: ["DeepMind"]
 ---
