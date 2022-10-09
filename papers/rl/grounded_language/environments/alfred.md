@@ -1,17 +1,17 @@
 ---
-title: ALFRED - A Benchmark for Interpreting Grounded Instructions for Everyday Tasks.
-venue: CVPR
-pages: 10737-10746
+title: "ALFRED - A Benchmark for Interpreting Grounded Instructions for Everyday Tasks."
+venue: "CVPR"
+pages: "10737-10746"
 year: 2020
-type: Conference and Workshop Papers
-access: open
-key: conf/cvpr/ShridharTGBHMZF20
-doi: 10.1109/CVPR42600.2020.01075
-ee: https://openaccess.thecvf.com/content_CVPR_2020/html/Shridhar_ALFRED_A_Benchmark_for_Interpreting_Grounded_Instructions_for_Everyday_Tasks_CVPR_2020_paper.html
-url: https://dblp.org/rec/conf/cvpr/ShridharTGBHMZF20
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/cvpr/ShridharTGBHMZF20"
+doi: "10.1109/CVPR42600.2020.01075"
+ee: "https://openaccess.thecvf.com/content_CVPR_2020/html/Shridhar_ALFRED_A_Benchmark_for_Interpreting_Grounded_Instructions_for_Everyday_Tasks_CVPR_2020_paper.html"
+url: "https://dblp.org/rec/conf/cvpr/ShridharTGBHMZF20"
 authors: ["Mohit Shridhar", "Jesse Thomason", "Daniel Gordon", "Yonatan Bisk", "Winson Han", "Roozbeh Mottaghi", "Luke Zettlemoyer", "Dieter Fox"]
 sync_version: 3
-cite_key: conf/cvpr/ShridharTGBHMZF20
+cite_key: "conf/cvpr/ShridharTGBHMZF20"
 ---
 ALFRED - Action Learning from Realistic Environments and Directives. Benchmark for learning a mapping from NL instructions and ego-centric vision of the world.
 
@@ -51,6 +51,3 @@ Since the tasks require reasoning over long sequences of images and instruction 
 
 1. Internal estimate of progress towards the goal. Akin to learning the value function. See [[self_monitoring_navigation_agent_via_auxiliary_progress_estimation]] . In effect, $p_t = \sigma(W_p [h_t; u_t])$ with supervision on the timesteps for expert demonstrations.
 3. Also predict hte number of sub-goals completed so far, $c_t$. $c_t = \sigma(W_c [h_t; u_t])$
-
-
-
