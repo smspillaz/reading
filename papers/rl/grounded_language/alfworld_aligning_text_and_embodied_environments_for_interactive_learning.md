@@ -1,15 +1,15 @@
 ---
-title: ALFWorld: Aligning Text and Embodied Environments for Interactive Learning.
-venue: ICLR
+title: "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning."
+venue: "ICLR"
 year: 2021
-type: Conference and Workshop Papers
-access: open
-key: conf/iclr/ShridharYCBTH21
-ee: https://openreview.net/forum?id=0IOX0YcCdTn
-url: https://dblp.org/rec/conf/iclr/ShridharYCBTH21
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/iclr/ShridharYCBTH21"
+ee: "https://openreview.net/forum?id=0IOX0YcCdTn"
+url: "https://dblp.org/rec/conf/iclr/ShridharYCBTH21"
 authors: ["Mohit Shridhar", "Xingdi Yuan", "Marc-Alexandre C\u00f4t\u00e9", "Yonatan Bisk", "Adam Trischler", "Matthew J. Hausknecht"]
 sync_version: 3
-cite_key: conf/iclr/ShridharYCBTH21
+cite_key: "conf/iclr/ShridharYCBTH21"
 ---
 
 Given a simple request like "put a washed apple in the kitchen fridge", humans can reason in purely abstract terms.
