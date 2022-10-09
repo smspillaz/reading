@@ -73,4 +73,3 @@ C2: Novel relative clauses
 [[think_before_you_act_a_simple_baseline_for_compositional_generalization]]
 
 [[gscan_grounded_language_benchmarks]]
-
