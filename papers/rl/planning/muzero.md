@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/journals/corr/abs-1911-08265"
 authors: ["Julian Schrittwieser", "Ioannis Antonoglou", "Thomas Hubert", "Karen Simonyan", "Laurent Sifre", "Simon Schmitt", "Arthur Guez", "Edward Lockhart", "Demis Hassabis", "Thore Graepel", "Timothy P. Lillicrap", "David Silver"]
 sync_version: 3
 cite_key: "journals/corr/abs-1911-08265/Schrittwieser/2019"
+tags: ["DeepMind"]
 ---
 # MuZero
 
