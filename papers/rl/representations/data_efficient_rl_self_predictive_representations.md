@@ -10,6 +10,7 @@ url: "https://dblp.org/rec/conf/iclr/SchwarzerAGHCB21"
 authors: ["Max Schwarzer", "Ankesh Anand", "Rishab Goel", "R. Devon Hjelm", "Aaron C. Courville", "Philip Bachman"]
 sync_version: 3
 cite_key: "conf/iclr/SchwarzerAGHCB21"
+tags: ["DeepMind"]
 ---
 # Data Efficient Reinforcement Learning with Self Predictive Representations
 
