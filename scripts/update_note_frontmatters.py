@@ -150,27 +150,27 @@ def get_updated_frontmatter(filename, no_download=True):
 
     # Skip these two without warning to reduce noise
     if "title" not in frontmatter:
-        return None
+        return frontmatter
 
     if "sync_version" in frontmatter:
         if int(frontmatter["sync_version"]) >= _SYNC_VERSION:
-            return None
+            return frontmatter
 
     print(f"Process {filename}")
     metadata = retrieve_metadata(frontmatter["title"], no_download=no_download)
 
     if not metadata:
-        return None
+        return frontmatter
 
     best_hit = find_best_hit(frontmatter["title"], metadata)
 
     if not best_hit:
-        return None
+        return frontmatter
 
     retrieved_content = metadata_to_frontmatter_content(best_hit)
 
     if not retrieved_content:
-        return None
+        return frontmatter
 
     frontmatter = {
         **frontmatter,
