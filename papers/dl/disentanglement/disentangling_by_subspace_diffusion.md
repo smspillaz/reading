@@ -10,4 +10,5 @@ url: "https://dblp.org/rec/conf/nips/PfauHBR20"
 authors: ["David Pfau", "Irina Higgins", "Aleksandar Botev", "S\u00e9bastien Racani\u00e8re"]
 sync_version: 3
 cite_key: "conf/nips/PfauHBR20"
+tags: ["DeepMind"]
 ---
