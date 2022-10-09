@@ -1,16 +1,16 @@
 ---
-title: Systematic Generalization on gSCAN with Language Conditioned Embedding.
-venue: AACL/IJCNLP
-pages: 491-503
+title: "Systematic Generalization on gSCAN with Language Conditioned Embedding."
+venue: "AACL/IJCNLP"
+pages: "491-503"
 year: 2020
-type: Conference and Workshop Papers
-access: open
-key: conf/ijcnlp/GaoHM20
-ee: https://aclanthology.org/2020.aacl-main.49/
-url: https://dblp.org/rec/conf/ijcnlp/GaoHM20
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/ijcnlp/GaoHM20"
+ee: "https://aclanthology.org/2020.aacl-main.49/"
+url: "https://dblp.org/rec/conf/ijcnlp/GaoHM20"
 authors: ["Tong Gao", "Qi Huang", "Raymond J. Mooney"]
 sync_version: 3
-cite_key: conf/ijcnlp/GaoHM20
+cite_key: "conf/ijcnlp/GaoHM20"
 ---
 
 Hypothesis: Explicitly modelling the relations between objects in their contexts while learning their representations will help acheive systematic generalization.
