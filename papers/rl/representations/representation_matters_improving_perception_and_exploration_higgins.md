@@ -12,6 +12,7 @@ url: "https://dblp.org/rec/conf/icra/WulfmeierBHHGKR21"
 authors: ["Markus Wulfmeier", "Arunkumar Byravan", "Tim Hertweck", "Irina Higgins", "Ankush Gupta", "Tejas Kulkarni", "Malcolm Reynolds", "Denis Teplyashin", "Roland Hafner", "Thomas Lampe", "Martin A. Riedmiller"]
 sync_version: 3
 cite_key: "conf/icra/WulfmeierBHHGKR21"
+tags: ["DeepMind"]
 ---
 # Representation Matters
 
