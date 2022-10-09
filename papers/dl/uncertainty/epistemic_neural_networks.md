@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/journals/corr/abs-2107-08924"
 authors: ["Ian Osband", "Zheng Wen", "Mohammad Asghari", "Morteza Ibrahimi", "Xiyuan Lu", "Benjamin Van Roy"]
 sync_version: 3
 cite_key: "journals/corr/abs-2107-08924/Osband/2021"
+tags: ["DeepMind"]
 ---
 
 Bayesian Neural Networks are a special case of ENNs.
