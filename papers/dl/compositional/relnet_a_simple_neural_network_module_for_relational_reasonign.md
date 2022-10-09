@@ -11,6 +11,7 @@ url: "https://dblp.org/rec/conf/nips/SantoroRBMPBL17"
 authors: ["Adam Santoro", "David Raposo", "David G. T. Barrett", "Mateusz Malinowski", "Razvan Pascanu", "Peter W. Battaglia", "Tim Lillicrap"]
 sync_version: 3
 cite_key: "conf/nips/SantoroRBMPBL17"
+tags: ["DeepMind"]
 ---
 Proposes "Relation Networks" to solve problems that rely on relational reasoning.
 
