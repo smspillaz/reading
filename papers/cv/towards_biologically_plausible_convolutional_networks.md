@@ -1,16 +1,16 @@
 ---
-title: Towards Biologically Plausible Convolutional Networks.
-venue: CoRR
-volume: abs/2106.13031
+title: "Towards Biologically Plausible Convolutional Networks."
+venue: "CoRR"
+volume: "abs/2106.13031"
 year: 2021
-type: Informal Publications
-access: open
-key: journals/corr/abs-2106-13031
-ee: https://arxiv.org/abs/2106.13031
-url: https://dblp.org/rec/journals/corr/abs-2106-13031
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2106-13031"
+ee: "https://arxiv.org/abs/2106.13031"
+url: "https://dblp.org/rec/journals/corr/abs-2106-13031"
 authors: ["Roman Pogodin", "Yash Mehta", "Timothy P. Lillicrap", "Peter E. Latham"]
 sync_version: 3
-cite_key: journals/corr/abs-2106-13031/Pogodin/2021
+cite_key: "journals/corr/abs-2106-13031/Pogodin/2021"
 ---
 
 Main idea behind this paper: Human vision does not use weight sharing, so convolution cannot be biologically plausible. Local connections are possible, weight sharing is not possible.
