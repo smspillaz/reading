@@ -1,5 +1,17 @@
 ---
-title: "Omnigrok: Grokking Beyond Algorithmic Data"
+title: "Omnigrok: Grokking Beyond Algorithmic Data."
+venue: "CoRR"
+volume: "abs/2210.01117"
+year: "2022"
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2210-01117"
+doi: "10.48550/ARXIV.2210.01117"
+ee: "https://doi.org/10.48550/arXiv.2210.01117"
+url: "https://dblp.org/rec/journals/corr/abs-2210-01117"
+authors: ["Ziming Liu", "Eric J. Michaud", "Max Tegmark"]
+sync_version: 3
+cite_key: "journals/corr/abs-2210-01117/Liu/2022"
 ---
 
 Grokking remains elusive. Where does it come from? This paper identifies the mismatch between training and test loss landscapes as the cause for grokking.
