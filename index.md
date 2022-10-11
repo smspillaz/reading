@@ -251,6 +251,7 @@
  - [[pdfs/dl/graph/yu_deep_latent_graph_matching.pdf|Deep Latent Graph Matching.]]: (cite: conf/icml/YuWYL21) . [[papers/dl/graph/yu_deep_latent_graph_matching.md|Notes]]
  - [[pdfs/dl/graph/graph_neural_networks_with_lea.pdf|Graph Neural Networks with Learnable Structural and Positional Representations.]]: (cite: conf/iclr/DwivediL0BB22) . [[papers/dl/graph/graph_neural_networks_with_lea.md|Notes]]
  - [[pdfs/dl/graph/find_your_friendly_neighbourhood_graph_attention.pdf|How to Find Your Friendly Neighborhood: Graph Attention Design with Self-Supervision.]]: (cite: conf/iclr/KimO21) . [[papers/dl/graph/find_your_friendly_neighbourhood_graph_attention.md|Notes]]
+ - [[pdfs/dl/graph/pure_transformers_are_powerful_graph_learners.pdf|Pure Transformers are Powerful Graph Learners.]]: (cite: journals/corr/abs-2207-02505/Kim/2022) . [[papers/dl/graph/pure_transformers_are_powerful_graph_learners.md|Notes]]
  - [[pdfs/dl/graph/superglue_learning_feature_matching_gnns.pdf|SuperGlue: Learning Feature Matching with Graph Neural Networks.]]: (cite: journals/corr/abs-1911-11763/Sarlin/2019) . [[papers/dl/graph/superglue_learning_feature_matching_gnns.md|Notes]]
 ## logic
  - [[pdfs/dl/logic/neural_arithmetic_units.pdf|Neural Arithmetic Units.]]: (cite: conf/iclr/MadsenJ20) . [[papers/dl/logic/neural_arithmetic_units.md|Notes]]
