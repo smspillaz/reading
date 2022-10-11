@@ -13,3 +13,15 @@ authors: ["Yufei Tian", "Nanyun Peng"]
 sync_version: 3
 cite_key: "conf/naacl/TianP22"
 ---
+
+Does not require training on poems. They design a framework which plans the poem sketch before decoding.
+
+ - Content planning model obtains discourse level coherence
+ - Rhyme module generates rhyme words
+ - Polishing module introduces imagery and similes for aesthetic purposes.
+ - Constrainted decdoing algorithm to impose meter-and-rhyme consraint of generated sonnets.
+
+How do you control the text formatting? Use MASK tokens as placeholders for the keywords.
+
+
+At each decoding step we apply rhythm control, so only those tokens that satisfy the iambic-pentameter and its two variations are kept in the beams. They use a very wide beam, eg, beam size of 50. Recursively generate next token until 10 or 11 syllables are generated and make up a metric line where all the context words are incorporated.
