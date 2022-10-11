@@ -48,4 +48,3 @@ The gains are mostly on unseen domains.
 MetaICL can do about as well as fine-tuning can.
 
 How many meta-training tasks do you need? More is better, but there is diminishing returns. More meta-training tasks in general means less variance and can boost mean performance by about 5 points.
-
