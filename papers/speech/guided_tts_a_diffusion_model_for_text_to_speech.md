@@ -1,3 +1,17 @@
+---
+title: "Guided-TTS: A Diffusion Model for Text-to-Speech via Classifier Guidance."
+venue: "ICML"
+pages: "11119-11133"
+year: "2022"
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/icml/KimKY22"
+ee: "https://proceedings.mlr.press/v162/kim22d.html"
+url: "https://dblp.org/rec/conf/icml/KimKY22"
+authors: ["Heeseung Kim", "Sungwon Kim", "Sungroh Yoon"]
+sync_version: 3
+cite_key: "conf/icml/KimKY22"
+---
 The general idea behind this paper is to use classifier guided diffusion to generate speech.
 
 In speech you have STT and TTS. Instead of making a complicated TTS pipeline, instead just learn to generate any old random speech and guide the diffusion process to generate speech which classifies to what you want out of your STT.
