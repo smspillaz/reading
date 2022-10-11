@@ -143,4 +143,3 @@ Global conditioner: Speaker id or word ids. Shared embeddings.
 Need to generate consistent utterances without conditional information. The receptive field needs to have a length larger than the desired size $L$.
 
 DiffWave the advantage of enlarging the receptive fields of output $x_0$ by iteration from $x_T$ to $x_0$ in the reverse process.
-
