@@ -47,4 +47,3 @@ Trained and test label combinations are mutually exclusive, but test labels for 
 Deep model architecture. $x$ is the input and $f(x) = \hat y_1$ and $\hat y_2$ are the outputs.
 
 Layers duplicated after $h$.
-
