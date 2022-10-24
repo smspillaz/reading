@@ -44,6 +44,8 @@ Eg, if we consider that we have the parameter matrix $K$ and $V$ (not to be conf
 
 Now, with $L$ layers, there are $L \times d_m$ "value vectors" and therefore $L \times d_m$ sub-updates.
 
+See also [[transformer_feed_forward_layers_build_predictions_by_promoting_concepts_in_the_vocabulary_space]].
+
 ## So how does LM-Debugger work?
 
 You can run inputs through the model to generate text in an autoregressive manner and apply interventions.
