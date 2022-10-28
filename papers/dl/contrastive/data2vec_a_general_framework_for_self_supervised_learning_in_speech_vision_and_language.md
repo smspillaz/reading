@@ -23,7 +23,7 @@ The main idea is to predict latent representations of the full input data based 
 
 Take a standard encoder-transformer and make a copy of it, one teacher and one student.
 
-The teacher receives the entire input and the student receives the masked input. The student must predict the masked latents of the teacher. The teacher is updated by EMA and the student is updated by gradient descent. Smooth L1 loss is used for the student targets.
+The teacher receives the entire input and the student receives the masked input. The student must predict the  latents of the teacher corresponding to the mask. The teacher is updated by EMA and the student is updated by gradient descent. Smooth L1 loss is used for the student targets.
 
 Note that this is *not* the same as reconstructing your input. You are predicting a contextualized representation, since the latents predicted by the teacher have seen the input and its context through non-causal self-attention.
 
@@ -56,3 +56,5 @@ Should we use the output of the self-attention block, the layer normalization bl
 This is a situation when the teacher learns to predict the same representation for all targets and therefore the learning process degenerates.
 
 This can happen if learning rates are too larget or learning rate warmup is too short, same with any other transformer. If EMA decay rate is too low this can also happen because student model collapse would be propagated too quickly to the teacher. So the method requires that you quite carefully tune the EMA hyperparameters. Collapse might also happen for modalities where adjacent targets are highly correlated. Promoting variance within the same batch is a good way to mitigate this problem (see [[vicreg_variance_invariance_covariance_regularization_for_self_supervised_learning]] and [[byol_self_supervised_no_contrastive]]).
+
+They also say that representation collapse is avoided through the usage of normalization. Eg, if you apply instance or batch norm before or after averaging targets.
