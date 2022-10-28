@@ -101,4 +101,3 @@ $$
 $$
 
 eg that for training $\tilde{X}$ is $X_G$ or $X_L$, then in a surprising context, $p(x_n|X_{1:n - 1})$ can be approximated by $\tilde{p}(X_n|X_G) \tilde{p}(X_n|X_L)$, eg, the product of the conditionals.
-
