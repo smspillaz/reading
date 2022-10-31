@@ -48,4 +48,3 @@ What if you use 100% of the labels to fine-tune the whole model? Then you get 83
 
 RandomMask + FocalMask helps a lot.
 
-
