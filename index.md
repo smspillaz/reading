@@ -1217,6 +1217,7 @@
  - [[pdfs/rl/world_models/contrastive_structured_world_models.pdf|Contrastive Learning of Structured World Models.]]: (cite: conf/iclr/KipfPW20) . [[papers/rl/world_models/contrastive_structured_world_models.md|Notes]]
  - [[pdfs/rl/world_models/structured_world_belief_for_rl_pomdp.pdf|Structured World Belief for Reinforcement Learning in POMDP.]]: (cite: conf/icml/SinghPKKA21) . [[papers/rl/world_models/structured_world_belief_for_rl_pomdp.md|Notes]]
 # speech
+ - [[pdfs/speech/chunked_autoregressive_gan_for_conditional_waveform_synthesis.pdf|Chunked Autoregressive GAN for Conditional Waveform Synthesis.]]: (cite: conf/iclr/MorrisonKKSCB22) . [[papers/speech/chunked_autoregressive_gan_for_conditional_waveform_synthesis.md|Notes]]
  - [[pdfs/speech/guided_tts_a_diffusion_model_for_text_to_speech.pdf|Guided-TTS: A Diffusion Model for Text-to-Speech via Classifier Guidance.]]: (cite: conf/icml/KimKY22) . [[papers/speech/guided_tts_a_diffusion_model_for_text_to_speech.md|Notes]]
  - [[pdfs/speech/its_raw_audio_generation_with_state_space_models.pdf|It&apos;s Raw! Audio Generation with State-Space Models.]]: (cite: conf/icml/GoelGDR22) . [[papers/speech/its_raw_audio_generation_with_state_space_models.md|Notes]]
  - [[pdfs/speech/style_transfer_of_audio_effects_with_differentiable_signal_processing.pdf|Style Transfer of Audio Effects with Differentiable Signal Processing.]]: (cite: journals/corr/abs-2207-08759/Steinmetz/2022) . [[papers/speech/style_transfer_of_audio_effects_with_differentiable_signal_processing.md|Notes]]
