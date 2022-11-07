@@ -35,4 +35,3 @@ Equivariant Graph Neural Networks: They are composed of "equivaraint graph convo
 
 Equivariant Diffusion Model: EDM defines a noising process on both the node positions and features, but then learns denoising using the equivariant network.
 
-
