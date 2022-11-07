@@ -1,5 +1,17 @@
 ---
-title: "Characterizing Intrinsic Compositionality in Transformers with Tree Projections"
+title: "Characterizing Intrinsic Compositionality In Transformers With Tree Projections."
+venue: "CoRR"
+volume: "abs/2211.01288"
+year: "2022"
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2211-01288"
+doi: "10.48550/ARXIV.2211.01288"
+ee: "https://doi.org/10.48550/arXiv.2211.01288"
+url: "https://dblp.org/rec/journals/corr/abs-2211-01288"
+authors: ["Shikhar Murty", "Pratyusha Sharma", "Jacob Andreas", "Christopher D. Manning"]
+sync_version: 3
+cite_key: "journals/corr/abs-2211-01288/Murty/2022"
 ---
 There is an apparent tension between compositional human language understanding and transformers where you can route information arbitrarily.
 
