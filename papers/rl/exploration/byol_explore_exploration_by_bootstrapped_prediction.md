@@ -1,0 +1,15 @@
+---
+title: "BYOL-Explore: Exploration by Bootstrapped Prediction."
+venue: "CoRR"
+volume: "abs/2206.08332"
+year: "2022"
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2206-08332"
+doi: "10.48550/ARXIV.2206.08332"
+ee: "https://doi.org/10.48550/arXiv.2206.08332"
+url: "https://dblp.org/rec/journals/corr/abs-2206-08332"
+authors: ["Zhaohan Daniel Guo", "Shantanu Thakoor", "Miruna Pislar", "Bernardo \u00c1vila Pires", "Florent Altch\u00e9", "Corentin Tallec", "Alaa Saade", "Daniele Calandriello", "Jean-Bastien Grill", "Yunhao Tang", "Michal Valko", "R\u00e9mi Munos", "Mohammad Gheshlaghi Azar", "Bilal Piot"]
+sync_version: 3
+cite_key: "journals/corr/abs-2206-08332/Guo/2022"
+---
