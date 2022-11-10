@@ -34,4 +34,3 @@ We want that: $Rz_x + t, z_h = f(Rx + t, h)$ for all $R$ and $t$.
 Equivariant Graph Neural Networks: They are composed of "equivaraint graph convolutional layers". Each node gets coordinates $x_i$ and features $h_i$.
 
 Equivariant Diffusion Model: EDM defines a noising process on both the node positions and features, but then learns denoising using the equivariant network.
-
