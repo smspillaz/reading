@@ -157,27 +157,27 @@ def get_updated_frontmatter(filename, no_download=True):
 
     # Skip these two without warning to reduce noise
     if "title" not in frontmatter:
-        return frontmatter
+        return frontmatter, False
 
     if "sync_version" in frontmatter:
         if int(frontmatter["sync_version"]) >= _SYNC_VERSION:
-            return frontmatter
+            return frontmatter, False
 
     print(f"Process {filename}")
     metadata = retrieve_metadata(frontmatter["title"], no_download=no_download)
 
     if not metadata:
-        return frontmatter
+        return frontmatter, False
 
     best_hit = find_best_hit(frontmatter["title"], metadata)
 
     if not best_hit:
-        return frontmatter
+        return frontmatter, False
 
     retrieved_content = metadata_to_frontmatter_content(best_hit)
 
     if not retrieved_content:
-        return frontmatter
+        return frontmatter, False
 
     frontmatter = {
         **frontmatter,
@@ -186,7 +186,7 @@ def get_updated_frontmatter(filename, no_download=True):
         "cite_key": make_cite_key(retrieved_content),
     }
 
-    return frontmatter
+    return frontmatter, True
 
 
 def format_item(value):
@@ -228,7 +228,7 @@ def rewrite_frontmatter_section(filename, frontmatter):
 
 
 def update_frontmatter(filename, dry_run=True, no_download=True):
-    updated_frontmatter = get_updated_frontmatter(filename, no_download=no_download)
+    updated_frontmatter, updated = get_updated_frontmatter(filename, no_download=no_download)
 
     if not updated_frontmatter:
         return
@@ -239,7 +239,8 @@ def update_frontmatter(filename, dry_run=True, no_download=True):
         print(f"Frontmatter for {filename}")
         print(formatted_frontmatter)
     else:
-        print(f"Rewrote frontmatter for {filename}")
+        if updated:
+            print(f"Rewrote frontmatter for {filename}")
         rewrite_frontmatter_section(filename, formatted_frontmatter)
 
 
