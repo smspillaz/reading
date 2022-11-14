@@ -80,7 +80,8 @@ def make_bibentry_from_frontmatter(filename):
                         f"pages = {{{format_pages(frontmatter['pages'])}}},"
                         if "pages" in frontmatter
                         else None,
-                        f"year = {{{frontmatter['year']}}}",
+                        f"year = {{{frontmatter['year']}}},",
+                        f"url = {{{frontmatter['ee']}}}" if "ee" in frontmatter else None
                     ],
                 )
             )
