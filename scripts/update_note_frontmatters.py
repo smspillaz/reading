@@ -93,13 +93,20 @@ def retrieve_metadata(title, no_download=True):
     return json_content
 
 
+def cleanup_title(title):
+    return re.sub(r"\s+", "", re.sub("[^\w\s]", "", title)).lower()
+
+
 def find_best_hit(title, metadata):
     if not int(metadata["result"]["hits"]["@total"]):
         print(f"Error: no hits found for {metadata['result']['query']}")
         return None
 
     hits = metadata["result"]["hits"]["hit"]
-    distances = [levenshtein(title, h["info"]["title"]) for h in hits]
+    distances = [levenshtein(
+        cleanup_title(title),
+        cleanup_title(h["info"]["title"])
+    ) for h in hits]
     conference_factor = [0 if h["info"]["key"].startswith("conf") else 1 for h in hits]
     scores = [-int(h["@score"]) for h in hits]
     weights = list(zip(distances, conference_factor, scores))
