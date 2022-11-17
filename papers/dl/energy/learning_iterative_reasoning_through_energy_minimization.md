@@ -53,4 +53,3 @@ Then they have a bunch of experiments where they compare with:
  - Iterative Feedforward using iterative denoising (citing the diffusion paper)
 
 Notes on the energy landscape: Figure 5: Predicted energy values for $y$ and the corresponding MSE distance of $y$ from the problem solution.
-
