@@ -10,5 +10,6 @@ ee: "https://proceedings.neurips.cc/paper/2021/hash/f1507aba9fc82ffa7cc7373c58f8
 url: "https://dblp.org/rec/conf/nips/KossenBLGRG21"
 authors: ["Jannik Kossen", "Neil Band", "Clare Lyle", "Aidan N. Gomez", "Thomas Rainforth", "Yarin Gal"]
 sync_version: 3
-cite_key: "conf/nips/KossenBLGRG21"
+cite_key: "\"conf/nips/KossenBLGRG21\","
+tags: ["Cohere"]
 ---
