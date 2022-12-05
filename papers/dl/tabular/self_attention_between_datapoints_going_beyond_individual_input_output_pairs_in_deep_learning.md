@@ -11,4 +11,5 @@ url: "https://dblp.org/rec/conf/nips/KossenBLGRG21"
 authors: ["Jannik Kossen", "Neil Band", "Clare Lyle", "Aidan N. Gomez", "Thomas Rainforth", "Yarin Gal"]
 sync_version: 3
 cite_key: "conf/nips/KossenBLGRG21"
+tags: ["Cohere"]
 ---
