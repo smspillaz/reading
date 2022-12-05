@@ -31,7 +31,7 @@ Training examples are recombined using the *Compositional Structure Learner*. A 
 
 CSL can recombine examples recurisvely and also defines a probabilistic sampling distribution over input-output pairs.
 
-We assume that the conditional distribution of $y|x$ is uncahnged between source and target distributions. However, any o the following could be true:
+We assume that the conditional distribution of $y|x$ is unchanged between source and target distributions. However, any o the following could be true:
 
 $$
 p_s(x, y) \ne p_t(x, y)
