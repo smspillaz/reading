@@ -13,3 +13,11 @@ authors: ["Alexandros Graikos", "Nikolay Malkin", "Nebojsa Jojic", "Dimitris Sam
 sync_version: 3
 cite_key: "journals/corr/abs-2206-09012/Graikos/2022"
 ---
+
+Pose a variational inference problem where the diffusion model is the prior. It is inference and not inference. Optimize the image wrt the diffusion model.
+
+
+You can do also continuous relaxation if combinatorial problems. You can use whatever schedule you want. Eg you don't need to go from t = T to t = 0.
+
+
+How well the diffusion model can denoise the image is an indicator of how good your energy function is.
