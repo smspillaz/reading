@@ -13,3 +13,17 @@ authors: ["Xiang Lisa Li", "John Thickstun", "Ishaan Gulrajani", "Percy Liang", 
 sync_version: 3
 cite_key: "journals/corr/abs-2205-14217/Li/2022"
 ---
+
+# Discussion with the Author
+
+Rounding step: L2 distance
+
+Embedding step: embedding + noise. Why do they have this?
+
+Which model to use for doing the reverse steps? Transformer. Use tricks like ddim to reduce inferemce time.
+
+How many diffusion steps? 2000
+
+How to learn meaningful embeddings? We want x_T to be a standard normal. So penalise if not
+
+We try to predict x0 directly as opposed to x_(t-1). You predict x0 and then do the forward diffusion to x_(t - 1). Clamping happens on the x0.
