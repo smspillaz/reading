@@ -13,3 +13,6 @@ authors: ["Tal Schuster", "Adam Fisch", "Jai Prakash Gupta", "Mostafa Dehghani",
 sync_version: 3
 cite_key: "journals/corr/abs-2207-07061/Schuster/2022"
 ---
+
+
+At each timestep, exit at the first layer for which the confidence exceeds some calibrated threshold. Eg, if there is some poiny where token output entropy is very low, you're unlikely to change all that much. You can also predict the entropy directly.
