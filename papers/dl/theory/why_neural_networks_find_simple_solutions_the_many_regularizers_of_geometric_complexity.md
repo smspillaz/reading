@@ -13,3 +13,9 @@ authors: ["Benoit Dherin", "Michael Munn", "Mihaela Rosca", "David G. T. Barrett
 sync_version: 3
 cite_key: "journals/corr/abs-2209-13083/Dherin/2022"
 ---
+
+They propose a new notion of model complexity which sheds light on why overparameterized networks generalize so well.
+
+Geometric complexity: discrete dichrilet energy of its logit network.
+
+Many standard training heuristics work to lower the geometric conplexity.
