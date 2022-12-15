@@ -40,3 +40,11 @@ How to get in-context learning and in-weights learning to co-exist?
 They say that the main thing you need is a zipfian distribution of labels. So some things happen very often and other things don't happen often at all.
 
 Architecture also matters. If you do the same thing with an RNN it won't work.
+
+# Discussion with the Author
+
+Even if the label is always the same, if it shifts at test time, in context learning still works?
+
+In training you never see x or z. They get a random label
+
+If you evaluate on a or b with different labels: author's intuition is that it will not work. They do sort of look at it in the "multiolicity of item label mappings" experiment.
