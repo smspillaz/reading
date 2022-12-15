@@ -13,3 +13,7 @@ authors: ["Victor Zhong", "Jesse Mu", "Luke Zettlemoyer", "Edward Grefenstette",
 sync_version: 3
 cite_key: "journals/corr/abs-2210-00066/Zhong/2022"
 ---
+
+Train dynamics model to predict future frame given langusge and past frames. Note that it predicts future agent frames as part of imitation learning as opposed to doing mbrl.
+
+Can you zero shot? You need a lot of data.
