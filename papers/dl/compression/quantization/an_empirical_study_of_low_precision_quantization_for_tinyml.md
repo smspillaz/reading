@@ -13,3 +13,8 @@ authors: ["Shaojie Zhuo", "Hongyu Chen", "Ramchalam Kinattinkara Ramakrishnan", 
 sync_version: 3
 cite_key: "journals/corr/abs-2203-05492/Zhuo/2022"
 ---
+
+
+-   FP model preprocessing: Cross-layer range equalization and outlier channel splitting, to rebalance tensor distributions.
+-   Find clipping range and zero point
+-   Optimization of the quantization function, eg, there can be errors introduced, so you want the right tradeoff. One way to do this is to go layer-by-layer, minimizing the divergence by optimizing scale and zero-point (trainable parameters) using the calibration data.
