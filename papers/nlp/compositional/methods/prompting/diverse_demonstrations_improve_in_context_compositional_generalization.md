@@ -1,5 +1,17 @@
 ---
-title: "Diverse Demonstrations improve In-Context Compositional Generalization"
+title: "Diverse Demonstrations Improve In-context Compositional Generalization."
+venue: "CoRR"
+volume: "abs/2212.06800"
+year: "2022"
+type: "Informal Publications"
+access: "open"
+key: "journals/corr/abs-2212-06800"
+doi: "10.48550/ARXIV.2212.06800"
+ee: "https://doi.org/10.48550/arXiv.2212.06800"
+url: "https://dblp.org/rec/journals/corr/abs-2212-06800"
+authors: ["Itay Levy", "Ben Bogin", "Jonathan Berant"]
+sync_version: 3
+cite_key: "journals/corr/abs-2212-06800/Levy/2022"
 ---
 In-context learning works well when the training and test sets are drawn from the same distribution. However in compositional generalization, selecting similar demonstrations isn't sufficient, as no example will be similar enough to the input.
 
