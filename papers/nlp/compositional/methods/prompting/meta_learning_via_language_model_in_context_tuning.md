@@ -13,3 +13,7 @@ authors: ["Yanda Chen", "Ruiqi Zhong", "Sheng Zha", "George Karypis", "He He"]
 sync_version: 3
 cite_key: "conf/acl/ChenZZK022"
 ---
+
+"Raw" LMs can kinda work with in-context learning, but not really. They tend to exhibit recency bias. In this work they fine-tune LMs to work better with in-context learning.
+
+Main results: in-context tuning improves ICL over raw LMs. Over some different models, you get about 7.6 points better performance on LAMA and 10.6 better on BinaryClfs.
