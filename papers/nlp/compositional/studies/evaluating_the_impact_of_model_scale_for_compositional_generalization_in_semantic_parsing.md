@@ -13,3 +13,7 @@ authors: ["Linlu Qiu", "Peter Shaw", "Panupong Pasupat", "Tianze Shi", "Jonathan
 sync_version: 3
 cite_key: "journals/corr/abs-2205-12253/Qiu/2022"
 ---
+
+They look into what makes CG work in semantic parsing.
+
+The main result is that they show model scale doesn't matter so much, but prompt tuning can help a lot. The model performance is strongly dependent on the retrieved examples. Like if you have an oracle retriever which knows what the relevant examples are, it does much better than just sampling uniformly from the training data. Adding more examples also helps, up to a certain point. It helps more in the non-oracle case, usually because then you're increasing coverage of the data space.
