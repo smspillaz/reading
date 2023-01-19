@@ -12,3 +12,5 @@ authors: ["Alec Radford", "Jong Wook Kim", "Chris Hallacy", "Aditya Ramesh", "Ga
 sync_version: 3
 cite_key: "conf/icml/RadfordKHRGASAM21"
 ---
+
+![[clip_approach.png]]
