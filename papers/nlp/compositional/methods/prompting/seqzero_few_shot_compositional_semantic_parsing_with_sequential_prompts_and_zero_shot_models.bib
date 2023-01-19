@@ -1,20 +1,18 @@
-@article{journals/corr/abs-2205-07381/Yang/2022,
-  author    = {Jingfeng Yang and
-               Haoming Jiang and
-               Qingyu Yin and
-               Danqing Zhang and
-               Bing Yin and
-               Diyi Yang},
-  title     = {SeqZero: Few-shot Compositional Semantic Parsing with Sequential Prompts
-               and Zero-shot Models},
-  journal   = {CoRR},
-  volume    = {abs/2205.07381},
-  year      = {2022},
-  url       = {https://doi.org/10.48550/arXiv.2205.07381},
-  doi       = {10.48550/arXiv.2205.07381},
-  eprinttype = {arXiv},
-  eprint    = {2205.07381},
-  timestamp = {Tue, 17 May 2022 17:31:03 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2205-07381.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{conf/naacl/Yang22,
+    title = "{SEQZERO}: Few-shot Compositional Semantic Parsing with Sequential Prompts and Zero-shot Models",
+    author = "Yang, Jingfeng  and
+      Jiang, Haoming  and
+      Yin, Qingyu  and
+      Zhang, Danqing  and
+      Yin, Bing  and
+      Yang, Diyi",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2022",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-naacl.5",
+    doi = "10.18653/v1/2022.findings-naacl.5",
+    pages = "49--60",
+    abstract = "Recent research showed promising results on combining pretrained language models (LMs) with canonical utterance for few-shot semantic parsing.The canonical utterance is often lengthy and complex due to the compositional structure of formal languages. Learning to generate such canonical utterance requires significant amount of data to reach high performance. Fine-tuning with only few-shot samples, the LMs can easily forget pretrained knowledge, overfit spurious biases, and suffer from compositionally out-of-distribution generalization errors. To tackle these issues, we propose a novel few-shot semantic parsing method {--} SEQZERO. SEQZERO decomposes the problem into a sequence of sub-problems, which corresponds to the sub-clauses of the formal language. Based on the decomposition, the LMs only need to generate short answers using prompts for predicting sub-clauses. Thus, SEQZERO avoids generating a long canonical utterance at once. Moreover, SEQZERO employs not only a few-shot model but also a zero-shot model to alleviate the overfitting.In particular, SEQZERO brings out the merits from both models via ensemble equipped with our proposed constrained rescaling.SEQZERO achieves SOTA performance of BART-based models on GeoQuery and EcommerceQuery, which are two few-shot datasets with compositional data split.",
 }
