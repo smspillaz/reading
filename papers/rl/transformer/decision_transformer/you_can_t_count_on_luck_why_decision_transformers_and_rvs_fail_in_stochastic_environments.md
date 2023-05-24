@@ -1,5 +1,15 @@
 ---
-title: "You can't count on luck: Why Decision Transformers and RvS fail in Stochastic Environments"
+title: "You Can&apos;t Count on Luck: Why Decision Transformers and RvS Fail in Stochastic Environments."
+venue: "NeurIPS"
+year: "2022"
+type: "Conference and Workshop Papers"
+access: "open"
+key: "conf/nips/PasterMB22"
+ee: "http://papers.nips.cc/paper_files/paper/2022/hash/fe90657b12193c7b52a3418bdc351807-Abstract-Conference.html"
+url: "https://dblp.org/rec/conf/nips/PasterMB22"
+authors: ["Keiran Paster", "Sheila A. McIlraith", "Jimmy Ba"]
+sync_version: 3
+cite_key: "conf/nips/PasterMB22"
 ---
 # Discussion with the Author
 
