@@ -1,8 +1,9 @@
 ---
 title: "Large Language Models are Zero-Shot Reasoners."
-venue: "CoRR"
-volume: "abs/2205.11916"
+venue: "Proceedings of the Thirty-Sixth Conference on Neural Information Processing Systems"
 year: "2022"
+pages: "22199--22213"
+volume: "35,"
 type: "Informal Publications"
 access: "open"
 key: "journals/corr/abs-2205-11916"
