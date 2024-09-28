@@ -1,17 +1,17 @@
 ---
 title: "Confident Adaptive Language Modeling."
-venue: "CoRR"
-volume: "abs/2207.07061"
+venue: "NeurIPS"
+volume: "35"
 year: "2022"
 type: "Informal Publications"
 access: "open"
 key: "journals/corr/abs-2207-07061"
 doi: "10.48550/ARXIV.2207.07061"
 ee: "https://doi.org/10.48550/arXiv.2207.07061"
-url: "https://dblp.org/rec/journals/corr/abs-2207-07061"
+url: "http://papers.nips.cc/paper_files/paper/2022/hash/6fac9e316a4ae75ea244ddcef1982c71-Abstract-Conference.html"
 authors: ["Tal Schuster", "Adam Fisch", "Jai Prakash Gupta", "Mostafa Dehghani", "Dara Bahri", "Vinh Q. Tran", "Yi Tay", "Donald Metzler"]
 sync_version: 3
-cite_key: "journals/corr/abs-2207-07061/Schuster/2022"
+cite_key: "conf/nips/SchusterFG0B0TM22"
 ---
 
 
