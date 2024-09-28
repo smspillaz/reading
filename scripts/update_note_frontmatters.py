@@ -11,6 +11,7 @@ import re
 import unicodedata
 import urllib.request
 import urllib.parse
+import time
 from collections import defaultdict
 
 
@@ -68,7 +69,7 @@ def parse_frontmatter(filename):
     return frontmatter
 
 
-def retrieve_metadata(title, no_download=True):
+def retrieve_metadata(title, no_download=True, delay=None):
     encoded_title = urllib.parse.quote(title)
     url = f"https://dblp.org/search/publ/api?query={encoded_title}&format=json&h=50"
 
@@ -76,6 +77,10 @@ def retrieve_metadata(title, no_download=True):
 
     if no_download:
         return None
+
+    print("delay", delay)
+    if delay:
+        time.sleep(delay)
 
     try:
         with urllib.request.urlopen(url) as f:
@@ -152,7 +157,7 @@ def make_cite_key(frontmatter_content):
     return cite_key
 
 
-def get_updated_frontmatter(filename, no_download=True):
+def get_updated_frontmatter(filename, no_download=True, delay=None):
     frontmatter = parse_frontmatter(filename)
 
     # Skip these two without warning to reduce noise
@@ -164,7 +169,7 @@ def get_updated_frontmatter(filename, no_download=True):
             return frontmatter, False
 
     print(f"Process {filename}")
-    metadata = retrieve_metadata(frontmatter["title"], no_download=no_download)
+    metadata = retrieve_metadata(frontmatter["title"], no_download=no_download, delay=delay)
 
     if not metadata:
         return frontmatter, False
@@ -227,7 +232,7 @@ def rewrite_frontmatter_section(filename, frontmatter):
         f.write(total_contents)
 
 
-def update_frontmatter(filename, dry_run=True, no_download=True):
+def update_frontmatter(filename, dry_run=True, no_download=True, delay=None):
     updated_frontmatter, updated = get_updated_frontmatter(filename, no_download=no_download)
 
     if not updated_frontmatter:
@@ -244,11 +249,11 @@ def update_frontmatter(filename, dry_run=True, no_download=True):
         rewrite_frontmatter_section(filename, formatted_frontmatter)
 
 
-def walk_and_process_notes(notes_directory, dry_run=False, no_download=False):
+def walk_and_process_notes(notes_directory, dry_run=False, no_download=False, delay=None):
     for root, dirnames, filenames in os.walk(notes_directory):
         for filename in fnmatch.filter(filenames, "*.md"):
             update_frontmatter(
-                os.path.join(root, filename), dry_run=dry_run, no_download=no_download
+                os.path.join(root, filename), dry_run=dry_run, no_download=no_download, delay=delay
             )
 
 
@@ -265,10 +270,15 @@ def main():
         action="store_true",
         help="Don't download anything, just say what would happen",
     )
+    parser.add_argument(
+        "--delay",
+        type=int,
+        help="How long to wait between requests"
+    )
     args = parser.parse_args()
 
     walk_and_process_notes(
-        args.notes_directory, dry_run=args.dry_run, no_download=args.no_download
+        args.notes_directory, dry_run=args.dry_run, no_download=args.no_download, delay=args.delay
     )
 
 

@@ -5,6 +5,7 @@ import urllib.request
 import urllib.parse
 from collections import defaultdict
 import re
+import time
 
 from update_note_frontmatters import parse_frontmatter
 
@@ -17,7 +18,7 @@ def filter_content(bibtex_entry, frontmatter):
 
 
 def download_bibentry_from_file(
-    filename, dry_run=False, redownload=False, rewrite=False
+    filename, dry_run=False, redownload=False, rewrite=False, delay=None
 ):
     frontmatter = parse_frontmatter(filename)
 
@@ -58,6 +59,9 @@ def download_bibentry_from_file(
 
     print(f"Downloading from {bib_url}")
 
+    if delay:
+        time.sleep(delay)
+
     if not dry_run:
         try:
             with urllib.request.urlopen(bib_url) as remote:
@@ -72,7 +76,7 @@ def download_bibentry_from_file(
 
 
 def walk_and_process_notes(
-    notes_directory, dry_run=False, redownload=False, rewrite=False
+    notes_directory, dry_run=False, redownload=False, rewrite=False, delay=None
 ):
     for root, dirnames, filenames in os.walk(notes_directory):
         for filename in fnmatch.filter(filenames, "*.md"):
@@ -81,6 +85,7 @@ def walk_and_process_notes(
                 dry_run=dry_run,
                 redownload=redownload,
                 rewrite=rewrite,
+                delay=delay,
             )
 
 
@@ -107,11 +112,16 @@ def main():
         action="store_true",
         help="Forcibly re-write based on any updated rulesr",
     )
+    parser.add_argument(
+        "--delay",
+        type=int,
+        help="How long to wait between requests"
+    )
     args = parser.parse_args()
 
     print(f"Process {args.notes_directory}")
     walk_and_process_notes(
-        args.notes_directory, args.dry_run, args.redownload, args.rewrite
+        args.notes_directory, args.dry_run, args.redownload, args.rewrite, delay=args.delay
     )
 
 

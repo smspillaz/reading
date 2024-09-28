@@ -15,8 +15,8 @@ from update_index import (
 from update_note_frontmatters import retrieve_metadata, find_best_hit, levenshtein
 
 
-def scrape_title_by_name(name, no_download=True):
-    metadata = retrieve_metadata(name, no_download=no_download)
+def scrape_title_by_name(name, no_download=True, delay=None):
+    metadata = retrieve_metadata(name, no_download=no_download, delay=delay)
 
     if not metadata:
         return None
@@ -35,7 +35,7 @@ def scrape_and_update_title(structure, obj, *args, **kwargs):
     if substructure["filename_link_text"] in substructure["linkpath"]:
         search_term = substructure["filename_link_text"].replace("_", " ")
         possible_title = scrape_title_by_name(
-            search_term, kwargs.get("no_download", True)
+            search_term, kwargs.get("no_download", True), delay=kwargs.get("delay", None)
         )
 
         if not possible_title:
@@ -62,7 +62,7 @@ def scrape_and_update_title(structure, obj, *args, **kwargs):
         substructure["filename_link_text"] = possible_title
 
 
-def reconcile_notes(structure_to_update, no_download=True):
+def reconcile_notes(structure_to_update, no_download=True, delay=None):
     keys = [path_to_key(obj["fullpath"]) for obj in walk_structure(structure_to_update)]
     possible_title_changes = []
 
@@ -72,6 +72,7 @@ def reconcile_notes(structure_to_update, no_download=True):
             dst_key,
             scrape_and_update_title,
             no_download=no_download,
+            delay=delay
         )
         if possible_title_change is not None:
             possible_title_changes.append(possible_title_change)
@@ -97,12 +98,17 @@ def main():
         type=str,
         help="JSON file to save possible title changes to",
     )
+    parser.add_argument(
+        "--delay",
+        type=int,
+        help="How long to wait between requests"
+    )
     args = parser.parse_args()
 
     with open(args.index, "r") as f:
         md_structure = prune_empty(parse_markdown_to_tree_start(f.readlines()))
 
-    possible_title_changes = reconcile_notes(md_structure, no_download=args.no_download)
+    possible_title_changes = reconcile_notes(md_structure, no_download=args.no_download, delay=args.delay)
 
     contents = io.StringIO()
     make_markdown(md_structure, level=1, file=contents)
