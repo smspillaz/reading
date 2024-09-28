@@ -4,11 +4,11 @@ venue: "ICLR"
 year: 2019
 type: "Conference and Workshop Papers"
 access: "open"
-key: "conf/iclr/DehghaniGVUK19"
+key: "journals/corr/abs-2104-09864"
 ee: "https://openreview.net/forum?id=HyzdRiR9Y7"
 url: "https://dblp.org/rec/conf/iclr/DehghaniGVUK19"
-authors: ["Mostafa Dehghani", "Stephan Gouws", "Oriol Vinyals", "Jakob Uszkoreit", "Lukasz Kaiser"]
+authors: ""
 sync_version: 3
 cite_key: "conf/iclr/DehghaniGVUK19"
-tags: ["DeepMind"]
+tags: ""
 ---
