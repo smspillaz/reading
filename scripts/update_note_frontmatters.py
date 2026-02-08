@@ -1,30 +1,29 @@
 import argparse
 import fnmatch
-import io
-import itertools
 import json
 from json.decoder import JSONDecodeError
 import os
-import sys
-import subprocess
 import re
 import unicodedata
 import urllib.request
 import urllib.parse
 import time
-from collections import defaultdict
 
 
-_SYNC_VERSION = 3
+_SYNC_VERSION = 4
 _RE_NUMBER_ONLY = re.compile("[0-9]+")
 
+PROVIDERS = ["dblp", "openalex", "semanticscholar"]
+
+
+# ---------------------------------------------------------------------
+# Utilities
+# ---------------------------------------------------------------------
 
 def levenshtein(s1, s2):
-    """Implementation of levensthein distance from WikiBooks."""
     if len(s1) < len(s2):
         return levenshtein(s2, s1)
 
-    # len(s1) >= len(s2)
     if len(s2) == 0:
         return len(s1)
 
@@ -32,8 +31,6 @@ def levenshtein(s1, s2):
     for i, c1 in enumerate(s1):
         current_row = [i + 1]
         for j, c2 in enumerate(s2):
-            # j+1 instead of j since previous_row and current_row
-            # are one character longer than s2
             insertions = previous_row[j + 1] + 1
             deletions = current_row[j] + 1
             substitutions = previous_row[j] + (c1 != c2)
@@ -42,6 +39,37 @@ def levenshtein(s1, s2):
 
     return previous_row[-1]
 
+
+def normalize_title(title):
+    return re.sub(r"\s+", "", re.sub("[^\w\s]", "", title)).lower()
+
+
+def title_distance(a, b):
+    return levenshtein(normalize_title(a), normalize_title(b))
+
+
+def choose_best_candidate(title, candidates):
+    if not candidates:
+        return None
+
+    distances = [title_distance(title, c["title"]) for c in candidates]
+    best_index = min(range(len(candidates)), key=lambda i: distances[i])
+
+    if distances[best_index] > max(10, len(title) // 3):
+        return None
+
+    return candidates[best_index]
+
+
+def filter_author_text(text):
+    return " ".join(
+        [t for t in re.split(r"\s+", text) if not _RE_NUMBER_ONLY.match(t)]
+    )
+
+
+# ---------------------------------------------------------------------
+# Frontmatter handling
+# ---------------------------------------------------------------------
 
 def parse_frontmatter(filename):
     frontmatter = {}
@@ -55,143 +83,18 @@ def parse_frontmatter(filename):
             if parsing:
                 return frontmatter
             parsing = True
+            continue
 
-        if parsing:
-            if ":" in line:
-                key, value = line.split(":", maxsplit=1)
-                frontmatter[key] = value.lstrip().rstrip()
-
-                try:
-                    frontmatter[key] = json.loads(frontmatter[key])
-                except:
-                    pass
+        if parsing and ":" in line:
+            key, value = line.split(":", maxsplit=1)
+            value = value.strip()
+            try:
+                value = json.loads(value)
+            except:
+                pass
+            frontmatter[key] = value
 
     return frontmatter
-
-
-def retrieve_metadata(title, no_download=True, delay=None):
-    encoded_title = urllib.parse.quote(title)
-    url = f"https://dblp.org/search/publ/api?query={encoded_title}&format=json&h=50"
-
-    print(f"Get {url}")
-
-    if no_download:
-        return None
-
-    print("delay", delay)
-    if delay:
-        time.sleep(delay)
-
-    try:
-        with urllib.request.urlopen(url) as f:
-            content = f.read()
-    except urllib.error.URLError as error:
-        print(f"Error: {error}")
-        return None
-
-    try:
-        json_content = json.loads(content)
-    except JSONDecodeError as error:
-        print(f"JSON Decode Error: {error}")
-        return None
-
-    return json_content
-
-
-def cleanup_title(title):
-    return re.sub(r"\s+", "", re.sub("[^\w\s]", "", title)).lower()
-
-
-def find_best_hit(title, metadata):
-    if not int(metadata["result"]["hits"]["@total"]):
-        print(f"Error: no hits found for {metadata['result']['query']}")
-        return None
-
-    hits = metadata["result"]["hits"]["hit"]
-    distances = [levenshtein(
-        cleanup_title(title),
-        cleanup_title(h["info"]["title"])
-    ) for h in hits]
-    conference_factor = [0 if h["info"]["key"].startswith("conf") else 1 for h in hits]
-    scores = [-int(h["@score"]) for h in hits]
-    weights = list(zip(distances, conference_factor, scores))
-
-    best_index = min(range(len(hits)), key=lambda x: weights[x])
-
-    return hits[best_index]
-
-
-def filter_author_text(text):
-    return " ".join([t for t in re.split("\s+", text) if not _RE_NUMBER_ONLY.match(t)])
-
-
-def metadata_to_frontmatter_content(hit):
-    authors_metadata = hit["info"]["authors"]["author"]
-    authors_metadata_list = (
-        [authors_metadata] if isinstance(authors_metadata, dict) else authors_metadata
-    )
-    authors = [filter_author_text(a["text"]) for a in authors_metadata_list]
-
-    hit_info = {k: v for k, v in hit["info"].items() if isinstance(v, str)}
-    hit_info["authors"] = authors
-
-    return hit_info
-
-
-def make_cite_key(frontmatter_content):
-    cite_key = frontmatter_content["key"]
-
-    if "corr/" in cite_key:
-        cite_key = "/".join(
-            [
-                cite_key,
-                unicodedata.normalize(
-                    "NFD", frontmatter_content["authors"][0].split()[-1]
-                )
-                .encode("ascii", "ignore")
-                .decode(),
-                frontmatter_content["year"],
-            ]
-        )
-
-    return cite_key
-
-
-def get_updated_frontmatter(filename, no_download=True, delay=None):
-    frontmatter = parse_frontmatter(filename)
-
-    # Skip these two without warning to reduce noise
-    if "title" not in frontmatter:
-        return frontmatter, False
-
-    if "sync_version" in frontmatter:
-        if int(frontmatter["sync_version"]) >= _SYNC_VERSION:
-            return frontmatter, False
-
-    print(f"Process {filename}")
-    metadata = retrieve_metadata(frontmatter["title"], no_download=no_download, delay=delay)
-
-    if not metadata:
-        return frontmatter, False
-
-    best_hit = find_best_hit(frontmatter["title"], metadata)
-
-    if not best_hit:
-        return frontmatter, False
-
-    retrieved_content = metadata_to_frontmatter_content(best_hit)
-
-    if not retrieved_content:
-        return frontmatter, False
-
-    frontmatter = {
-        **frontmatter,
-        **retrieved_content,
-        "sync_version": _SYNC_VERSION,
-        "cite_key": make_cite_key(retrieved_content),
-    }
-
-    return frontmatter, True
 
 
 def format_item(value):
@@ -199,27 +102,22 @@ def format_item(value):
 
 
 def format_frontmatter(frontmatter):
-    return "\n".join([f"{k}: {format_item(v)}" for k, v in frontmatter.items()])
+    return "\n".join(
+        [f"{k}: {format_item(v)}" for k, v in frontmatter.items()]
+    )
 
 
-def get_start_read_from(filename_lines):
+def get_start_read_from(lines):
     frontmatter_count = 0
-    start_from = 0
-
-    for i, line in enumerate(filename_lines):
+    for i, line in enumerate(lines):
         if line == "---":
             frontmatter_count += 1
-
         if frontmatter_count == 2:
-            start_from = i + 1
-            break
-
-    return start_from
+            return i + 1
+    return 0
 
 
 def rewrite_frontmatter_section(filename, frontmatter):
-    # Read the file and exclude the frontmatter section if
-    # there is one
     with open(filename, "r") as f:
         lines = [l.rstrip() for l in f.readlines()]
 
@@ -232,8 +130,197 @@ def rewrite_frontmatter_section(filename, frontmatter):
         f.write(total_contents)
 
 
+# ---------------------------------------------------------------------
+# Metadata Providers
+# ---------------------------------------------------------------------
+
+def query_dblp(title, delay=None):
+    encoded = urllib.parse.quote(title)
+    url = f"https://dblp.org/search/publ/api?query={encoded}&format=json&h=20"
+
+    if delay:
+        time.sleep(delay)
+
+    try:
+        with urllib.request.urlopen(url) as f:
+            data = json.loads(f.read())
+    except Exception:
+        return None
+
+    hits = data.get("result", {}).get("hits", {}).get("hit", [])
+    results = []
+
+    for h in hits:
+        info = h["info"]
+
+        authors_meta = info.get("authors", {}).get("author", [])
+        if isinstance(authors_meta, dict):
+            authors_meta = [authors_meta]
+
+        authors = [filter_author_text(a["text"]) for a in authors_meta]
+
+        results.append({
+            "title": info.get("title"),
+            "authors": authors,
+            "year": info.get("year"),
+            "venue": info.get("venue"),
+            "key": info.get("key"),
+            "url": info.get("url"),
+            "_source": "dblp",
+        })
+
+    return choose_best_candidate(title, results)
+
+
+def query_openalex(title, delay=None):
+    encoded = urllib.parse.quote(title)
+    url = f"https://api.openalex.org/works?search={encoded}&per-page=10"
+
+    if delay:
+        time.sleep(delay)
+
+    try:
+        with urllib.request.urlopen(url) as f:
+            data = json.loads(f.read())
+    except Exception:
+        return None
+
+    results = []
+
+    for work in data.get("results", []):
+        authors = [
+            a["author"]["display_name"]
+            for a in work.get("authorships", [])
+            if "author" in a
+        ]
+
+        results.append({
+            "title": work.get("display_name"),
+            "authors": authors,
+            "year": str(work.get("publication_year")),
+            "venue": (work.get("host_venue") or {}).get("display_name"),
+            "doi": work.get("doi"),
+            "url": work.get("id"),
+            "_source": "openalex",
+        })
+
+    return choose_best_candidate(title, results)
+
+
+def query_semanticscholar(title, delay=None):
+    encoded = urllib.parse.quote(title)
+    url = (
+        "https://api.semanticscholar.org/graph/v1/paper/search"
+        f"?query={encoded}"
+        "&limit=10"
+        "&fields=title,authors,year,venue,doi,abstract,url"
+    )
+
+    if delay:
+        time.sleep(delay)
+
+    try:
+        with urllib.request.urlopen(url) as f:
+            data = json.loads(f.read())
+    except Exception:
+        return None
+
+    results = []
+
+    for paper in data.get("data", []):
+        authors = [a["name"] for a in paper.get("authors", [])]
+
+        results.append({
+            "title": paper.get("title"),
+            "authors": authors,
+            "year": str(paper.get("year")),
+            "venue": paper.get("venue"),
+            "doi": paper.get("doi"),
+            "abstract": paper.get("abstract"),
+            "url": paper.get("url"),
+            "_source": "semanticscholar",
+        })
+
+    return choose_best_candidate(title, results)
+
+
+def retrieve_metadata(title, delay=None):
+    for provider in PROVIDERS:
+        if provider == "dblp":
+            result = query_dblp(title, delay)
+        elif provider == "openalex":
+            result = query_openalex(title, delay)
+        else:
+            result = query_semanticscholar(title, delay)
+
+        if result:
+            print(f"Matched via {provider}")
+            return result
+
+    return None
+
+
+# ---------------------------------------------------------------------
+# Frontmatter update logic
+# ---------------------------------------------------------------------
+
+def make_cite_key(frontmatter_content):
+    cite_key = frontmatter_content.get("key")
+    if not cite_key:
+        return None
+
+    if "corr/" in cite_key:
+        cite_key = "/".join(
+            [
+                cite_key,
+                unicodedata.normalize(
+                    "NFD",
+                    frontmatter_content["authors"][0].split()[-1],
+                ).encode("ascii", "ignore").decode(),
+                frontmatter_content["year"],
+            ]
+        )
+
+    return cite_key
+
+
+def get_updated_frontmatter(filename, no_download=True, delay=None):
+    frontmatter = parse_frontmatter(filename)
+
+    if "title" not in frontmatter:
+        return frontmatter, False
+
+    if frontmatter.get("sync_version", 0) >= _SYNC_VERSION:
+        return frontmatter, False
+
+    print(f"Process {filename}")
+
+    if no_download:
+        return frontmatter, False
+
+    retrieved = retrieve_metadata(frontmatter["title"], delay)
+    if not retrieved:
+        return frontmatter, False
+
+    # conservative merge
+    for k, v in retrieved.items():
+        if v and k not in frontmatter:
+            frontmatter[k] = v
+
+    if retrieved.get("_source") == "dblp":
+        cite_key = make_cite_key(retrieved)
+        if cite_key:
+            frontmatter["cite_key"] = cite_key
+
+    frontmatter["sync_version"] = _SYNC_VERSION
+
+    return frontmatter, True
+
+
 def update_frontmatter(filename, dry_run=True, no_download=True, delay=None):
-    updated_frontmatter, updated = get_updated_frontmatter(filename, no_download=no_download)
+    updated_frontmatter, updated = get_updated_frontmatter(
+        filename, no_download=no_download, delay=delay
+    )
 
     if not updated_frontmatter:
         return
@@ -250,35 +337,34 @@ def update_frontmatter(filename, dry_run=True, no_download=True, delay=None):
 
 
 def walk_and_process_notes(notes_directory, dry_run=False, no_download=False, delay=None):
-    for root, dirnames, filenames in os.walk(notes_directory):
+    for root, _, filenames in os.walk(notes_directory):
         for filename in fnmatch.filter(filenames, "*.md"):
             update_frontmatter(
-                os.path.join(root, filename), dry_run=dry_run, no_download=no_download, delay=delay
+                os.path.join(root, filename),
+                dry_run=dry_run,
+                no_download=no_download,
+                delay=delay,
             )
 
 
+# ---------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("notes_directory", type=str, help="Path to the notes")
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Don't write anything, just say what would happen",
-    )
-    parser.add_argument(
-        "--no-download",
-        action="store_true",
-        help="Don't download anything, just say what would happen",
-    )
-    parser.add_argument(
-        "--delay",
-        type=int,
-        help="How long to wait between requests"
-    )
+    parser.add_argument("notes_directory")
+    parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--no-download", action="store_true")
+    parser.add_argument("--delay", type=int)
+
     args = parser.parse_args()
 
     walk_and_process_notes(
-        args.notes_directory, dry_run=args.dry_run, no_download=args.no_download, delay=args.delay
+        args.notes_directory,
+        dry_run=args.dry_run,
+        no_download=args.no_download,
+        delay=args.delay,
     )
 
 
